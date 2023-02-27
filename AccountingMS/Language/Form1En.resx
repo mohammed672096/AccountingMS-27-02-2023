@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Form1" xml:space="preserve">
+    <value>B-Accounting</value>
+  </data>
+  <data name="barMenuAccounts.Caption" xml:space="preserve">
+    <value>Accounts Management</value>
+  </data>
+  <data name="barMenuEmployees.Caption" xml:space="preserve">
+    <value>Employees Management</value>
+  </data>
+  <data name="barMenuTaxDeclaration.Caption" xml:space="preserve">
+    <value>Tax Management</value>
+  </data>
+  <data name="barMenuEntry.Caption" xml:space="preserve">
+    <value>Entries Management</value>
+  </data>
+  <data name="barMenuStore.Caption" xml:space="preserve">
+    <value>Store Management</value>
+  </data>
+  <data name="barMenuPurchases.Caption" xml:space="preserve">
+    <value>Purchases Management</value>
+  </data>
+  <data name="barMenuSales.Caption" xml:space="preserve">
+    <value>Sales Management</value>
+  </data>
+  <data name="barButtonItemUserRIght.Caption" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="barButtonItemControlPanel.Caption" xml:space="preserve">
+    <value>Control Panel</value>
+  </data>
+  <data name="barButtonItemAccount.Caption" xml:space="preserve">
+    <value>Chart of Accounts</value>
+  </data>
+  <data name="barButtonItemCurrency.Caption" xml:space="preserve">
+    <value>Currencies</value>
+  </data>
+  <data name="barButtonItemBox.Caption" xml:space="preserve">
+    <value>Boxes</value>
+  </data>
+  <data name="barButtonItemBank.Caption" xml:space="preserve">
+    <value>Banks</value>
+  </data>
+  <data name="barButtonItemCustomer.Caption" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="barButtonItemSupplier.Caption" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="barButtonItemAccountOpening.Caption" xml:space="preserve">
+    <value>Opening Balances</value>
+  </data>
+  <data name="barButtonItemAccountsBalance.Caption" xml:space="preserve">
+    <value>Accounts Balances</value>
+  </data>
+  <data name="barButtonItemEmployee.Caption" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="barButtonItemEmployeeVocher.Caption" xml:space="preserve">
+    <value>Employees Salaries</value>
+  </data>
+  <data name="barButtonItemEntry.Caption" xml:space="preserve">
+    <value>Daily Entries</value>
+  </data>
+  <data name="barButtonItemEntryVocher.Caption" xml:space="preserve">
+    <value>Payment Voucher</value>
+  </data>
+  <data name="barButtonItemEntryRecipt.Caption" xml:space="preserve">
+    <value>Receipt Voucher</value>
+  </data>
+  <data name="barButtonItemEntryTarhel.Caption" xml:space="preserve">
+    <value>Phased Entry Vouchers</value>
+  </data>
+  <data name="barButtonItemEntryAll.Caption" xml:space="preserve">
+    <value>Daily Track</value>
+  </data>
+  <data name="barButtonItemStore.Caption" xml:space="preserve">
+    <value>Stores</value>
+  </data>
+  <data name="barButtonItemProductQuantity.Caption" xml:space="preserve">
+    <value>Product Inventory</value>
+  </data>
+  <data name="barButtonItemPurchase.Caption" xml:space="preserve">
+    <value>Purchases</value>
+  </data>
+  <data name="barButtonItemPurchaseRtrn.Caption" xml:space="preserve">
+    <value>Purchases Return</value>
+  </data>
+  <data name="barButtonItemPurchaseAll.Caption" xml:space="preserve">
+    <value>Phased Purchase Invoices</value>
+  </data>
+  <data name="barButtonItemSale.Caption" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="barButtonItemSaleRtrn.Caption" xml:space="preserve">
+    <value>Sales Return</value>
+  </data>
+  <data name="barButtonItemSaleAll.Caption" xml:space="preserve">
+    <value>Phased Sales Invoices</value>
+  </data>
+  <data name="barButtonItemTaxDeclaration.Caption" xml:space="preserve">
+    <value>Tax Declaration</value>
+  </data>
+  <data name="ribbonPageMain" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ribbonPageView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="barButtonItemRprtAccountBill.Caption" xml:space="preserve">
+    <value>Account Balance Report</value>
+  </data>
+  <data name="barButtonItemRprtBalanceSheet.Caption" xml:space="preserve">
+    <value>Balance Sheet Report</value>
+  </data>
+  <data name="barButtonItemRprtEmpSal.Caption" xml:space="preserve">
+    <value>Detail Employee Payroll Report</value>
+  </data>
+  <data name="barButtonItemRprtEmpSalAll.Caption" xml:space="preserve">
+    <value>Employees Payroll Report</value>
+  </data>
+  <data name="barButtonItemRprtProduct.Caption" xml:space="preserve">
+    <value>Products Report</value>
+  </data>
+  <data name="barButtonItemRprtProfitLoss.Caption" xml:space="preserve">
+    <value>Profit Loss Report</value>
+  </data>
+  <data name="barButtonItemRprtPurchase.Caption" xml:space="preserve">
+    <value>Purchases Report</value>
+  </data>
+  <data name="barButtonItemRprtSale.Caption" xml:space="preserve">
+    <value>Sales Report</value>
+  </data>
+  <data name="barButtonItemRprtStore.Caption" xml:space="preserve">
+    <value>Store Report</value>
+  </data>
+  <data name="barButtonItemRprtTrailBalance.Caption" xml:space="preserve">
+    <value>Trail Balance Report</value>
+  </data>
+  <data name="barMenuReports.Caption" xml:space="preserve">
+    <value>Reports Management</value>
+  </data>
+  <data name="barButtonItemRprtTaxDeclaration.Caption" xml:space="preserve">
+    <value>Tax Declaration Report</value>
+  </data>
+  <data name="barButtonItemRprtDailyEntry.Caption" xml:space="preserve">
+    <value>Daily Entry Report</value>
+  </data>
+  <data name="barButtonItemBranches.Caption" xml:space="preserve">
+    <value>Branches</value>
+  </data>
+  <data name="barMenuSystemMangment.Caption" xml:space="preserve">
+    <value>System Management</value>
+  </data>
+  <data name="barButtonItemRprtSuppliers.Caption" xml:space="preserve">
+    <value>Suppliers Report</value>
+  </data>
+  <data name="bbiStoreProducts.Caption" xml:space="preserve">
+    <value>Store Products</value>
+  </data>
+  <data name="barButtonItemFinancialYear.Caption" xml:space="preserve">
+    <value>Financial Year</value>
+  </data>
+  <data name="barButtonItemDefaultSettings.Caption" xml:space="preserve">
+    <value>Default Settings</value>
+  </data>
+  <data name="barButtonItemRprtSaleDetail.Caption" xml:space="preserve">
+    <value>Sales Detail Report</value>
+  </data>
+  <data name="barButtonItemRprtCustomerInvoice.Caption" xml:space="preserve">
+    <value>Customer Invoice Report</value>
+  </data>
+  <data name="barButtonItemRprtSupplierInvoice.Caption" xml:space="preserve">
+    <value>Supplier Invoice Report</value>
+  </data>
+  <data name="ApplicationCloseMssg" xml:space="preserve">
+    <value>Do you really want to close the application?</value>
+  </data>
+  <data name="barButtonItemRprtCustomerBalance.Caption" xml:space="preserve">
+    <value>Customer Balance Report</value>
+  </data>
+  <data name="barButtonItemRprtCustomersBalance.Caption" xml:space="preserve">
+    <value>Customers Balance Report</value>
+  </data>
+  <data name="barButtonItemRprtSupplierBalance.Caption" xml:space="preserve">
+    <value>Supplier Balance Report</value>
+  </data>
+  <data name="barButtonItemRprtSuppliersBalance.Caption" xml:space="preserve">
+    <value>Suppliers Balance Report</value>
+  </data>
+  <data name="bbiStoreProductsData.Caption" xml:space="preserve">
+    <value>Detail Products Data</value>
+  </data>
+  <data name="bbiStockTrans.Caption" xml:space="preserve">
+    <value>Stock Transfer</value>
+  </data>
+  <data name="barButtonItemPurchaseDel.Caption" xml:space="preserve">
+    <value>Purchse Deleted Invoices</value>
+  </data>
+  <data name="barButtonItemPurchaseRtrnDel.Caption" xml:space="preserve">
+    <value>Purchse Return Deleted Invoices</value>
+  </data>
+  <data name="barButtonItemSaleDel.Caption" xml:space="preserve">
+    <value>Sales Deleted Invoices</value>
+  </data>
+  <data name="barButtonItemSaleRtrnDel.Caption" xml:space="preserve">
+    <value>Sales Return Deleted Invoices</value>
+  </data>
+  <data name="barButtonItemRprtSaleGroup.Caption" xml:space="preserve">
+    <value>Sales Group Store Report</value>
+  </data>
+  <data name="bbiCompactMode" xml:space="preserve">
+    <value>Compact Mode</value>
+  </data>
+  <data name="bbiHideMenuCaption" xml:space="preserve">
+    <value>Hide Menu Caption</value>
+  </data>
+  <data name="bbiTouchUI" xml:space="preserve">
+    <value>Touch UI</value>
+  </data>
+  <data name="bsiTouchScaleFactor" xml:space="preserve">
+    <value>Touch Scale Factor</value>
+  </data>
+  <data name="ribbonPageGroup" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="barButtonItemInvStoreDirect.Caption" xml:space="preserve">
+    <value>Direct store inventory</value>
+  </data>
+  <data name="barButtonItemInvStoreManual.Caption" xml:space="preserve">
+    <value>Manual store inventory</value>
+  </data>
+  <data name="barButtonItemInvStoreSettlement.Caption" xml:space="preserve">
+    <value>Settlement store inventory</value>
+  </data>
+  <data name="barSubItemStoreInventory.Caption" xml:space="preserve">
+    <value>Store Inventory</value>
+  </data>
+  <data name="barButtonItemSalePriceOffer.Caption" xml:space="preserve">
+    <value>Sales Price Offers</value>
+  </data>
+  <data name="btnAddNew.Text" xml:space="preserve">
+    <value>Add New(F2)</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Delete(F6)</value>
+  </data>
+  <data name="btnPrint.Text" xml:space="preserve">
+    <value>Print(F7)</value>
+  </data>
+  <data name="btnRefresh.Text" xml:space="preserve">
+    <value>Refresh(F5)</value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Update(F4)</value>
+  </data>
+  <data name="barButtonCloseBoxDaily.Caption" xml:space="preserve">
+    <value>Close a box daily</value>
+  </data>
+  <data name="barButtonItemEmoVchrPhased.Capiton" xml:space="preserve">
+    <value>Phased Entry Vouchers For Employee</value>
+  </data>
+  <data name="barButtonItemEmpVchrOvrTm.Caption" xml:space="preserve">
+    <value>Overtime Employee</value>
+  </data>
+  <data name="barButtonItemEmpVchrTip.Caption" xml:space="preserve">
+    <value>Employee perks</value>
+  </data>
+  <data name="barButtonItemFixedAsset.Caption" xml:space="preserve">
+    <value>Fixed assets</value>
+  </data>
+  <data name="barButtonItemRepresentative.Caption" xml:space="preserve">
+    <value>Representatives</value>
+  </data>
+  <data name="barButtonOpenBoxDaily.Caption" xml:space="preserve">
+    <value>Open a box daily</value>
+  </data>
+  <data name="barButtonReviewBoxDaily.Caption" xml:space="preserve">
+    <value>Review a box daily</value>
+  </data>
+</root>

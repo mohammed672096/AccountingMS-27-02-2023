@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>save</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="bbiAutoAccNo.Caption" xml:space="preserve">
+    <value>Add default accounts automatically</value>
+  </data>
+  <data name="ribbonPageGroup1.Text" xml:space="preserve">
+    <value>Processes</value>
+  </data>
+  <data name="ribbonPageGroupAutoAddAccNo.Text" xml:space="preserve">
+    <value>Branch default accounts</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1177, 126</value>
+  </data>
+  <data name="dflAccNoCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>752, 342</value>
+  </data>
+  <data name="dflAccNoCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 20</value>
+  </data>
+  <data name="brnNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 50</value>
+  </data>
+  <data name="brnNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 20</value>
+  </data>
+  <data name="brnNameTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 74</value>
+  </data>
+  <data name="brnNameTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 20</value>
+  </data>
+  <data name="brnNameEnTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 98</value>
+  </data>
+  <data name="brnNameEnTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 20</value>
+  </data>
+  <data name="brnAddressTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 122</value>
+  </data>
+  <data name="brnAddressTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 20</value>
+  </data>
+  <data name="brnAddressEnTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 146</value>
+  </data>
+  <data name="brnAddressEnTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 20</value>
+  </data>
+  <data name="brnPhnNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 244</value>
+  </data>
+  <data name="brnPhnNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 20</value>
+  </data>
+  <data name="brnFaxNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 244</value>
+  </data>
+  <data name="brnFaxNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 20</value>
+  </data>
+  <data name="brnEmailTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 220</value>
+  </data>
+  <data name="brnEmailTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 20</value>
+  </data>
+  <data name="brnMailBoxTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 220</value>
+  </data>
+  <data name="brnMailBoxTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 20</value>
+  </data>
+  <data name="brnTaxNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 268</value>
+  </data>
+  <data name="brnTaxNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 20</value>
+  </data>
+  <data name="brnTradeNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 268</value>
+  </data>
+  <data name="brnTradeNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 20</value>
+  </data>
+  <data name="pictureEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 41</value>
+  </data>
+  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 108</value>
+  </data>
+  <data name="btnImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 153</value>
+  </data>
+  <data name="btnImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 22</value>
+  </data>
+  <data name="btnImage.Text" xml:space="preserve">
+    <value>Image selection</value>
+  </data>
+  <data name="dflAccNoBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>752, 366</value>
+  </data>
+  <data name="dflAccNoBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 20</value>
+  </data>
+  <data name="dflAccNoSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 342</value>
+  </data>
+  <data name="dflAccNoSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 20</value>
+  </data>
+  <data name="dflAccNoBank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 366</value>
+  </data>
+  <data name="dflAccNoBank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 20</value>
+  </data>
+  <data name="dflAccNoEmp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>752, 390</value>
+  </data>
+  <data name="dflAccNoEmp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 20</value>
+  </data>
+  <data name="dflAccNoRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 390</value>
+  </data>
+  <data name="dflAccNoRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 20</value>
+  </data>
+  <data name="dflAccNoDiscount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 497</value>
+  </data>
+  <data name="dflAccNoDiscount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1088, 20</value>
+  </data>
+  <data name="dflAccNoPur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 497</value>
+  </data>
+  <data name="dflAccNoPur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1088, 20</value>
+  </data>
+  <data name="dflAccNoGrp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 497</value>
+  </data>
+  <data name="dflAccNoGrp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1088, 20</value>
+  </data>
+  <data name="dflAccNoSales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 497</value>
+  </data>
+  <data name="dflAccNoSales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1088, 20</value>
+  </data>
+  <data name="dflAccNoSalesCost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 497</value>
+  </data>
+  <data name="dflAccNoSalesCost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1088, 20</value>
+  </data>
+  <data name="dflAccNoPurRetu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 497</value>
+  </data>
+  <data name="dflAccNoPurRetu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1088, 20</value>
+  </data>
+  <data name="dflAccNoSaleRetu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 497</value>
+  </data>
+  <data name="dflAccNoSaleRetu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1088, 20</value>
+  </data>
+  <data name="dflAccNoSaleRetuCost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 497</value>
+  </data>
+  <data name="dflAccNoSaleRetuCost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1088, 20</value>
+  </data>
+  <data name="dataLayoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 126</value>
+  </data>
+  <data name="ItemForbrnNo.Text" xml:space="preserve">
+    <value>Branch number:</value>
+  </data>
+  <data name="ItemForbrnName.Text" xml:space="preserve">
+    <value>Arabic branch name:</value>
+  </data>
+  <data name="ItemForbrnNameEn.Text" xml:space="preserve">
+    <value>Foreign branch name:</value>
+  </data>
+  <data name="ItemForbrnAddress.Text" xml:space="preserve">
+    <value>Arabic branch address:</value>
+  </data>
+  <data name="ItemForbrnAddressEn.Text" xml:space="preserve">
+    <value>Foreign branch address:</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Main branch information</value>
+  </data>
+  <data name="layoutControlGroup4.Text" xml:space="preserve">
+    <value>Branch logo</value>
+  </data>
+  <data name="ItemForbrnEmail.Text" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="ItemForbrnPhnNo.Text" xml:space="preserve">
+    <value>phone number:</value>
+  </data>
+  <data name="ItemForbrnTradeNo.Text" xml:space="preserve">
+    <value>Commercial Registration No:</value>
+  </data>
+  <data name="ItemForbrnMailBox.Text" xml:space="preserve">
+    <value>Post office box number:</value>
+  </data>
+  <data name="ItemForbrnFaxNo.Text" xml:space="preserve">
+    <value>Fax Number:</value>
+  </data>
+  <data name="ItemForbrnTaxNo.Text" xml:space="preserve">
+    <value>Tax return number:</value>
+  </data>
+  <data name="layoutControlGroup5.Text" xml:space="preserve">
+    <value>Sub-branch data</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Virtual customer account:</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>Default supplier account:</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>Virtual funds account:</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>Virtual bank account:</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>Default employee account:</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>Virtual delegates account:</value>
+  </data>
+  <data name="laConGroupAccDefult.Text" xml:space="preserve">
+    <value>Branch default accounts</value>
+  </data>
+  <data name="layoutControlGroupAccGro.Text" xml:space="preserve">
+    <value>The default warehouse group account for the branch</value>
+  </data>
+  <data name="dataLayoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1177, 466</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>branches</value>
+  </data>
+</root>

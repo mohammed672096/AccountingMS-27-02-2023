@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BarSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <barcodeWidth>0.5</barcodeWidth>
+  <barcodeHeight>10</barcodeHeight>
+  <barcodeExpireDate>false</barcodeExpireDate>
+  <barcodeSymbology>8</barcodeSymbology>
+  <barcodePrdPrice>false</barcodePrdPrice>
+  <barcodeBarcodeNo>true</barcodeBarcodeNo>
+  <barcodeCompanyName>true</barcodeCompanyName>
+  <barcodePrdName>true</barcodePrdName>
+  <barcodePageWidth>7</barcodePageWidth>
+  <checkEditSaleTax>false</checkEditSaleTax>
+  <barcodeWeightNo>2</barcodeWeightNo>
+  <barcodeWeightPrdNo>5</barcodeWeightPrdNo>
+  <barcodeWeightQuanNo>5</barcodeWeightQuanNo>
+</BarSetting>

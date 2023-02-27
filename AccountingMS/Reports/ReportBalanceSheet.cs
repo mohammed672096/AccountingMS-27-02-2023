@@ -1,0 +1,151 @@
+﻿using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Threading;
+
+namespace AccountingMS
+{
+    public partial class ReportBalanceSheet : XtraReport
+    {
+        ClsTblAccount clsTbAccount = new ClsTblAccount();
+        ClsTblAsset clsTbAsset = new ClsTblAsset();
+        ClsTblAssetFrgn clsTbAssetFrgn = new ClsTblAssetFrgn();
+        IEnumerable<tblAccount> tbAccountList;
+        ICollection<tblAsset> tbAssetList;
+        List<tblAsset> tbAssetCalculateAmountsList;
+
+        private double totalDebit;
+        private double totalCredit;
+        private bool isFound;
+        private DateTime dtStart, dtEnd;
+
+
+        public ReportBalanceSheet(byte status)
+        {
+            SetLanguage();
+            InitializeComponent();
+            SetRTL();
+            InitText(status);
+            InitData(status);
+            InitDefaultData();
+            new ClsReportHeaderData(this);
+
+            this.ParametersRequestSubmit += ReportBalanceSheet_ParametersRequestSubmit;
+            this.GroupFooter1.BeforePrint += GroupFooter1_BeforePrint;
+        }
+
+        private void InitText(byte status)
+        {
+            if (status == 3)
+            {
+                xrlRprtHeader.Text = (!MySetting.GetPrivateSetting.LangEng) ? "تقرير الأرباح والخسائر" : "Profit Loss Report";
+                xrtcName.Text = (!MySetting.GetPrivateSetting.LangEng) ? "كشف الأرباح والخسائر للسنه الماليه : " : "Profit Loss Statement for Financial Year : ";
+            }
+        }
+
+        private void InitDefaultData()
+        {
+            parameterDtEnd.Value = Session.CurrentYear.fyDateEnd;
+            xrtcName.Text += new ClsTblFinancialYear().GetFinancialYearNameById(MySetting.GetPrivateSetting.defaultFyId);
+            xrtcDate.Text += (!MySetting.GetPrivateSetting.LangEng) ? $"{DateTime.Now:yyyy/MM/dd}" : $"{DateTime.Now:dd/MM/yyyy}";
+        }
+
+        private void InitData(byte status)
+        {
+            this.tbAccountList = (status == 1) ? clsTbAccount.GetAccountListCategoery1nd2() : clsTbAccount.GetAccountListCategoery3nd4();
+            this.tbAssetList = clsTbAsset.GetAssetList as ICollection<tblAsset>;
+
+            var tbAssetFrgnList = clsTbAssetFrgn.GetAssetFrgnList;
+            foreach (var tbAssetFrgn in tbAssetFrgnList)
+            {
+                tblAsset tbAsset = new tblAsset()
+                {
+                    asAccNo = tbAssetFrgn.asAccNo,
+                    asAccName = tbAssetFrgn.asAccName,
+                    asDebit = tbAssetFrgn.asDebit,
+                    asCredit = tbAssetFrgn.asCredit,
+                    asDate = tbAssetFrgn.asDate
+                };
+                this.tbAssetList?.Add(tbAsset);
+            }
+        }
+
+        private void ReportBalanceSheet_ParametersRequestSubmit(object sender, DevExpress.XtraReports.Parameters.ParametersRequestEventArgs e)
+        {
+            InitParmValues();
+            InitData();
+        }
+
+        private void InitParmValues()
+        {
+            this.dtStart = parameterDtStart.Value == null ? Session.CurrentYear.fyDateStart : Convert.ToDateTime(parameterDtStart.Value).Date;
+            this.dtEnd = ClsDateConverter.ConvertTime(parameterDtEnd.Value);
+
+            xrlDate.Text = $"للفترة {this.dtStart:dd-MM-yyyy} إلى {this.dtEnd:dd-MM-yyyy}";
+        }
+
+        private void InitData()
+        {
+            this.tbAssetCalculateAmountsList = new List<tblAsset>();
+
+            foreach (var tbAccount in this.tbAccountList)
+            {
+                this.totalDebit = 0; this.totalCredit = 0; this.isFound = false;
+
+                foreach (var tbAsset in this.tbAssetList.Where(x => x.asDate >= this.dtStart && x.asDate <= this.dtEnd))
+                {
+                    if (tbAsset.asAccNo == tbAccount.accNo)
+                    {
+                        this.isFound = true;
+                        this.totalDebit += Convert.ToDouble(tbAsset.asDebit);
+                        this.totalCredit += Convert.ToDouble(tbAsset.asCredit);
+                    }
+                }
+                if (this.isFound) AddAssetToList(tbAccount);
+            }
+            tblAssetBindingSource.DataSource = this.tbAssetCalculateAmountsList;
+        }
+
+        private void AddAssetToList(tblAccount tbAccount)
+        {
+            tblAsset tbAsset = new tblAsset()
+            {
+                asAccNo = tbAccount.accNo,
+                asAccName = tbAccount.accName,
+                asDebit = this.totalDebit,
+                asCredit = this.totalCredit
+            };
+            this.tbAssetCalculateAmountsList.Add(tbAsset);
+        }
+
+        private void GroupFooter1_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            double totalDebit = Convert.ToDouble(xrtcTotalDebit.Summary.GetResult());
+            double totalCredit = Convert.ToDouble(xrtcTotalCredit.Summary.GetResult());
+
+            if (totalDebit > totalCredit)
+                xrtcTotalFinal.Text = $"{totalDebit - totalCredit:n2} مـديــــن";
+            else if (totalCredit > totalDebit)
+                xrtcTotalFinal.Text = $"{totalCredit - totalDebit:n2} دائــــن";
+            else xrtcTotalFinal.Text = "";
+        }
+
+        private void SetLanguage()
+        {
+            if (!MySetting.GetPrivateSetting.LangEng)
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo("ar");
+            else
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
+        }
+
+        private void SetRTL()
+        {
+            if (!MySetting.GetPrivateSetting.LangEng) return;
+
+            this.RightToLeft = RightToLeft.No;
+            this.RightToLeftLayout = RightToLeftLayout.No;
+        }
+    }
+}

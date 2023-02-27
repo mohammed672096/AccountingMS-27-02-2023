@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="editorButtonImageOptions1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAOdEVYdFRpdGxlAEJhcmNvZGU7nc/ZFgAAAjpJREFU
+        OE+lk9lPE1EUh0dcQNH/xugDtkBiBMG4PBktS3yRuiUuMQIiKlFUtCBLYtQIIk8+mRYsYCtFUSh0gVTU
+        EMVHFQm2pZTpdGb685zbJcZo0sSbfPO7N3POl8m5GQnAf8Erh1ibBet+g8/ct0bq6PW5Ovum0dnnR8cT
+        xof2Xh/uPvahjenxorXHg9ZuLyyPPLgjmMKtBxOjQsTFf65EGnr8ixv33fz96yVLt0cUK3GN0BFTNMhK
+        OlPEdKzGtAw6Ga51vWXBBqnloVsYZXpRvKcaztEpFJdXY/bjFxSVV8FB56KyKgQ+zItckVVoegJX2seS
+        guZ748IYlTVR4HBNorCsEoH38yjcXYnhETdlBWbobKQMr8Shagk0WFwsyJWaut5AJ2NkVc00GEupYZYa
+        Siow6HTDUGKC/91nGHYdRiiiIK7qqG15yYI8qbHtFTQystlYaoLdOUGNJvhEwyHYHeMivYFP2EG5FFYQ
+        o1mdb3YkBfW3XcIYJDMX9g+NYbvxADwzc5T7YR18jW2GfZj0z6Fg50EshmJisGeahlmwUbpw0wmFBGzm
+        wkVKLmJ+hBSCMphka8FeLARlmpeKU5ftLNgknbv+QhjTRQsZZJHff8r4lmZJxldimeZ1vGGABfnS6atD
+        4m75FviK0kQYKoxE41iOqoIw7QU0L3OdLSkw1z8bOdn4HCcuDQir4GI/jqUw19tQw1BDTZ0VR2tthBVH
+        zj51kSCXEI98YnMWbEnB+zwi56+/aPZA+gVHtaNfg4EGbQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnSave.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAENSURBVFhH7ZdNCsJAFIN7rv4guOrVvYfgMbTvEUvopBrH
+        DrjwgyDkfWYWruz+/BTjOJ6GYbgsn/dncFrh27tsfWyfckjR9/2NvxDBaWV7fxXlxxs5pNjKEZxWlBPB
+        OeGOHe4ljqycCM4Jd+xwL3Fk5URwTrhjh3uJIysngnPCHTvcSxxZORGcE+7Y4V7iyMrZy56fQwpHVs5e
+        9vwcUnwkm3y0qeQWwXMlSm4RPFei5BbBcyUsTdN0Rv01scXbqEssqRJr25IqsbYtqRJr25IqsbYtqRJr
+        25IqsbYtqRJr25IqsbZZWjKj/prY4m3UJSy1DJ4rWY7XrdwgVzxXshxn9d/gqGD7sJ/2zwF03QO446er
+        7fZ5jAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>save(F4)</value>
+  </data>
+  <data name="btnSaveAndNew.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnSaveAndNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 46</value>
+  </data>
+  <data name="btnSaveAndNew.Text" xml:space="preserve">
+    <value>Save and Create New (F3)</value>
+  </data>
+  <data name="btnClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAddEVYdFRpdGxlAENsb3NlO0V4aXQ7QmFycztSaWJi
+        b247RgO56AAAAXZJREFUWEftlkFOwzAQRbvqfUAgUMWSm3A9KtEuOAuHAMEFwMxH8yPb+XbGIBQkunit
+        6vnjeUmTtJuU0qp8vTzd3aY1OAn8C4F3sTYREXgzbozHbC3K0dgZr9lawZIAhl96fWuMSGD41nsvDCnR
+        E8Cp26FG7HNUYhqe9eJMfHh9ArWWALg3io0825NQwyH+4PUC1BmaFZ29oTZUEsc8l2XlcIAMgzLg7Lkh
+        sbVaYujICXIMy0BG70zMhnu9Oxwgx7AMVLQkho+cID8iAGYSOagZoeEAPWyUgQZSAmtGeDhA33cEWt85
+        rwnVI0HfqIAcTlAzwhLoYaMMVLRuNbUWkkA+KtC7z1vXxKIEcgzLgBN5wvWeE/leBcgxLANG78jrbOSJ
+        WYAMgyrQutoPWaZm6EygzlBdxE/nNTfxDDbqDSdK4soY/jl+Mc69Hh1OJgl7PzOefb1gSQBAAvYjwwkk
+        0CuHg4gA6P6xXODHf0p/lZPA3xFYj7T5BN17IBCO78cXAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 46</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnReset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAARdEVYdFRpdGxlAFJlc2V0O1VuZG87E4EW/wAAAYVJ
+        REFUWEfFlj1Ow2AMhnsAJK7ThRtwBE7ACEtZGBCH4BSd4SbdOAADUyW24KdKqtfG6ceHqDM8Uuz4tZ18
+        v6thGBYldVaSOitJnZU44/rptcXa2BhbY2fsR3jGxztiMu0BrQfOyAQjV8aL8WkMDYghFs2PXFoPnGEB
+        j1Fg3Bp8YVbsFGjQunxaD5xhAQi1iQfjy4jJfwtacnQ1ADRB91nxN+POYKwvR3jGx7sYT47jn9B64IxR
+        MPER7Hfj3rgwjl8U4B0xxKqW4TjMCa0HzhBBhIQ3Riw4B7GxCSamqwfOCAKFr4pFWqDRHKyOtdYDZwSB
+        8mzEAi0YjjgnNloPnBGCI9kSbcHE1BxbrQfOCMEZvU2wOlS/03rgjBA8R08TLFHV7rUeOMMC/pvFG+ge
+        AuBUUxETSZP20D0JgSNVRSylU7vfHH9ahsBvi8du2UY0wbap4rKteIKDI94BSMhXnfUwUhY5jiPlF5IM
+        ui+7ks1RdiltwVif71q+BKmzktRZSeqsY1h9A4ZDkwafEbAVAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 46</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset(F5)</value>
+  </data>
+  <data name="btnPrintPrevious.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADXSURBVFhH7ZBBCsMwDAT9wX7K+Ek9FHLyPX9KoyKFrSvZ
+        sROXEDywBDlaaZEbXJ4QwnJEPKYdGtLKCDACNAVYTRMZxXxGAJm3aqI6CzT3CFC+SNqMdYu0mVmqmndS
+        NRObe4jX2GimM8VrbDSToZkt5JmTf6bYYqOZQNtS4uFfC4nLD9STeL7EbTYlgyy1xG0bpXk/aAastaUo
+        7LXmZdEM9BW0pSgBvSh6y+K9f6YG+taCXhHNprdqjgQ4BQwQY8xK6BZgL+MCf7uAxX0vsJf7BWgR26+M
+        c28mou7UTRZbLwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnPrintPrevious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 46</value>
+  </data>
+  <data name="btnPrintPrevious.Text" xml:space="preserve">
+    <value>previous print</value>
+  </data>
+  <data name="btnPdfPrevious.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGhSURBVFhH7Vc9S8RAEM2Jha0/wFJCsjPhtBYOe0vFQvwN
+        hmBjFaz9+g+ila3geZhLclda29hco5UHop2gnjNh94jJahASTyEPHsnuvH3zkl1ynFHjK3ie1yOOSmZP
+        2hdDs7gUSvti/HhBAeoA/yfAlWVddxFHlRLgRrbLQ7ugAsp2eeTEQqwzY9veoOR+aNt3PB8BHKpaZNte
+        IMRZ13HeuNZBfFa1MdOeRNkuD50wcpyF0LI2B63WTIBoUohXNuVxhLgWCWGxLhRixUd8DwGGPO6YJpYS
+        gJpv8z012uIxXQdsGgsxl+joyTlgogW4VAFCxIO0V5pc10In5ABtgAdqvEwTjQvTfPwUgCkPFl33VADW
+        UIgT2q522pPJdS2+E9JgisyOklomQABwyxo6C7sqgELfcZaUTlGW8tAJ6SlWqXGfjO/HtUwA2v/9RCvE
+        aSVbkJ3nAOeIszHAMTXc8Q1jOkZcpEP68msBuEaCRtRsztPbcGkbnrhWaoCqKNvlMfFPscLEfowU6gB1
+        gD8ToGxK+2KQuPQ/Jq7r9qV9jRoShvEBw0hSIXbD2TgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnPdfPrevious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 46</value>
+  </data>
+  <data name="btnPdfPrevious.Text" xml:space="preserve">
+    <value>Print PDF</value>
+  </data>
+  <data name="btnXslPrevious.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIsSURBVFhH7Ve/ixNBGB3xdmYFC0HQRq87K7G1M4LYeElm
+        Z7NJPBDURhARQgR/ILjoWSiG7MxOrkh1tQpiJZZycpWNio2N+AcoqCCKeMb5vkzW5dhkUUK8Yh88lnnz
+        vTdvk2xCSIFxaLfba4aDKXPNxucjwzwV2vh8/LUhB0WBrV+ARcFLppYGM6WsvbXHmwJZAzOgPT5VIA4e
+        M82PupHoD7XmRyb5Mar5FVxrcdGRfDmZH1EGL2jsXWW6epYq7xqT/uvcLEN7fKpAp/mVKLGPRHyXMXyh
+        2rtBBmQbU/U3aOiX5yE0mTeksf8MZkivtJNqUXd7/hFXCZ2XhXkjpAOZ9h+ABndCVk+7NOaXE0NGAUd5
+        tzAjFvcTPSz/wOuELCDsIdIiU6WNHb3qYdyQlb3sjvicGDIL1J7i7L3je1wpVlnY/P5nf3wWEHVAWmTh
+        0i/aPbGIG2CSzU+JIaMAkHaDdWelcggsVC4uzEWN97g3IQuIOiAtsth/CBpV1et4lfxSYhhTYMjSxsjD
+        utULqE3IAoKGGAm00/hAtLfbkeIgC0/+ZDE/Yz84r9BgCtCOdwDeWyDt1tedWNxmyn/EYpjxzkOeo8Td
+        vKzMAvAY4VoHT2C9vdt4R1b4fqrLNXg5oQAaLBxZOWUOuEnC0hwK/XMO3n3Ev+VlZRf4V8IdmkdteM3Y
+        H0N7vCnwv7+KN2PmP0abURQoCmyZAtOmjc+HGZ76H5NWq/XcxhcoYEHIb0oEbsMxT4WbAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="btnXslPrevious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 46</value>
+  </data>
+  <data name="btnXslPrevious.Text" xml:space="preserve">
+    <value>Print Excel</value>
+  </data>
+  <data name="bbiSelect.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEASURBVFhH7ZYxCsIwFIajg6vivVQQF68giIhtOuYILm1T
+        cXCxCXbRQ+ig4oF0sDaYYAvWFk3SwXzwoEle8v2EDAUGw1+BEKrzT/04YdCx1vgwWc1bfEofTD5y3Suk
+        OIbUO2sNkZU/i90EiOMab1HHOzkbOxT3eIs6jPx3+RePRJrcIsE42bxFUdTgU4XIlSN0ZwfYxN+VCSFN
+        bhM8FHJRRSGkPjgnWjTtEJ/Sh7HKCyFVLigbQolcUBRCqVyQFwISb69cLsgNkSomT26my7fI51MI5XIB
+        CwFD/5INgG6QBn3eop7pZtl+hUjkBA/4kj5YiBl1j5XIBZX+WBoM8gHgAQ3EtwLI8ILeAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="bbiSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 46</value>
+  </data>
+  <data name="bbiSelect.Text" xml:space="preserve">
+    <value>Determination</value>
+  </data>
+  <data name="btnPrdPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 46</value>
+  </data>
+  <data name="btnPrdPrice.Text" xml:space="preserve">
+    <value>Quotation
+Purchase(F8)</value>
+  </data>
+  <data name="btnEditPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 46</value>
+  </data>
+  <data name="btnEditPrice.Text" xml:space="preserve">
+    <value>Modification 
+Price (F7)</value>
+  </data>
+  <data name="btnPriceTrans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 46</value>
+  </data>
+  <data name="btnPriceTrans.Text" xml:space="preserve">
+    <value>transformation
+  price</value>
+  </data>
+  <data name="btnEditQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 46</value>
+  </data>
+  <data name="btnEditQuantity.Text" xml:space="preserve">
+    <value>Modification
+Quantity(F6)</value>
+  </data>
+  <data name="btnSaveAndNewNoPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 46</value>
+  </data>
+  <data name="btnSaveAndNewNoPrint.Text" xml:space="preserve">
+    <value>Save and add
+Without printing (F12)</value>
+  </data>
+  <data name="btnPaidCreditShortcut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 46</value>
+  </data>
+  <data name="btnPaidCreditShortcut.Text" xml:space="preserve">
+    <value>paid up
+Network(F11)</value>
+  </data>
+  <data name="supNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="radioGroupIsCash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="checkEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="textEditCounterNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 20</value>
+  </data>
+  <data name="textEditPlateNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 20</value>
+  </data>
+  <data name="textEditCarType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 20</value>
+  </data>
+  <data name="DateDateEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="BoxNoLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="CurrencyChngTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="checkEditTax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="supCurrTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="editorButtonImageOptions2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAPdEVYdFRpdGxlAEN1c3RvbWVyO5zd1eIAAAK8SURB
+        VDhPZZJdSFNhHMaPTc+a7dNt7Uv32ebcHJ7NzfkxnWuoLRcG6hAV85OMCtQMQanURgbaTZAVESUGQhfZ
+        hSkSXVjgRdlFBFEXQRcFiQZZ2SzDp3eisM0DPzjP/32e5xze96UAxFFm5FNeLbeqKJ2zkCdj/7SLUz5Y
+        +aw6iqKSEr1R9gxKNVxzuVEY6fCZcLrCguZiPZg0+l8WL3lIz2HxE/1xIoonI/V6vVuDlhIDfFouHBI2
+        WkuytzI5LBjopKuJ/jgRJV/BedRQoEHApsPIuU68mruJZzd7UCDZv6JhUTOJ/jgRxSGlB/MVqVvflz9j
+        c+Ul1t6OY/FeJ3rd0jU1i5pI9MeJKGL2PnU1o/rz69tX/P44hS/Pw3hxuxndDtGaIInKTfTHie0BRYmG
+        al1L7xceY3VpHO+mu/Cwz49GE/c1WVPt8e++HDseioaTCer2CvvUdLgdi5OXMHO5EiOVehRnCJ6QNSuB
+        rdUZ4gt2HrYoTWxzF3oX/WVHcTfci/FWP67VeTDa1QbG4YJao3tD02wv8R4gbN+L3YJkmVxh95UFVnv6
+        BhEevYFIJIJwlgXdBgPW19dRVdOEYFUIaq3uBynxkwwdWyBwOPMn2zu7cGXsFjrO9mN+/inuNzZhLBjE
+        7OwcnIXlsDAemK0M+ALhDMnIYgvS3YUln84PhHGq5yKCtW2ob2jCxIkWXHC5UF0TgpUpht5kh0ptgkAg
+        WiaZzNiCQwVF3o2BoVFUN5yELxBCljUHw3YHziiV0BmM0BoZEjZDptSDxxdskow9rsDlLtro7R9G6ZFa
+        uD0B2N2HwReKweUKoTHYoEg3QSrXQSLTkBn3L8nYYgsk5Ct3cuxOWLMZmMwW6A0msut6KFUZOChTQCyW
+        kl8XgsvjgabpByQjjy2Inr+UED3n3B2cBNcOeTEwBDkhBQD1HxX+3ye8Xt6YAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="editorButtonImageOptions3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACd0RVh0VGl0
+        bGUAUmVmcmVzaFBpdm90VGFibGU7UmVmcmVzaDtVcGRhdGU7zi+BuQAAAt1JREFUOE+Nk3lIlEEYxj+v
+        zCyCIBDCXRQKsqCw1TzKXC1TBCPEozQVd8t0M91M88htdSWPzCvxTEoUj1SMtsUMBEvxIjW1tFzNDvNI
+        TTDXSq2nmc+jzP5o4Mc7M987z7wzz3yMLL02Oy7jMf4HmsswjBrhd4tJfYTFHz8xO7ewji+q+VXmFxYh
+        TakBWaJBUDtox1FnBaJvKNjk9CfDLOOfv2Jsao6lb2gQlXX5SCg8i0upfIhvuCIg3kLqJzPbH5R8GP7X
+        zfcx4fEP1gjQhaOTKjR1NSE01RGltfHoGHiI0ZkuNtJxaJojaprz4Cvh5TChcfdZAbrzyu49yn6cj7GB
+        vDETyska9IyW4PnIXTb2TyjQpizDu+kGuATvARMSW72mArp7VmnidGb5OTx7n4aSpyJcuWXHJoeTKO8M
+        Qd3rKLQMJcHJfxcYsbRqVSCt/gNGJmbhFmz2pqpBCHm3AOLkQ7B25wbYCwyRUnYCFe2eKGpxgaJHiOO+
+        hmCCJJXrBDyCrUP4HtwWG08urE9x8sldb+E56JkfcefcpnMr8E9zcpnA6Ip1R7gqidMli7QJOstsXI6b
+        CPQbhY43MKKoe2vewczsd4RlOBRfJKWvcCHRMlcgMTUmC7Rpn84FJlm2iBIsfBi/sOL8gMhyLFEG/4hS
+        CKQmmJp7hU+zPZhQvYSiKQdCqSm8IoyFOZWXManqQ+eAAoJrJs1ElJSxVNJWwjbCdnrjveNVaB/OQ/NA
+        LhLvCOAVboKbhSLUdxfgxVg5siqD4BxoJCH5DH2SmgQtAj2rLrWnXilFUaMvavvC0Po2Gb1jBej6mI2G
+        QRmy5T7wjuDhqIfBTgbAKqSxYse8DfKSS52I90aIzLZGbo0zqjt82BiVw4ebeC+II7YkV+tvAfqnaVic
+        3HHA9gwX1DorV30ZsauN2PaNWNtq5aYfy7PX203yqEua/xJgq9DZrEkT6JH+tI726Ry9N3JsRv0XgYIz
+        aUwte3MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="CustNoSearchLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 20</value>
+  </data>
+  <data name="notDateTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="PoNumberTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="StrIdLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="textEditBarcodeNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 22</value>
+  </data>
+  <data name="btnDeleteRow.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAjdEVYdFRpdGxlAENhbmNlbDtTdG9wO0V4aXQ7QmFy
+        cztSaWJib247TJaWsgAAAMJJREFUOE+Nk0sKAjEQRHM4YVZ6CS8gfhBGHK/pSRRXbRWkJOlOq4sHSf0Y
+        BlLMrNy3qzWYef4HZC/s8KzyCxi4+rAHmVvNsrOhcKqCSEfgqSz2Ms7OCCPQfPlIvQ2kIzgPy+QzUIN+
+        ZAFpmXQDBAE/0tKVSXcRCI5GQpkEgSDsP5sso2wQEByVRRjpLgj48gGEH9t2vpYbLx35WRbQhiM0+DBa
+        I5QFPD8yU5zAowppWSCjkSeYJHJk58MZyPIBTmZW3tJAnMwmSptiAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnDeleteRow.Text" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="supDscntPercentTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="BtnDscnFraction.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0VGl0
+        bGUARGVsZXRlO1JlbW92ZTtNaW51c+upj0EAAANRSURBVDhPfZJdTFN3GMYPkPiBF2NeejEXkyVubtXg
+        YnSJMZu6KQazhWHZpnFxc06Z0xWwFqEwJS4NaBEtRKVJh6Ji+agUKaWipoIEQmf5sBUKpS0y+sEOlrbW
+        FZLH93+q8c4mv/R93/P8ntOLciPh/wXok0AkZpcbP86t7lFI1ZY+qcYaPK55xEvVfZacSw9L9xZfW0GZ
+        JJYdJofBjUZigpy6OWvh0cpupaymf76m04M2ewAWXxj/+MMwPpnGla4JyP62zh48YzpA+QXMeeVyCWs+
+        Fy/8TdXdptQPY/C/KKz8C/QEouj0PkcX0Tsdv1m8YZQ22XGowqxf/tH6JcxlBUm/Ks0VZTo7BmdewOgK
+        wTAegtEdhmkiApMnDts7PGE8DsZQTi/6SWEsI3cBlymtXXW4sme+zxuB1jaDxidB6EZmoR8NocX5hmba
+        dY4gGui5xR+FpKo3tv2XsyJud0l7ldo0hrpBHjWPeNQO8KizPYPWHg+/5qYtiBuPnwnPrw/NoMbsgriw
+        Scl9f7LDWm/xobLbj10lBmzKrn0rYspc7PWjoT+ArOK2IS6z6M60pscHxd1JITAw/C+GHFOwO30Ydvkx
+        QjjcAThcAbgneWz54ybK7k9BTSWZ8nae+zrfOKu8N4ES01OhwMdHEHoeQygaQzg6hwgRppnts3TfKtHi
+        r45JlNILv5EZeC5N0jxwSj+KPw0T+O50OzYfrRNCX+bUI02mE+av8hqQdlyHHfm3sO+cGaeMTyG/5cS2
+        I41W7osD11RHLltQbPBAQc3nzFM4/8CLC51Elxcq+mawnd3L7k2iyODG79VWbPzxciknSi9K3SZpiRU2
+        jyOfOKF3ofC2C/JWN4paPRSOI6e5oMWFE4RM58SOvNa5DzbuX83+SIvW7VarMorvooDkY7pxSOnnyahM
+        Rnt+MwkCdGeQnHHyPtZmqSrITWYFiclL30/59AeNMb3gDqSNY1TiRF5TnFxhHkMuzRKtAzvlHSRX3yYv
+        hbmcfw6sJGlxynvvijIqqz77uT4mVnTh8BXbK3EM2Vdt2EW3Dfu1kZXbS3Io/w5zvMz1z+N1SSKRvHxD
+        9voPd5ZfEGWq+0VijZ/wfvJttXVl+tnzy1L3rKHMYiKByd45cC8B0oKaPyRsCA8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="BtnDscnFraction.Text" xml:space="preserve">
+    <value>discount fractions</value>
+  </data>
+  <data name="BtnAddFraction.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABt0RVh0VGl0
+        bGUAQWRkO1BsdXM7QmFycztSaWJib247lQYzLwAAA3VJREFUOE9VkmtMU2cYxw+Q6GQfxvZxH3RZYqK7
+        dIaZRU3MMi/zFswWxOLmgplzXphTi1iL3IZEV2EWUSCbNOlwqMitgloOFzUdjBSplFsRhLZQLocDtvRG
+        sWX57znv5oed5J88ed7/7/8875vDDflfMtEXQYpMLuA/OF1qUiu15k6lzuI5q+tyKbWd5pTf/spLyr75
+        LnmiJO8gMZK44UCIwbGbE5eeLG7XqMq6F8tax9AwMAPztB9PRT/4Z7O40eaE6neL9+gvTYfJv0Ri/mO5
+        iDWfyZf+UNTeoKkfRO+LICyuBZhmgmgV5tFG6pj9t2cW/MirHcCxQmP9ivfWvS6xUkDUEY2xMF8/gF73
+        AniHDwa7D0mXeHyaXM6UdKkR/KgfLWN+9HtCKKBBB9V8PrFLuARl+fvHi02LnUIAlVY3ap55oB/yMtDU
+        ZcOTbjur64Z90D/3oJrOzWIQipKO0I7vL8u4/bmNJdqmEVT0ulDW5UJ5jwsV1jkGTYlzCC/+zeo7Vg9u
+        98+x81t9bpQZHZBn1Gq4r3JaLFXmaRS3i9iba2DmV5oQPfDNh/7Xk5Pn1w4R1d0zSMxu6OMSsppndaZp
+        qB9OMENHjwOdvaPo6ndiXPTC7VvAoF1E39AkBm3T2HLqDvIfT0FLIQmZjS7uizTeq3nkRG7TOAuYnPGx
+        qYJ7HuJcEIFgGP5gCD6Sl/pbFZW42DKBPBr4pcrg4nYq6nrO1w/jJ4MT+y40YvPJCmb6PKUKky8CLGxb
+        ajV2ntVjV9pdfHvFiPP8ODLv2rD9RI2F23T4ZtGJ62ZkG8agpuQrxilc/VNg29gmPfAEXrK1r7UKrJ//
+        aAJZhlH8WGrBxgPX8zhZXFbsdsW9UEadHWmkc/UOZNx3sADRHYCL3kDaKPPBGNLvOXCOpNLbsCv1QXjl
+        xkMfST/Sa5/s1xbFZz9EOsFn9HYoab09OQY2WYL3/dwMFYUrJREcn/MYHycWFRIbLQVERr/1Tszar3V8
+        XHozlDUjFGJDDl3pYpMTF5qdVI/idK0Nisrn2J3ZQnDpfeJiJJYTw5BCopbFLH9TFl9csuG7qpBc3Ybj
+        N6xIrR0hcATJf1ixl3rrD1UGVu3ITSH/GxIjSKy4iFchkaToFeuT163eXXBNlqDtlsl1Ikn4cE+pZVXc
+        5atvx36zhjzLSBESLITB/QMgLpTXht/PJgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BtnAddFraction.Text" xml:space="preserve">
+    <value>Adding fractions</value>
+  </data>
+  <data name="BankLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 20</value>
+  </data>
+  <data name="saleNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1134, 20</value>
+  </data>
+  <data name="NotesTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 34</value>
+  </data>
+  <data name="spinEditMonyFinal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="textEditPaidCreditCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 20</value>
+  </data>
+  <data name="textEditPaidCash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 20</value>
+  </data>
+  <data name="btnAddProduct.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAbdEVYdFRpdGxlAEFkZDtQbHVzO0JhcnM7UmliYm9u
+        O5UGMy8AAABgSURBVDhP3YxRCoAwDEN3QS/lqbxdtNKUTDJEHAh+vNGl6WsAXmFDsqwbkphtx4bkR4Kc
+        bceGRAUjzofFp0wVFPEnWrzk1e0CJfMS6I7ME4w4Sp1Ad8SGhII4/kZwD9oOmV+r+RzWkL4AAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="btnAddProduct.Text" xml:space="preserve">
+    <value>Add a new class (F9)</value>
+  </data>
+  <data name="supRefNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="UserLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="checkEditPrdLastPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="supDescTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 58</value>
+  </data>
+  <data name="txtdisCpon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="repNameTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="radioGroup1.Properties.Items1" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="radioGroup1.Properties.Items3" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="radioGroup1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 34</value>
+  </data>
+  <data name="textEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="ItemForCounter.Text" xml:space="preserve">
+    <value>counter number</value>
+  </data>
+  <data name="ItemForCarType.Text" xml:space="preserve">
+    <value>Vehicle Type</value>
+  </data>
+  <data name="ItemForPlateNumber.Text" xml:space="preserve">
+    <value>Plate Number</value>
+  </data>
+  <data name="layoutControlCarData.Text" xml:space="preserve">
+    <value>vehicle data</value>
+  </data>
+  <data name="ItemForsupCur.Text" xml:space="preserve">
+    <value>currency :</value>
+  </data>
+  <data name="ItemForCurrencyChng.Text" xml:space="preserve">
+    <value>exchange rate :</value>
+  </data>
+  <data name="ItemForStore.Text" xml:space="preserve">
+    <value>store:</value>
+  </data>
+  <data name="ItemForDate.Text" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="ItemForIsCash.Text" xml:space="preserve">
+    <value>Invoice type:</value>
+  </data>
+  <data name="ItemForsupNo.Text" xml:space="preserve">
+    <value>invoice number:</value>
+  </data>
+  <data name="ItemFornotDate.Text" xml:space="preserve">
+    <value>due date:</value>
+  </data>
+  <data name="ItemForsupCustNo.Text" xml:space="preserve">
+    <value>Client :</value>
+  </data>
+  <data name="ItemForBoxNo.Text" xml:space="preserve">
+    <value>box:</value>
+  </data>
+  <data name="ItemForSalesNo.Text" xml:space="preserve">
+    <value>Sales invoice:</value>
+  </data>
+  <data name="ItemForsupRefNo.Text" xml:space="preserve">
+    <value>reference number:</value>
+  </data>
+  <data name="ItemForUser.Text" xml:space="preserve">
+    <value>user:</value>
+  </data>
+  <data name="ItemForPoNumber.Text" xml:space="preserve">
+    <value>Purchase order number:</value>
+  </data>
+  <data name="ItemForTax.Text" xml:space="preserve">
+    <value>Add the tax value</value>
+  </data>
+  <data name="ItemForsupDesc.Text" xml:space="preserve">
+    <value>name :</value>
+  </data>
+  <data name="ItemForPrdLastPrice.Text" xml:space="preserve">
+    <value>The last purchase price of the item</value>
+  </data>
+  <data name="ItemForRoundTotal.Text" xml:space="preserve">
+    <value>Round off the final total</value>
+  </data>
+  <data name="ItemForNotes.Text" xml:space="preserve">
+    <value>Notes :</value>
+  </data>
+  <data name="ItemForrepName.Text" xml:space="preserve">
+    <value>delegate</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>Representative commission(</value>
+  </data>
+  <data name="layoutControlItem20.Text" xml:space="preserve">
+    <value>Actual value of the invoice</value>
+  </data>
+  <data name="layoutControlGroupMain.Text" xml:space="preserve">
+    <value>Main data</value>
+  </data>
+  <data name="ItemForBarcodeText.Text" xml:space="preserve">
+    <value>barcode number:</value>
+  </data>
+  <data name="simpleLabelItem1.Text" xml:space="preserve">
+    <value>Categories search: Ctrl + F</value>
+  </data>
+  <data name="layoutControlGroup10.Text" xml:space="preserve">
+    <value>Invoice items</value>
+  </data>
+  <data name="itemForsupDscntPercent.Text" xml:space="preserve">
+    <value>discount percentage :</value>
+  </data>
+  <data name="ItemForAmountFainal.Text" xml:space="preserve">
+    <value>Final amount:</value>
+  </data>
+  <data name="layoutCponName.Text" xml:space="preserve">
+    <value>discount coupon:</value>
+  </data>
+  <data name="layoutControlGroupDiscount.Text" xml:space="preserve">
+    <value>Discount data</value>
+  </data>
+  <data name="labelTotalPriceString.Text" xml:space="preserve">
+    <value>total price</value>
+  </data>
+  <data name="labelTotalString.Text" xml:space="preserve">
+    <value>Total after discount</value>
+  </data>
+  <data name="labelDiscountString.Text" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="labelTotalTaxString.Text" xml:space="preserve">
+    <value>Total tax</value>
+  </data>
+  <data name="ItemForTotalFinal.Text" xml:space="preserve">
+    <value>final total</value>
+  </data>
+  <data name="ItemForTotalRemain.Text" xml:space="preserve">
+    <value>total remaining</value>
+  </data>
+  <data name="ItemForTotalPaid.Text" xml:space="preserve">
+    <value>total paid</value>
+  </data>
+  <data name="layoutControlGroupTotal.Text" xml:space="preserve">
+    <value>totals</value>
+  </data>
+  <data name="itemForPaidCreditCard.Text" xml:space="preserve">
+    <value>Paid card:</value>
+  </data>
+  <data name="itemForPaidCash.Text" xml:space="preserve">
+    <value>Paid in cash:</value>
+  </data>
+  <data name="ItemForBankId.Text" xml:space="preserve">
+    <value>the bank:</value>
+  </data>
+  <data name="layoutControlGroupPayCard.Text" xml:space="preserve">
+    <value>payment data</value>
+  </data>
+</root>

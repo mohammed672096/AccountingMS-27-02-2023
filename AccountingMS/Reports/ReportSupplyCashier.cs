@@ -1,0 +1,249 @@
+﻿using AccountingMS.Classes;
+using DevExpress.XtraLayout.Resizing;
+using DevExpress.XtraReports.UI;
+using Microsoft.SqlServer.Management.Smo;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Threading;
+using System.Windows.Media.Animation;
+
+
+namespace AccountingMS
+{
+    public partial class ReportSupplyCashier : XtraReport
+    {
+        private string currencySign;
+        private string columnPrice;
+        private string barcodeText = null;
+        tblSupplyMain tbSupplyMain1;
+        public ReportSupplyCashier(tblSupplyMain tbSupplyMain, IEnumerable<tblSupplySub> tbSupplySubList)
+        {
+            SetLanguage();
+            InitializeComponent();
+            tbSupplyMain1 = tbSupplyMain;
+            this.DefaultPrinterSettingsUsing.UseMargins = false;
+            SetRTL();
+            InitBranchData();
+            InitBinding(tbSupplyMain.supStatus);
+            InitText(tbSupplyMain.supStatus, Convert.ToByte(tbSupplyMain.supIsCash));
+            InitData(tbSupplyMain, tbSupplySubList);
+            InitText(tbSupplyMain.supStatus);
+            InitCustomerData(tbSupplyMain);
+            InitBarCodeText(tbSupplyMain);
+            //InitQRCode();
+
+            xrtcTotalRow.BeforePrint += XrtcTotalRow_BeforePrint;
+        }
+
+        private void InitText(byte supStatus)
+        {
+            lblWelcomeMessage.Text = MySetting.DefaultSetting.WelcomeMessage;
+
+            this.columnPrice = supStatus % 4 == 0 || supStatus == 11 ? "supSalePrice" : "supPrice";
+        }
+
+        private void XrtcTotalRow_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            double price = Convert.ToDouble(DetailReport.GetCurrentColumnValue(this.columnPrice));
+            double tax = Convert.ToDouble(DetailReport.GetCurrentColumnValue("supTaxPrice"));
+            double quantity = Convert.ToDouble(DetailReport.GetCurrentColumnValue("supQuanMain"));
+            double dis = Convert.ToDouble(DetailReport.GetCurrentColumnValue("supDscntAmount"));
+            cell.Text = $"{(price * quantity) + tax:n2}";
+            //cell.Text = $"{(price * quantity) - dis + tax:n2}";
+        }
+        //private void XrtcTotalRow_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        //{
+        //    XRTableCell cell = sender as XRTableCell;
+        //    double price = Convert.ToDouble(DetailReport.GetCurrentColumnValue(this.columnPrice));
+        //    double tax = Convert.ToDouble(DetailReport.GetCurrentColumnValue("supTaxPrice"));
+        //    double quantity = Convert.ToDouble(DetailReport.GetCurrentColumnValue("supQuanMain"));
+        //    //double dis = Convert.ToDouble(DetailReport.GetCurrentColumnValue("supDscntAmount"));
+        //    cell.Text = $"{(price * quantity) + tax:n2}";
+        //}
+
+        private void InitText(byte supStatus, byte supIsCash)
+        {
+            if (supStatus == 3 || supStatus == 7)
+                xrtcHeader.Text = (!MySetting.GetPrivateSetting.LangEng) ? "فاتورة مشتريات" : "Purchase Invoice";
+            else if (supStatus == 4 || supStatus == 8)
+                xrtcHeader.Text = (!MySetting.GetPrivateSetting.LangEng) ? "فاتورة ضريبة مبسطه" : "Simplified Invoice";
+            else if (supStatus == 9 || supStatus == 10)
+                xrtcHeader.Text = (!MySetting.GetPrivateSetting.LangEng) ? "فاتورة مردود مشتريات" : "Purchase Return Invoice";
+            else if (supStatus == 11 || supStatus == 12)
+                xrtcHeader.Text = (!MySetting.GetPrivateSetting.LangEng) ? "فاتورة مردود مبيعات" : "Sale Return Invoice";
+
+            //xrtcHeader.Text += (!MySetting.GetPrivateSetting.LangEng) ? ((supIsCash == 1) ? " نقدا" : " اجل") : ((supIsCash == 1) ? " Cash" : " Credit");
+        }
+
+        private void InitBinding(byte supStatus)
+        {
+            //if (supStatus == 4 || supStatus == 8 || supStatus == 9 || supStatus == 10)
+            //{
+            //    xrtcTotalRow.ExpressionBindings.Clear();
+            //    xrtcTotalRow.ExpressionBindings.Add(new ExpressionBinding("BeforePrint", "Text", "([supSalePrice]*[supQuanMain])+supTaxPrice"));
+            //}
+            if (supStatus == 4 || supStatus == 8 || supStatus == 11 || supStatus == 12)
+            {
+                xrtcPrice.ExpressionBindings.Clear();
+                xrtcPrice.ExpressionBindings.Add(new ExpressionBinding("BeforePrint", "Text", "[supSalePrice]"));
+            }
+        }
+
+        private void InitData(tblSupplyMain tbSupplyMain, IEnumerable<tblSupplySub> tbSupplySubList)
+        {
+            tblSupplyMainBindingSource.DataSource = tbSupplyMain;
+            tblSupplySubBindingSource.DataSource = tbSupplySubList;
+
+            this.currencySign = new ClsTblCurrency().GetCurrencySignById(Convert.ToByte(tbSupplyMain.supCurrency));
+            xrTableCell27.Text = "اجمالي الضريبه/Tax (15%)";
+
+            //double total = (tbSupplyMain.supTotal + Convert.ToDouble(tbSupplyMain.supTaxPrice));
+            double total = (tbSupplyMain.supTotal + Convert.ToDouble(tbSupplyMain.supTaxPrice)) - Convert.ToDouble(tbSupplyMain.supDscntAmount);
+            xrtcAmount.Text = $"{total:n2}{this.currencySign}";
+            //[supTotal]+[supTaxPrice] +[supDscntAmount]
+            //xrtcTotal.Text = $"{Convert.ToDouble(tbSupplyMain.supTotal)+ Convert.ToDouble(tbSupplyMain.supTaxPrice) + Convert.ToDouble(tbSupplyMain.supDscntAmount):n2}";
+            xrtcTotal.Text = $"{tbSupplyMain.supTotal:n2}";
+            xrtcTotalTax.Text = $"{tbSupplyMain.supTaxPrice:n2}";
+            xrtcTotalDiscount.Text = $"{Convert.ToDouble(tbSupplyMain.supDscntAmount):n2}";
+            double totalAfterDiscount = Convert.ToDouble(xrtcTotal.Text) - Convert.ToDouble(xrtcTotalDiscount.Text);
+            xrTableCell20.Text = $"{totalAfterDiscount:n2}";
+            double pay= ((tbSupplyMain.supBankAmount as double?) ?? 0) + Convert.ToDouble((tbSupplyMain.paidCash as double?) ?? 0);
+            xrtcTotalFinal.Text = $"{total:n2}";
+            if (tbSupplyMain.supIsCash==1)
+            {
+                xrtcMonyPay.Text = xrtcTotalFinal.Text;
+                xrtcMonyRemain.Text ="0";
+            }
+            else if (tbSupplyMain.supIsCash == 2)
+            {
+                xrtcMonyPay.Text = (pay).ToString();
+                xrtcMonyRemain.Text = (total-pay).ToString();
+            }
+        }
+
+        private void xrTableCell16_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = new ClsTblUser().GetUserNameById(Convert.ToInt16(cell.Value));
+        }
+
+        private void InitBranchData()
+        {
+           xrLabelBranchName.Text = (!MySetting.GetPrivateSetting.LangEng) ? Session.CurBranch.brnName : Session.CurBranch.brnNameEn;
+            if (MySetting.GetPrivateSetting.LangEng) xrLabelBranchName.Text += $"\n{Session.CurBranch.brnName}";
+
+            xrLabelBranchAddress.Text += (!MySetting.GetPrivateSetting.LangEng) ? Session.CurBranch.brnAddress : Session.CurBranch.brnAddressEn;
+            if (MySetting.GetPrivateSetting.LangEng) xrLabelBranchAddress.Text += $"\n{Session.CurBranch.brnAddress}";
+
+            xrLabelBranchPhnNo1.Text += Session.CurBranch.brnPhnNo;
+            xrTableTaxNo.Text += Session.CurBranch.brnTaxNo;
+            xrTableTradNo.Text += Session.CurBranch.brnTradeNo;
+            xrTableAddress.Text += Session.CurBranch.brnAddress;
+            //this.barcodeText = $"{tbBranch?.brnName}\n{tbBranch?.brnAddress}\n";
+            this.barcodeText = $"{Session.CurBranch?.brnName}\n";
+            this.barcodeText += $"{Session.CurBranch?.brnAddress}\n";
+            this.barcodeText += $"الرقم الضريبي {Session.CurBranch?.brnTaxNo}\n";
+
+            LoadImage();
+        }
+
+        private void LoadImage()
+        {xrPictureBoxBranch.Image = new ClsTblBranchImg().GetBitmapLogImage();
+        }
+
+        private void InitCustomerData(tblSupplyMain tbSupplyMain)
+        {
+            InitCustomerData(tbSupplyMain.supCustSplId);
+        }
+
+        private void InitCustomerData(int? custId)
+        {
+            if (custId == null || Convert.ToInt32(custId) == 0) return;
+
+            SetCustomerData(custId);
+        }
+
+        private void SetCustomerData(int? custId)
+        {
+            var tbCustomer = new ClsTblCustomer().GetCustomerObjById(Convert.ToInt32(custId));
+            if (tbCustomer == null) return;
+
+            xrlCustName.Text += $"{tbCustomer?.custName}";
+            xrlCustTaxNo.Text += $"{tbCustomer?.custTaxNo}";
+            if (Convert.ToInt64(tbCustomer.custTaxNo == "" ? null : tbCustomer.custTaxNo) != 0 & (tbSupplyMain1.supStatus == 4 || tbSupplyMain1.supStatus == 8))
+                xrtcHeader.Text = (!MySetting.GetPrivateSetting.LangEng) ? "فاتورة ضريبية" : "Tax Invoice";
+            //this.barcodeText += $"إسم العميل: {tbCustomer?.custName}\n";
+            //if (!string.IsNullOrWhiteSpace(tbCustomer?.custTaxNo))
+            //    this.barcodeText += $"الرقم الضريبي: {tbCustomer?.custTaxNo}\n";
+
+            InitCustomerBand();
+        }
+
+        private void InitCustomerBand()
+        {
+            DetailReportCustomer.Visible = true;
+        }
+
+        private void InitQRCode()
+        {
+            xrBarCode.InitQRCode(this.barcodeText);
+        }
+
+        private void InitBarCodeText(tblSupplyMain tbSupplyMain)
+        {
+            //this.barcodeText += $"{tbSupplyMain.supDate:yyyy-M-d h:m tt}\n";
+            //this.barcodeText += $"رقم الفاتورة: {tbSupplyMain.supNo}\n";
+            //this.barcodeText += $"المبلغ: {tbSupplyMain.supTotal:n2}\n";
+            //if (Convert.ToDouble(tbSupplyMain.supDscntAmount) > 0)
+            //    this.barcodeText += $"الخصم: {tbSupplyMain.supDscntAmount:n2}\n";
+            //this.barcodeText += $"الضريبة: {tbSupplyMain.supTaxPrice:n2}\n";
+
+            //double total = (tbSupplyMain.supTotal + Convert.ToDouble(tbSupplyMain.supTaxPrice))
+            //    - Convert.ToDouble(tbSupplyMain.supDscntAmount);
+            //this.barcodeText += $"الإجمالي: {total:n2}";
+            using var db = new accountingEntities();
+            var tbBranch = db.tblBranches.AsQueryable().Where(x => x.brnId == Session.CurBranch.brnId).FirstOrDefault();
+            if (tbBranch == null) return;
+            String Seller = tbBranch.brnName;
+            String VatNo = tbBranch.brnTaxNo;
+            DateTime dTime =tbSupplyMain.supDate.Value;
+            double total = (tbSupplyMain.supTotal + Convert.ToDouble(tbSupplyMain.supTaxPrice))
+                - Convert.ToDouble(tbSupplyMain.supDscntAmount);
+            Double Total = Convert.ToDouble(total);
+            Double Tax = Convert.ToDouble(tbSupplyMain.supTaxPrice);
+
+            TLVCls tlv = new TLVCls(Seller, VatNo, dTime, Total, Tax);
+            xrBarCode.Text = tlv.ToBase64();
+            this.barcodeText = tlv.ToBase64();
+        }
+
+        private void SetLanguage()
+        {
+            if (!MySetting.GetPrivateSetting.LangEng)
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo("ar");
+            else
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
+        }
+
+        private void SetRTL()
+        {
+            if (!MySetting.GetPrivateSetting.LangEng) return;
+
+            this.RightToLeft = RightToLeft.No;
+            this.RightToLeftLayout = RightToLeftLayout.No;
+        }
+
+        private void xrTableCell6_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            string prdNameEn = Session.Products.AsQueryable().FirstOrDefault(x => x.id == Convert.ToInt32(DetailReport.GetCurrentColumnValue("supPrdId")))?.prdNameEng;
+            if (!string.IsNullOrWhiteSpace(prdNameEn)&&MySetting.GetPrivateSetting.LangEng)
+                xrTableCell6.Text = prdNameEn;
+              
+        }
+    }
+}

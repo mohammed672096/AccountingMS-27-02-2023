@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonControl.ExpandCollapseItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonControl.ExpandCollapseItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonControl.ExpandCollapseItem.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbonControl.ExpandCollapseItem.SearchTags" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barButtonItemCalculateTax.Caption" xml:space="preserve">
+    <value>tax declaration</value>
+  </data>
+  <data name="barButtonItemCalculateTax.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItemCalculateTax.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="barButtonItemCalculateTax.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAANIEAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0i0KHQu9C+0LlfMSI+DQogIDxyZWN0IHg9IjQiIHk9IjQiIHdpZHRoPSIy
+        NCIgaGVpZ2h0PSIyOCIgZmlsbD0iI0ZGQjExNSIgY2xhc3M9IlllbGxvdyIgLz4NCiAgPHBhdGggZD0i
+        TTI0LDZWMmgtNGwtMC42LTAuNkMxOC41LDAuNSwxNy4zLDAsMTYsMHMtMi41LDAuNS0zLjQsMS40TDEy
+        LDJIOHY0SDZ2MjRoMjBWMTBWNkgyNHoiIGZpbGw9IiM3MjcyNzIiIGNsYXNzPSJCbGFjayIgLz4NCiAg
+        PHBvbHlsaW5lIHBvaW50cz0iMjQsMjggOCwyOCA4LDggMjAsOCAyNCw4IDI0LDEyICIgZmlsbD0iI0ZG
+        RkZGRiIgY2xhc3M9IldoaXRlIiAvPg0KICA8cmVjdCB4PSIxMCIgeT0iMTAiIHdpZHRoPSIyIiBoZWln
+        aHQ9IjIiIGZpbGw9IiNEMTFDMUMiIGNsYXNzPSJSZWQiIC8+DQogIDxyZWN0IHg9IjEwIiB5PSIxNCIg
+        d2lkdGg9IjIiIGhlaWdodD0iMiIgZmlsbD0iI0QxMUMxQyIgY2xhc3M9IlJlZCIgLz4NCiAgPHJlY3Qg
+        eD0iMTAiIHk9IjE4IiB3aWR0aD0iMiIgaGVpZ2h0PSIyIiBmaWxsPSIjRDExQzFDIiBjbGFzcz0iUmVk
+        IiAvPg0KICA8cmVjdCB4PSIxMCIgeT0iMjIiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiIGZpbGw9IiNEMTFD
+        MUMiIGNsYXNzPSJSZWQiIC8+DQogIDxnIG9wYWNpdHk9IjAuNiIgaWQ9ItCh0LvQvtC5XzIiIGNsYXNz
+        PSJzdDAiPg0KICAgIDxyZWN0IHg9IjE0IiB5PSIxMCIgd2lkdGg9IjgiIGhlaWdodD0iMiIgZmlsbD0i
+        IzcyNzI3MiIgb3BhY2l0eT0iMC42IiBjbGFzcz0iQmxhY2siIC8+DQogICAgPHJlY3QgeD0iMTQiIHk9
+        IjE0IiB3aWR0aD0iOCIgaGVpZ2h0PSIyIiBmaWxsPSIjNzI3MjcyIiBvcGFjaXR5PSIwLjYiIGNsYXNz
+        PSJCbGFjayIgLz4NCiAgICA8cmVjdCB4PSIxNCIgeT0iMTgiIHdpZHRoPSI4IiBoZWlnaHQ9IjIiIGZp
+        bGw9IiM3MjcyNzIiIG9wYWNpdHk9IjAuNiIgY2xhc3M9IkJsYWNrIiAvPg0KICAgIDxyZWN0IHg9IjE0
+        IiB5PSIyMiIgd2lkdGg9IjgiIGhlaWdodD0iMiIgZmlsbD0iIzcyNzI3MiIgb3BhY2l0eT0iMC42IiBj
+        bGFzcz0iQmxhY2siIC8+DQogIDwvZz4NCjwvc3ZnPgs=
+</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>whistle</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAK8BAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0i0KHQu9C+0LlfMiI+DQogIDxwb2x5Z29uIHBvaW50cz0iOCwyMiA2LDMw
+        IDI2LDMwIDI0LDIyICIgZmlsbD0iI0ZGQjExNSIgY2xhc3M9IlllbGxvdyIgLz4NCiAgPHBhdGggZD0i
+        TTIwLDE2aC0yVjRjMC0xLjEtMC45LTItMi0ycy0yLDAuOS0yLDJ2MTJoLTJjLTIuMiwwLTQsMS44LTQs
+        NGgxNkMyNCwxNy44LDIyLjIsMTYsMjAsMTZ6IiBmaWxsPSIjNzI3MjcyIiBjbGFzcz0iQmxhY2siIC8+
+        DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>Tax settings</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="barButtonItem2.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAArdEVYdFRpdGxlAFNldHVwO0N1c3RvbWl6O0Rlc2ln
+        bjtTZXR0aW5nO1Byb3BlcnQ4H7UhAAAAvklEQVQ4T62TMQ7DIAxFc4woysqSJcpBeqZIHXuUnqAX6p45
+        C/0P4ciDhwg6PAnbny9jYMg5hzyenySOSoo0cC0kGsXk4lXkyurykxgt9psRvsUmZvESZ4U1OWpo0BYT
+        72qFO6At3RaDaoJ7JI7YbJ83oEUTfMUulgprclafLwMFTJuBcU4T7CYwyLk6WvYkClwTSYZlgiUwoBOr
+        m/b4i0HfEZygbYjOoP0aleh7SAr6nrIzaftMERLd+M55+AHESXAXw39ssQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAArdEVYdFRpdGxlAFNldHVwO0N1c3RvbWl6O0Rlc2ln
+        bjtTZXR0aW5nO1Byb3BlcnQ4H7UhAAABzElEQVRYR8WWS07DQBBEswIkYAE3YkkkLgJHYMcJ+G7gEnwk
+        4AzAno9YorCEG5gqyx61O9WOnUnw4kXWTHV1xZ+ZGRVFMSjlz97RY192wQQUFbzmmNKG5ASwzW0IpQ3J
+        CeCb1yhtSFuAFXACXsE5WAV2XjUnVsMa1tLjGNDTzocBKLwG1vge0HAL7FdjCs5RQy1r7Bw9GyGiAKfA
+        FtY8gR83pqDm2Y3V0Dv1igK8A1W8CD5A6hUFuASqeBFcgdQrCrAGHoAyyIGejZc5CkAYInqO8/AC/JfU
+        GmAb/AJlRm7BDtio4PUdUFpCL3o2+rQFOADKiBwCVUM4p2oIPRt6G8Cv7RH8lw0TAe+OqrWUe4cN0KU5
+        4a32DT3UqFrPxAZQAsUm8A091KjaKZYVgC+lqp3CBhjiEXzbAGMOmMkIvmC+oafLS/gFxjaA598/Q8+s
+        hegG8FavV/C67Z/3Xoi4bHL5VGbzwGW981JM4TI2o/pQk3pFAQbfjj+BKl4E9E69ogDRkYzPMfdIdgZS
+        ryjArENp2yfKuexDKaGQx/I3cAH8G2yNLVbDGtbSo9exvAuqOVHakJwAau/gUq60ITkB/N5Rru1AaUNS
+        gOEoRn8K5LVvQjKRrgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barButtonItem3.Caption" xml:space="preserve">
+    <value>Save the statement</value>
+  </data>
+  <data name="barButtonItem3.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem3.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem4.Caption" xml:space="preserve">
+    <value>Print a tax return</value>
+  </data>
+  <data name="barButtonItem4.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem4.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonPageGroup1.Text" xml:space="preserve">
+    <value>Processes</value>
+  </data>
+  <data name="ribbonPageGroup2.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ribbonPage1.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="textEdit35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 740</value>
+  </data>
+  <data name="lookUpEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 55</value>
+  </data>
+  <data name="textEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1052, 55</value>
+  </data>
+  <data name="textEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 24</value>
+  </data>
+  <data name="textEdit3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 88</value>
+  </data>
+  <data name="textEdit3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 24</value>
+  </data>
+  <data name="textEditDateStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>969, 88</value>
+  </data>
+  <data name="textEditDateStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 24</value>
+  </data>
+  <data name="textEdit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 116</value>
+  </data>
+  <data name="textEditDateEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>949, 116</value>
+  </data>
+  <data name="textEditDateEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 24</value>
+  </data>
+  <data name="textEditDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 55</value>
+  </data>
+  <data name="textEditDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 85</value>
+  </data>
+  <data name="textEditSale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1000, 229</value>
+  </data>
+  <data name="textEditSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 24</value>
+  </data>
+  <data name="textEdit6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1000, 257</value>
+  </data>
+  <data name="textEdit6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 24</value>
+  </data>
+  <data name="textEdit7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1000, 285</value>
+  </data>
+  <data name="textEdit7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 24</value>
+  </data>
+  <data name="textEdit8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1000, 313</value>
+  </data>
+  <data name="textEdit8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 24</value>
+  </data>
+  <data name="textEdit9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1000, 341</value>
+  </data>
+  <data name="textEdit9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 24</value>
+  </data>
+  <data name="textEditSaleTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1000, 369</value>
+  </data>
+  <data name="textEditSaleTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 24</value>
+  </data>
+  <data name="textEditSaleRtrn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 229</value>
+  </data>
+  <data name="textEditSaleTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 229</value>
+  </data>
+  <data name="textEdit13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 257</value>
+  </data>
+  <data name="textEdit14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 285</value>
+  </data>
+  <data name="textEdit15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 313</value>
+  </data>
+  <data name="textEdit16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 341</value>
+  </data>
+  <data name="textEditSaleRtrnTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 369</value>
+  </data>
+  <data name="textEditSaleTaxTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 369</value>
+  </data>
+  <data name="textEditPurchase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>999, 457</value>
+  </data>
+  <data name="textEditPurchase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 24</value>
+  </data>
+  <data name="textEdit20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>999, 485</value>
+  </data>
+  <data name="textEdit20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 24</value>
+  </data>
+  <data name="textEdit21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>999, 513</value>
+  </data>
+  <data name="textEdit21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 24</value>
+  </data>
+  <data name="textEdit23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>999, 541</value>
+  </data>
+  <data name="textEdit23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 24</value>
+  </data>
+  <data name="textEdit22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>999, 569</value>
+  </data>
+  <data name="textEdit22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 24</value>
+  </data>
+  <data name="textEditPurchaseTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>999, 597</value>
+  </data>
+  <data name="textEditPurchaseTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 24</value>
+  </data>
+  <data name="textEditPurchaseRtrn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 457</value>
+  </data>
+  <data name="textEditPurchaseTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 457</value>
+  </data>
+  <data name="textEdit27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 485</value>
+  </data>
+  <data name="textEdit28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 485</value>
+  </data>
+  <data name="textEdit29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 513</value>
+  </data>
+  <data name="textEdit30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 513</value>
+  </data>
+  <data name="textEdit31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 541</value>
+  </data>
+  <data name="textEdit32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 569</value>
+  </data>
+  <data name="textEditPurchaseRtrnTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 597</value>
+  </data>
+  <data name="textEditPurchaseTaxTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 597</value>
+  </data>
+  <data name="textEditCurrentTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 684</value>
+  </data>
+  <data name="textEdit37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 712</value>
+  </data>
+  <data name="textEdit38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 768</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>1 - Sales subject to the basic rate</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>2 - Sales to citizens (private health services / private private education)</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>3 - Domestic sales subject to the zero-rate</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>4- Exports</value>
+  </data>
+  <data name="layoutControlItem11.Text" xml:space="preserve">
+    <value>5- Exempt sales</value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value>6 - Total sales</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>Value added tax on sales</value>
+  </data>
+  <data name="layoutControlItem21.Text" xml:space="preserve">
+    <value>7 - Purchases subject to the standard rate</value>
+  </data>
+  <data name="layoutControlItem22.Text" xml:space="preserve">
+    <value>8- Imports subject to VAT at the basic rate and paid at customs</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>9 - Imports subject to value-added tax to which the reverse charge mechanism is applied</value>
+  </data>
+  <data name="layoutControlItem25.Text" xml:space="preserve">
+    <value>10- Zero-rated purchases</value>
+  </data>
+  <data name="layoutControlItem24.Text" xml:space="preserve">
+    <value>11 - Exempt purchases</value>
+  </data>
+  <data name="layoutControlItem26.Text" xml:space="preserve">
+    <value>12 - Total purchases</value>
+  </data>
+  <data name="layoutControlGroup5.Text" xml:space="preserve">
+    <value>Value added tax on purchases</value>
+  </data>
+  <data name="simpleLabelItem4.Text" xml:space="preserve">
+    <value>13 - The total VAT due for the current tax period</value>
+  </data>
+  <data name="simpleLabelItem5.Text" xml:space="preserve">
+    <value>14 - Corrections from previous periods (between 50,000.00 riyals)</value>
+  </data>
+  <data name="simpleLabelItem6.Text" xml:space="preserve">
+    <value>15 - VAT carried over from the previous period(s).</value>
+  </data>
+  <data name="simpleLabelItem7.Text" xml:space="preserve">
+    <value>16 - Net tax due</value>
+  </data>
+  <data name="layoutControlGroup4.Text" xml:space="preserve">
+    <value>Total VAT</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>Declaration number</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value> currency</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>tie</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="ItemForBranch.Text" xml:space="preserve">
+    <value>branch</value>
+  </data>
+  <data name="layoutControlGroup6.Text" xml:space="preserve">
+    <value>Acknowledgment data</value>
+  </data>
+  <data name="simpleLabelItem1.Text" xml:space="preserve">
+    <value>The amount is without tax</value>
+  </data>
+  <data name="simpleLabelItem3.Text" xml:space="preserve">
+    <value>Value added tax</value>
+  </data>
+  <data name="simpleLabelItem2.Text" xml:space="preserve">
+    <value>Returns without tax</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+</root>

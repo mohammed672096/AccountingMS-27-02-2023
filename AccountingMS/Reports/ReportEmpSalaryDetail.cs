@@ -1,0 +1,86 @@
+﻿using DevExpress.XtraReports.UI;
+using System;
+
+namespace AccountingMS
+{
+    public partial class ReportEmpSalaryDetail : XtraReport
+    {
+        ClsTblEmployee clsTbEmployee = new ClsTblEmployee();
+        ClsTblCurrency clsTbCurrency = new ClsTblCurrency();
+        ClsTblEntrySub clsTbEntSub = new ClsTblEntrySub();
+
+        private int empId;
+        private DateTime dtStart, dtEnd;
+
+        public ReportEmpSalaryDetail()
+        {
+            InitializeComponent();
+            InitData();
+            InitDefaultData();
+
+            xrtcCurrency.BeforePrint += XrtcCurrency_BeforePrint;
+            this.ParametersRequestSubmit += ReportEmpSalaryDetail_ParametersRequestSubmit;
+        }
+
+        private void InitData()
+        {
+            tblEmployeeBindingSourceParameter.DataSource = this.clsTbEmployee.GetEmployeeList;
+        }
+
+        private void InitDefaultData()
+        {
+            new ClsReportHeaderData(this);
+            parameterDtStart.Value = DateTime.Now.Date;
+            parameterDtEnd.Value = Session.CurrentYear.fyDateEnd.Date;
+        }
+
+        private void ReportEmpSalaryDetail_ParametersRequestSubmit(object sender, DevExpress.XtraReports.Parameters.ParametersRequestEventArgs e)
+        {
+            this.empId = Convert.ToInt32(parameterEmployee.Value);
+            this.dtStart = Convert.ToDateTime(parameterDtStart.Value).Date;
+            this.dtEnd = ClsDateConverter.ConvertTime(parameterDtEnd.Value);
+
+            InitEmployeeData();
+            InitEntrySubData();
+            SetVisibiliy();
+        }
+
+        private void InitEmployeeData()
+        {
+            tblEmployeeBindingSource.DataSource = this.clsTbEmployee.GetEmployeeObjById(this.empId);
+        }
+
+        private void InitEntrySubData()
+        {
+            var tbEntrySubList = this.clsTbEntSub.GetEmpEntrySubDataByAccNoDtStartNdDtEndWhereEntMainIs2(this.clsTbEmployee.GetEmployeeAccNoById(this.empId), this.dtStart, this.dtEnd);
+            decimal total = 0;
+
+            foreach (var tbEntSub in tbEntrySubList)
+                if (tbEntSub.entStatus == 3 || tbEntSub.entStatus == 6)
+                {
+                    tbEntSub.entDebit = tbEntSub.entCredit;
+                    total -= Convert.ToDecimal(tbEntSub.entDebit);
+                }
+                else total += Convert.ToDecimal(tbEntSub.entDebit);
+
+            tblEntrySubBindingSource.DataSource = tbEntrySubList;
+            xrtcTotal.Text = $"{total:n2}";
+        }
+
+        private void SetVisibiliy()
+        {
+            DetailReport.Visible = (tblEmployeeBindingSource.Count > 0) ? true : false;
+        }
+
+        private void XrtcCurrency_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            ((XRTableCell)sender).Text = this.clsTbCurrency.GetCurrencyNameById(Convert.ToByte(((XRTableCell)sender).Value));
+        }
+
+        private void xrtcEntStatus_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = ClsEntryStatus.GetString(Convert.ToByte(cell.Value));
+        }
+    }
+}

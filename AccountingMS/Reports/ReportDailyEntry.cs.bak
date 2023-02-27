@@ -1,0 +1,191 @@
+﻿using DevExpress.XtraEditors;
+using DevExpress.XtraReports.Parameters;
+using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+
+namespace AccountingMS
+{
+    public partial class ReportDailyEntry : XtraReport
+    {
+        ClsTblAccount clsTbAccount = new ClsTblAccount();
+        //ClsTblBox clsTbBox = new ClsTblBox();
+        ClsTblEntryMain clsTbEntryMain = new ClsTblEntryMain();
+        ClsTblSupplyMain clsTbSupplyMain = new ClsTblSupplyMain();
+        ICollection<tblEntryMain> tbEntryMainList;
+        ICollection<tblSupplyMain> tbSupplyMainList;
+
+        private byte supCash;
+        private bool isDetail;
+        private DateTime dtStart, dtEnd;
+        private double totalEntryIn, totalEntryOut, totalSupplyIn, totalSupplyOut;
+
+        public ReportDailyEntry()
+        {
+            InitializeComponent();
+            InitDefaultData();
+
+            new ClsReportHeaderData(this);
+        }
+
+        private void InitDefaultData()
+        {
+            parameterDtStart.Value = DateTime.Now.Date;
+            parameterDtEnd.Value = Session.CurrentYear.fyDateEnd;
+            parameterCash.Value = (short)1;
+            xrtcDate.Text = (!MySetting.GetPrivateSetting.LangEng) ? string.Format($"{DateTime.Now:yyyy/MM/dd}") : string.Format($"{DateTime.Now:dd/MM/yyy}");
+        }
+
+        private void ReportDailyEntry_ParametersRequestBeforeShow(object sender, ParametersRequestEventArgs e)
+        {
+            foreach (var info in e.ParametersInformation)
+                if (info.Parameter.Name == parameterDtStart.Name || info.Parameter.Name == parameterDtEnd.Name) info.Editor = InitDateEdit();
+        }
+
+        private DateEdit InitDateEdit()
+        {
+            DateEdit dateEdit = new DateEdit();
+            dateEdit.Properties.Mask.EditMask = "yyyy/MM/dd h:mm tt";
+            dateEdit.Properties.Mask.UseMaskAsDisplayFormat = true;
+            dateEdit.Properties.CalendarTimeEditing = DevExpress.Utils.DefaultBoolean.True;
+            return dateEdit;
+        }
+
+        private void GetParametersValue()
+        {
+            this.dtStart = Convert.ToDateTime(parameterDtStart.Value);
+            this.dtEnd = Convert.ToDateTime(parameterDtEnd.Value);
+            this.supCash = Convert.ToByte(parameterCash.Value);
+            this.isDetail = Convert.ToBoolean(parameterIsDetail.Value);
+        }
+
+        private void ReportDailyEntry_ParametersRequestSubmit(object sender, ParametersRequestEventArgs e)
+        {
+            GetParametersValue();
+            InitData();
+            InitText();
+            InitBands();
+        }
+
+        private void InitData()
+        {
+            ResetData();
+            InitListObj();
+            InitEntryData();
+            InitSupplyData();
+        }
+
+        private void InitListObj()
+        {
+            this.tbEntryMainList = new Collection<tblEntryMain>();
+            this.tbSupplyMainList = new Collection<tblSupplyMain>();
+        }
+
+        private void ResetData()
+        {
+            this.totalEntryIn = 0; this.totalEntryOut = 0;
+            this.totalSupplyIn = 0; this.totalSupplyOut = 0;
+        }
+
+        private void InitEntryData()
+        {
+            var tbEntList = this.clsTbEntryMain.GetEntMainList().Where(x => x.entStatus != 1 && x.entStatus != 4
+                && x.entDate >= this.dtStart && x.entDate <= this.dtEnd).OrderBy(x => x.entDate).ToList();
+            foreach (var tbEntryMain in tbEntList)
+            {
+                var tbEntMain = tbEntryMain.ShallowCopy();
+                //tbEntMain.entAmount += Convert.ToDouble(tbEntMain.entTotalTax);
+
+                if (this.isDetail) this.tbEntryMainList.Add(tbEntMain);
+                if (tbEntMain.entStatus == 3 || tbEntMain.entStatus == 6) this.totalEntryIn += tbEntMain.entAmount;
+                else this.totalEntryOut += tbEntMain.entAmount;
+            }
+        }
+
+        private void InitSupplyData()
+        {
+            var tbSupplyMainList = this.clsTbSupplyMain.GetSupplyMainList.Where(x => x.supStatus != 15 && x.supStatus != 16 &&
+                x.supStatus != 17 && x.supStatus != 18 && x.supIsCash <= this.supCash && x.supDate >= this.dtStart && x.supDate <= this.dtEnd);
+            foreach (var tbSupplyMain in tbSupplyMainList)
+            {
+                var tbSupply = tbSupplyMain.ShallowCopy();
+                tbSupply.supTotal = (tbSupply.supTotal + Convert.ToDouble(tbSupply.supTaxPrice)) - Convert.ToDouble(tbSupply.supDscntAmount);
+
+                if (this.supCash == 1) tbSupply.supTotal -= Convert.ToDouble(tbSupply.supBankAmount);
+                if (tbSupply.supTotal == 0) continue;
+                if (this.isDetail) this.tbSupplyMainList.Add(tbSupply);
+                CalculateSupplyTotal(tbSupply.supStatus, tbSupply.supTotal);
+            }
+        }
+
+        private void CalculateSupplyTotal(byte supStatus, double supTotal)
+        {
+            SupplyType supplyType = (SupplyType)supStatus;
+
+            if (supplyType == SupplyType.Purchase || supplyType == SupplyType.PurchasePhase)
+                this.totalSupplyOut += supTotal;
+            else if (supplyType == SupplyType.PurchaseRtrn || supplyType == SupplyType.PurchasePhaseRtrn)
+                this.totalSupplyOut -= supTotal;
+            else if (supplyType == SupplyType.Sales || supplyType == SupplyType.SalesPhase)
+                this.totalSupplyIn += supTotal;
+            else if (supplyType == SupplyType.SalesRtrn || supplyType == SupplyType.SalesPhaseRtrn)
+                this.totalSupplyIn -= supTotal;
+        }
+
+        private void InitBands()
+        {
+            SetBandDataNdVisibilty(DetailBandEntry, this.tbEntryMainList);
+            SetBandDataNdVisibilty(DetailBandSupply, this.tbSupplyMainList);
+        }
+
+        private void SetBandDataNdVisibilty(DetailReportBand detailBand, dynamic tbList)
+        {
+            if (this.isDetail && tbList.Count > 0)
+            {
+                detailBand.Visible = true;
+                detailBand.DataSource = tbList;
+            }
+            else
+                detailBand.Visible = false;
+        }
+
+        private void InitText()
+        {
+            LookUpValueCollection lookUpValues = ((StaticListLookUpSettings)parameterCash.LookUpSettings).DataSource as LookUpValueCollection;
+            xrtcType.Text = lookUpValues.Where(x => Convert.ToByte(x.Value) == this.supCash).Select(x => x.Description).FirstOrDefault();
+
+            double totalIn = this.totalEntryIn + this.totalSupplyIn, totalOut = this.totalEntryOut + this.totalSupplyOut;
+            SetTotalText(totalIn, totalOut, xrtcAmountIn, xrtcAmountOut, xrtcRemaining);
+            SetTotalText(this.totalEntryIn, this.totalEntryOut, xrtcEntryAmountIn, xrtcEntryAmountOut, xrtcEntryRemaining);
+            SetTotalText(this.totalSupplyIn, this.totalSupplyOut, xrtcSupplyAmountIn, xrtcSupplyAmountOut, xrtcSupplyRemaining);
+        }
+
+        private void SetTotalText(double totalIn, double totalOut, XRTableCell xrtcIn, XRTableCell xrtcOut, XRTableCell xrtcRemaining)
+        {
+            xrtcIn.Text = $"{totalIn:n2}";
+            xrtcOut.Text = $"{totalOut:n2}";
+            xrtcRemaining.Text = $"{totalIn - totalOut:n2}";
+        }
+
+        private void XrtcEntryStatus_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = ClsEntryStatus.GetString(Convert.ToByte(cell.Value));
+        }
+
+        private void xrtcEntBoxNo_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = this.clsTbAccount.GetAccountNameByNo(Convert.ToInt64(cell.Value));
+            //cell.Text = this.clsTbBox.GetBoxNameByAccNo(Convert.ToInt64(cell.Value));
+        }
+
+        private void XrtcSupplyStatus_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = ClsSupplyStatus.GetString(Convert.ToByte(cell.Value), Convert.ToByte(DetailBandSupply.GetCurrentColumnValue("supIsCash")));
+        }
+    }
+}

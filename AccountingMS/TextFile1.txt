@@ -1,0 +1,169 @@
+﻿ if (isValid)
+            {
+                int supNo = Convert.ToInt32(supNoTextEdit.EditValue);
+
+                if (isNew && SaveGridToList())
+                {
+                    if (this.status == 1)
+                    {
+                        SaveMain(1);
+                        SaveSub(1);
+                        if (SaveDB())
+                        {
+                            _ucSupplyRcpt.RefreshListDialog("النوريد المخزني رقم: " + supNoTextEdit.Text, true);
+                            this.Close();
+                        }
+                    }
+                    else if (this.status == 3)
+                    {
+                        if (this.isCash == 1)
+                        {
+                            if (supply.IsSupFoundBox(supNo, this.accNo, 3, 7))
+                            {
+                                XtraMessageBox.Show(string.Format(_resource.GetString("purchaseErrMssg"), supNo));
+                                this.listSupSub.Clear();
+                                this.listQuant.Clear();
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            if (supply.IsSupFoundCredit(supNo, 3, 7))
+                            {
+                                XtraMessageBox.Show(string.Format(_resource.GetString("purchaseErrMssg"), supNo));
+                                this.listSupSub.Clear();
+                                this.listQuant.Clear();
+                                return;
+                            }
+                        }
+
+                        SaveMain(3);
+                        SaveSub(3);
+                        if (SaveDB() && clsPrdQuantity.AddPrdQuantity(this.listQuant))
+                        {
+                            this.listSupSub.Clear();
+                            this.listQuant.Clear();
+                            _ucPurchases.RefreshListDialog(string.Format(_resource.GetString("purchaseSuccessMssg"), supNo), true);
+                            this.Close();
+                            _ucPurchases.SetFoucesdRow(supNo);
+                        }
+                    }
+                    else if (this.status == 9)
+                    {
+                        if (this.isCash == 1)
+                        {
+                            if (supply.IsSupFoundBox(supNo, this.accNo, 9, 10))
+                            {
+                                XtraMessageBox.Show(string.Format(_resource.GetString("purchaseRtrnErrMssg"), supNo));
+                                this.listSupSub.Clear();
+                                this.listQuant.Clear();
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            if (supply.IsSupFoundCredit(supNo, 9, 10))
+                            {
+                                XtraMessageBox.Show(string.Format(_resource.GetString("purchaseRtrnErrMssg"), supNo));
+                                this.listSupSub.Clear();
+                                this.listQuant.Clear();
+                                return;
+                            }
+                        }
+                        SaveMain(9);
+                        SaveSub(9);
+                        if (clsPrdQuantity.DeductPrdQuantity(this.listQuant) && SaveDB())
+                        {
+                            this.listSupSub.Clear();
+                            this.listQuant.Clear();
+                            _ucPurchases.RefreshListDialog(string.Format(_resource.GetString("purchaseRtrnSuccessMssg"), supNo), true);
+                            this.Close();
+                            _ucPurchases.SetFoucesdRow(supNo);
+                        }
+                    }
+                }
+                else if (!this.isNew)
+                {
+                    if (this.status == 1)
+                    {
+                        if (SaveGridToList() && updSupSub.UpdateSupSub(this.listSupSub, 3) && UpdPrdQuant() && SaveDB())
+                        {
+                            this.listSupSub.Clear();
+                            this.listQuant.Clear();
+                            _ucSupplyRcpt.RefreshListDialog("التوريد المخزني رقم: " + supNoTextEdit.Text, false);
+                            this.Close();
+                        }
+                    }
+                    else if (this.status == 3)
+                    {
+                        if (this.isCash == 1)
+                        {
+                            if (supNo != this.supNo && supply.IsSupFoundBox(supNo, this.accNo, 3, 7))
+                            {
+                                XtraMessageBox.Show(string.Format(_resource.GetString("purchaseErrMssg"), supNo));
+                                supNoTextEdit.EditValue = this.supNo.ToString();
+                                return;
+                            }
+                        }
+                        else
+                        {
+                            if (supNo != this.supNo && supply.IsSupFoundCredit(supNo, 3, 7))
+                            {
+                                XtraMessageBox.Show(string.Format(_resource.GetString("purchaseErrMssg"), supNo));
+                                supNoTextEdit.EditValue = this.supNo.ToString();
+                                return;
+                            }
+                        }
+                        SaveMain(this.status);
+                        if (SaveGridToList() && updSupSub.UpdateSupSub(this.listSupSub, 3) && UpdPrdQuant() && SaveDB())
+                        {
+                            this.listSupSub.Clear();
+                            this.listQuant.Clear();
+                            _ucPurchases.RefreshListDialog(string.Format(_resource.GetString("purchaseSuccessMssg"), supNo), false);
+                            this.Close();
+                            _ucPurchases.SetFoucesdRow(supNo);
+                        }
+                    }
+                    else if (this.status == 9)
+                    {
+                        if (gridView.SelectedRowsCount < 1)
+                        {
+                            XtraMessageBox.Show(_resource.GetString("purchaseRtrnMarkErrMssg"));
+                            return;
+                        }
+                        else
+                        {
+                            if (this.isCash == 1)
+                            {
+                                if (supply.IsSupFoundBox(supNo, this.accNo, 9, 10))
+                                {
+                                    XtraMessageBox.Show(string.Format(_resource.GetString("purchaseRtrnErrMssg"), supNo));
+                                    return;
+                                }
+                            }
+                            else
+                            {
+                                if (supply.IsSupFoundCredit(supNo, 9, 10))
+                                {
+                                    XtraMessageBox.Show(string.Format(_resource.GetString("purchaseRtrnErrMssg"), supNo));
+                                    return;
+                                }
+                            }
+                            if (SaveGridToList())
+                            {
+                                SaveMain(9);
+                                SaveSub(9);
+                                if (supply.UpdatePrdQuant(RetrivedPrd(), true) && SaveDB())
+                                {
+                                    this.listSupSub.Clear();
+                                    this.listQuant.Clear();
+                                    _ucPurchases.RefreshListDialog(string.Format(_resource.GetString("purchaseRtrnSuccessMssg"), supNo), true);
+                                    this.Close();
+                                    _ucPurchases.SetFoucesdRow(supNo);
+                                }
+                            }
+                        }
+                    }
+                    this.listSupSub.Clear();
+                }
+            }

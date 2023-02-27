@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SubItem_ConvertTo.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACN0RVh0VGl0
+        bGUAQ29udmVydDtSZXBlYXQ7QXJyb3c7RXhjaGFuZ2V2I2jSAAADLklEQVQ4T3WTeyzVYRjHf665JpVL
+        p1rE0FSHCnXIyZG5JJNWyy2lo8vhhCjqCCmXgxhCTijXSclIiYNIpGz9QWJZQ2NM/qD+6ay2b+/bnJO1
+        9W6fvZfneb7vb8/39zJ03HzmxqS0uDE3mg8yyc2uTBKlyZWG1K43uiD+Ibc1JNXWmu4JSlfruTTGAPgz
+        M4mNLsw32Ru6VCIoE1QJNFkn7qEz3k5KkNbk8yO8xEFs684yWI4rKQTi653ppBx4g80Slu4VRD3gNFyq
+        5ExEVzn+jK7kYHKxHDNLLajquwhhmeOUf8rOAJKvphAgQzmswM4l/J5Dc5H0DNqHM/Fxtg6z39sxNF2N
+        kXkx+qfi0Pn5MjpGk3Ek1ZJWaskFlILS2ewICae7fuAaXo5mIa3uOILTd8MtxgSCYg6knwS4P3AIgiIb
+        2IcYzmw7rB9C6tTlAions9kZec8DUdsrRFDq7nmn85vy7AI3uK8z0dx0OMkC8TV74BRmLLPw1stbY6Ju
+        TIsJih6oBWTseF/+OhChOTbYx9+YSM40CCoELS+ROcw8dV8a2WruI3vaQH2CLo3LBdQPJZjLvERm8Lpm
+        ju0eBlvJmeYy9CYtgjbH96xlZEkfLt59Df+kZhk505ULUNvojdoEPe9zt3ZFFHRIoyRvaFSHQC3T8U+o
+        SktvGEJZ5xhMD8SM0FxFEwmqNrxjBnxxU/bVigFZw/tZCAp6YGRqbe4dnuNzQlQjiZX0LuS9GMXxxEfY
+        6BBWTGoULqgGJFb7C/K7vhRLx9E58R21HxYRW9qP0Cwposgni58M496rSZzKbIUZL3ZwrZU3/XFU5QIa
+        /NudePphAY/HllD47ity++dRPTiLtvFvKO+dQmxZH9wjK7DZUdi13vqoH60h/HWBF5ob4nvl0YywdBDi
+        7jmIe+bgEVkHtl/mr22eSdMm3EttLLvTotVbnCxJ/ipaTAtX9kCdZbV/A/dU/h2f+EZZVO0IeBdqaJQ6
+        Irftj7WNo0uMkV0EWa54TG4RtXSibmhZcfmOnODC3v38ChpdY8oTMZu5cQyLE8MY741kDO2FjOG/AisG
+        /Rr6CumNesvr/w4AzG/fQnRfIXokewAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="SubItem_Printbills.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABZ0RVh0VGl0
+        bGUAUHJpbnRMYXlvdXRWaWV3O4PdREwAAAM1SURBVDhPVZP9Txt1HMfvfzAx/uA/5K86dQ7rnM5EnahM
+        nIQly5gDCn2CUiilPI7CyOYYBZMlJktkm5vZNA7alVLKYNAn2l57d732+gB5+b0zmnjJJ3f55vt+uPf3
+        /ZUml36+H7y5RnBxjYnFVQILYQKhMOPzK/jnlxmbu8Po7E/4Zm7jnb6Fd2qJ4eASnolFPIGF+5IJbjRb
+        1OtNqrU6etVAq9RQNZ2yUkEuqxTkshgVpVJF1Q3xNiiLPW5/CMlUbjRaFrhrMSFmmx9CcS6J6byxJSbG
+        xdkXdMxEyebl/8AlrYbTfwPJtF0XBBW9ZoFbJyfUWyfo9WPUWgtZb3Kk1vlmOsJBOmeBywJc0qo4RudM
+        grCw37IsX1qIYzSO8azu/G9SskH75Cb7B1kLLKtViqrOgG8WKbCwgiH+v6RofC9sV4xjFL1FsdIgI9fY
+        P9JJZlQ+H/uDePIlBTMXAS4qOnbvNJJ//i6G0UQuKXTOb1GuNi1V98o254af8PHQE856HmNzPuJDxyPS
+        R0VBolMo6/QPT5kEy9QEQb5Q4uJcjLzaIC2UdzNlCyxXhButJXJo0jb4kNjOS16lcmQLCn1DQSTznKtG
+        g1yuSMdslFSxhmtqjc+6x7G5HlvArNLkUG5w2v6A09866fHeJPkqRa9nAsksiV4Tqtm8lfReTuP85QDm
+        Y3P+RpvjIWeEsgW2r1vr77cPEEvscd0dQDIbVqnWORS2vp7aJJ5S+LR7zNr45vlVLoc1upcV2ucyvHbm
+        Fg+eRnn3Qj+R7V1+dI0jjYh6aoIglT7iq+CGSPsZn3T9Q/B2/zpvnL3L67Y7Anybt678wvrTCKe+7GVj
+        a4drDj+S2W2znnJZE+ec4Xkkxrkun0WwL1ztirWdvTSx5AHRxD6//r7JO1/08mckTo9jFGlIXAyznopV
+        zyqHmTzOyTAfdXqxfTdEW4eLD0Rw77XbOXWhT6j30TMc4nkswdUBk0Dcqn/raTYsV1TYFQlvidJEE0k2
+        hdUNsfmvaFyoxni28UJ8b7OXzguCESR3IHTPPR6yLobZ7UHfjNUwsyR9Q5PWUV13BazArjn99AyOWcpX
+        B3xcsY/c+xvJRDliKSBA7QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="layoutControl1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_HideRawItemsInManfOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 324</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chk_HideRawItemsInManfOrder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="chk_HideRawItemsInManfOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 20</value>
+  </data>
+  <data name="chk_HideItemProfitInManfOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 348</value>
+  </data>
+  <data name="chk_HideItemProfitInManfOrder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="chk_HideItemProfitInManfOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 20</value>
+  </data>
+  <data name="chk_HideCostInManfOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 372</value>
+  </data>
+  <data name="chk_HideCostInManfOrder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="chk_HideCostInManfOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 20</value>
+  </data>
+  <data name="treeList1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 376</value>
+  </data>
+  <data name="treeList1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="repositoryItemCheckEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.XtraTreeList.v21.2" name="DevExpress.XtraTreeList.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="treeList1.ShowButtonMode" type="DevExpress.XtraTreeList.ShowButtonModeEnum, DevExpress.XtraTreeList.v21.2">
+    <value>ShowAlways</value>
+  </data>
+  <data name="treeList1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 326</value>
+  </data>
+  <data name="lkp_DefualtVendor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 348</value>
+  </data>
+  <data name="lkp_DefualtVendor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="lkp_DefualtVendor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 20</value>
+  </data>
+  <data name="radioGroup_SellingExpire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 501</value>
+  </data>
+  <data name="radioGroup_SellingExpire.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioGroup_SellingExpire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 23</value>
+  </data>
+  <data name="radioGroup_PrintingMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 396</value>
+  </data>
+  <data name="radioGroup_PrintingMode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioGroup_PrintingMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 25</value>
+  </data>
+  <data name="lkp_DefualtCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 348</value>
+  </data>
+  <data name="lkp_DefualtCustomer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="lkp_DefualtCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 20</value>
+  </data>
+  <data name="chk_PrintAfterSaving.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 425</value>
+  </data>
+  <data name="chk_PrintAfterSaving.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="chk_PrintAfterSaving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>642, 20</value>
+  </data>
+  <data name="chk_CanEditInClosedPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 411</value>
+  </data>
+  <data name="chk_CanEditInClosedPeriod.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="chk_CanEditInClosedPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>689, 20</value>
+  </data>
+  <data name="chk_CanChangeCashNoteDates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 387</value>
+  </data>
+  <data name="chk_CanChangeCashNoteDates.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="chk_CanChangeCashNoteDates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>689, 20</value>
+  </data>
+  <data name="checkEdit_SellWithCredit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 576</value>
+  </data>
+  <data name="checkEdit_SellWithCredit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkEdit_SellWithCredit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 20</value>
+  </data>
+  <data name="checkEdit_CanAddTotalDiscount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 528</value>
+  </data>
+  <data name="checkEdit_CanAddTotalDiscount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkEdit_CanAddTotalDiscount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 20</value>
+  </data>
+  <data name="chk_CanChangePrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 528</value>
+  </data>
+  <data name="chk_CanChangePrice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="chk_CanChangePrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 20</value>
+  </data>
+  <data name="checkEdit_HiedBuyPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 552</value>
+  </data>
+  <data name="checkEdit_HiedBuyPrice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkEdit_HiedBuyPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 20</value>
+  </data>
+  <data name="checkEdit_HideDiscount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 576</value>
+  </data>
+  <data name="checkEdit_HideDiscount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkEdit_HideDiscount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 20</value>
+  </data>
+  <data name="radioGroup_WhenSellingClintMaxCredit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 474</value>
+  </data>
+  <data name="radioGroup_WhenSellingClintMaxCredit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioGroup_WhenSellingClintMaxCredit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 23</value>
+  </data>
+  <data name="radioGroup_WhenSellingNoBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 447</value>
+  </data>
+  <data name="radioGroup_WhenSellingNoBalance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioGroup_WhenSellingNoBalance.Properties.Items1" xml:space="preserve">
+    <value>تحذير</value>
+  </data>
+  <data name="radioGroup_WhenSellingNoBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 23</value>
+  </data>
+  <data name="radioGroup_WhenTakingMinBalanceItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 444</value>
+  </data>
+  <data name="radioGroup_WhenTakingMinBalanceItem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioGroup_WhenTakingMinBalanceItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 46</value>
+  </data>
+  <data name="radioGroup_WhenSellingLessThanBuy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 420</value>
+  </data>
+  <data name="radioGroup_WhenSellingLessThanBuy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioGroup_WhenSellingLessThanBuy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 23</value>
+  </data>
+  <data name="checkEdit_ShowItemBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 552</value>
+  </data>
+  <data name="checkEdit_ShowItemBalance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkEdit_ShowItemBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 20</value>
+  </data>
+  <data name="lkp_DefualtRawStore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 372</value>
+  </data>
+  <data name="lkp_DefualtRawStore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="lkp_DefualtRawStore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 20</value>
+  </data>
+  <data name="lkp_DefualtStore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 348</value>
+  </data>
+  <data name="lkp_DefualtStore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="lkp_DefualtStore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 20</value>
+  </data>
+  <data name="lkp_DefualtDrawer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 324</value>
+  </data>
+  <data name="lkp_DefualtDrawer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="lkp_DefualtDrawer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 20</value>
+  </data>
+  <data name="chk_CanChangeCostCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 363</value>
+  </data>
+  <data name="chk_CanChangeCostCenter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="chk_CanChangeCostCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 20</value>
+  </data>
+  <data name="tlkp_CostCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 363</value>
+  </data>
+  <data name="tlkp_CostCenter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="tlkp_CostCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 20</value>
+  </data>
+  <data name="chk_CanChangeDrawer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 324</value>
+  </data>
+  <data name="chk_CanChangeDrawer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="chk_CanChangeDrawer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 20</value>
+  </data>
+  <data name="chk_CanChangeDefualtStore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 348</value>
+  </data>
+  <data name="chk_CanChangeDefualtStore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="chk_CanChangeDefualtStore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 20</value>
+  </data>
+  <data name="tlkp_MandetoryCustomerGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 324</value>
+  </data>
+  <data name="tlkp_MandetoryCustomerGroup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="tlkp_MandetoryCustomerGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 20</value>
+  </data>
+  <data name="timeEdit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 253</value>
+  </data>
+  <data name="timeEdit2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="timeEdit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 20</value>
+  </data>
+  <data name="bar_AccountSecracy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="bar_AccountSecracy.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bar_AccountSecracy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bar_AccountSecracy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 324</value>
+  </data>
+  <data name="bar_AccountSecracy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="trackBarLabel1.Label" xml:space="preserve">
+    <value>اعلي</value>
+  </data>
+  <data name="trackBarLabel2.Label" xml:space="preserve">
+    <value>تاسع</value>
+  </data>
+  <data name="trackBarLabel3.Label" xml:space="preserve">
+    <value>ثامن</value>
+  </data>
+  <data name="trackBarLabel4.Label" xml:space="preserve">
+    <value>سابع</value>
+  </data>
+  <data name="trackBarLabel5.Label" xml:space="preserve">
+    <value>سادس</value>
+  </data>
+  <data name="trackBarLabel6.Label" xml:space="preserve">
+    <value>متوسط</value>
+  </data>
+  <data name="trackBarLabel10.Label" xml:space="preserve">
+    <value>اقل</value>
+  </data>
+  <data name="bar_AccountSecracy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 35</value>
+  </data>
+  <data name="memoEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 70</value>
+  </data>
+  <data name="memoEdit1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="memoEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 200</value>
+  </data>
+  <data name="radioGroup_Access.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 142</value>
+  </data>
+  <data name="radioGroup_Access.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioGroup_Access.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 25</value>
+  </data>
+  <data name="timeEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 229</value>
+  </data>
+  <data name="timeEdit1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="timeEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 20</value>
+  </data>
+  <data name="radioGroup_AccessByTimeType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 200</value>
+  </data>
+  <data name="radioGroup_AccessByTimeType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioGroup_AccessByTimeType.Properties.Items2" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioGroup_AccessByTimeType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 25</value>
+  </data>
+  <data name="radioGroup_AccessByTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 171</value>
+  </data>
+  <data name="radioGroup_AccessByTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioGroup_AccessByTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 25</value>
+  </data>
+  <data name="txt_Password.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 94</value>
+  </data>
+  <data name="txt_Password.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txt_Password.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 20</value>
+  </data>
+  <data name="txt_UserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 70</value>
+  </data>
+  <data name="txt_UserName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txt_UserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 20</value>
+  </data>
+  <data name="txt_ID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 46</value>
+  </data>
+  <data name="txt_ID.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="txt_ID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 20</value>
+  </data>
+  <data name="radioGroup_WhenAddingMaxBalanceItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 372</value>
+  </data>
+  <data name="radioGroup_WhenAddingMaxBalanceItem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioGroup_WhenAddingMaxBalanceItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 68</value>
+  </data>
+  <data name="chkbtn_Show.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 324</value>
+  </data>
+  <data name="chkbtn_Show.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkbtn_Show.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="chkbtn_Edit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 324</value>
+  </data>
+  <data name="chkbtn_Edit.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkbtn_Edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 48</value>
+  </data>
+  <data name="chkbtn_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 324</value>
+  </data>
+  <data name="chkbtn_add.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkbtn_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="chkbtn_Open.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 324</value>
+  </data>
+  <data name="chkbtn_Open.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkbtn_Open.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 48</value>
+  </data>
+  <data name="chkbtn_Delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 324</value>
+  </data>
+  <data name="chkbtn_Delete.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkbtn_Delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="chkbtn_Delete.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="chkbtn_Print.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 324</value>
+  </data>
+  <data name="chkbtn_Print.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkbtn_Print.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 48</value>
+  </data>
+  <data name="simpleButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 324</value>
+  </data>
+  <data name="simpleButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 22</value>
+  </data>
+  <data name="simpleButton7.Text" xml:space="preserve">
+    <value>اختيار الكل</value>
+  </data>
+  <data name="lkp_Employee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 118</value>
+  </data>
+  <data name="lkp_Employee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 20</value>
+  </data>
+  <data name="lkp_DefaultSalesRepresentative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 372</value>
+  </data>
+  <data name="lkp_DefaultSalesRepresentative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 20</value>
+  </data>
+  <data name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 350</value>
+  </data>
+  <data name="simpleButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 22</value>
+  </data>
+  <data name="simpleButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="simpleButton1.Text" xml:space="preserve">
+    <value>تحديد كل الصلاحيات</value>
+  </data>
+  <data name="CheckEdit_CanApproveVacation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 324</value>
+  </data>
+  <data name="CheckEdit_CanApproveVacation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 20</value>
+  </data>
+  <data name="CheckEdit_MustSelectVacationRequstInVacation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 348</value>
+  </data>
+  <data name="CheckEdit_MustSelectVacationRequstInVacation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 20</value>
+  </data>
+  <data name="ComboBoxEdit_SalesInvoiceSececyLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 396</value>
+  </data>
+  <data name="ComboBoxEdit_SalesInvoiceSececyLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 20</value>
+  </data>
+  <data name="CheckEdit_CanApproveSalesInvoices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 600</value>
+  </data>
+  <data name="CheckEdit_CanApproveSalesInvoices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 20</value>
+  </data>
+  <data name="CheckEdit_CanPayFromSalesInvoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 672</value>
+  </data>
+  <data name="CheckEdit_CanPayFromSalesInvoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 20</value>
+  </data>
+  <data name="CheckEdit_CanChangeSalesRepresentative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 624</value>
+  </data>
+  <data name="CheckEdit_CanChangeSalesRepresentative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 20</value>
+  </data>
+  <data name="CheckEdit_CanPrintNotPaidSalesInvoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 648</value>
+  </data>
+  <data name="CheckEdit_CanPrintNotPaidSalesInvoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 20</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 324</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v21.2" name="DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Properties.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ComboBoxEdit_PurchaseInvoiceSececyLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 20</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>كود المستخدم</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>كلمه السر</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>نوع الدخول</value>
+  </data>
+  <data name="ci_AccessTime.Text" xml:space="preserve">
+    <value>تحديد الدخول</value>
+  </data>
+  <data name="ci_AccessByTimeType.Text" xml:space="preserve">
+    <value>تحديد التوقيت </value>
+  </data>
+  <data name="ci_FromTime.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="layoutControlItem44.Text" xml:space="preserve">
+    <value>الموظف</value>
+  </data>
+  <data name="layoutControlGroup7.Text" xml:space="preserve">
+    <value>الملاحظات</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>بيانات الدخول</value>
+  </data>
+  <data name="layoutControlItem43.Text" xml:space="preserve">
+    <value>تحديد الكل</value>
+  </data>
+  <data name="layoutControlItem11.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="layoutControlGroup6.Text" xml:space="preserve">
+    <value>صلاحيه الشاشات </value>
+  </data>
+  <data name="layoutControlItem19.Text" xml:space="preserve">
+    <value>مخزن الخامات الافتراضي</value>
+  </data>
+  <data name="layoutControlItem18.Text" xml:space="preserve">
+    <value>المخرن الافتراضي</value>
+  </data>
+  <data name="layoutControlItem17.Text" xml:space="preserve">
+    <value>الخزينه الافتراضيه</value>
+  </data>
+  <data name="layoutControlItem36.Text" xml:space="preserve">
+    <value>عند الطباعه</value>
+  </data>
+  <data name="layoutControlItem34.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="layoutControlItem34.Text" xml:space="preserve">
+    <value>الطباعه بعد حفظ المستندات</value>
+  </data>
+  <data name="layoutControlGroup5.Text" xml:space="preserve">
+    <value>اعدادات عامه </value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>مستوي سريه الحسابات</value>
+  </data>
+  <data name="layoutControlItem15.Text" xml:space="preserve">
+    <value>مركذ التكلفه</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>اعدادات الحسابات</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>فئه العملاء</value>
+  </data>
+  <data name="layoutControlItem21.Text" xml:space="preserve">
+    <value>عند البيع بسعر اقل من سعر الشراء</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>عند صرف صنف لا يوجد له رصيد بالمخاذن</value>
+  </data>
+  <data name="layoutControlItem24.Text" xml:space="preserve">
+    <value>عند البيع بالاجل لعميل تجاوز حد الاتمان </value>
+  </data>
+  <data name="layoutControlItem35.Text" xml:space="preserve">
+    <value>العميل الافتراضي</value>
+  </data>
+  <data name="layoutControlItem37.Text" xml:space="preserve">
+    <value>عند بيع صنف انتهت صلاحيته </value>
+  </data>
+  <data name="layoutControlItem45.Text" xml:space="preserve">
+    <value>مندوب مبيعات افتراضي </value>
+  </data>
+  <data name="layoutControlItem49.CustomizationFormText" xml:space="preserve">
+    <value>مستوي السريه</value>
+  </data>
+  <data name="layoutControlItem49.Text" xml:space="preserve">
+    <value>اقصي مستوي سريه</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>اعدادات البيع</value>
+  </data>
+  <data name="layoutControlItem27.Text" xml:space="preserve">
+    <value>عند اضافه صنف تخطي الحد الاقصي للرصيد</value>
+  </data>
+  <data name="layoutControlItem38.Text" xml:space="preserve">
+    <value>المورد الافتراضي</value>
+  </data>
+  <data name="layoutControlItem22.Text" xml:space="preserve">
+    <value>عند صرف صنف قلت كميته عن حد الطلب</value>
+  </data>
+  <data name="layoutControlItem54.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem54.CustomizationFormText" xml:space="preserve">
+    <value>مستوي السريه</value>
+  </data>
+  <data name="layoutControlItem54.Text" xml:space="preserve">
+    <value>اقصي مستوي سريه</value>
+  </data>
+  <data name="layoutControlGroup4.Text" xml:space="preserve">
+    <value>اعدادات الشراء</value>
+  </data>
+  <data name="layoutControlGroup9.Text" xml:space="preserve">
+    <value>اعدادات الانتاج</value>
+  </data>
+  <data name="layoutControlGroup10.Text" xml:space="preserve">
+    <value>الموارد البشريه</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 729</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>818, 753</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 4, 6, 4</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>820, 668</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>اداره المستخدمين</value>
+  </data>
+</root>

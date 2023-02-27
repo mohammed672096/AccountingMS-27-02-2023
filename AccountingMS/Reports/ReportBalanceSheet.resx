@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xrTable2.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrTable2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.917263, 0</value>
+  </data>
+  <data name="xrTableCell5.Text" xml:space="preserve">
+    <value>xrTableCell5</value>
+  </data>
+  <data name="xrTableCell5.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="xrTableCell5.Weight" type="System.Double, mscorlib">
+    <value>0.19440105904271068</value>
+  </data>
+  <data name="xrTableCell6.Text" xml:space="preserve">
+    <value>xrTableCell6</value>
+  </data>
+  <data name="xrTableCell6.Weight" type="System.Double, mscorlib">
+    <value>0.36308371467773787</value>
+  </data>
+  <data name="xrTableCell7.Text" xml:space="preserve">
+    <value>xrTableCell7</value>
+  </data>
+  <data name="xrTableCell7.TextFormatString" xml:space="preserve">
+    <value>{0:n2}</value>
+  </data>
+  <data name="xrTableCell7.Weight" type="System.Double, mscorlib">
+    <value>0.22498215119898662</value>
+  </data>
+  <data name="xrTableCell8.Text" xml:space="preserve">
+    <value>xrTableCell8</value>
+  </data>
+  <data name="xrTableCell8.TextFormatString" xml:space="preserve">
+    <value>{0:n2}</value>
+  </data>
+  <data name="xrTableCell8.Weight" type="System.Double, mscorlib">
+    <value>0.22508975014353716</value>
+  </data>
+  <data name="xrTableRow2.Weight" type="System.Double, mscorlib">
+    <value>11.5</value>
+  </data>
+  <data name="xrTable2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>776.9995, 25</value>
+  </data>
+  <data name="Detail.HeightF" type="System.Single, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Detail.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <assembly alias="DevExpress.Drawing.v22.2" name="DevExpress.Drawing.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xrlRprtHeader.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI Semibold, 11pt, style=Bold</value>
+  </data>
+  <data name="xrlRprtHeader.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Navy</value>
+  </data>
+  <data name="xrlRprtHeader.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>327.5827, 110.9375</value>
+  </data>
+  <data name="xrlRprtHeader.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>154.083832, 23</value>
+  </data>
+  <data name="xrlRprtHeader.Text" xml:space="preserve">
+    <value>تقرير ميزان العوميه</value>
+  </data>
+  <data name="xrlRprtHeader.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopCenter</value>
+  </data>
+  <data name="xrLine5.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>10.00057, 133.9375</value>
+  </data>
+  <data name="xrLine5.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>776.9994, 5.124985</value>
+  </data>
+  <data name="xrLabelBranchName.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrLabelBranchName.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.999998, 10.00001</value>
+  </data>
+  <data name="xrLabelBranchName.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabelBranchName.Text" xml:space="preserve">
+    <value>xrLabelBranchName</value>
+  </data>
+  <data name="xrLabelBranchName.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopRight</value>
+  </data>
+  <data name="xrLabelBranchAddress.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrLabelBranchAddress.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.999998, 33.00002</value>
+  </data>
+  <data name="xrLabelBranchAddress.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabelBranchAddress.Text" xml:space="preserve">
+    <value>xrLabelBranchName</value>
+  </data>
+  <data name="xrLabelBranchAddress.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopRight</value>
+  </data>
+  <data name="xrLabelBranchPhnNo1.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="xrLabelBranchPhnNo1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.999998, 56.00001</value>
+  </data>
+  <data name="xrLabelBranchPhnNo1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabelBranchPhnNo1.Text" xml:space="preserve">
+    <value>xrLabelBranchName</value>
+  </data>
+  <data name="xrLabelBranchPhnNo1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopRight</value>
+  </data>
+  <data name="xrLabelBranchFaxNo1.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="xrLabelBranchFaxNo1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.999998, 79.00003</value>
+  </data>
+  <data name="xrLabelBranchFaxNo1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabelBranchFaxNo1.Text" xml:space="preserve">
+    <value>xrLabelBranchName</value>
+  </data>
+  <data name="xrLabelBranchFaxNo1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopRight</value>
+  </data>
+  <data name="xrLabelBranchMailBox1.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="xrLabelBranchMailBox1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.999998, 102</value>
+  </data>
+  <data name="xrLabelBranchMailBox1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabelBranchMailBox1.Text" xml:space="preserve">
+    <value>xrLabelBranchName</value>
+  </data>
+  <data name="xrLabelBranchMailBox1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopRight</value>
+  </data>
+  <data name="xrLabelBranchMailBox2.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="xrLabelBranchMailBox2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>687, 102</value>
+  </data>
+  <data name="xrLabelBranchMailBox2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabelBranchMailBox2.Text" xml:space="preserve">
+    <value>xrLabelBranchName</value>
+  </data>
+  <data name="xrLabelBranchMailBox2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="xrLabelBranchFaxNo2.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="xrLabelBranchFaxNo2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>687, 79.00003</value>
+  </data>
+  <data name="xrLabelBranchFaxNo2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabelBranchFaxNo2.Text" xml:space="preserve">
+    <value>xrLabelBranchName</value>
+  </data>
+  <data name="xrLabelBranchFaxNo2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="xrLabelBranchPhnNo2.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="xrLabelBranchPhnNo2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>687, 56.00001</value>
+  </data>
+  <data name="xrLabelBranchPhnNo2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabelBranchPhnNo2.Text" xml:space="preserve">
+    <value>xrLabelBranchName</value>
+  </data>
+  <data name="xrLabelBranchPhnNo2.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="xrLabelBranchAddressEn.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrLabelBranchAddressEn.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>687, 32.99999</value>
+  </data>
+  <data name="xrLabelBranchAddressEn.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabelBranchAddressEn.Text" xml:space="preserve">
+    <value>xrLabelBranchName</value>
+  </data>
+  <data name="xrLabelBranchAddressEn.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="xrLabelBranchNameEn.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI Semibold, 9.75pt, style=Bold</value>
+  </data>
+  <data name="xrLabelBranchNameEn.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>687, 10.00001</value>
+  </data>
+  <data name="xrLabelBranchNameEn.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="xrLabelBranchNameEn.Text" xml:space="preserve">
+    <value>xrLabelBranchName</value>
+  </data>
+  <data name="xrLabelBranchNameEn.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="xrPictureBoxBranch.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>338.2494, 10.9375</value>
+  </data>
+  <data name="xrPictureBoxBranch.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>127.0004, 92.00004</value>
+  </data>
+  <data name="TopMargin.HeightF" type="System.Single, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="TopMargin.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="xrLabel22.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="xrLabel22.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.917236, 19.5596066</value>
+  </data>
+  <data name="xrLabel22.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>267.7083, 40.20831</value>
+  </data>
+  <data name="xrLabel22.Text" xml:space="preserve">
+    <value>Copy rights B-Technology</value>
+  </data>
+  <data name="xrLabel22.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="xrLabel16.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="xrLabel16.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>519.124939, 19.5596066</value>
+  </data>
+  <data name="xrLabel16.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>267.7083, 40.20831</value>
+  </data>
+  <data name="xrLabel16.Text" xml:space="preserve">
+    <value>B-Technology Accounting Mangment System
+Tel: +967-777-299-175</value>
+  </data>
+  <data name="xrLabel16.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopRight</value>
+  </data>
+  <data name="xrPictureBox1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>343.5168, 7.291668</value>
+  </data>
+  <data name="xrPictureBox1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>100, 60.41666</value>
+  </data>
+  <data name="BottomMargin.HeightF" type="System.Single, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="BottomMargin.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopLeft</value>
+  </data>
+  <data name="xrlDate.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Tahoma, 9.5pt</value>
+  </data>
+  <data name="xrlDate.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>84, 132, 213</value>
+  </data>
+  <data name="xrlDate.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>10.00012, 45.00001</value>
+  </data>
+  <data name="xrlDate.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>448.8932, 18.83332</value>
+  </data>
+  <data name="xrlDate.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>TopRight</value>
+  </data>
+  <data name="xrTable3.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 120, 0</value>
+  </data>
+  <data name="xrTable3.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>84, 132, 213</value>
+  </data>
+  <data name="xrTable3.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.916712, 10.00001</value>
+  </data>
+  <data name="xrtcName.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI Semibold, 15pt, style=Bold</value>
+  </data>
+  <data name="xrtcName.Text" xml:space="preserve">
+    <value>كشف ميزان العموميه للسنة الماليه : </value>
+  </data>
+  <data name="xrtcName.Weight" type="System.Double, mscorlib">
+    <value>1.4246509866372781</value>
+  </data>
+  <data name="xrtcDate.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Tahoma, 9.5pt</value>
+  </data>
+  <data name="xrtcDate.Text" xml:space="preserve">
+    <value>التاريخ : </value>
+  </data>
+  <data name="xrtcDate.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>BottomRight</value>
+  </data>
+  <data name="xrtcDate.Weight" type="System.Double, mscorlib">
+    <value>0.57534901336272171</value>
+  </data>
+  <data name="xrTableRow3.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTable3.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>776.9999, 35</value>
+  </data>
+  <data name="xrTable1.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>51, 135, 206</value>
+  </data>
+  <data name="xrTable1.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="xrTable1.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="xrTable1.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="xrTable1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.917263, 0</value>
+  </data>
+  <data name="xrTableCell1.Text" xml:space="preserve">
+    <value>رقم الحساب</value>
+  </data>
+  <data name="xrTableCell1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="xrTableCell1.Weight" type="System.Double, mscorlib">
+    <value>0.19450913286307386</value>
+  </data>
+  <data name="xrTableCell2.Text" xml:space="preserve">
+    <value>إسم الحساب</value>
+  </data>
+  <data name="xrTableCell2.Weight" type="System.Double, mscorlib">
+    <value>0.36308371467773781</value>
+  </data>
+  <data name="xrTableCell3.Text" xml:space="preserve">
+    <value>مدين</value>
+  </data>
+  <data name="xrTableCell3.Weight" type="System.Double, mscorlib">
+    <value>0.2249822303449554</value>
+  </data>
+  <data name="xrTableCell4.Text" xml:space="preserve">
+    <value>دائن</value>
+  </data>
+  <data name="xrTableCell4.Weight" type="System.Double, mscorlib">
+    <value>0.2249815971772052</value>
+  </data>
+  <data name="xrTableRow1.Weight" type="System.Double, mscorlib">
+    <value>11.5</value>
+  </data>
+  <data name="xrTable1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>776.9995, 38</value>
+  </data>
+  <data name="xrTable1.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="GroupHeader2.HeightF" type="System.Single, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="xrLine1.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="xrLine1.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 120, 0</value>
+  </data>
+  <data name="xrLine1.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.917263, 0</value>
+  </data>
+  <data name="xrLine1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>776.999451, 4.000028</value>
+  </data>
+  <data name="xrTable4.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>51, 135, 206</value>
+  </data>
+  <data name="xrTable4.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="xrTable4.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="xrTable4.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="xrTable4.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Data.v22.2">
+    <value>9.917224, 4.000028</value>
+  </data>
+  <data name="xrTableCell9.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell9.Text" xml:space="preserve">
+    <value>الإجمـــــــــــــــــــــــــالي</value>
+  </data>
+  <data name="xrTableCell9.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell9.Weight" type="System.Double, mscorlib">
+    <value>2.2125473843024519</value>
+  </data>
+  <data name="xrtcTotalDebit.Text" xml:space="preserve">
+    <value>xrtcTotalDebit</value>
+  </data>
+  <data name="xrtcTotalDebit.TextFormatString" xml:space="preserve">
+    <value>{0:n2}</value>
+  </data>
+  <data name="xrtcTotalDebit.Weight" type="System.Double, mscorlib">
+    <value>0.89308295495675849</value>
+  </data>
+  <data name="xrtcTotalCredit.Text" xml:space="preserve">
+    <value>xrtcTotalCredit</value>
+  </data>
+  <data name="xrtcTotalCredit.TextFormatString" xml:space="preserve">
+    <value>{0:n2}</value>
+  </data>
+  <data name="xrtcTotalCredit.Weight" type="System.Double, mscorlib">
+    <value>0.89436966074079</value>
+  </data>
+  <data name="xrTableRow4.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTableCell10.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="xrTableCell10.Text" xml:space="preserve">
+    <value>الــــــرصيـــد الحـــــــــــــــــالــي</value>
+  </data>
+  <data name="xrTableCell10.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="xrTableCell10.Weight" type="System.Double, mscorlib">
+    <value>2.2125473843024519</value>
+  </data>
+  <data name="xrtcTotalFinal.Text" xml:space="preserve">
+    <value>xrtcTotalFinal</value>
+  </data>
+  <data name="xrtcTotalFinal.Weight" type="System.Double, mscorlib">
+    <value>1.7874526156975485</value>
+  </data>
+  <data name="xrTableRow5.Weight" type="System.Double, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="xrTable4.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>777.0833, 60</value>
+  </data>
+  <data name="xrTable4.TextAlignment" type="DevExpress.XtraPrinting.TextAlignment, DevExpress.Data.v22.2">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="GroupFooter1.HeightF" type="System.Single, mscorlib">
+    <value>64.00003</value>
+  </data>
+  <metadata name="tblAssetBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="parameterDtStart.Description" xml:space="preserve">
+    <value>من تاريخ:</value>
+  </data>
+  <data name="parameterDtEnd.Description" xml:space="preserve">
+    <value>إلى تاريخ:</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Font" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v22.2">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="$this.Margins" type="DevExpress.Drawing.DXMargins, DevExpress.Drawing.v22.2">
+    <value>15, 15, 150, 75</value>
+  </data>
+  <data name="$this.PageHeight" type="System.Int32, mscorlib">
+    <value>1169</value>
+  </data>
+  <data name="$this.PageWidth" type="System.Int32, mscorlib">
+    <value>827</value>
+  </data>
+  <data name="$this.PaperKind" type="System.Drawing.Printing.PaperKind, System.Drawing">
+    <value>A4</value>
+  </data>
+</root>

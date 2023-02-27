@@ -1,0 +1,66 @@
+﻿using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+
+namespace AccountingMS
+{
+    public partial class ReportStockTrans : XtraReport
+    {
+        ClsTblStore clsTbStore = new ClsTblStore();
+        ClsTblProduct clsTbProduct = new ClsTblProduct();
+        ClsTblPrdPriceMeasurment clsTbPrdMsur = new ClsTblPrdPriceMeasurment();
+
+        public ReportStockTrans(tblStockTransMain tbStockMain, IEnumerable<tblStockTransSub> tbStockSubList)
+        {
+            InitializeComponent();
+            InitData(tbStockMain, tbStockSubList);
+            InitDefaultData();
+            new ClsReportHeaderData(this);
+
+            GroupHeader1.BeforePrint += GroupHeader1_BeforePrint;
+            DetailStockTransSub.BeforePrint += DetailStockTransSub_BeforePrint;
+        }
+
+        private void InitData(tblStockTransMain tbStockMain, IEnumerable<tblStockTransSub> tbStockSubList)
+        {
+            tblStockTransMainBindingSource.DataSource = tbStockMain;
+            tblStockTransSubBindingSource.DataSource = tbStockSubList;
+        }
+
+        private void InitDefaultData()
+        {
+            xrtcDate.Text = (!MySetting.GetPrivateSetting.LangEng) ? $"التاريح : {DateTime.Now:yyyy/MM/dd}" : $"Date : {DateTime.Now:dd/MM/yyyy}";
+        }
+
+        private void GroupHeader1_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            SetStoreData();
+        }
+
+        private void DetailStockTransSub_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            SetProductData(Convert.ToInt32(DetailReport.GetCurrentColumnValue("stcPrdId")));
+            SetPrdMsurData(Convert.ToInt32(DetailReport.GetCurrentColumnValue("stcMsurId")));
+        }
+
+        private void SetStoreData()
+        {
+            string strFrom = this.clsTbStore.GetStoreNameById(Convert.ToInt16(GetCurrentColumnValue("stcStrIdFrom"))),
+                   strTo = this.clsTbStore.GetStoreNameById(Convert.ToInt16(GetCurrentColumnValue("stcStrIdTo")));
+            xrtcStore.Text = (!MySetting.GetPrivateSetting.LangEng) ? $"من مخزن : {strFrom} إلى مخزن : {strTo}" :
+                $"From store : {strFrom} to store : {strTo}";
+        }
+
+        private void SetProductData(int prdId)
+        {
+            tblProduct tbProduct = this.clsTbProduct.GetPrdObjByPrdId(prdId);
+            xrtcPrdNo.Text = tbProduct.prdNo;
+            xrtcPrdName.Text = tbProduct.prdName;
+        }
+
+        private void SetPrdMsurData(int msurId)
+        {
+            xrtcMsurName.Text = this.clsTbPrdMsur.GetPrdPriceMsurNameById(msurId);
+        }
+    }
+}

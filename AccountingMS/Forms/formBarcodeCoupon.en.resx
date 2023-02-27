@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>593, 217</value>
+  </data>
+  <data name="spinEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 601</value>
+  </data>
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>891, 30</value>
+  </data>
+  <data name="spinEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 36</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 143</value>
+  </data>
+  <data name="picbarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 35</value>
+  </data>
+  <data name="picbarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 63</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 159</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>459, 217</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 682</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>736, 20</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 658</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>736, 20</value>
+  </data>
+  <data name="comboBoxEditSymbology.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 428</value>
+  </data>
+  <data name="comboBoxEditSymbology.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="errorText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 641</value>
+  </data>
+  <data name="errorText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 13</value>
+  </data>
+  <data name="checkEditPrdName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 33</value>
+  </data>
+  <data name="checkEditPrdName.Properties.Caption" xml:space="preserve">
+    <value>Display the name of the product</value>
+  </data>
+  <data name="checkEditPrdName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 21</value>
+  </data>
+  <data name="bottomCaptionForeCE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 106</value>
+  </data>
+  <data name="bottomCaptionForeCE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="bottomCaptionFE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 130</value>
+  </data>
+  <data name="bottomCaptionFE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="textEditProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 58</value>
+  </data>
+  <data name="textEditProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="bottomCaptionAligmentCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 82</value>
+  </data>
+  <data name="bottomCaptionAligmentCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="checkEditCompanyName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 33</value>
+  </data>
+  <data name="checkEditCompanyName.Properties.Caption" xml:space="preserve">
+    <value>Display the name of the company</value>
+  </data>
+  <data name="checkEditCompanyName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 21</value>
+  </data>
+  <data name="topCaptionForeCE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 106</value>
+  </data>
+  <data name="topCaptionForeCE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="topCaptionFE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 130</value>
+  </data>
+  <data name="topCaptionFE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="topCaptionAligmentCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 82</value>
+  </data>
+  <data name="topCaptionAligmentCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="textEditCompanyName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 58</value>
+  </data>
+  <data name="textEditCompanyName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="checkEditBarcodeNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 403</value>
+  </data>
+  <data name="checkEditBarcodeNo.Properties.Caption" xml:space="preserve">
+    <value>Display the barcode number</value>
+  </data>
+  <data name="checkEditBarcodeNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 21</value>
+  </data>
+  <data name="codeTextVertAlignmentCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 452</value>
+  </data>
+  <data name="codeTextVertAlignmentCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="backColorE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 572</value>
+  </data>
+  <data name="backColorE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="codeTextHorzAlignmentCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 476</value>
+  </data>
+  <data name="codeTextHorzAlignmentCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="foreColorE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 548</value>
+  </data>
+  <data name="foreColorE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="codeTextFE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 500</value>
+  </data>
+  <data name="codeTextFE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="angleSE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 524</value>
+  </data>
+  <data name="angleSE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="btnPrintPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 601</value>
+  </data>
+  <data name="btnPrintPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 36</value>
+  </data>
+  <data name="btnPrintPreview.Text" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="textEditPrdPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 214</value>
+  </data>
+  <data name="textEditPrdPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="checkEditExpireDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 189</value>
+  </data>
+  <data name="checkEditExpireDate.Properties.Caption" xml:space="preserve">
+    <value>Show expiration date:</value>
+  </data>
+  <data name="checkEditExpireDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 21</value>
+  </data>
+  <data name="checkEditPrdPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 214</value>
+  </data>
+  <data name="checkEditPrdPrice.Properties.Caption" xml:space="preserve">
+    <value>Product Price Quotation:</value>
+  </data>
+  <data name="checkEditPrdPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 21</value>
+  </data>
+  <data name="textEditExpireDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 189</value>
+  </data>
+  <data name="textEditExpireDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="textEditProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 57</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colproductName.Width" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="colid.Width" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="textEditProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="textEditWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 295</value>
+  </data>
+  <data name="textEditWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="textEditHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 319</value>
+  </data>
+  <data name="textEditHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="textEditBarocdeNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 105</value>
+  </data>
+  <data name="textEditBarocdeNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="btnDefaultSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 601</value>
+  </data>
+  <data name="btnDefaultSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 36</value>
+  </data>
+  <data name="btnDefaultSettings.Text" xml:space="preserve">
+    <value>Restore the default settings</value>
+  </data>
+  <data name="btnUserSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>735, 621</value>
+  </data>
+  <data name="btnUserSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 16</value>
+  </data>
+  <data name="btnUserSettings.Text" xml:space="preserve">
+    <value>Restore user settings</value>
+  </data>
+  <data name="btnSaveUserSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>735, 601</value>
+  </data>
+  <data name="btnSaveUserSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 16</value>
+  </data>
+  <data name="btnSaveUserSettings.Text" xml:space="preserve">
+    <value>Save user settings</value>
+  </data>
+  <data name="textEditPageWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 343</value>
+  </data>
+  <data name="textEditPageWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="btnPrintBarocde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 36</value>
+  </data>
+  <data name="btnPrintBarocde.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="textEditOtherInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 129</value>
+  </data>
+  <data name="textEditOtherInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="textEditSrchBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 33</value>
+  </data>
+  <data name="textEditSrchBarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="textEditPrdMsur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 81</value>
+  </data>
+  <data name="textEditPrdMsur.Properties.Columns2" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="textEditPrdMsur.Properties.Columns3" type="DevExpress.Utils.FormatType, DevExpress.Data.v22.2">
+    <value>None</value>
+  </data>
+  <data name="textEditPrdMsur.Properties.Columns4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textEditPrdMsur.Properties.Columns5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textEditPrdMsur.Properties.Columns6" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="textEditPrdMsur.Properties.Columns7" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v22.2">
+    <value>None</value>
+  </data>
+  <data name="textEditPrdMsur.Properties.Columns8" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="textEditPrdMsur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="checkEditSaleTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>611, 237</value>
+  </data>
+  <data name="checkEditSaleTax.Properties.Caption" xml:space="preserve">
+    <value>Price includes tax</value>
+  </data>
+  <data name="checkEditSaleTax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 20</value>
+  </data>
+  <data name="bottomCaptionForeCEitem.Text" xml:space="preserve">
+    <value>Text color:</value>
+  </data>
+  <data name="bottomCaptionFEitem.Text" xml:space="preserve">
+    <value>Font name:</value>
+  </data>
+  <data name="bottomCaptionTEitem.Text" xml:space="preserve">
+    <value>Product name:</value>
+  </data>
+  <data name="bottomCaptionAligmentCBitem.Text" xml:space="preserve">
+    <value>Alignment:</value>
+  </data>
+  <data name="bottomCaptionGCitem.Text" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="layoutControlGroup3.CustomizationFormText" xml:space="preserve">
+    <value>Price and expiration date</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Price and expiration date</value>
+  </data>
+  <data name="barCodeTextitem.Text" xml:space="preserve">
+    <value>Product:</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Barcode number:</value>
+  </data>
+  <data name="layoutCotrolItemSrchBarcode.Text" xml:space="preserve">
+    <value>Barcode search:</value>
+  </data>
+  <data name="layoutControlItemPrdMsur.Text" xml:space="preserve">
+    <value>Unit:</value>
+  </data>
+  <data name="layoutControlItemOtherInfo.Text" xml:space="preserve">
+    <value>Other data:</value>
+  </data>
+  <data name="layoutControlGroupPrdInfo.Text" xml:space="preserve">
+    <value>Product data</value>
+  </data>
+  <data name="topCaptionForeCEitem.Text" xml:space="preserve">
+    <value>Text color:</value>
+  </data>
+  <data name="topCaptionFEitem.Text" xml:space="preserve">
+    <value>Font name:</value>
+  </data>
+  <data name="topCaptionAligmentCBitem.Text" xml:space="preserve">
+    <value>Alignment:</value>
+  </data>
+  <data name="topCaptionTEitem.Text" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="topCaptionGCitem.Text" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="codeTextVertAlignmentCBitem.Text" xml:space="preserve">
+    <value>Vertical alignment:</value>
+  </data>
+  <data name="backColorEitem.Text" xml:space="preserve">
+    <value>Back color:</value>
+  </data>
+  <data name="codeTextHorzAlignmentCBitem.Text" xml:space="preserve">
+    <value>Horizontal alignment:</value>
+  </data>
+  <data name="foreColorEitem.Text" xml:space="preserve">
+    <value>Front color:</value>
+  </data>
+  <data name="codeTextFEitem.Text" xml:space="preserve">
+    <value>Font name:</value>
+  </data>
+  <data name="angleSEitem.Text" xml:space="preserve">
+    <value>Corner:</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>Barcode type:</value>
+  </data>
+  <data name="barCogeGCitem.Text" xml:space="preserve">
+    <value>Barcode properties</value>
+  </data>
+  <data name="textEditHeightitem.Text" xml:space="preserve">
+    <value>Barcode Height:</value>
+  </data>
+  <data name="textEditWidthitem.Text" xml:space="preserve">
+    <value>Barcode Width:</value>
+  </data>
+  <data name="layoutControlItemReportWidth.Text" xml:space="preserve">
+    <value>Sticker Width:</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>Measurements</value>
+  </data>
+  <data name="layoutControlItem16.Text" xml:space="preserve">
+    <value>Number of copies</value>
+  </data>
+  <data name="BarCodeVisualizationlayoutControl1ConvertedLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>891, 663</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>891, 693</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+</root>

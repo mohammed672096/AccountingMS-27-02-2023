@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MySetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LangEng>false</LangEng>
+  <defaultUserName>1</defaultUserName>
+  <defaultFyId>91009</defaultFyId>
+  <LogBranchID>1</LogBranchID>
+  <ServerName>.</ServerName>
+  <DBName>PosFinalCostDB</DBName>
+  <Mode>Windows</Mode>
+  <SqlUserName />
+  <SqlPassword />
+  <AccServerName>DESKTOP-2T7M24S\SQL2019</AccServerName>
+  <AccDBName>accounting</AccDBName>
+  <AccMode>Windows</AccMode>
+  <AccSqlUserName />
+  <AccSqlPassword />
+  <accConFlag />
+  <accConVal />
+  <accConDt>2022-12-25T21:43:26.7632501+03:00</accConDt>
+  <UpDataFromDate>2022-12-25T21:43:26.7712729+03:00</UpDataFromDate>
+  <UpDataToDate>2022-12-25T21:43:26.7712729+03:00</UpDataToDate>
+  <ApplicationSkinName>The Bezier</ApplicationSkinName>
+  <ApplicationSkinPaletteBezier>Twenty</ApplicationSkinPaletteBezier>
+  <ApplicationSkinPaletteOffice>Fire Brick</ApplicationSkinPaletteOffice>
+  <hideMenuCaption>true</hideMenuCaption>
+  <compactMode>true</compactMode>
+  <touchUI>false</touchUI>
+  <touchScaleFactor>2</touchScaleFactor>
+  <SystemFont>Tahoma; 12pt</SystemFont>
+  <SystemFontSale>Tahoma; 10.2pt</SystemFontSale>
+  <ShowBarSideMenu>true</ShowBarSideMenu>
+  <showErrorMssg>false</showErrorMssg>
+  <supplySaleExpanded>true</supplySaleExpanded>
+  <ribbonStyleSaleForm>MacOffice</ribbonStyleSaleForm>
+  <ribbonStyleSaleRtrnForm>MacOffice</ribbonStyleSaleRtrnForm>
+  <formSupplyMainH>1038</formSupplyMainH>
+  <formSupplyMainW>1938</formSupplyMainW>
+  <formSupplyWindState>Maximized</formSupplyWindState>
+  <SendInvoToServerOnSave>false</SendInvoToServerOnSave>
+  <SendCustomerToServerOnSave>false</SendCustomerToServerOnSave>
+  <SendPrdExpirToServerOnSave>false</SendPrdExpirToServerOnSave>
+  <SendBoxDailyToServerOnSave>false</SendBoxDailyToServerOnSave>
+</MySetting>

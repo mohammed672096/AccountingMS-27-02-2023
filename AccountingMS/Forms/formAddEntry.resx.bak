@@ -1,0 +1,1368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="tblEntrySubBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>188, 17</value>
+  </metadata>
+  <data name="barButtonItemSave.Caption" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="barButtonItemClose.Caption" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="bbiSrchCustomers.Caption" xml:space="preserve">
+    <value>بحث العملاء (F5)</value>
+  </data>
+  <data name="bbiSrchSuppliers.Caption" xml:space="preserve">
+    <value>بحث الموردين (F6)</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ribbonPageGroup1.Text" xml:space="preserve">
+    <value>العمليات</value>
+  </data>
+  <data name="ribbonPageGroupSearch.Text" xml:space="preserve">
+    <value>البحث</value>
+  </data>
+  <data name="ribbonPage1.Text" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1379, 167</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ribbonPage2.Text" xml:space="preserve">
+    <value>ribbonPage2</value>
+  </data>
+  <metadata name="dxValidationProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="tblEntryMainsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>418, 17</value>
+  </metadata>
+  <data name="entNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>917, 55</value>
+  </data>
+  <data name="entNoTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entNoTextEdit.Properties.Mask.EditMask" xml:space="preserve">
+    <value>f0</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v21.2" name="DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="entNoTextEdit.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v21.2">
+    <value>Numeric</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="entNoTextEdit.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="entNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 24</value>
+  </data>
+  <data name="gridControl1.EmbeddedNavigator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="gridControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 222</value>
+  </data>
+  <data name="gridView1.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="colinvoNum.Caption" xml:space="preserve">
+    <value>رقم الفاتورة</value>
+  </data>
+  <data name="colinvoNum.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colinvoNum.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colinvoNum.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colentAccNo.Caption" xml:space="preserve">
+    <value>رقم الحساب</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v21.2" name="DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="repoItemLkUpEditAccNo.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns" xml:space="preserve">
+    <value>accNo</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns1" xml:space="preserve">
+    <value>رقم الحساب</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns2" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <assembly alias="DevExpress.Data.v21.2" name="DevExpress.Data.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="repoItemLkUpEditAccNo.Columns3" type="DevExpress.Utils.FormatType, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns6" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v21.2">
+    <value>Near</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns7" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns8" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns9" xml:space="preserve">
+    <value>accName</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns10" xml:space="preserve">
+    <value>إسم الحساب</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns11" type="System.Int32, mscorlib">
+    <value>229</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns12" type="DevExpress.Utils.FormatType, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns14" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns15" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns16" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="repoItemLkUpEditAccNo.Columns17" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <metadata name="tblAccountBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>890, 17</value>
+  </metadata>
+  <data name="repoItemLkUpEditAccNo.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colentAccNo.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentAccNo.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colentAccNo.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colentAccName.Caption" xml:space="preserve">
+    <value>إسم الحساب</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns" xml:space="preserve">
+    <value>accNo</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns1" xml:space="preserve">
+    <value>رقم الحساب</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns2" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns3" type="DevExpress.Utils.FormatType, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns6" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v21.2">
+    <value>Near</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns7" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns8" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns9" xml:space="preserve">
+    <value>accName</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns10" xml:space="preserve">
+    <value>إسم الحساب</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns11" type="System.Int32, mscorlib">
+    <value>229</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns12" type="DevExpress.Utils.FormatType, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns14" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns15" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns16" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.Columns17" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="repoItemLkUpEditAccName.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colentAccName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentAccName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colentAccName.Width" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="colentCusNo.Caption" xml:space="preserve">
+    <value>رقم المورد</value>
+  </data>
+  <data name="colentCusNo.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colentCusName.Caption" xml:space="preserve">
+    <value>اسم المورد</value>
+  </data>
+  <data name="colentCusName.Width" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="colentCurrncy.Caption" xml:space="preserve">
+    <value>العملة</value>
+  </data>
+  <data name="colentCurrncy.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentCurrncy.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="colentCurrncy.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="colentDesc.Caption" xml:space="preserve">
+    <value>البيان</value>
+  </data>
+  <data name="repositoryItemTextEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colentDesc.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentDesc.VisibleIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="colentDesc.Width" type="System.Int32, mscorlib">
+    <value>217</value>
+  </data>
+  <data name="colentDebit.Caption" xml:space="preserve">
+    <value>مدين</value>
+  </data>
+  <data name="repositoryItemCalcEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemCalcEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="colentDebit.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v21.2">
+    <value>Sum</value>
+  </data>
+  <data name="colentDebit.Summary1" xml:space="preserve">
+    <value>entDebit</value>
+  </data>
+  <data name="colentDebit.Summary2" xml:space="preserve">
+    <value> {0:0.##}</value>
+  </data>
+  <data name="colentDebit.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentDebit.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colentDebit.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="colentCredit.Caption" xml:space="preserve">
+    <value>دائن</value>
+  </data>
+  <data name="colentCredit.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v21.2">
+    <value>Sum</value>
+  </data>
+  <data name="colentCredit.Summary1" xml:space="preserve">
+    <value>entCredit</value>
+  </data>
+  <data name="colentCredit.Summary2" xml:space="preserve">
+    <value>{0:0.##}</value>
+  </data>
+  <data name="colentCredit.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentCredit.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colentCredit.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="colentCurChange.Caption" xml:space="preserve">
+    <value>سعر الصرف</value>
+  </data>
+  <data name="colentCurChange.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentCurChange.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="colentCurChange.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="colentDebitFrgn.Caption" xml:space="preserve">
+    <value>مدين عملةأجنبية</value>
+  </data>
+  <data name="colentDebitFrgn.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentDebitFrgn.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="colentDebitFrgn.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="colentCreditFrgn.Caption" xml:space="preserve">
+    <value>دائن عملةأجنبية</value>
+  </data>
+  <data name="colentCreditFrgn.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentCreditFrgn.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="colentCreditFrgn.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="colentTaxPercent.Caption" xml:space="preserve">
+    <value>نسبة الضريبة</value>
+  </data>
+  <data name="colentTaxPercent.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentTaxPercent.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="colentTaxPercent.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colentTaxPrice.Caption" xml:space="preserve">
+    <value>قيمة الضريبة</value>
+  </data>
+  <data name="colentTaxPrice.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v21.2">
+    <value>Sum</value>
+  </data>
+  <data name="colentTaxPrice.Summary1" xml:space="preserve">
+    <value>entTaxPrice</value>
+  </data>
+  <data name="colentTaxPrice.Summary2" xml:space="preserve">
+    <value>{0:0.##}</value>
+  </data>
+  <data name="colentTaxPrice.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentTaxPrice.VisibleIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="colentTaxPrice.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colentInvoDate.Caption" xml:space="preserve">
+    <value>تاريخ الفاتورة</value>
+  </data>
+  <data name="repositoryItemDateEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemDateEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="repositoryItemDateEdit1.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="colentInvoDate.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentInvoDate.VisibleIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="colentInvoDate.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colentId.Caption" xml:space="preserve">
+    <value>colentId</value>
+  </data>
+  <data name="colentId.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colentNo.Caption" xml:space="preserve">
+    <value>colentNo</value>
+  </data>
+  <data name="colentNo.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colentDate.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colentTaxNumber.Caption" xml:space="preserve">
+    <value>الرقم الضريبي</value>
+  </data>
+  <data name="colentTaxNumber.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colentTaxNumber.VisibleIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="colentTaxNumber.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="gridControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1331, 393</value>
+  </data>
+  <data name="gridControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Name" xml:space="preserve">
+    <value>gridControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Parent" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="entRefNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 55</value>
+  </data>
+  <data name="entRefNoTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entRefNoTextEdit.Properties.Mask.EditMask" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="entRefNoTextEdit.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v21.2">
+    <value>Numeric</value>
+  </data>
+  <data name="entRefNoTextEdit.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="entRefNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 24</value>
+  </data>
+  <data name="entRefNoTextEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;entRefNoTextEdit.Name" xml:space="preserve">
+    <value>entRefNoTextEdit</value>
+  </data>
+  <data name="&gt;&gt;entRefNoTextEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;entRefNoTextEdit.Parent" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;entRefNoTextEdit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="entDateDateEdit.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="entDateDateEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>917, 111</value>
+  </data>
+  <data name="entDateDateEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entDateDateEdit.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="entDateDateEdit.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="entDateDateEdit.Properties.CalendarTimeProperties.Mask.EditMask" xml:space="preserve">
+    <value>dd/MM/yyyy hh:mm</value>
+  </data>
+  <data name="entDateDateEdit.Properties.Mask.EditMask" xml:space="preserve">
+    <value>dd/MM/yyyy hh:mm</value>
+  </data>
+  <data name="entDateDateEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 24</value>
+  </data>
+  <data name="entDateDateEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;entDateDateEdit.Name" xml:space="preserve">
+    <value>entDateDateEdit</value>
+  </data>
+  <data name="&gt;&gt;entDateDateEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;entDateDateEdit.Parent" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;entDateDateEdit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="entAmountTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>917, 83</value>
+  </data>
+  <data name="entAmountTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entAmountTextEdit.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="entAmountTextEdit.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n2</value>
+  </data>
+  <data name="entAmountTextEdit.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v21.2">
+    <value>Numeric</value>
+  </data>
+  <data name="entAmountTextEdit.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="entAmountTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 24</value>
+  </data>
+  <data name="entAmountTextEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;entAmountTextEdit.Name" xml:space="preserve">
+    <value>entAmountTextEdit</value>
+  </data>
+  <data name="&gt;&gt;entAmountTextEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;entAmountTextEdit.Parent" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;entAmountTextEdit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="checkEditTax.EditValue" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkEditTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 139</value>
+  </data>
+  <data name="checkEditTax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="checkEditTax.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="checkEditTax.Properties.Caption" xml:space="preserve">
+    <value>إضافة قيمة الضريبة</value>
+  </data>
+  <data name="checkEditTax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>877, 24</value>
+  </data>
+  <data name="checkEditTax.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;checkEditTax.Name" xml:space="preserve">
+    <value>checkEditTax</value>
+  </data>
+  <data name="&gt;&gt;checkEditTax.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;checkEditTax.Parent" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;checkEditTax.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="entReverseConstraintTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 83</value>
+  </data>
+  <data name="entReverseConstraintTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entReverseConstraintTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 24</value>
+  </data>
+  <data name="entReverseConstraintTextEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;entReverseConstraintTextEdit.Name" xml:space="preserve">
+    <value>entReverseConstraintTextEdit</value>
+  </data>
+  <data name="&gt;&gt;entReverseConstraintTextEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;entReverseConstraintTextEdit.Parent" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;entReverseConstraintTextEdit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="entReverseConstraintDateDateEdit.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="entReverseConstraintDateDateEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 111</value>
+  </data>
+  <data name="entReverseConstraintDateDateEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entReverseConstraintDateDateEdit.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="entReverseConstraintDateDateEdit.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="entReverseConstraintDateDateEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 24</value>
+  </data>
+  <data name="entReverseConstraintDateDateEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;entReverseConstraintDateDateEdit.Name" xml:space="preserve">
+    <value>entReverseConstraintDateDateEdit</value>
+  </data>
+  <data name="&gt;&gt;entReverseConstraintDateDateEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;entReverseConstraintDateDateEdit.Parent" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;entReverseConstraintDateDateEdit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="entDescTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 55</value>
+  </data>
+  <data name="entDescTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entDescTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>426, 108</value>
+  </data>
+  <data name="entDescTextEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;entDescTextEdit.Name" xml:space="preserve">
+    <value>entDescTextEdit</value>
+  </data>
+  <data name="&gt;&gt;entDescTextEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;entDescTextEdit.Parent" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;entDescTextEdit.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="dataLayoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dataLayoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 167</value>
+  </data>
+  <data name="dataLayoutControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="layoutControlGroup4.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="layoutControlGroup4.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="ItemForentNo.Text" xml:space="preserve">
+    <value>رقم السند</value>
+  </data>
+  <data name="ItemForentDate.Text" xml:space="preserve">
+    <value>التارخ</value>
+  </data>
+  <data name="ItemForentRefNo.Text" xml:space="preserve">
+    <value>رقم المرجع</value>
+  </data>
+  <data name="ItemForentReverseConstraint.Text" xml:space="preserve">
+    <value>قيد عكس</value>
+  </data>
+  <data name="ItemForentAmount.Text" xml:space="preserve">
+    <value>المبلغ</value>
+  </data>
+  <data name="ItemForentReverseConstraintDate.Text" xml:space="preserve">
+    <value>تاريخ قيد عكس</value>
+  </data>
+  <data name="layoutControlGroup4.Text" xml:space="preserve">
+    <value>البيانات الرئيسيه</value>
+  </data>
+  <data name="ItemForentDesc.Text" xml:space="preserve">
+    <value>البيان</value>
+  </data>
+  <data name="layoutControlGroup5.Text" xml:space="preserve">
+    <value>البيان</value>
+  </data>
+  <data name="labelRemaining.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.25pt, style=Bold</value>
+  </data>
+  <data name="labelRemaining.Text" xml:space="preserve">
+    <value>المتبقي: 0</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>تفاصيل القيد</value>
+  </data>
+  <data name="dataLayoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1379, 664</value>
+  </data>
+  <data name="dataLayoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dataLayoutControl1.Text" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;dataLayoutControl1.Name" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;dataLayoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraDataLayout.DataLayoutControl, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dataLayoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataLayoutControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="entNoTextEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;entNoTextEdit.Name" xml:space="preserve">
+    <value>entNoTextEdit</value>
+  </data>
+  <data name="&gt;&gt;entNoTextEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;entNoTextEdit.Parent" xml:space="preserve">
+    <value>dataLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;entNoTextEdit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="tblAccountSrchBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>649, 17</value>
+  </metadata>
+  <data name="gridControlAccount.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridControlAccount.EmbeddedNavigator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gridControlAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="colaccNo.Caption" xml:space="preserve">
+    <value>رقم الحساب</value>
+  </data>
+  <data name="colaccNo.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colaccNo.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colaccNo.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colaccName.Caption" xml:space="preserve">
+    <value>إسم الحساب</value>
+  </data>
+  <data name="colaccName.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colaccName.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colaccName.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="colaccCurrency.Caption" xml:space="preserve">
+    <value>العملة</value>
+  </data>
+  <data name="colaccCurrency.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colaccCurrency.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colaccCurrency.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="gridControlAccount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gridControlAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 190</value>
+  </data>
+  <data name="gridControlAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridControlAccount.Name" xml:space="preserve">
+    <value>gridControlAccount</value>
+  </data>
+  <data name="&gt;&gt;gridControlAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlAccount.Parent" xml:space="preserve">
+    <value>flyoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;gridControlAccount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flyoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 69</value>
+  </data>
+  <data name="flyoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="flyoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 190</value>
+  </data>
+  <data name="flyoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;flyoutPanel1.Name" xml:space="preserve">
+    <value>flyoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flyoutPanel1.Type" xml:space="preserve">
+    <value>DevExpress.Utils.FlyoutPanel, DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;flyoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;flyoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 18</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1379, 831</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>قيد يومي</value>
+  </data>
+  <data name="&gt;&gt;tblEntrySubBindingSource.Name" xml:space="preserve">
+    <value>tblEntrySubBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tblEntrySubBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;barButtonItemSave.Name" xml:space="preserve">
+    <value>barButtonItemSave</value>
+  </data>
+  <data name="&gt;&gt;barButtonItemSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItemClose.Name" xml:space="preserve">
+    <value>barButtonItemClose</value>
+  </data>
+  <data name="&gt;&gt;barButtonItemClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSrchCustomers.Name" xml:space="preserve">
+    <value>bbiSrchCustomers</value>
+  </data>
+  <data name="&gt;&gt;bbiSrchCustomers.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSrchSuppliers.Name" xml:space="preserve">
+    <value>bbiSrchSuppliers</value>
+  </data>
+  <data name="&gt;&gt;bbiSrchSuppliers.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage1.Name" xml:space="preserve">
+    <value>ribbonPage1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup1.Name" xml:space="preserve">
+    <value>ribbonPageGroup1</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroupSearch.Name" xml:space="preserve">
+    <value>ribbonPageGroupSearch</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroupSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage2.Name" xml:space="preserve">
+    <value>ribbonPage2</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dxValidationProvider1.Name" xml:space="preserve">
+    <value>dxValidationProvider1</value>
+  </data>
+  <data name="&gt;&gt;dxValidationProvider1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tblEntryMainsBindingSource.Name" xml:space="preserve">
+    <value>tblEntryMainsBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tblEntryMainsBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colinvoNum.Name" xml:space="preserve">
+    <value>colinvoNum</value>
+  </data>
+  <data name="&gt;&gt;colinvoNum.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentAccNo.Name" xml:space="preserve">
+    <value>colentAccNo</value>
+  </data>
+  <data name="&gt;&gt;colentAccNo.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repoItemLkUpEditAccNo.Name" xml:space="preserve">
+    <value>repoItemLkUpEditAccNo</value>
+  </data>
+  <data name="&gt;&gt;repoItemLkUpEditAccNo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tblAccountBindingSource.Name" xml:space="preserve">
+    <value>tblAccountBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tblAccountBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colentAccName.Name" xml:space="preserve">
+    <value>colentAccName</value>
+  </data>
+  <data name="&gt;&gt;colentAccName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repoItemLkUpEditAccName.Name" xml:space="preserve">
+    <value>repoItemLkUpEditAccName</value>
+  </data>
+  <data name="&gt;&gt;repoItemLkUpEditAccName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentCusNo.Name" xml:space="preserve">
+    <value>colentCusNo</value>
+  </data>
+  <data name="&gt;&gt;colentCusNo.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentCusName.Name" xml:space="preserve">
+    <value>colentCusName</value>
+  </data>
+  <data name="&gt;&gt;colentCusName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentCurrncy.Name" xml:space="preserve">
+    <value>colentCurrncy</value>
+  </data>
+  <data name="&gt;&gt;colentCurrncy.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentDesc.Name" xml:space="preserve">
+    <value>colentDesc</value>
+  </data>
+  <data name="&gt;&gt;colentDesc.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Name" xml:space="preserve">
+    <value>repositoryItemTextEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentDebit.Name" xml:space="preserve">
+    <value>colentDebit</value>
+  </data>
+  <data name="&gt;&gt;colentDebit.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCalcEdit1.Name" xml:space="preserve">
+    <value>repositoryItemCalcEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemCalcEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCalcEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentCredit.Name" xml:space="preserve">
+    <value>colentCredit</value>
+  </data>
+  <data name="&gt;&gt;colentCredit.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentCurChange.Name" xml:space="preserve">
+    <value>colentCurChange</value>
+  </data>
+  <data name="&gt;&gt;colentCurChange.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentDebitFrgn.Name" xml:space="preserve">
+    <value>colentDebitFrgn</value>
+  </data>
+  <data name="&gt;&gt;colentDebitFrgn.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentCreditFrgn.Name" xml:space="preserve">
+    <value>colentCreditFrgn</value>
+  </data>
+  <data name="&gt;&gt;colentCreditFrgn.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentTaxPercent.Name" xml:space="preserve">
+    <value>colentTaxPercent</value>
+  </data>
+  <data name="&gt;&gt;colentTaxPercent.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentTaxPrice.Name" xml:space="preserve">
+    <value>colentTaxPrice</value>
+  </data>
+  <data name="&gt;&gt;colentTaxPrice.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentInvoDate.Name" xml:space="preserve">
+    <value>colentInvoDate</value>
+  </data>
+  <data name="&gt;&gt;colentInvoDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemDateEdit1.Name" xml:space="preserve">
+    <value>repositoryItemDateEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemDateEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemDateEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentId.Name" xml:space="preserve">
+    <value>colentId</value>
+  </data>
+  <data name="&gt;&gt;colentId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentNo.Name" xml:space="preserve">
+    <value>colentNo</value>
+  </data>
+  <data name="&gt;&gt;colentNo.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentDate.Name" xml:space="preserve">
+    <value>colentDate</value>
+  </data>
+  <data name="&gt;&gt;colentDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colentTaxNumber.Name" xml:space="preserve">
+    <value>colentTaxNumber</value>
+  </data>
+  <data name="&gt;&gt;colentTaxNumber.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
+    <value>layoutControlGroup3</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup4.Name" xml:space="preserve">
+    <value>layoutControlGroup4</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ItemForentNo.Name" xml:space="preserve">
+    <value>ItemForentNo</value>
+  </data>
+  <data name="&gt;&gt;ItemForentNo.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ItemForentDate.Name" xml:space="preserve">
+    <value>ItemForentDate</value>
+  </data>
+  <data name="&gt;&gt;ItemForentDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ItemForentRefNo.Name" xml:space="preserve">
+    <value>ItemForentRefNo</value>
+  </data>
+  <data name="&gt;&gt;ItemForentRefNo.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ItemForentReverseConstraint.Name" xml:space="preserve">
+    <value>ItemForentReverseConstraint</value>
+  </data>
+  <data name="&gt;&gt;ItemForentReverseConstraint.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ItemForentAmount.Name" xml:space="preserve">
+    <value>ItemForentAmount</value>
+  </data>
+  <data name="&gt;&gt;ItemForentAmount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ItemForentReverseConstraintDate.Name" xml:space="preserve">
+    <value>ItemForentReverseConstraintDate</value>
+  </data>
+  <data name="&gt;&gt;ItemForentReverseConstraintDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup5.Name" xml:space="preserve">
+    <value>layoutControlGroup5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ItemForentDesc.Name" xml:space="preserve">
+    <value>ItemForentDesc</value>
+  </data>
+  <data name="&gt;&gt;ItemForentDesc.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelRemaining.Name" xml:space="preserve">
+    <value>labelRemaining</value>
+  </data>
+  <data name="&gt;&gt;labelRemaining.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tblAccountSrchBindingSource.Name" xml:space="preserve">
+    <value>tblAccountSrchBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tblAccountSrchBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridViewAccount.Name" xml:space="preserve">
+    <value>gridViewAccount</value>
+  </data>
+  <data name="&gt;&gt;gridViewAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colaccNo.Name" xml:space="preserve">
+    <value>colaccNo</value>
+  </data>
+  <data name="&gt;&gt;colaccNo.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colaccName.Name" xml:space="preserve">
+    <value>colaccName</value>
+  </data>
+  <data name="&gt;&gt;colaccName.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colaccCurrency.Name" xml:space="preserve">
+    <value>colaccCurrency</value>
+  </data>
+  <data name="&gt;&gt;colaccCurrency.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>formAddEntry</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

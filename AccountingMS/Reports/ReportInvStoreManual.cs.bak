@@ -1,0 +1,85 @@
+﻿using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace AccountingMS
+{
+    public partial class ReportInvStoreManual : XtraReport
+    {
+        ClsTblStore clsTbStore;
+        ClsTblProduct clsTbProduct;
+        ClsTblPrdPriceMeasurment clsTbPrdMsur;
+        ClsTblInvStoreSub clsTbInvSub;
+
+        public ReportInvStoreManual()
+        {
+            InitializeComponent();
+            this.ApplyLocalization(Thread.CurrentThread.CurrentUICulture);
+            if (MySetting.GetPrivateSetting.LangEng)
+            {
+                this.RightToLeft = RightToLeft.No;
+                this.RightToLeftLayout = RightToLeftLayout.No;
+            }
+
+            InitDefaultData();
+        }
+
+        public static async Task<ReportInvStoreManual> CreateAsync(tblInvStoreMain tbInvMain)
+        {
+            var rprt = new ReportInvStoreManual();
+
+            await rprt.InitObjectsAsync();
+            rprt.IniitDataObjects(tbInvMain);
+
+            return rprt;
+        }
+
+        private async Task InitObjectsAsync()
+        {
+            IList<Task> taskList = new List<Task>();
+
+            taskList.Add(Task.Run(() => this.clsTbStore = new ClsTblStore()));
+            taskList.Add(Task.Run(() => this.clsTbProduct = new ClsTblProduct()));
+            taskList.Add(Task.Run(() => this.clsTbPrdMsur = new ClsTblPrdPriceMeasurment()));
+            taskList.Add(Task.Run(() => this.clsTbInvSub = new ClsTblInvStoreSub()));
+
+            await Task.WhenAll(taskList);
+        }
+
+        private void InitDefaultData()
+        {
+            new ClsReportHeaderData(this);
+            xrlDate.Text += (!MySetting.GetPrivateSetting.LangEng) ? $"{DateTime.Now:f}" : $"{DateTime.Now:f}";
+        }
+
+        private void IniitDataObjects(tblInvStoreMain tbInvMain)
+        {
+            tblInvStoreMainBindingSource.DataSource = tbInvMain;
+            tblInvStoreSubBindingSource.DataSource = this.clsTbInvSub.GetInvStoreListByInvMainId(tbInvMain.id);
+
+            xrlStore.Text += this.clsTbStore.GetStoreNameById(tbInvMain.invStrId);
+        }
+
+        private void xrtcPrdId_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = this.clsTbProduct.GetPrdNameById(Convert.ToInt32(cell.Value));
+        }
+
+        private void xrtcPrdMsurId_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = this.clsTbPrdMsur.GetPrdPriceMsurNameById(Convert.ToInt32(cell.Value));
+        }
+
+        private void xrTableCell5_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            //XRTableCell cell = sender as XRTableCell;
+
+            //cell.Text = this.clsTbPrdMsur.GetFirstBarcodeById(Convert.ToInt32(cell.Value));
+
+        }
+    }
+}

@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="IDTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 45</value>
+  </data>
+  <data name="IDTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="CodeTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 71</value>
+  </data>
+  <data name="CodeTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="NameTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 95</value>
+  </data>
+  <data name="NameTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="GenderImageComboBoxEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 119</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GenderImageComboBoxEdit.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Near</value>
+  </data>
+  <data name="GenderImageComboBoxEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="BranchTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 143</value>
+  </data>
+  <data name="BranchTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="NationalIDTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 45</value>
+  </data>
+  <data name="NationalIDTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="InsuranceNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 69</value>
+  </data>
+  <data name="InsuranceNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="InsuranceDateDateEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 93</value>
+  </data>
+  <data name="InsuranceDateDateEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="DrivingLicenseTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 117</value>
+  </data>
+  <data name="DrivingLicenseTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="EndDateDateEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 141</value>
+  </data>
+  <data name="EndDateDateEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="BankNameTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 165</value>
+  </data>
+  <data name="BankNameTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="AccountNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 189</value>
+  </data>
+  <data name="AccountNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="BirthDateDateEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 45</value>
+  </data>
+  <data name="BirthDateDateEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="BirthPlaceTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 72</value>
+  </data>
+  <data name="BirthPlaceTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="NationalityTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 99</value>
+  </data>
+  <data name="NationalityTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="MaritalStatusImageComboBoxEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 123</value>
+  </data>
+  <data name="MaritalStatusImageComboBoxEdit.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Near</value>
+  </data>
+  <data name="MaritalStatusImageComboBoxEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="MilitarilyStatusImageComboBoxEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 147</value>
+  </data>
+  <data name="MilitarilyStatusImageComboBoxEdit.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Near</value>
+  </data>
+  <data name="MilitarilyStatusImageComboBoxEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="PhoneTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 171</value>
+  </data>
+  <data name="PhoneTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="EmailTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 195</value>
+  </data>
+  <data name="EmailTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="AddressTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 219</value>
+  </data>
+  <data name="AddressTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="FingerprintCodeTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 165</value>
+  </data>
+  <data name="FingerprintCodeTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="ContractTypeImageComboBoxEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 45</value>
+  </data>
+  <data name="ContractTypeImageComboBoxEdit.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Near</value>
+  </data>
+  <data name="ContractTypeImageComboBoxEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="ContractPeriodTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 69</value>
+  </data>
+  <data name="ContractPeriodTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="ContactEndDateDateEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 93</value>
+  </data>
+  <data name="ContactEndDateDateEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="DateOfRecruitmentDateEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 117</value>
+  </data>
+  <data name="DateOfRecruitmentDateEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="AutoAlternateShiftCheckEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 141</value>
+  </data>
+  <data name="AutoAlternateShiftCheckEdit.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AutoAlternateShiftCheckEdit.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AutoAlternateShiftCheckEdit.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AutoAlternateShiftCheckEdit.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="FristShiftDateDateEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 164</value>
+  </data>
+  <data name="FristShiftDateDateEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="ShiftAlternatingPeriodTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 188</value>
+  </data>
+  <data name="ShiftAlternatingPeriodTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="DepartmentIDLookUpEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 167</value>
+  </data>
+  <data name="DepartmentIDLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="GroupIDLookUpEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 191</value>
+  </data>
+  <data name="GroupIDLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="JobIDLookUpEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 141</value>
+  </data>
+  <data name="JobIDLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="AbsenceRegistionIDLookUpEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 45</value>
+  </data>
+  <data name="AbsenceRegistionIDLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="DelayRegulationIDLookUpEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 69</value>
+  </data>
+  <data name="DelayRegulationIDLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="SalaryRegulationIDLookUpEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 117</value>
+  </data>
+  <data name="SalaryRegulationIDLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="OverTimeRegulationIDLookUpEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 93</value>
+  </data>
+  <data name="OverTimeRegulationIDLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="EmployeeView.IconOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAydJREFUOE9dk2tMFFcYhqeRNGn6x6ipK1FiDAZjorXwo42xTRpNbGy0F2NNiIqK
+        BKIoJYsuggiRCl6WiwrdFbSCu8qCiApRDBKzkmWXAiVNqrOAuCiyCGzBEqu4F3x6ZsQ46Ze8mXkz5zzz
+        zfvNkfx+P8FQiGAwqMofCPLKH2BSKCD860BA9cr13RpFAeFdLtdpSTHlzX+wzXSDuHO3OHjdia2rj4td
+        j0iqb6fQ2UPt/QEKWmS22xxstdxjb42TwfEXOFpazCpg26krSD8eYmZiAfV/9uEPTdHrm2Dh8VrKOx4S
+        nHpDv9iwqqQRae955h68hDw0jsvheAvYUWRD2mBgmb6UkYl/UWrg+Qsi86qp7HyoeqVSGjqR0irRZVcj
+        P9MAdp60Iq1N5dOUU/jeAcQbI3MsXGzvUb1SqY1dSOlWdLlXkIefawD5FUhf7yEqPg/3wLBY+oZOzxAL
+        DpRhbOokNDWlBrm9zoV06DK6/Lr/AXLPMWNVArM2pPHFvkKSTXVEHzCpmczXm4j77Rbry24yN7eKD7Kr
+        0J28jjzyjwZw2MxHK+PJLLXxVfJxDl9o4Oeya5ypt5NgukpuTRPRRyoxXG4kIs/GJyeuIY9qAPGZJXz4
+        WSwxsZks/imd7zNKWZZ4jJiUIhbtLuCboxVEZZSzPKeCjw3n0R2tER1oPmGXoZiwJT8wf3USVbedeLyj
+        lN90MGdzFgkltTwQubQ/GmR1gRj3njPMy7GKDDRT2KU3MmPhOqK/S8U3PqEm/nR0nKi4I1iaO1SvlL7q
+        LlK8kfCMC2KMYxpAyjHCwtcQsy4Z39g0YGSMJbFZWJp+V71SemsT0tY8wtPOih/pbw1g9y+Ezf6SyM+3
+        0N03oC5+OjxG1EYDlkan6gPBELFF1Uibspm37zSy1/ceoE8zErH4Wxat2ETS/kIa7rRhvWEnenM6Wb/W
+        crvtL4zVzSxNPEH4znxWGMz0ig5aFYByqoa8I7i7Pbh7HvOgux+59wlu0YlbBOf2DCL3e7nv8SI/eYYs
+        Au0d8vFy8jV2u90sKUfSIUiu1tZpOcyt01LuVa8810jxyubi4uIt/wH9mffiApFATgAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+</root>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheetSerializer SerializerVersion="17.2.5.0" FileName="">
+  <Styles>
+    <Item1 Name="OddStyle" BorderStyle="Inset" Font="Tahoma, 8.25pt" ForeColor="Black" BackColor="255,225,232,220" BorderColor="255,196,207,189" Sides="Left, Right, Bottom" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Name="EvenStyle" BorderStyle="Inset" Font="Tahoma, 8.25pt" ForeColor="Black" BackColor="255,250,250,240" BorderColor="255,196,207,189" Sides="Left, Right, Bottom" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+  </Styles>
+</StyleSheetSerializer>

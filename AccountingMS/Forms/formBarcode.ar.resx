@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 440</value>
+  </data>
+  <data name="pictureEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>692, 252</value>
+  </data>
+  <data name="spinEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 696</value>
+  </data>
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1039, 40</value>
+  </data>
+  <data name="spinEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 54</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 176</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="picbarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 43</value>
+  </data>
+  <data name="picbarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 78</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 183</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>523, 253</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 802</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>845, 23</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 775</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>845, 23</value>
+  </data>
+  <data name="comboBoxEditSymbology.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 501</value>
+  </data>
+  <data name="comboBoxEditSymbology.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="errorText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>796, 754</value>
+  </data>
+  <data name="errorText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 17</value>
+  </data>
+  <data name="checkEditPrdName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 39</value>
+  </data>
+  <data name="checkEditPrdName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 27</value>
+  </data>
+  <data name="bottomCaptionForeCE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 124</value>
+  </data>
+  <data name="bottomCaptionForeCE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="bottomCaptionFE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 151</value>
+  </data>
+  <data name="bottomCaptionFE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="textEditProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 70</value>
+  </data>
+  <data name="textEditProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="bottomCaptionAligmentCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 97</value>
+  </data>
+  <data name="bottomCaptionAligmentCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="checkEditCompanyName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 39</value>
+  </data>
+  <data name="checkEditCompanyName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 27</value>
+  </data>
+  <data name="topCaptionForeCE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 124</value>
+  </data>
+  <data name="topCaptionForeCE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="topCaptionFE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 151</value>
+  </data>
+  <data name="topCaptionFE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="topCaptionAligmentCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 97</value>
+  </data>
+  <data name="topCaptionAligmentCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="textEditCompanyName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 70</value>
+  </data>
+  <data name="textEditCompanyName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="checkEditBarcodeNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 470</value>
+  </data>
+  <data name="checkEditBarcodeNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 27</value>
+  </data>
+  <data name="codeTextVertAlignmentCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 528</value>
+  </data>
+  <data name="codeTextVertAlignmentCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="backColorE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 664</value>
+  </data>
+  <data name="backColorE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="codeTextHorzAlignmentCB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 555</value>
+  </data>
+  <data name="codeTextHorzAlignmentCB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="foreColorE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 637</value>
+  </data>
+  <data name="foreColorE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="codeTextFE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 582</value>
+  </data>
+  <data name="codeTextFE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="angleSE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 609</value>
+  </data>
+  <data name="angleSE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 24</value>
+  </data>
+  <data name="btnPrintPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 696</value>
+  </data>
+  <data name="btnPrintPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 54</value>
+  </data>
+  <data name="textEditPrdPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 247</value>
+  </data>
+  <data name="textEditPrdPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 22</value>
+  </data>
+  <data name="checkEditExpireDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>832, 216</value>
+  </data>
+  <data name="checkEditExpireDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 27</value>
+  </data>
+  <data name="checkEditPrdPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>832, 247</value>
+  </data>
+  <data name="checkEditPrdPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 27</value>
+  </data>
+  <data name="textEditExpireDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 216</value>
+  </data>
+  <data name="textEditExpireDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 22</value>
+  </data>
+  <data name="textEditProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 66</value>
+  </data>
+  <data name="textEditProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="textEditWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 344</value>
+  </data>
+  <data name="textEditWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 24</value>
+  </data>
+  <data name="textEditHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 372</value>
+  </data>
+  <data name="textEditHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 24</value>
+  </data>
+  <data name="textEditBarocdeNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 120</value>
+  </data>
+  <data name="textEditBarocdeNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="btnDefaultSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>719, 696</value>
+  </data>
+  <data name="btnDefaultSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 54</value>
+  </data>
+  <data name="btnUserSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>877, 725</value>
+  </data>
+  <data name="btnUserSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="btnSaveUserSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>877, 696</value>
+  </data>
+  <data name="btnSaveUserSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="textEditPageWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 400</value>
+  </data>
+  <data name="textEditPageWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 24</value>
+  </data>
+  <data name="btnPrintBarocde.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 696</value>
+  </data>
+  <data name="btnPrintBarocde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 54</value>
+  </data>
+  <data name="textEditOtherInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 147</value>
+  </data>
+  <data name="textEditOtherInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="textEditSrchBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 39</value>
+  </data>
+  <data name="textEditSrchBarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="textEditPrdMsur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 93</value>
+  </data>
+  <data name="textEditPrdMsur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="checkEditSaleTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 276</value>
+  </data>
+  <data name="checkEditSaleTax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 24</value>
+  </data>
+  <data name="BarCodeVisualizationlayoutControl1ConvertedLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="BarCodeVisualizationlayoutControl1ConvertedLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1039, 813</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1039, 853</value>
+  </data>
+</root>

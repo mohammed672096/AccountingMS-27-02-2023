@@ -1,0 +1,235 @@
+﻿namespace AccountingMS.Reports
+{
+    partial class rpt_GridReport
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.printableComponentContainer1 = new DevExpress.XtraReports.UI.PrintableComponentContainer();
+            this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.lbl_filter = new DevExpress.XtraReports.UI.XRLabel();
+            this.lbl_rptName = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrPictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.lbl_companyName = new DevExpress.XtraReports.UI.XRLabel();
+            this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.lbl_PrintDateText = new DevExpress.XtraReports.UI.XRLabel();
+            this.lbl_PrinDate = new DevExpress.XtraReports.UI.XRLabel();
+            this.lbl_UserName = new DevExpress.XtraReports.UI.XRLabel();
+            this.lbl_usernameTxt = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // Detail
+            // 
+            this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.printableComponentContainer1});
+            this.Detail.Name = "Detail";
+            this.Detail.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            // 
+            // printableComponentContainer1
+            // 
+            this.printableComponentContainer1.AnchorHorizontal = ((DevExpress.XtraReports.UI.HorizontalAnchorStyles)((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left | DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right)));
+            this.printableComponentContainer1.AnchorVertical = ((DevExpress.XtraReports.UI.VerticalAnchorStyles)((DevExpress.XtraReports.UI.VerticalAnchorStyles.Top | DevExpress.XtraReports.UI.VerticalAnchorStyles.Bottom)));
+            this.printableComponentContainer1.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Double;
+            this.printableComponentContainer1.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top)
+            | DevExpress.XtraPrinting.BorderSide.Right)
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.printableComponentContainer1.BorderWidth = 2F;
+            this.printableComponentContainer1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.printableComponentContainer1.Name = "printableComponentContainer1";
+            this.printableComponentContainer1.SizeF = new System.Drawing.SizeF(627F, 100F);
+            this.printableComponentContainer1.StylePriority.UseBorderDashStyle = false;
+            this.printableComponentContainer1.StylePriority.UseBorders = false;
+            this.printableComponentContainer1.StylePriority.UseBorderWidth = false;
+            // 
+            // TopMargin
+            // 
+            this.TopMargin.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.lbl_filter,
+            this.lbl_rptName,
+            this.xrPictureBox1,
+            this.lbl_companyName});
+            this.TopMargin.HeightF = 133.1667F;
+            this.TopMargin.Name = "TopMargin";
+            this.TopMargin.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            // 
+            // lbl_filter
+            // 
+            this.lbl_filter.Font = new System.Drawing.Font("Times New Roman", 8F);
+            this.lbl_filter.LocationFloat = new DevExpress.Utils.PointFloat(136.4583F, 100.7917F);
+            this.lbl_filter.Name = "lbl_filter";
+            this.lbl_filter.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lbl_filter.SizeF = new System.Drawing.SizeF(339.5F, 32.37502F);
+            this.lbl_filter.StylePriority.UseFont = false;
+            this.lbl_filter.StylePriority.UseTextAlignment = false;
+            this.lbl_filter.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // lbl_rptName
+            // 
+            this.lbl_rptName.CanGrow = false;
+            this.lbl_rptName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.lbl_rptName.LocationFloat = new DevExpress.Utils.PointFloat(136.4583F, 62.16669F);
+            this.lbl_rptName.Name = "lbl_rptName";
+            this.lbl_rptName.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lbl_rptName.SizeF = new System.Drawing.SizeF(339.5F, 37.58332F);
+            this.lbl_rptName.StylePriority.UseFont = false;
+            this.lbl_rptName.StylePriority.UseTextAlignment = false;
+            this.lbl_rptName.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrPictureBox1
+            // 
+            this.xrPictureBox1.AnchorHorizontal = DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left;
+            this.xrPictureBox1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 20.41667F);
+            this.xrPictureBox1.Name = "xrPictureBox1";
+            this.xrPictureBox1.SizeF = new System.Drawing.SizeF(136.4583F, 112.75F);
+            this.xrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.ZoomImage;
+            // 
+            // lbl_companyName
+            // 
+            this.lbl_companyName.CanGrow = false;
+            this.lbl_companyName.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
+            this.lbl_companyName.LocationFloat = new DevExpress.Utils.PointFloat(136.4583F, 20.41667F);
+            this.lbl_companyName.Name = "lbl_companyName";
+            this.lbl_companyName.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lbl_companyName.SizeF = new System.Drawing.SizeF(339.5F, 40.70835F);
+            this.lbl_companyName.StylePriority.UseFont = false;
+            this.lbl_companyName.StylePriority.UseTextAlignment = false;
+            this.lbl_companyName.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // BottomMargin
+            // 
+            this.BottomMargin.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.lbl_PrintDateText,
+            this.lbl_PrinDate,
+            this.lbl_UserName,
+            this.lbl_usernameTxt,
+            this.xrPageInfo1});
+            this.BottomMargin.HeightF = 45.83333F;
+            this.BottomMargin.Name = "BottomMargin";
+            this.BottomMargin.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            // 
+            // lbl_PrintDateText
+            // 
+            this.lbl_PrintDateText.AnchorHorizontal = DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right;
+            this.lbl_PrintDateText.AnchorVertical = DevExpress.XtraReports.UI.VerticalAnchorStyles.Top;
+            this.lbl_PrintDateText.AutoWidth = true;
+            this.lbl_PrintDateText.CanShrink = true;
+            this.lbl_PrintDateText.LocationFloat = new DevExpress.Utils.PointFloat(421.7917F, 0F);
+            this.lbl_PrintDateText.Name = "lbl_PrintDateText";
+            this.lbl_PrintDateText.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lbl_PrintDateText.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.lbl_PrintDateText.StylePriority.UseFont = false;
+            this.lbl_PrintDateText.StylePriority.UseForeColor = false;
+            this.lbl_PrintDateText.Text = "تاريخ الطباعه";
+            // 
+            // lbl_PrinDate
+            // 
+            this.lbl_PrinDate.AnchorHorizontal = DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right;
+            this.lbl_PrinDate.AnchorVertical = DevExpress.XtraReports.UI.VerticalAnchorStyles.Top;
+            this.lbl_PrinDate.AutoWidth = true;
+            this.lbl_PrinDate.CanShrink = true;
+            this.lbl_PrinDate.LocationFloat = new DevExpress.Utils.PointFloat(521.7916F, 0F);
+            this.lbl_PrinDate.Name = "lbl_PrinDate";
+            this.lbl_PrinDate.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lbl_PrinDate.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.lbl_PrinDate.StylePriority.UseFont = false;
+            this.lbl_PrinDate.StylePriority.UseForeColor = false;
+            this.lbl_PrinDate.StylePriority.UseTextAlignment = false;
+            // 
+            // lbl_UserName
+            // 
+            this.lbl_UserName.AnchorHorizontal = DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left;
+            this.lbl_UserName.AnchorVertical = DevExpress.XtraReports.UI.VerticalAnchorStyles.Top;
+            this.lbl_UserName.AutoWidth = true;
+            this.lbl_UserName.CanShrink = true;
+            this.lbl_UserName.LocationFloat = new DevExpress.Utils.PointFloat(100F, 0F);
+            this.lbl_UserName.Name = "lbl_UserName";
+            this.lbl_UserName.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lbl_UserName.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.lbl_UserName.StylePriority.UseFont = false;
+            this.lbl_UserName.StylePriority.UseForeColor = false;
+            // 
+            // lbl_usernameTxt
+            // 
+            this.lbl_usernameTxt.AnchorHorizontal = DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left;
+            this.lbl_usernameTxt.AnchorVertical = DevExpress.XtraReports.UI.VerticalAnchorStyles.Top;
+            this.lbl_usernameTxt.AutoWidth = true;
+            this.lbl_usernameTxt.CanShrink = true;
+            this.lbl_usernameTxt.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.lbl_usernameTxt.Name = "lbl_usernameTxt";
+            this.lbl_usernameTxt.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.lbl_usernameTxt.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.lbl_usernameTxt.StylePriority.UseFont = false;
+            this.lbl_usernameTxt.StylePriority.UseForeColor = false;
+            this.lbl_usernameTxt.Text = "المستخدم";
+            // 
+            // xrPageInfo1
+            // 
+            this.xrPageInfo1.AnchorHorizontal = ((DevExpress.XtraReports.UI.HorizontalAnchorStyles)((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left | DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right)));
+            this.xrPageInfo1.AnchorVertical = DevExpress.XtraReports.UI.VerticalAnchorStyles.Top;
+            this.xrPageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(263.5417F, 0F);
+            this.xrPageInfo1.Name = "xrPageInfo1";
+            this.xrPageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPageInfo1.SizeF = new System.Drawing.SizeF(77F, 23F);
+            this.xrPageInfo1.StylePriority.UseFont = false;
+            this.xrPageInfo1.StylePriority.UseForeColor = false;
+            this.xrPageInfo1.StylePriority.UseTextAlignment = false;
+            // 
+            // rpt_GridReport
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail,
+            this.TopMargin,
+            this.BottomMargin});
+            this.Margins = new System.Drawing.Printing.Margins(100, 100, 133, 46);
+            this.PageHeight = 1169;
+            this.PageWidth = 827;
+            this.PaperKind = System.Drawing.Printing.PaperKind.A4;
+            this.Version = "19.2";
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+
+        }
+
+        #endregion
+
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        public DevExpress.XtraReports.UI.TopMarginBand TopMargin;
+        private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        public DevExpress.XtraReports.UI.PrintableComponentContainer printableComponentContainer1;
+        private DevExpress.XtraReports.UI.XRLabel lbl_filter;
+        private DevExpress.XtraReports.UI.XRLabel lbl_rptName;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox1;
+        private DevExpress.XtraReports.UI.XRLabel lbl_companyName;
+        private DevExpress.XtraReports.UI.XRLabel lbl_UserName;
+        private DevExpress.XtraReports.UI.XRLabel lbl_usernameTxt;
+        private DevExpress.XtraReports.UI.XRPageInfo xrPageInfo1;
+        private DevExpress.XtraReports.UI.XRLabel lbl_PrinDate;
+        private DevExpress.XtraReports.UI.XRLabel lbl_PrintDateText;
+    }
+}

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="accounting" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-2T7M24S\AASIM1;Initial Catalog=accounting;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="AccountingMS.Properties.Settings" SettingsPropertyName="accountingConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblBarcode" Member="AccMain_tblBarcodes">
+    <Type Name="AccMain_tblBarcode">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="brcNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="brcPrdMsurId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="brcBrnId" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblStore" Member="AccMain_tblStores">
+    <Type Name="AccMain_tblStore">
+      <Column Name="id" Type="System.Int16" DbType="SmallInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="strNo" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="strName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="strPhnNo" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="strBrnId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="strStatus" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblGroupStr" Member="AccMain_tblGroupStrs">
+    <Type Name="AccMain_tblGroupStr">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="grpNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="grpName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="grpAccNo" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="grpCurrency" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="grpSalesAccNo" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="grpCostAccNo" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="grpDscntAccNo" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="grpSalesRtrnAccNo" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="grpCostRtrnAccNo" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="grpBrnId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="grpStatus" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="grpPurchaseAccNo" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="grpPurchaseRtrnAccNo" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblProduct" Member="AccMain_tblProducts">
+    <Type Name="AccMain_tblProduct">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="prdNo" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="prdName" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="prdNameEng" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="prdGrpNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="prdDesc" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="prdSaleTax" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="prdBrnId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="prdStatus" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="prdPriceTax" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ReorderLevel" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="MaxLevel" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="prdPurchaseTax" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Suspended" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPrdPriceMeasurment" Member="AccMain_tblPrdPriceMeasurments">
+    <Type Name="AccMain_tblPrdPriceMeasurment">
+      <Column Name="ppmId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ppmMsurName" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ppmPrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ppmSalePrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ppmMinSalePrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ppmRetailPrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ppmBatchPrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ppmBarcode1" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ppmBarcode2" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ppmBarcode3" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ppmConversion" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ppmDefault" Type="System.Boolean" DbType="Bit not NULL" CanBeNull="false" />
+      <Column Name="ppmPrdId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ppmWeight" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ppmBrnId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ppmStatus" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ppmManufacture" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPrdPriceQuan" Member="AccMain_tblPrdPriceQuans">
+    <Type Name="AccMain_tblPrdPriceQuan">
+      <Column Name="prId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="prPrdId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="pr1" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="pr2" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="pr3" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="prQuantity1" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="prQuantity2" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="prQuantity3" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="prdBrnId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="prStatus" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblProductQunatity" Member="AccMain_tblProductQunatities">
+    <Type Name="AccMain_tblProductQunatity">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="prdId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="prdQuantity" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="prdSubQuantity" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="prdSubQuantity3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="prdStrId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="prdBrnId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="prdStatus" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblSupplyMain" Member="AccMain_tblSupplyMains">
+    <Type Name="AccMain_tblSupplyMain">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="supNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="supAccNo" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="supAccName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="supRefNo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="supDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="supTotal" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="supTotalFrgn" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supTaxPercent" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="supTaxPrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supCurrency" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="supDscntPercent" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supDscntAmount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supBankId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="supBankAmount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supCurrencyChng" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="supCustSplId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="supDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="supIsCash" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="supEqfal" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="supStrId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="supUserId" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="supBrnId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="supStatus" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="CarType" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PlateNumber" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CounterNumber" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SendToserver" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDelete" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="paidCash" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="remin" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supBoxId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="TotalAfterDiscount" Storage="_supPaidCash" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PoNumber" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DueDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EnterDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MainNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="repName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="commission" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="net" Type="System.Double" DbType="Float NOT NULL" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblSupplySub" Member="AccMain_tblSupplySubs">
+    <Type Name="AccMain_tblSupplySub">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="supNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="supAccNo" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="supAccName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="supDesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="supPrdBarcode" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="supPrdNo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="supPrdName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="supPrdId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="supMsur" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="supCurrency" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="supQuanMain" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supPrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supSalePrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supTaxPercent" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="supTaxPrice" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supDscntPercent" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supDscntAmount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supDebit" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supCredit" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supDebitFrgn" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supCreditFrgn" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="supBrnId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="supUserId" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="supStatus" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="supPrdManufacture" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="subNoPacks" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="subQteMeter" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="subHeight" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="subWidth" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ExpireDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="supOvertime" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="supWorkingtime" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

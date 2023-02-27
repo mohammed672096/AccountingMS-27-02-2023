@@ -1,0 +1,189 @@
+﻿using DevExpress.XtraEditors;
+using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace AccountingMS
+{
+    public partial class ReportAllSaleM : XtraReport
+    {
+        ClsTblSupplyMain clsTbSupplyMain;
+        ReportAllSaleD rprtSaleDetailD;
+
+        private DateTime dtStart, dtEnd;
+        protected internal double totalPrdPrice, totalPrdSalePrice, totalTaxPrice, totalPrice;
+        protected internal double totalFinal, totalDscntAmount;
+
+        private ReportAllSaleM()
+        {
+            InitializeComponent();
+            this.ApplyLocalization(System.Threading.Thread.CurrentThread.CurrentCulture);
+            SetRTL();
+            InitDefaultData();
+            InitSubReport();
+            new ClsReportHeaderData(this);
+        }
+
+        public static async Task<ReportAllSaleM> CreateAsync()
+        {
+            var rprt = new ReportAllSaleM();
+            await rprt.InitObjectsAsync();
+
+            return rprt;
+        }
+
+        private async Task InitObjectsAsync()
+        {
+            IList<Task> taskList = new List<Task>();
+            taskList.Add(Task.Run(() => this.clsTbSupplyMain = new ClsTblSupplyMain(true)));
+            await Task.WhenAll(taskList);
+        }
+
+        private void InitDefaultData()
+        {
+            parameterDateStart.Value = DateTime.Now.Date;
+            parameterDateEnd.Value = Session.CurrentYear.fyDateEnd;
+            xrtcDate.Text += (!MySetting.GetPrivateSetting.LangEng) ? $"{DateTime.Now:yyyy/MM/dd}" : $"{DateTime.Now:dd/MM/yyyy}";
+        }
+
+        private void InitSubReport()
+        {
+            this.rprtSaleDetailD = new ReportAllSaleD(this);
+            xrsRprtSaleDetailD.ReportSource = this.rprtSaleDetailD;
+            xrsRprtSaleDetailD.BeforePrint += XrsRprtSaleDetailD_BeforePrint;
+        }
+
+        private void ReportSaleDetail_ParametersRequestBeforeShow(object sender, DevExpress.XtraReports.Parameters.ParametersRequestEventArgs e)
+        {
+            foreach (var info in e.ParametersInformation)
+                if (info.Parameter.Name == parameterDateStart.Name || info.Parameter.Name == parameterDateEnd.Name) info.Editor = InitDateEdit();
+        }
+
+        private DateEdit InitDateEdit()
+        {
+            DateEdit dateEdit = new DateEdit();
+            dateEdit.Properties.Mask.EditMask = "yyyy/MM/dd HH:mm";
+            dateEdit.Properties.Mask.UseMaskAsDisplayFormat = true;
+            dateEdit.Properties.CalendarTimeEditing = DevExpress.Utils.DefaultBoolean.True;
+            dateEdit.Properties.CalendarTimeProperties.EditMask = "HH:mm";
+            return dateEdit;
+        }
+
+
+        private void ReportPurchaseSaleDetail_ParametersRequestSubmit(object sender, DevExpress.XtraReports.Parameters.ParametersRequestEventArgs e)
+        {
+            this.dtStart = Convert.ToDateTime(parameterDateStart.Value);
+            this.dtEnd = Convert.ToDateTime(parameterDateEnd.Value);
+        }
+        private void XrsRprtSaleDetailD_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            ResetTotalValues();
+            this.rprtSaleDetailD.DataSource = InitDataJoin();
+            InitTotalValues();
+            xrsRprtSaleDetailD.Visible = (bool)parameterShowDetail.Value;
+            xrTableTotalOnly.Visible= !(bool)parameterShowDetail.Value;
+            xrTableCellTotalOnly.Visible = !(bool)parameterShowDetail.Value;
+        }
+        private void InitTotalValues()
+        {
+            xrtcTotalSalePrice.Text = $"{this.totalPrdSalePrice:n2}";
+            xrtcTotalDiscount.Text = $"{this.totalDscntAmount:n2}";
+            xrtcTotalTaxPrice.Text = $"{this.totalTaxPrice:n2}";
+            xrtcTotalFinal.Text = $"{this.totalFinal:n2}";
+            xrtcTotalPrice.Text = $"{this.totalPrice:n2}";
+        }
+
+        private IList<ItblSupplyMainDetail> InitDataJoin()
+        {
+            using (accountingEntities db = new accountingEntities())
+            {
+                var tbSupplyMainDetailList = (from tbSupplyMain in this.clsTbSupplyMain.GetSupplyMainListSaleByDtStartEnd(this.dtStart, this.dtEnd)
+                                              join tbSupplySub in db.tblSupplySubs
+                                              on tbSupplyMain.id equals tbSupplySub.supNo into tbSupplyMainDetail1
+                                              select new
+                                              {
+
+                                                  itbSupplyMain = tbSupplyMain as ItblSupplyMainDetail,
+                                                  prdPrice = tbSupplyMainDetail1.Sum(x => Convert.ToDouble(x.supPrice) * Convert.ToDouble(x.supQuanMain)),
+                                                  sPrice = tbSupplyMainDetail1.Sum(x => Convert.ToDouble(x.supSalePrice) * Convert.ToDouble(x.supQuanMain)),
+                                              }).ToList();
+
+                var itbSupplyMainDetailList = new List<ItblSupplyMainDetail>();
+                foreach (var tbSupply in tbSupplyMainDetailList)
+                {
+                    if (tbSupply.itbSupplyMain.supTotal == 0) continue;
+                    itbSupplyMainDetailList.Add(InitDetailData(tbSupply.itbSupplyMain, tbSupply.prdPrice, tbSupply.sPrice));
+                }
+                return itbSupplyMainDetailList;
+            }
+        }
+        private ItblSupplyMainDetail InitDetailData(ItblSupplyMainDetail itbSupplyMain, double prdPrice, double sprdPrice)
+        {
+            itbSupplyMain.supPrdPrice = prdPrice;
+            itbSupplyMain.supPrdSalePrice = sprdPrice;
+            itbSupplyMain.supTotal = itbSupplyMain.supPrdSalePrice - Convert.ToDouble(itbSupplyMain.supDscntAmount);
+            itbSupplyMain.supTaxPrice = (itbSupplyMain.supTaxPrice > 0) ? itbSupplyMain.supTaxPrice : 0;
+            itbSupplyMain.supTotalFinal = Convert.ToDouble(itbSupplyMain.supTotal + itbSupplyMain.supTaxPrice);
+            CalcualteTotalValues(itbSupplyMain);
+            return itbSupplyMain;
+        }
+
+        private void CalcualteTotalValues(ItblSupplyMainDetail itbSupplyMainDetail)
+        {
+            switch ((SupplyType)itbSupplyMainDetail.supStatus)
+            {
+                case SupplyType.Sales:
+                case SupplyType.SalesPhase:
+                    IncreaseTotal(itbSupplyMainDetail);
+                    break;
+                case SupplyType.SalesRtrn:
+                case SupplyType.SalesPhaseRtrn:
+                    DecreaseTotal(itbSupplyMainDetail);
+                    break;
+            }
+        }
+
+        private void IncreaseTotal(ItblSupplyMainDetail itbSupplyMainDetail)
+        {
+            this.totalPrdPrice += itbSupplyMainDetail.supPrdPrice;
+            this.totalPrdSalePrice += itbSupplyMainDetail.supPrdSalePrice;
+            this.totalTaxPrice += Convert.ToDouble(itbSupplyMainDetail.supTaxPrice);
+            this.totalPrice += itbSupplyMainDetail.supTotal;
+            this.totalFinal += itbSupplyMainDetail.supTotalFinal;
+            this.totalDscntAmount += Convert.ToDouble(itbSupplyMainDetail.supDscntAmount);
+        }
+
+        private void DecreaseTotal(ItblSupplyMainDetail itbSupplyMainDetail)
+        {
+            this.totalPrdPrice -= itbSupplyMainDetail.supPrdPrice;
+            this.totalPrdSalePrice -= itbSupplyMainDetail.supPrdSalePrice;
+            this.totalTaxPrice -= Convert.ToDouble(itbSupplyMainDetail.supTaxPrice);
+            this.totalPrice -= itbSupplyMainDetail.supTotal;
+            this.totalFinal -= itbSupplyMainDetail.supTotalFinal;
+            this.totalDscntAmount -= Convert.ToDouble(itbSupplyMainDetail.supDscntAmount);
+        }
+
+        private void ResetTotalValues()
+        {
+            this.totalPrdPrice = 0;
+            this.totalPrdSalePrice = 0;
+            this.totalTaxPrice = 0;
+            this.totalPrice = 0;
+            this.totalFinal = 0;
+            this.totalDscntAmount = 0;
+        }
+
+        private void SetRTL()
+        {
+            if (!MySetting.GetPrivateSetting.LangEng) return;
+            parameterShowDetail.Description = "Detailed:";
+            parameterDateStart.Description = "Date From";
+            parameterDateEnd.Description = "Date To";
+
+            this.RightToLeft = RightToLeft.No;
+            this.RightToLeftLayout = RightToLeftLayout.No;
+        }
+    }
+}

@@ -1,0 +1,3489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="tblSettingBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>886, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="switch_GroupProductsInInvoices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>828, 501</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="switch_GroupProductsInInvoices.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 37</value>
+  </data>
+  <metadata name="tblProductColorBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="gridControl1.EmbeddedNavigator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gridControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 355</value>
+  </data>
+  <data name="colcolId.Caption" xml:space="preserve">
+    <value>رقم الكمية</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colcolId.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colcolId.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colcolId.Width" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="colcolQuan.Caption" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="repositoryItemSpinEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v21.2" name="DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="repositoryItemSpinEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="colcolQuan.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colcolQuan.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colcolQuan.Width" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="colcolHtml.Caption" xml:space="preserve">
+    <value>اللون</value>
+  </data>
+  <data name="repositoryItemColorPickEdit1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="colcolHtml.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colcolHtml.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="colcolHtml.Width" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1287, 179</value>
+  </data>
+  <data name="gridControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Name" xml:space="preserve">
+    <value>gridControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;gridControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnClose.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11pt</value>
+  </data>
+  <data name="btnClose.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAddEVYdFRpdGxlAENsb3NlO0V4aXQ7QmFycztSaWJi
+        b247RgO56AAAAXZJREFUWEftlkFOwzAQRbvqfUAgUMWSm3A9KtEuOAuHAMEFwMxH8yPb+XbGIBQkunit
+        6vnjeUmTtJuU0qp8vTzd3aY1OAn8C4F3sTYREXgzbozHbC3K0dgZr9lawZIAhl96fWuMSGD41nsvDCnR
+        E8Cp26FG7HNUYhqe9eJMfHh9ArWWALg3io0825NQwyH+4PUC1BmaFZ29oTZUEsc8l2XlcIAMgzLg7Lkh
+        sbVaYujICXIMy0BG70zMhnu9Oxwgx7AMVLQkho+cID8iAGYSOagZoeEAPWyUgQZSAmtGeDhA33cEWt85
+        rwnVI0HfqIAcTlAzwhLoYaMMVLRuNbUWkkA+KtC7z1vXxKIEcgzLgBN5wvWeE/leBcgxLANG78jrbOSJ
+        WYAMgyrQutoPWaZm6EygzlBdxE/nNTfxDDbqDSdK4soY/jl+Mc69Hh1OJgl7PzOefb1gSQBAAvYjwwkk
+        0CuHg4gA6P6xXODHf0p/lZPA3xFYj7T5BN17IBCO78cXAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 563</value>
+  </data>
+  <data name="btnClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 37</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnSave.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11pt</value>
+  </data>
+  <data name="btnSave.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 563</value>
+  </data>
+  <data name="btnSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1072, 37</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnSupplyA4CustomRprt.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <assembly alias="DevExpress.Data.v21.2" name="DevExpress.Data.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="btnSupplyA4CustomRprt.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v21.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIxLjIsIFZlcnNpb249MjEuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAABoDAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9Cgku
+        Qmx1ZXtmaWxsOiMxMTc3RDc7fQoJLkdyZWVue2ZpbGw6IzAzOUMyMzt9CgkuWWVsbG93e2ZpbGw6I0ZG
+        QjExNTt9CgkuUmVke2ZpbGw6I0QxMUMxQzt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQo8L3N0eWxlPg0KICA8ZyBpZD0iQ2hhcnREZXNp
+        Z25lciI+DQogICAgPHJlY3QgeD0iMiIgeT0iMTIiIHdpZHRoPSI2IiBoZWlnaHQ9IjEwIiByeD0iMCIg
+        cnk9IjAiIGNsYXNzPSJCbHVlIiAvPg0KICAgIDxwb2x5Z29uIHBvaW50cz0iMTYsMTcuMiAxNiw2IDEw
+        LDYgMTAsMjIgMTEuMiwyMiAgIiBjbGFzcz0iR3JlZW4iIC8+DQogICAgPHBvbHlnb24gcG9pbnRzPSIy
+        NCw5LjIgMjQsMCAxOCwwIDE4LDE1LjIgICIgY2xhc3M9IlJlZCIgLz4NCiAgICA8cGF0aCBkPSJNNiwz
+        MGgyNlY0TDYsMzB6IE0yNiwyNGgtNS41bDUuNS01LjVWMjR6IiBjbGFzcz0iWWVsbG93IiAvPg0KICA8
+        L2c+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="btnSupplyA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 87</value>
+  </data>
+  <data name="btnSupplyA4CustomRprt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSupplyA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 46</value>
+  </data>
+  <data name="btnSupplyA4CustomRprt.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnSupplyA4CustomRprt.Text" xml:space="preserve">
+    <value>إنشاء تقرير A4 مخصص</value>
+  </data>
+  <data name="&gt;&gt;btnSupplyA4CustomRprt.Name" xml:space="preserve">
+    <value>btnSupplyA4CustomRprt</value>
+  </data>
+  <data name="&gt;&gt;btnSupplyA4CustomRprt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSupplyA4CustomRprt.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;btnSupplyA4CustomRprt.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 219</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 37</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;teSupplyCashierCustomRprt.Name" xml:space="preserve">
+    <value>teSupplyCashierCustomRprt</value>
+  </data>
+  <data name="&gt;&gt;teSupplyCashierCustomRprt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teSupplyCashierCustomRprt.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teSupplyCashierCustomRprt.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 87</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Properties.Items" type="System.Byte, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Properties.Items1" xml:space="preserve">
+    <value>تصميم 1</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Properties.Items2" type="System.Byte, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Properties.Items3" xml:space="preserve">
+    <value>تصميم 2</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Properties.Items4" type="System.Byte, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Properties.Items5" xml:space="preserve">
+    <value>تصميم 3</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>638, 46</value>
+  </data>
+  <data name="txRprtSupplyCustomType.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;txRprtSupplyCustomType.Name" xml:space="preserve">
+    <value>txRprtSupplyCustomType</value>
+  </data>
+  <data name="&gt;&gt;txRprtSupplyCustomType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txRprtSupplyCustomType.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;txRprtSupplyCustomType.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 137</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>413, 37</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;teSupplyA4CustomRprt.Name" xml:space="preserve">
+    <value>teSupplyA4CustomRprt</value>
+  </data>
+  <data name="&gt;&gt;teSupplyA4CustomRprt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teSupplyA4CustomRprt.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teSupplyA4CustomRprt.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 137</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 37</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;teSupplyRetuA4CustomRprt.Name" xml:space="preserve">
+    <value>teSupplyRetuA4CustomRprt</value>
+  </data>
+  <data name="&gt;&gt;teSupplyRetuA4CustomRprt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teSupplyRetuA4CustomRprt.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teSupplyRetuA4CustomRprt.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 178</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1055, 37</value>
+  </data>
+  <data name="teOrderA4CustomRprt.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;teOrderA4CustomRprt.Name" xml:space="preserve">
+    <value>teOrderA4CustomRprt</value>
+  </data>
+  <data name="&gt;&gt;teOrderA4CustomRprt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teOrderA4CustomRprt.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teOrderA4CustomRprt.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnSupplyCashierCustomRprt.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="btnSupplyCashierCustomRprt.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACp0RVh0VGl0
+        bGUAVGFibG9pZDtQYXBlcjtQYWdlO0tpbmQ7Qmxhbms7RW1wdHk79AupIwAABGRJREFUWEetV2lzVEUU
+        BdnXsASXP6gfBEEFFBNCAkQIMYmjCAVCKMtvRlELt6hhEfgpbE4ymUxmeZmtOefe2+91p1L6JkVXnbrL
+        6z7nTDJze2aDcy7FGmvjK0S6Is2oyBYPvAZsWgOb1wGeS01EmlGhS8QL04/uFm49coVbjw3MPbL682mA
+        ucTHUktufWLyxj/3wJmaiDSjQhc3bebBV7Wmbj4k+RbjjjWjQhc3bZmafoiWc0mz7ZJWB2i7BnMDc1/7
+        vLFiaLYEdfS63S7/AiTfCvDfGmtGhS4xMHlDDYQiCYm9gETN6yKsooxaK6DvPvtaDGwDchvYOoFDXPrK
+        MpG65VkMkKCXtF2Nkc8RO3Awfv0BybcDuQxw0zYe4lIiE/TR4IVqlkdoKGjg0rX76zBw7R5aTshTsdUi
+        QLXRFKEqBdmTvOmqSdMtI3Y6XTd29S7Jdxh3rBkVurhp+9hVM0ARgwr6GiIU8qjbM8lVfBmxDQMXroiB
+        ncYda0aFLm7acfHKHFouEGmBVAWWIcZcRXzUvCKxKZGggdHLc94AZ0GsGRW6xMCnX805vIGNOIaI1DKR
+        Sm0FCKPmS4itdted/+Ivku8CchvYOfrl32JARUAsyESWJKoIUakiJ1hXm67MZ6hb7Y47WxADu4FcBrhp
+        17nCnzJEUkGQiogRhyivhWUicU0MsZGpWZLvMe5YMyp0iYGRwqwMERXAK0KUnMTSSyxaD1g0aJ4IVmDg
+        zOQfPRvYPTw5K59hL6DEJEWOnhdYrCAHSkFdsrpUgQEMsqGJ30i+F+DNGGtGhS4a2DM08bsYKEGQRCSX
+        3IgFYR5gYQkRWEDOMT44Lgb6gNwG9p4ehwF8hITQk5PUiH1f6qWGxHkfyw3JCd4Hn4z9QvJ9QC4D3NQ3
+        cOlX+QxTxBNrngkyeiERLetzzRWcnqcursPAqbE7YkAFYtIi6iKjIe2X6664aH2JdZmeH124Q/L9xh1r
+        RoUubtr3MQ61MUQy8gBeJMj/RVTUDZrzbjg5+jPJDwD8UhJrRoUuGtjPQxwixYAsIwZKvgaQvyDQf4Fa
+        cgPvhePnxcBBILeBAydwiEOEAkLqhUyc5D4+D2KKBfQWajK6Pzz7I8n7gVwGuOng8XM/iQF5JSQzYskB
+        L/K8VNMoQC599mruGXqcoh+M3A4NbIw0o0KXGOAhDpGUPBB8JgJeqC5CEueZqzDjU4Aj/P3hH0h+yLhz
+        Geg/NnxbhogXUmJgPsiBp6ytl+YG1pyiR898T/LXjfs/DcgXUuDQUbjmEFEye3VGulpEUAxy4InVnJ7v
+        DYmBNwB+M85ngIc4RITYkyN6Yt+TulhNo8+fWOT0PDI407OB/iOnZ8SAXD6YgB56N+j9EIGT0fJ4RDfc
+        YTWQ6z1AA7wL+t45+e39w4Pf4bDHTJq/a7XEAXs2QOCZ1LbP6rdPfPMAnH4U/++bkN+I+COC1yddv7kK
+        b/UI/ul5E/b0w4Qb6Zb/s15AkdVgn1zkJHeg6Ta8BM4pT6d8B/08AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSupplyCashierCustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 219</value>
+  </data>
+  <data name="btnSupplyCashierCustomRprt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSupplyCashierCustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 38</value>
+  </data>
+  <data name="btnSupplyCashierCustomRprt.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnSupplyCashierCustomRprt.Text" xml:space="preserve">
+    <value>إنشاء تقرير كاشير مخصص</value>
+  </data>
+  <data name="&gt;&gt;btnSupplyCashierCustomRprt.Name" xml:space="preserve">
+    <value>btnSupplyCashierCustomRprt</value>
+  </data>
+  <data name="&gt;&gt;btnSupplyCashierCustomRprt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSupplyCashierCustomRprt.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;btnSupplyCashierCustomRprt.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnReportReciptCustom.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="btnReportReciptCustom.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnReportReciptCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 310</value>
+  </data>
+  <data name="btnReportReciptCustom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnReportReciptCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 37</value>
+  </data>
+  <data name="btnReportReciptCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnReportReciptCustom.Text" xml:space="preserve">
+    <value>إنشاء تقرير A4 مخصص لسند القبض</value>
+  </data>
+  <data name="&gt;&gt;btnReportReciptCustom.Name" xml:space="preserve">
+    <value>btnReportReciptCustom</value>
+  </data>
+  <data name="&gt;&gt;btnReportReciptCustom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnReportReciptCustom.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;btnReportReciptCustom.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnReportEntryCustom.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="btnReportEntryCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 392</value>
+  </data>
+  <data name="btnReportEntryCustom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnReportEntryCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 37</value>
+  </data>
+  <data name="btnReportEntryCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnReportEntryCustom.Text" xml:space="preserve">
+    <value>إنشاء تقرير A4 مخصص لقيود اليومية</value>
+  </data>
+  <data name="&gt;&gt;btnReportEntryCustom.Name" xml:space="preserve">
+    <value>btnReportEntryCustom</value>
+  </data>
+  <data name="&gt;&gt;btnReportEntryCustom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnReportEntryCustom.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;btnReportEntryCustom.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnReportVocherCustom.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="btnReportVocherCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 351</value>
+  </data>
+  <data name="btnReportVocherCustom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnReportVocherCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 37</value>
+  </data>
+  <data name="btnReportVocherCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnReportVocherCustom.Text" xml:space="preserve">
+    <value>إنشاء تقرير A4 مخصص لسند الصرف</value>
+  </data>
+  <data name="&gt;&gt;btnReportVocherCustom.Name" xml:space="preserve">
+    <value>btnReportVocherCustom</value>
+  </data>
+  <data name="&gt;&gt;btnReportVocherCustom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnReportVocherCustom.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;btnReportVocherCustom.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="teReportReciptCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 310</value>
+  </data>
+  <data name="teReportReciptCustom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teReportReciptCustom.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teReportReciptCustom.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teReportReciptCustom.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teReportReciptCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 37</value>
+  </data>
+  <data name="teReportReciptCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;teReportReciptCustom.Name" xml:space="preserve">
+    <value>teReportReciptCustom</value>
+  </data>
+  <data name="&gt;&gt;teReportReciptCustom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teReportReciptCustom.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teReportReciptCustom.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="teReportVocherCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 351</value>
+  </data>
+  <data name="teReportVocherCustom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teReportVocherCustom.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teReportVocherCustom.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teReportVocherCustom.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teReportVocherCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 37</value>
+  </data>
+  <data name="teReportVocherCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;teReportVocherCustom.Name" xml:space="preserve">
+    <value>teReportVocherCustom</value>
+  </data>
+  <data name="&gt;&gt;teReportVocherCustom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teReportVocherCustom.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teReportVocherCustom.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="teReportEntryCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 392</value>
+  </data>
+  <data name="teReportEntryCustom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teReportEntryCustom.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teReportEntryCustom.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teReportEntryCustom.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teReportEntryCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 37</value>
+  </data>
+  <data name="teReportEntryCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;teReportEntryCustom.Name" xml:space="preserve">
+    <value>teReportEntryCustom</value>
+  </data>
+  <data name="&gt;&gt;teReportEntryCustom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teReportEntryCustom.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teReportEntryCustom.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.EditValue" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 474</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 37</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;teShowRprtPurchaseHeader.Name" xml:space="preserve">
+    <value>teShowRprtPurchaseHeader</value>
+  </data>
+  <data name="&gt;&gt;teShowRprtPurchaseHeader.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teShowRprtPurchaseHeader.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teShowRprtPurchaseHeader.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="teShowRprtSaleHeader.EditValue" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 474</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 37</value>
+  </data>
+  <data name="teShowRprtSaleHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;teShowRprtSaleHeader.Name" xml:space="preserve">
+    <value>teShowRprtSaleHeader</value>
+  </data>
+  <data name="&gt;&gt;teShowRprtSaleHeader.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teShowRprtSaleHeader.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teShowRprtSaleHeader.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 226</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 37</value>
+  </data>
+  <data name="teDefaultPrintOnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;teDefaultPrintOnSave.Name" xml:space="preserve">
+    <value>teDefaultPrintOnSave</value>
+  </data>
+  <data name="&gt;&gt;teDefaultPrintOnSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teDefaultPrintOnSave.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teDefaultPrintOnSave.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="teDefaultPrintPaper.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 180</value>
+  </data>
+  <data name="teDefaultPrintPaper.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teDefaultPrintPaper.Properties.Items" type="System.Byte, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="teDefaultPrintPaper.Properties.Items1" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="teDefaultPrintPaper.Properties.Items2" type="System.Byte, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="teDefaultPrintPaper.Properties.Items3" xml:space="preserve">
+    <value>كاشير</value>
+  </data>
+  <data name="teDefaultPrintPaper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 42</value>
+  </data>
+  <data name="teDefaultPrintPaper.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;teDefaultPrintPaper.Name" xml:space="preserve">
+    <value>teDefaultPrintPaper</value>
+  </data>
+  <data name="&gt;&gt;teDefaultPrintPaper.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teDefaultPrintPaper.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teDefaultPrintPaper.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="teDefaultShowCarData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>828, 419</value>
+  </data>
+  <data name="teDefaultShowCarData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teDefaultShowCarData.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teDefaultShowCarData.Properties.OffText" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="teDefaultShowCarData.Properties.OnText" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="teDefaultShowCarData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 37</value>
+  </data>
+  <data name="teDefaultShowCarData.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowCarData.Name" xml:space="preserve">
+    <value>teDefaultShowCarData</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowCarData.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowCarData.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowCarData.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 501</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 37</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;switch_GroupWeightProdInInvoices.Name" xml:space="preserve">
+    <value>switch_GroupWeightProdInInvoices</value>
+  </data>
+  <data name="&gt;&gt;switch_GroupWeightProdInInvoices.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;switch_GroupWeightProdInInvoices.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;switch_GroupWeightProdInInvoices.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 460</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 37</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;AllowSaveInvoInBeforeDate.Name" xml:space="preserve">
+    <value>AllowSaveInvoInBeforeDate</value>
+  </data>
+  <data name="&gt;&gt;AllowSaveInvoInBeforeDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AllowSaveInvoInBeforeDate.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;AllowSaveInvoInBeforeDate.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="PayPartInvoValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>828, 460</value>
+  </data>
+  <data name="PayPartInvoValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PayPartInvoValue.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="PayPartInvoValue.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="PayPartInvoValue.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="PayPartInvoValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 37</value>
+  </data>
+  <data name="PayPartInvoValue.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;PayPartInvoValue.Name" xml:space="preserve">
+    <value>PayPartInvoValue</value>
+  </data>
+  <data name="&gt;&gt;PayPartInvoValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PayPartInvoValue.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;PayPartInvoValue.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 152</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Properties.OffText" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Properties.OnText" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 37</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrintMssg.Name" xml:space="preserve">
+    <value>teDefaultShowPrintMssg</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrintMssg.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrintMssg.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrintMssg.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="tsDefaultSalePriceAndBuy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 316</value>
+  </data>
+  <data name="tsDefaultSalePriceAndBuy.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="tsDefaultSalePriceAndBuy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 23</value>
+  </data>
+  <data name="tsDefaultSalePriceAndBuy.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSalePriceAndBuy.Name" xml:space="preserve">
+    <value>tsDefaultSalePriceAndBuy</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSalePriceAndBuy.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSalePriceAndBuy.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSalePriceAndBuy.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 193</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Properties.OffText" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Properties.OnText" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 37</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrdQtyMssg.Name" xml:space="preserve">
+    <value>teDefaultShowPrdQtyMssg</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrdQtyMssg.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrdQtyMssg.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrdQtyMssg.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 275</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Properties.OffText" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Properties.OnText" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 37</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSalePriceFloar.Name" xml:space="preserve">
+    <value>tsDefaultSalePriceFloar</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSalePriceFloar.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSalePriceFloar.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSalePriceFloar.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="teDefaultBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 83</value>
+  </data>
+  <data name="teDefaultBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teDefaultBox.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="teDefaultBox.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="teDefaultBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 24</value>
+  </data>
+  <data name="teDefaultBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;teDefaultBox.Name" xml:space="preserve">
+    <value>teDefaultBox</value>
+  </data>
+  <data name="&gt;&gt;teDefaultBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teDefaultBox.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teDefaultBox.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="teDefaultBank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 83</value>
+  </data>
+  <data name="teDefaultBank.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teDefaultBank.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="teDefaultBank.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="teDefaultBank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 24</value>
+  </data>
+  <data name="teDefaultBank.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;teDefaultBank.Name" xml:space="preserve">
+    <value>teDefaultBank</value>
+  </data>
+  <data name="&gt;&gt;teDefaultBank.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teDefaultBank.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teDefaultBank.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 139</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Properties.OffText" xml:space="preserve">
+    <value>يدوي</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Properties.OnText" xml:space="preserve">
+    <value>تلقائي</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 37</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultAutoSupplyTarhel.Name" xml:space="preserve">
+    <value>tsDefaultAutoSupplyTarhel</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultAutoSupplyTarhel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultAutoSupplyTarhel.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultAutoSupplyTarhel.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="teECRport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 308</value>
+  </data>
+  <data name="teECRport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teECRport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 24</value>
+  </data>
+  <data name="teECRport.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;teECRport.Name" xml:space="preserve">
+    <value>teECRport</value>
+  </data>
+  <data name="&gt;&gt;teECRport.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teECRport.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teECRport.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="btnShowPorts.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABp0RVh0VGl0
+        bGUAUHJvZHVjdDtTaG93UHJvZHVjdDsJF1GvAAAA/UlEQVRYR8XSQYoDMQxE0dwzN8mZBvqIjrX4IKyf
+        No1Bs3ibouSiQ15jjH+lYScNO2n4/vyNX9buKQ1tGHSu6xpPcZuVINgw6MwHH+M209CGQWc+qF95h9us
+        BMGGsXZPaWjDoGNfuMNtVoJgw1i7pzTspGEnDe2nx9o9paENg479yXa4zUoQbBh05oOPcZtpaMOgMx/U
+        r7zDbVaCYMNYu6c0tGHQsS/c4TYrQbBhrN1TGnbSsJOG9tNj7Z7S0IZBx/5kO9xmJQg2DDrzwce4zTS0
+        YdCZD+pX3uE2K0GwYazdUxraMOjYF+5wm5Ug2DDW7ikNO2nYScNOGvYZry/Fdo8qBnKj+gAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="btnShowPorts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 336</value>
+  </data>
+  <data name="btnShowPorts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnShowPorts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 38</value>
+  </data>
+  <data name="btnShowPorts.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="btnShowPorts.Text" xml:space="preserve">
+    <value>عرض أسماء البورت</value>
+  </data>
+  <data name="&gt;&gt;btnShowPorts.Name" xml:space="preserve">
+    <value>btnShowPorts</value>
+  </data>
+  <data name="&gt;&gt;btnShowPorts.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnShowPorts.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;btnShowPorts.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="tsDefaultSendToECR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>849, 336</value>
+  </data>
+  <data name="tsDefaultSendToECR.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tsDefaultSendToECR.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="tsDefaultSendToECR.Properties.OffText" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="tsDefaultSendToECR.Properties.OnText" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="tsDefaultSendToECR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 37</value>
+  </data>
+  <data name="tsDefaultSendToECR.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSendToECR.Name" xml:space="preserve">
+    <value>tsDefaultSendToECR</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSendToECR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSendToECR.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;tsDefaultSendToECR.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="textEditOrderVoucher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>876, 225</value>
+  </data>
+  <data name="textEditOrderVoucher.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditOrderVoucher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 24</value>
+  </data>
+  <data name="textEditOrderVoucher.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderVoucher.Name" xml:space="preserve">
+    <value>textEditOrderVoucher</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderVoucher.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderVoucher.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderVoucher.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="textEditOrderVoucherPlu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>876, 253</value>
+  </data>
+  <data name="textEditOrderVoucherPlu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditOrderVoucherPlu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 24</value>
+  </data>
+  <data name="textEditOrderVoucherPlu.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderVoucherPlu.Name" xml:space="preserve">
+    <value>textEditOrderVoucherPlu</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderVoucherPlu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderVoucherPlu.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderVoucherPlu.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="textEditOrderExecute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 225</value>
+  </data>
+  <data name="textEditOrderExecute.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditOrderExecute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 24</value>
+  </data>
+  <data name="textEditOrderExecute.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderExecute.Name" xml:space="preserve">
+    <value>textEditOrderExecute</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderExecute.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderExecute.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderExecute.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="textEditOrderReceipt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 225</value>
+  </data>
+  <data name="textEditOrderReceipt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditOrderReceipt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 24</value>
+  </data>
+  <data name="textEditOrderReceipt.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderReceipt.Name" xml:space="preserve">
+    <value>textEditOrderReceipt</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderReceipt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderReceipt.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderReceipt.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="textEditOrderExecutePlu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 253</value>
+  </data>
+  <data name="textEditOrderExecutePlu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditOrderExecutePlu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 24</value>
+  </data>
+  <data name="textEditOrderExecutePlu.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderExecutePlu.Name" xml:space="preserve">
+    <value>textEditOrderExecutePlu</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderExecutePlu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderExecutePlu.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderExecutePlu.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="textEditOrderReceiptPlu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 253</value>
+  </data>
+  <data name="textEditOrderReceiptPlu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditOrderReceiptPlu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 24</value>
+  </data>
+  <data name="textEditOrderReceiptPlu.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderReceiptPlu.Name" xml:space="preserve">
+    <value>textEditOrderReceiptPlu</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderReceiptPlu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderReceiptPlu.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderReceiptPlu.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="teOrdersPrinttMssg.EditValue" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 281</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>604, 37</value>
+  </data>
+  <data name="teOrdersPrinttMssg.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;teOrdersPrinttMssg.Name" xml:space="preserve">
+    <value>teOrdersPrinttMssg</value>
+  </data>
+  <data name="&gt;&gt;teOrdersPrinttMssg.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teOrdersPrinttMssg.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teOrdersPrinttMssg.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="teOrdersPrintPreview.EditValue" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="teOrdersPrintPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>876, 281</value>
+  </data>
+  <data name="teOrdersPrintPreview.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teOrdersPrintPreview.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teOrdersPrintPreview.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="teOrdersPrintPreview.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="teOrdersPrintPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 37</value>
+  </data>
+  <data name="teOrdersPrintPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;teOrdersPrintPreview.Name" xml:space="preserve">
+    <value>teOrdersPrintPreview</value>
+  </data>
+  <data name="&gt;&gt;teOrdersPrintPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teOrdersPrintPreview.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teOrdersPrintPreview.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="teDefaultStrId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 83</value>
+  </data>
+  <data name="teDefaultStrId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teDefaultStrId.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="teDefaultStrId.Properties.Columns" xml:space="preserve">
+    <value>strName</value>
+  </data>
+  <data name="teDefaultStrId.Properties.Columns1" xml:space="preserve">
+    <value>Name1</value>
+  </data>
+  <data name="teDefaultStrId.Properties.Columns2" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="teDefaultStrId.Properties.Columns3" type="DevExpress.Utils.FormatType, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="teDefaultStrId.Properties.Columns4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="teDefaultStrId.Properties.Columns5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="teDefaultStrId.Properties.Columns6" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teDefaultStrId.Properties.Columns7" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="teDefaultStrId.Properties.Columns8" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <metadata name="tblStoreBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>499, 17</value>
+  </metadata>
+  <data name="teDefaultStrId.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="teDefaultStrId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 24</value>
+  </data>
+  <data name="teDefaultStrId.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;teDefaultStrId.Name" xml:space="preserve">
+    <value>teDefaultStrId</value>
+  </data>
+  <data name="&gt;&gt;teDefaultStrId.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teDefaultStrId.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teDefaultStrId.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="txt_ScaleBarcodePrefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 222</value>
+  </data>
+  <data name="txt_ScaleBarcodePrefix.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txt_ScaleBarcodePrefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>630, 24</value>
+  </data>
+  <data name="txt_ScaleBarcodePrefix.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;txt_ScaleBarcodePrefix.Name" xml:space="preserve">
+    <value>txt_ScaleBarcodePrefix</value>
+  </data>
+  <data name="&gt;&gt;txt_ScaleBarcodePrefix.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txt_ScaleBarcodePrefix.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;txt_ScaleBarcodePrefix.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="spn_ProductCodeLength.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="spn_ProductCodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>898, 250</value>
+  </data>
+  <data name="spn_ProductCodeLength.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="spn_ProductCodeLength.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="spn_ProductCodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 24</value>
+  </data>
+  <data name="spn_ProductCodeLength.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;spn_ProductCodeLength.Name" xml:space="preserve">
+    <value>spn_ProductCodeLength</value>
+  </data>
+  <data name="&gt;&gt;spn_ProductCodeLength.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;spn_ProductCodeLength.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;spn_ProductCodeLength.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="spn_ValueCodeLength.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="spn_ValueCodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 250</value>
+  </data>
+  <data name="spn_ValueCodeLength.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="spn_ValueCodeLength.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="spn_ValueCodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 24</value>
+  </data>
+  <data name="spn_ValueCodeLength.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;spn_ValueCodeLength.Name" xml:space="preserve">
+    <value>spn_ValueCodeLength</value>
+  </data>
+  <data name="&gt;&gt;spn_ValueCodeLength.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;spn_ValueCodeLength.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;spn_ValueCodeLength.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="spn_BarcodeLength.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="spn_BarcodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>898, 222</value>
+  </data>
+  <data name="spn_BarcodeLength.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="spn_BarcodeLength.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="spn_BarcodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 24</value>
+  </data>
+  <data name="spn_BarcodeLength.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;spn_BarcodeLength.Name" xml:space="preserve">
+    <value>spn_BarcodeLength</value>
+  </data>
+  <data name="&gt;&gt;spn_BarcodeLength.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;spn_BarcodeLength.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;spn_BarcodeLength.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>898, 187</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 31</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;tgl_ReadFromScaleBarcode.Name" xml:space="preserve">
+    <value>tgl_ReadFromScaleBarcode</value>
+  </data>
+  <data name="&gt;&gt;tgl_ReadFromScaleBarcode.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tgl_ReadFromScaleBarcode.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;tgl_ReadFromScaleBarcode.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="chk_IgnoreCheckDigit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 250</value>
+  </data>
+  <data name="chk_IgnoreCheckDigit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="chk_IgnoreCheckDigit.Properties.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IgnoreCheckDigit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 19</value>
+  </data>
+  <data name="chk_IgnoreCheckDigit.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;chk_IgnoreCheckDigit.Name" xml:space="preserve">
+    <value>chk_IgnoreCheckDigit</value>
+  </data>
+  <data name="&gt;&gt;chk_IgnoreCheckDigit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chk_IgnoreCheckDigit.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;chk_IgnoreCheckDigit.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="tgl_TaxReadMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 187</value>
+  </data>
+  <data name="tgl_TaxReadMode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tgl_TaxReadMode.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="tgl_TaxReadMode.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="tgl_TaxReadMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>630, 31</value>
+  </data>
+  <data name="tgl_TaxReadMode.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;tgl_TaxReadMode.Name" xml:space="preserve">
+    <value>tgl_TaxReadMode</value>
+  </data>
+  <data name="&gt;&gt;tgl_TaxReadMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tgl_TaxReadMode.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;tgl_TaxReadMode.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="radioGroupInvType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 111</value>
+  </data>
+  <data name="radioGroupInvType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="radioGroupInvType.Properties.Items" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioGroupInvType.Properties.Items1" xml:space="preserve">
+    <value>جرد دوري</value>
+  </data>
+  <data name="radioGroupInvType.Properties.Items2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioGroupInvType.Properties.Items3" xml:space="preserve">
+    <value>جرد مستمر</value>
+  </data>
+  <data name="radioGroupInvType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 31</value>
+  </data>
+  <data name="radioGroupInvType.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;radioGroupInvType.Name" xml:space="preserve">
+    <value>radioGroupInvType</value>
+  </data>
+  <data name="&gt;&gt;radioGroupInvType.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;radioGroupInvType.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;radioGroupInvType.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="textEditDfltAccLevel.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textEditDfltAccLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 111</value>
+  </data>
+  <data name="textEditDfltAccLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditDfltAccLevel.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v21.2" name="DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="textEditDfltAccLevel.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v21.2">
+    <value>None</value>
+  </data>
+  <data name="textEditDfltAccLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 24</value>
+  </data>
+  <data name="textEditDfltAccLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;textEditDfltAccLevel.Name" xml:space="preserve">
+    <value>textEditDfltAccLevel</value>
+  </data>
+  <data name="&gt;&gt;textEditDfltAccLevel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditDfltAccLevel.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditDfltAccLevel.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="textEditBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 83</value>
+  </data>
+  <data name="textEditBranch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditBranch.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="textEditBranch.Properties.Columns" xml:space="preserve">
+    <value>brnName</value>
+  </data>
+  <data name="textEditBranch.Properties.Columns1" xml:space="preserve">
+    <value>Name1</value>
+  </data>
+  <data name="textEditBranch.Properties.Columns2" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="textEditBranch.Properties.Columns3" type="DevExpress.Utils.FormatType, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="textEditBranch.Properties.Columns4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textEditBranch.Properties.Columns5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textEditBranch.Properties.Columns6" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="textEditBranch.Properties.Columns7" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="textEditBranch.Properties.Columns8" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <metadata name="tblBranchBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1092, 17</value>
+  </metadata>
+  <data name="textEditBranch.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textEditBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 24</value>
+  </data>
+  <data name="textEditBranch.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;textEditBranch.Name" xml:space="preserve">
+    <value>textEditBranch</value>
+  </data>
+  <data name="&gt;&gt;textEditBranch.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditBranch.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditBranch.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="textEditPrinterBarcod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 83</value>
+  </data>
+  <data name="textEditPrinterBarcod.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditPrinterBarcod.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="textEditPrinterBarcod.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textEditPrinterBarcod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 24</value>
+  </data>
+  <data name="textEditPrinterBarcod.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;textEditPrinterBarcod.Name" xml:space="preserve">
+    <value>textEditPrinterBarcod</value>
+  </data>
+  <data name="&gt;&gt;textEditPrinterBarcod.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditPrinterBarcod.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditPrinterBarcod.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="textEditDefaultPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 152</value>
+  </data>
+  <data name="textEditDefaultPrinter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditDefaultPrinter.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="textEditDefaultPrinter.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textEditDefaultPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 24</value>
+  </data>
+  <data name="textEditDefaultPrinter.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;textEditDefaultPrinter.Name" xml:space="preserve">
+    <value>textEditDefaultPrinter</value>
+  </data>
+  <data name="&gt;&gt;textEditDefaultPrinter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditDefaultPrinter.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditDefaultPrinter.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="textEditDfltAccLevel1.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textEditDfltAccLevel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 83</value>
+  </data>
+  <data name="textEditDfltAccLevel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditDfltAccLevel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 93</value>
+  </data>
+  <data name="textEditDfltAccLevel1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;textEditDfltAccLevel1.Name" xml:space="preserve">
+    <value>textEditDfltAccLevel1</value>
+  </data>
+  <data name="&gt;&gt;textEditDfltAccLevel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditDfltAccLevel1.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditDfltAccLevel1.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="cbx_ReadMode.EditValue" type="System.Byte, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cbx_ReadMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>898, 282</value>
+  </data>
+  <data name="cbx_ReadMode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cbx_ReadMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 24</value>
+  </data>
+  <data name="cbx_ReadMode.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;cbx_ReadMode.Name" xml:space="preserve">
+    <value>cbx_ReadMode</value>
+  </data>
+  <data name="&gt;&gt;cbx_ReadMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cbx_ReadMode.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;cbx_ReadMode.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="cbx_DivideValueBy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 282</value>
+  </data>
+  <data name="cbx_DivideValueBy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cbx_DivideValueBy.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="cbx_DivideValueBy.Properties.Columns" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="cbx_DivideValueBy.Properties.Columns1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_DivideValueBy.Properties.Columns2" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cbx_DivideValueBy.Properties.Columns3" type="DevExpress.Utils.FormatType, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="cbx_DivideValueBy.Properties.Columns4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_DivideValueBy.Properties.Columns5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbx_DivideValueBy.Properties.Columns6" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="cbx_DivideValueBy.Properties.Columns7" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v21.2">
+    <value>None</value>
+  </data>
+  <data name="cbx_DivideValueBy.Properties.Columns8" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="cbx_DivideValueBy.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbx_DivideValueBy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>630, 24</value>
+  </data>
+  <data name="cbx_DivideValueBy.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;cbx_DivideValueBy.Name" xml:space="preserve">
+    <value>cbx_DivideValueBy</value>
+  </data>
+  <data name="&gt;&gt;cbx_DivideValueBy.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;cbx_DivideValueBy.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;cbx_DivideValueBy.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="textEditOrderPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 322</value>
+  </data>
+  <data name="textEditOrderPrinter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textEditOrderPrinter.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v21.2">
+    <value>Combo</value>
+  </data>
+  <data name="textEditOrderPrinter.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textEditOrderPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1055, 24</value>
+  </data>
+  <data name="textEditOrderPrinter.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderPrinter.Name" xml:space="preserve">
+    <value>textEditOrderPrinter</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderPrinter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderPrinter.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;textEditOrderPrinter.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 234</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.Properties.OffText" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.Properties.OnText" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 37</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrintMssg1.Name" xml:space="preserve">
+    <value>teDefaultShowPrintMssg1</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrintMssg1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrintMssg1.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowPrintMssg1.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 419</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 37</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;AllowSaveInvoInBeforeDate1.Name" xml:space="preserve">
+    <value>AllowSaveInvoInBeforeDate1</value>
+  </data>
+  <data name="&gt;&gt;AllowSaveInvoInBeforeDate1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AllowSaveInvoInBeforeDate1.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;AllowSaveInvoInBeforeDate1.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 111</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode1.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode1.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 31</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;tgl_ReadFromScaleBarcode1.Name" xml:space="preserve">
+    <value>tgl_ReadFromScaleBarcode1</value>
+  </data>
+  <data name="&gt;&gt;tgl_ReadFromScaleBarcode1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tgl_ReadFromScaleBarcode1.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;tgl_ReadFromScaleBarcode1.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 343</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.Properties.OffText" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.Properties.OnText" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;UserDrawerPeriodsCheckEdit.Name" xml:space="preserve">
+    <value>UserDrawerPeriodsCheckEdit</value>
+  </data>
+  <data name="&gt;&gt;UserDrawerPeriodsCheckEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;UserDrawerPeriodsCheckEdit.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;UserDrawerPeriodsCheckEdit.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="teDefaultShowCarData1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 419</value>
+  </data>
+  <data name="teDefaultShowCarData1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="teDefaultShowCarData1.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="teDefaultShowCarData1.Properties.OffText" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="teDefaultShowCarData1.Properties.OnText" xml:space="preserve">
+    <value>تشغيل</value>
+  </data>
+  <data name="teDefaultShowCarData1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 37</value>
+  </data>
+  <data name="teDefaultShowCarData1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowCarData1.Name" xml:space="preserve">
+    <value>teDefaultShowCarData1</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowCarData1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowCarData1.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;teDefaultShowCarData1.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="dataLayoutControl4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dataLayoutControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabbedControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>tabbedControlGroup1</value>
+  </data>
+  <data name="layoutControlGroup2.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="layoutControlGroup2.CustomizationFormText" xml:space="preserve">
+    <value>إعدادات المشتريات والمبيعات </value>
+  </data>
+  <data name="itemForPrdExpirateAcc2.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="itemForPrdExpirateAcc2.CustomizationFormText" xml:space="preserve">
+    <value>طابعة الباركود</value>
+  </data>
+  <data name="itemForPrdExpirateAcc2.Text" xml:space="preserve">
+    <value>اختيار الطابعة</value>
+  </data>
+  <data name="itemForDefaultPrintPaper.CustomizationFormText" xml:space="preserve">
+    <value>طباعة الفواتير :</value>
+  </data>
+  <data name="itemForDefaultPrintPaper.Text" xml:space="preserve">
+    <value>طباعة الفواتير :</value>
+  </data>
+  <data name="ItemForPrintInvoiceOnSave.CustomizationFormText" xml:space="preserve">
+    <value>طباعة الفواتير عند الحفظ</value>
+  </data>
+  <data name="ItemForPrintInvoiceOnSave.Text" xml:space="preserve">
+    <value>طباعة الفواتير عند الحفظ</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>اعدادات الطباعة</value>
+  </data>
+  <data name="layoutControlItem21.Text" xml:space="preserve">
+    <value>البورت</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>إرسال إلى الصرافة الآلية</value>
+  </data>
+  <data name="layoutControlGroup42.Text" xml:space="preserve">
+    <value>الصرافة الآلية</value>
+  </data>
+  <data name="layoutControlGroup15.CustomizationFormText" xml:space="preserve">
+    <value>الإشعارات</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg.CustomizationFormText" xml:space="preserve">
+    <value>عرض رسالة الطباعة</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg.Text" xml:space="preserve">
+    <value>عرض رسالة الطباعة</value>
+  </data>
+  <data name="itemForDefaultSalePriceFloar.CustomizationFormText" xml:space="preserve">
+    <value>حد سعر البيع الأدنى</value>
+  </data>
+  <data name="itemForDefaultSalePriceFloar.Text" xml:space="preserve">
+    <value>حد سعر البيع الأدنى</value>
+  </data>
+  <data name="itemForDefaultShowPrdQtyMssg.CustomizationFormText" xml:space="preserve">
+    <value>عرض رسالة كمية الأصناف</value>
+  </data>
+  <data name="itemForDefaultShowPrdQtyMssg.Text" xml:space="preserve">
+    <value>عرض رسالة كمية الأصناف</value>
+  </data>
+  <data name="itemForSalePriceNoLessBuy.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="itemForSalePriceNoLessBuy.Text" xml:space="preserve">
+    <value>البيع اقل من التكلفه</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg2.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg2.CustomizationFormText" xml:space="preserve">
+    <value>عرض رسالة الطباعة</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg2.Text" xml:space="preserve">
+    <value>عرض رسالة إعادة التهيئة</value>
+  </data>
+  <data name="ItemForUserDrawerPeriods.Text" xml:space="preserve">
+    <value>احتساب المستخدم الفترة اليومية</value>
+  </data>
+  <data name="layoutControlGroup15.Text" xml:space="preserve">
+    <value>الإشعارات</value>
+  </data>
+  <data name="layoutControlGroup13.CustomizationFormText" xml:space="preserve">
+    <value>الحسابات الإفتراضية</value>
+  </data>
+  <data name="itemForDefaultBox.CustomizationFormText" xml:space="preserve">
+    <value>حساب الصندوق :</value>
+  </data>
+  <data name="itemForDefaultBox.Text" xml:space="preserve">
+    <value>حساب الصندوق :</value>
+  </data>
+  <data name="itemForDefaultBank.CustomizationFormText" xml:space="preserve">
+    <value>حساب البنك :</value>
+  </data>
+  <data name="itemForDefaultBank.Text" xml:space="preserve">
+    <value>حساب البنك :</value>
+  </data>
+  <data name="layoutControlGroup13.Text" xml:space="preserve">
+    <value>الحسابات الإفتراضية</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg1.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg1.CustomizationFormText" xml:space="preserve">
+    <value>عرض رسالة الطباعة</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg1.Text" xml:space="preserve">
+    <value>عرض تفاصيل السيارة</value>
+  </data>
+  <data name="layoutControlItem1.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>تغيير التاريخ في المبيعات</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>احتساب الضريبة بعد الخصم</value>
+  </data>
+  <data name="layoutControlItem35.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem35.CustomizationFormText" xml:space="preserve">
+    <value>تجميع الاصناف في فاتوره البيع</value>
+  </data>
+  <data name="layoutControlItem35.Text" xml:space="preserve">
+    <value>دفع جزء من قيمة الفاتورة </value>
+  </data>
+  <data name="layoutControlItem32.Text" xml:space="preserve">
+    <value>تجميع الاصناف في فاتوره البيع</value>
+  </data>
+  <data name="layoutControlItem40.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem40.Text" xml:space="preserve">
+    <value>تغيير التاريخ في المبيعات</value>
+  </data>
+  <data name="layoutControlItem42.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem42.CustomizationFormText" xml:space="preserve">
+    <value>تجميع الاصناف في فاتوره البيع</value>
+  </data>
+  <data name="layoutControlItem42.Text" xml:space="preserve">
+    <value>تجميع اصناف الميزان للمبيعات</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg3.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg3.CustomizationFormText" xml:space="preserve">
+    <value>عرض رسالة الطباعة</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg3.Text" xml:space="preserve">
+    <value>عرض تفاصيل اخرى</value>
+  </data>
+  <data name="layoutControlGroup40.Text" xml:space="preserve">
+    <value>اعدادات خاصة فاتورة البيع</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>إعدادات المشتريات والمبيعات </value>
+  </data>
+  <data name="layoutControlItem37.Text" xml:space="preserve">
+    <value>التصميم لعروض الاسعار</value>
+  </data>
+  <data name="layoutControlItem17.Text" xml:space="preserve">
+    <value>تقرير  A4 مخصص للمبيعات</value>
+  </data>
+  <data name="layoutControlItem38.Text" xml:space="preserve">
+    <value>تقرير كاشير مخصص</value>
+  </data>
+  <data name="layoutControlItem39.Text" xml:space="preserve">
+    <value>نفس التصميم للمردودات</value>
+  </data>
+  <data name="layoutControlGroup45.Text" xml:space="preserve">
+    <value>التقرير المخصص للمبيعات</value>
+  </data>
+  <data name="layoutControlGroup43.CustomizationFormText" xml:space="preserve">
+    <value>التقرير المخصص</value>
+  </data>
+  <data name="layoutControlItem43.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem43.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem18</value>
+  </data>
+  <data name="layoutControlItem43.Text" xml:space="preserve">
+    <value>layoutControlItem18</value>
+  </data>
+  <data name="layoutControlItem50.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem50.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem18</value>
+  </data>
+  <data name="layoutControlItem50.Text" xml:space="preserve">
+    <value>layoutControlItem18</value>
+  </data>
+  <data name="layoutControlItem44.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem44.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem18</value>
+  </data>
+  <data name="layoutControlItem44.Text" xml:space="preserve">
+    <value>layoutControlItem18</value>
+  </data>
+  <data name="layoutControlItem46.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem46.CustomizationFormText" xml:space="preserve">
+    <value>إستخدام تقرير  A4 مخصص لفواتير المبيعات</value>
+  </data>
+  <data name="layoutControlItem46.Text" xml:space="preserve">
+    <value>تقرير مخصص لسندات القبض</value>
+  </data>
+  <data name="layoutControlItem48.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem48.CustomizationFormText" xml:space="preserve">
+    <value>إستخدام تقرير A4 مخصص</value>
+  </data>
+  <data name="layoutControlItem48.Text" xml:space="preserve">
+    <value>تقرير مخصص لسندات الصرف</value>
+  </data>
+  <data name="layoutControlItem47.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem47.CustomizationFormText" xml:space="preserve">
+    <value>إستخدام تقرير A4 مخصص</value>
+  </data>
+  <data name="layoutControlItem47.Text" xml:space="preserve">
+    <value>تقرير مخصص للقيود </value>
+  </data>
+  <data name="layoutControlGroup43.Text" xml:space="preserve">
+    <value>التقرير المخصص لسندات القبض والصرف والقيود اليوميه</value>
+  </data>
+  <data name="layoutControlGroupSupplyRepoert.CustomizationFormText" xml:space="preserve">
+    <value>إعدادات التقارير</value>
+  </data>
+  <data name="itemForShowRprtPurchaseHeader.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="itemForShowRprtPurchaseHeader.CustomizationFormText" xml:space="preserve">
+    <value>عرض بيانات الفرع في فاتورة المشتريات</value>
+  </data>
+  <data name="itemForShowRprtPurchaseHeader.Text" xml:space="preserve">
+    <value>بيانات الفرع في المشتريات</value>
+  </data>
+  <data name="itemForShowRprtSaleHeader1.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="itemForShowRprtSaleHeader1.CustomizationFormText" xml:space="preserve">
+    <value>itemForShowRprtPurchaseHeader</value>
+  </data>
+  <data name="itemForShowRprtSaleHeader1.Text" xml:space="preserve">
+    <value>بيانات الفرع في المبيعات</value>
+  </data>
+  <data name="layoutControlGroupSupplyRepoert.Text" xml:space="preserve">
+    <value>بيانات الفرع في الفواتير</value>
+  </data>
+  <data name="layoutControlGroup36.Text" xml:space="preserve">
+    <value>إعدادات التقارير</value>
+  </data>
+  <data name="layoutControlGroup3.CustomizationFormText" xml:space="preserve">
+    <value>إعدادات المخازن</value>
+  </data>
+  <data name="layoutControlGroupDfltStr.CustomizationFormText" xml:space="preserve">
+    <value>المخزن الرئيسي</value>
+  </data>
+  <data name="layoutControlItem13.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem13</value>
+  </data>
+  <data name="layoutControlItem13.Text" xml:space="preserve">
+    <value>المخزن الافتراضي</value>
+  </data>
+  <data name="layoutControlItem3.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
+    <value>القراءه من باركود الميزان</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>باركود تلقائي</value>
+  </data>
+  <data name="layoutControlItemInvType.Text" xml:space="preserve">
+    <value>الجرد المخزني</value>
+  </data>
+  <data name="itemForPrdExpirateAcc1.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="itemForPrdExpirateAcc1.Text" xml:space="preserve">
+    <value>طابعة الباركود</value>
+  </data>
+  <data name="layoutControlGroupDfltStr.Text" xml:space="preserve">
+    <value>المخزن الرئيسي</value>
+  </data>
+  <data name="layoutControlItem28.Text" xml:space="preserve">
+    <value>نوع القيمه</value>
+  </data>
+  <data name="layoutControlItem26.Text" xml:space="preserve">
+    <value>طول باركود الميزان</value>
+  </data>
+  <data name="layoutControlItem34.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItem34.CustomizationFormText" xml:space="preserve">
+    <value>القراءه من باركود الميزان</value>
+  </data>
+  <data name="layoutControlItem34.Text" xml:space="preserve">
+    <value>السعر شامل الضريبة</value>
+  </data>
+  <data name="layoutControlItem29.Text" xml:space="preserve">
+    <value>تقسم القيمه علي</value>
+  </data>
+  <data name="layoutControlItem24.Text" xml:space="preserve">
+    <value>رقم تعريف الميزان</value>
+  </data>
+  <data name="layoutControlItem31.Text" xml:space="preserve">
+    <value>القراءه من باركود الميزان</value>
+  </data>
+  <data name="layoutControlItem25.CustomizationFormText" xml:space="preserve">
+    <value>عدد خانات الصنف</value>
+  </data>
+  <data name="layoutControlItem25.Text" xml:space="preserve">
+    <value>عدد خانات الصنف</value>
+  </data>
+  <data name="layoutControlItem27.Text" xml:space="preserve">
+    <value>عدد خانات القيمه</value>
+  </data>
+  <data name="layoutControlItem30.Text" xml:space="preserve">
+    <value>تجاهل الرقم الاخير</value>
+  </data>
+  <data name="layoutControlGroup41.Text" xml:space="preserve">
+    <value>الميزان الإلكتروني</value>
+  </data>
+  <data name="layoutControlGroup12.CustomizationFormText" xml:space="preserve">
+    <value>إعدادات الكمية 3</value>
+  </data>
+  <data name="layoutControlGroup12.Text" xml:space="preserve">
+    <value>إعدادات الكميات</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>إعدادات المخازن</value>
+  </data>
+  <data name="layoutControlItemBranch.Text" xml:space="preserve">
+    <value>إنتقال إلى الفرع: </value>
+  </data>
+  <data name="layoutControlItemDfltAccLevel.Text" xml:space="preserve">
+    <value>مستوى الدليل المحاسبي</value>
+  </data>
+  <data name="layoutControlItem16.Text" xml:space="preserve">
+    <value>الترحيل</value>
+  </data>
+  <data name="layoutControlItemDfltAccLevel1.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="layoutControlItemDfltAccLevel1.Text" xml:space="preserve">
+    <value>الرساله الترحيبية</value>
+  </data>
+  <data name="layoutControlGroupBranch.Text" xml:space="preserve">
+    <value> : الفرع الحالي</value>
+  </data>
+  <data name="itemForOrderVoucher.Text" xml:space="preserve">
+    <value>طلب صرف</value>
+  </data>
+  <data name="itemForOrderVoucherPlu.Text" xml:space="preserve">
+    <value>طلبات الصرف</value>
+  </data>
+  <data name="itemForOrderExecute.Text" xml:space="preserve">
+    <value>طلب تنفيذ</value>
+  </data>
+  <data name="itemForOrderReceipt.Text" xml:space="preserve">
+    <value>طلب تسليم</value>
+  </data>
+  <data name="itemForOrderExecutePlu.Text" xml:space="preserve">
+    <value>طلبات التنفيذ</value>
+  </data>
+  <data name="itemForOrderReceiptPlu.Text" xml:space="preserve">
+    <value>طلبات التسليم</value>
+  </data>
+  <data name="layoutControlItemOrdersPrintPreview.Text" xml:space="preserve">
+    <value>معاينة الطباعة</value>
+  </data>
+  <data name="layoutControlItemOrdersPrintMssg.Text" xml:space="preserve">
+    <value>عرض رسالة الطباعة</value>
+  </data>
+  <data name="itemForPrdExpirateAcc3.ControlAlignment" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="itemForPrdExpirateAcc3.CustomizationFormText" xml:space="preserve">
+    <value>طابعة الباركود</value>
+  </data>
+  <data name="itemForPrdExpirateAcc3.Text" xml:space="preserve">
+    <value>طابعة الطلبات</value>
+  </data>
+  <data name="layoutControlGroupOrdersCaption.Text" xml:space="preserve">
+    <value>إعدادات الطلبات</value>
+  </data>
+  <data name="layoutControlGroupSystemSettings.Text" xml:space="preserve">
+    <value>إعدادات عامة</value>
+  </data>
+  <data name="dataLayoutControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1360, 669</value>
+  </data>
+  <data name="dataLayoutControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="dataLayoutControl4.Text" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;dataLayoutControl4.Name" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;dataLayoutControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraDataLayout.DataLayoutControl, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dataLayoutControl4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataLayoutControl4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;switch_GroupProductsInInvoices.Name" xml:space="preserve">
+    <value>switch_GroupProductsInInvoices</value>
+  </data>
+  <data name="&gt;&gt;switch_GroupProductsInInvoices.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;switch_GroupProductsInInvoices.Parent" xml:space="preserve">
+    <value>dataLayoutControl4</value>
+  </data>
+  <data name="&gt;&gt;switch_GroupProductsInInvoices.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <metadata name="tblAccountBoxBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>262, 17</value>
+  </metadata>
+  <metadata name="dxValidationProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>694, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>140</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1360, 669</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>الإعدادات الإفتراضيه</value>
+  </data>
+  <data name="&gt;&gt;tblSettingBindingSource.Name" xml:space="preserve">
+    <value>tblSettingBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tblSettingBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblProductColorBindingSource.Name" xml:space="preserve">
+    <value>tblProductColorBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tblProductColorBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Name" xml:space="preserve">
+    <value>gridView1</value>
+  </data>
+  <data name="&gt;&gt;gridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colcolId.Name" xml:space="preserve">
+    <value>colcolId</value>
+  </data>
+  <data name="&gt;&gt;colcolId.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colcolQuan.Name" xml:space="preserve">
+    <value>colcolQuan</value>
+  </data>
+  <data name="&gt;&gt;colcolQuan.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemSpinEdit1.Name" xml:space="preserve">
+    <value>repositoryItemSpinEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemSpinEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colcolHtml.Name" xml:space="preserve">
+    <value>colcolHtml</value>
+  </data>
+  <data name="&gt;&gt;colcolHtml.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemColorPickEdit1.Name" xml:space="preserve">
+    <value>repositoryItemColorPickEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemColorPickEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemColorPickEdit, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tblStoreBindingSource.Name" xml:space="preserve">
+    <value>tblStoreBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tblStoreBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblBranchBindingSource.Name" xml:space="preserve">
+    <value>tblBranchBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tblBranchBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup44.Name" xml:space="preserve">
+    <value>layoutControlGroup44</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup44.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabbedControlGroup1.Name" xml:space="preserve">
+    <value>tabbedControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;tabbedControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.TabbedControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForPrdExpirateAcc2.Name" xml:space="preserve">
+    <value>itemForPrdExpirateAcc2</value>
+  </data>
+  <data name="&gt;&gt;itemForPrdExpirateAcc2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultPrintPaper.Name" xml:space="preserve">
+    <value>itemForDefaultPrintPaper</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultPrintPaper.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ItemForPrintInvoiceOnSave.Name" xml:space="preserve">
+    <value>ItemForPrintInvoiceOnSave</value>
+  </data>
+  <data name="&gt;&gt;ItemForPrintInvoiceOnSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup42.Name" xml:space="preserve">
+    <value>layoutControlGroup42</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup42.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem21.Name" xml:space="preserve">
+    <value>layoutControlItem21</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem21.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem23.Name" xml:space="preserve">
+    <value>layoutControlItem23</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem23.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem22.Name" xml:space="preserve">
+    <value>layoutControlItem22</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem22.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup15.Name" xml:space="preserve">
+    <value>layoutControlGroup15</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup15.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultShowPrintMssg.Name" xml:space="preserve">
+    <value>itemForDefaultShowPrintMssg</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultShowPrintMssg.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultSalePriceFloar.Name" xml:space="preserve">
+    <value>itemForDefaultSalePriceFloar</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultSalePriceFloar.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultShowPrdQtyMssg.Name" xml:space="preserve">
+    <value>itemForDefaultShowPrdQtyMssg</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultShowPrdQtyMssg.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForSalePriceNoLessBuy.Name" xml:space="preserve">
+    <value>itemForSalePriceNoLessBuy</value>
+  </data>
+  <data name="&gt;&gt;itemForSalePriceNoLessBuy.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultShowPrintMssg2.Name" xml:space="preserve">
+    <value>itemForDefaultShowPrintMssg2</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultShowPrintMssg2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ItemForUserDrawerPeriods.Name" xml:space="preserve">
+    <value>ItemForUserDrawerPeriods</value>
+  </data>
+  <data name="&gt;&gt;ItemForUserDrawerPeriods.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup13.Name" xml:space="preserve">
+    <value>layoutControlGroup13</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup13.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultBox.Name" xml:space="preserve">
+    <value>itemForDefaultBox</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultBank.Name" xml:space="preserve">
+    <value>itemForDefaultBank</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultBank.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup40.Name" xml:space="preserve">
+    <value>layoutControlGroup40</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup40.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultShowPrintMssg1.Name" xml:space="preserve">
+    <value>itemForDefaultShowPrintMssg1</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultShowPrintMssg1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem35.Name" xml:space="preserve">
+    <value>layoutControlItem35</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem35.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem32.Name" xml:space="preserve">
+    <value>layoutControlItem32</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem32.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem40.Name" xml:space="preserve">
+    <value>layoutControlItem40</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem40.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem42.Name" xml:space="preserve">
+    <value>layoutControlItem42</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem42.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultShowPrintMssg3.Name" xml:space="preserve">
+    <value>itemForDefaultShowPrintMssg3</value>
+  </data>
+  <data name="&gt;&gt;itemForDefaultShowPrintMssg3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup36.Name" xml:space="preserve">
+    <value>layoutControlGroup36</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup36.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup45.Name" xml:space="preserve">
+    <value>layoutControlGroup45</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup45.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem18.Name" xml:space="preserve">
+    <value>layoutControlItem18</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem18.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem36.Name" xml:space="preserve">
+    <value>layoutControlItem36</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem36.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem37.Name" xml:space="preserve">
+    <value>layoutControlItem37</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem37.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem17.Name" xml:space="preserve">
+    <value>layoutControlItem17</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem17.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem33.Name" xml:space="preserve">
+    <value>layoutControlItem33</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem33.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem38.Name" xml:space="preserve">
+    <value>layoutControlItem38</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem38.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem39.Name" xml:space="preserve">
+    <value>layoutControlItem39</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem39.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup43.Name" xml:space="preserve">
+    <value>layoutControlGroup43</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup43.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem43.Name" xml:space="preserve">
+    <value>layoutControlItem43</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem43.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem50.Name" xml:space="preserve">
+    <value>layoutControlItem50</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem50.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem44.Name" xml:space="preserve">
+    <value>layoutControlItem44</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem44.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem46.Name" xml:space="preserve">
+    <value>layoutControlItem46</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem46.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem48.Name" xml:space="preserve">
+    <value>layoutControlItem48</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem48.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem47.Name" xml:space="preserve">
+    <value>layoutControlItem47</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem47.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupSupplyRepoert.Name" xml:space="preserve">
+    <value>layoutControlGroupSupplyRepoert</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupSupplyRepoert.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForShowRprtPurchaseHeader.Name" xml:space="preserve">
+    <value>itemForShowRprtPurchaseHeader</value>
+  </data>
+  <data name="&gt;&gt;itemForShowRprtPurchaseHeader.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForShowRprtSaleHeader1.Name" xml:space="preserve">
+    <value>itemForShowRprtSaleHeader1</value>
+  </data>
+  <data name="&gt;&gt;itemForShowRprtSaleHeader1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
+    <value>layoutControlGroup3</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupDfltStr.Name" xml:space="preserve">
+    <value>layoutControlGroupDfltStr</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupDfltStr.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem13.Name" xml:space="preserve">
+    <value>layoutControlItem13</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemInvType.Name" xml:space="preserve">
+    <value>layoutControlItemInvType</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemInvType.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForPrdExpirateAcc1.Name" xml:space="preserve">
+    <value>itemForPrdExpirateAcc1</value>
+  </data>
+  <data name="&gt;&gt;itemForPrdExpirateAcc1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup41.Name" xml:space="preserve">
+    <value>layoutControlGroup41</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup41.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem28.Name" xml:space="preserve">
+    <value>layoutControlItem28</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem28.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem26.Name" xml:space="preserve">
+    <value>layoutControlItem26</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem26.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem34.Name" xml:space="preserve">
+    <value>layoutControlItem34</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem34.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem29.Name" xml:space="preserve">
+    <value>layoutControlItem29</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem29.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem24.Name" xml:space="preserve">
+    <value>layoutControlItem24</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem24.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem31.Name" xml:space="preserve">
+    <value>layoutControlItem31</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem31.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem25.Name" xml:space="preserve">
+    <value>layoutControlItem25</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem25.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem27.Name" xml:space="preserve">
+    <value>layoutControlItem27</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem27.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem30.Name" xml:space="preserve">
+    <value>layoutControlItem30</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem30.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup12.Name" xml:space="preserve">
+    <value>layoutControlGroup12</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup12.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupSystemSettings.Name" xml:space="preserve">
+    <value>layoutControlGroupSystemSettings</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupSystemSettings.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupBranch.Name" xml:space="preserve">
+    <value>layoutControlGroupBranch</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupBranch.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemBranch.Name" xml:space="preserve">
+    <value>layoutControlItemBranch</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemBranch.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemDfltAccLevel.Name" xml:space="preserve">
+    <value>layoutControlItemDfltAccLevel</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemDfltAccLevel.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem16.Name" xml:space="preserve">
+    <value>layoutControlItem16</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem16.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemDfltAccLevel1.Name" xml:space="preserve">
+    <value>layoutControlItemDfltAccLevel1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemDfltAccLevel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupOrdersCaption.Name" xml:space="preserve">
+    <value>layoutControlGroupOrdersCaption</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroupOrdersCaption.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderVoucher.Name" xml:space="preserve">
+    <value>itemForOrderVoucher</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderVoucher.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderVoucherPlu.Name" xml:space="preserve">
+    <value>itemForOrderVoucherPlu</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderVoucherPlu.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderExecute.Name" xml:space="preserve">
+    <value>itemForOrderExecute</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderExecute.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderReceipt.Name" xml:space="preserve">
+    <value>itemForOrderReceipt</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderReceipt.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderExecutePlu.Name" xml:space="preserve">
+    <value>itemForOrderExecutePlu</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderExecutePlu.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderReceiptPlu.Name" xml:space="preserve">
+    <value>itemForOrderReceiptPlu</value>
+  </data>
+  <data name="&gt;&gt;itemForOrderReceiptPlu.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemOrdersPrintPreview.Name" xml:space="preserve">
+    <value>layoutControlItemOrdersPrintPreview</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemOrdersPrintPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemOrdersPrintMssg.Name" xml:space="preserve">
+    <value>layoutControlItemOrdersPrintMssg</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItemOrdersPrintMssg.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itemForPrdExpirateAcc3.Name" xml:space="preserve">
+    <value>itemForPrdExpirateAcc3</value>
+  </data>
+  <data name="&gt;&gt;itemForPrdExpirateAcc3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem14.Name" xml:space="preserve">
+    <value>layoutControlItem14</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem14.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem15.Name" xml:space="preserve">
+    <value>layoutControlItem15</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem15.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup4.Name" xml:space="preserve">
+    <value>layoutControlGroup4</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tblAccountBoxBindingSource.Name" xml:space="preserve">
+    <value>tblAccountBoxBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tblAccountBoxBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dxValidationProvider1.Name" xml:space="preserve">
+    <value>dxValidationProvider1</value>
+  </data>
+  <data name="&gt;&gt;dxValidationProvider1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider, DevExpress.XtraEditors.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>formDefaultSettings1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

@@ -1,0 +1,1014 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="#LayoutScaleFactor">@1,Width=1@1,Height=1</property>
+  <property name="OptionsSelection" isnull="true" iskey="true">
+    <property name="MultiSelectMode">RowSelect</property>
+    <property name="ShowCheckBoxSelectorInColumnHeader">Default</property>
+    <property name="ShowCheckBoxSelectorInGroupRow">Default</property>
+    <property name="ShowCheckBoxSelectorChangesSelectionNavigation">Default</property>
+    <property name="ShowCheckBoxSelectorInPrintExport">Default</property>
+    <property name="CheckBoxSelectorColumnWidth">0</property>
+    <property name="ResetSelectionClickOutsideCheckboxSelector">false</property>
+    <property name="EnableAppearanceFocusedCell">false</property>
+  </property>
+  <property name="OptionsNavigation" isnull="true" iskey="true">
+    <property name="UseAdvHorzNavigation">true</property>
+    <property name="UseAdvVertNavigation">true</property>
+    <property name="UseOfficePageNavigation">true</property>
+    <property name="AutoFocusNewRow">false</property>
+    <property name="AutoMoveRowFocus">true</property>
+    <property name="EnterMoveNextColumn">false</property>
+    <property name="UseTabKey">true</property>
+  </property>
+  <property name="Appearance" isnull="true" iskey="true">
+    <property name="HeaderPanel" iskey="true" value="HeaderPanel">
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseForeColor">true</property>
+        <property name="UseFont">true</property>
+      </property>
+      <property name="ForeColor">13, 55, 227</property>
+      <property name="Font">Segoe UI, 9.75pt</property>
+    </property>
+  </property>
+  <property name="Columns" iskey="true" value="43">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="VisibleIndex">100000</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colid</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ShowInCustomizationForm">false</property>
+      </property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">id</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="VisibleIndex">0</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colprdNo</property>
+      <property name="Caption">رقم الصنف</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">prdNo</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">95</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="VisibleIndex">1</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colprdName</property>
+      <property name="Caption">إسم الصنف</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">prdName</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">140</property>
+      <property name="MinWidth">140</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="VisibleIndex">-1</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colprdNameEng</property>
+      <property name="Caption">Product Name</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">prdNameEng</property>
+      <property name="ColumnEditName" />
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="VisibleIndex">2</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colprdStrNo</property>
+      <property name="Caption">المخزن</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">prdStrNo</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">72</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="VisibleIndex">3</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colprdGrpNo</property>
+      <property name="Caption">المجموعة</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">prdGrpNo</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">88</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="VisibleIndex">4</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colprdDesc</property>
+      <property name="Caption">المواصفات</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">prdDesc</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">95</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="VisibleIndex">6</property>
+      <property name="Fixed">None</property>
+      <property name="Name">coltotalQuanPrice</property>
+      <property name="Caption">إجمالي سعر الشراء</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">totalQuanPrice</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">133</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="VisibleIndex">5</property>
+      <property name="Fixed">None</property>
+      <property name="Name">coltotalQuanSalePrice</property>
+      <property name="Caption">إجمالي سعر البيع</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">totalQuanSalePrice</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">127</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="VisibleIndex">7</property>
+      <property name="Fixed">None</property>
+      <property name="Name">coltotalBatchPrice</property>
+      <property name="Caption">إجمالي سعر الجملة</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">totalBatchPrice</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">138</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="VisibleIndex">8</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colprdQuantity</property>
+      <property name="Caption">الكمية 1</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">prdQuantity</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">79</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="VisibleIndex">9</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmMsurName1</property>
+      <property name="Caption">وحدة القياس 1</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmMsurName1</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">115</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="VisibleIndex">31</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmConversion1</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ShowInCustomizationForm">false</property>
+      </property>
+      <property name="Caption">عامل التحويل</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmConversion1</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="VisibleIndex">10</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmPrice1</property>
+      <property name="Caption">سعر الشراء 1</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmPrice1</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">103</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="VisibleIndex">11</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmSalePrice1</property>
+      <property name="Caption">سعر البيع 1</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmSalePrice1</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">97</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="VisibleIndex">12</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmMinSalePrice1</property>
+      <property name="Caption">سعر البيع الأدنى 1</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmMinSalePrice1</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">133</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="VisibleIndex">13</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmRetailPrice1</property>
+      <property name="Caption">سعر التجزيئة 1</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmRetailPrice1</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">114</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="VisibleIndex">14</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBatchPrice1</property>
+      <property name="Caption">سعر الجملة 1</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBatchPrice1</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">108</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="VisibleIndex">15</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBarcode11</property>
+      <property name="Caption">الباركود 1</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBarcode11</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="VisibleIndex">16</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBarcode12</property>
+      <property name="Caption">الباركود 2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBarcode12</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="VisibleIndex">17</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBarcode13</property>
+      <property name="Caption">الباركود 3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBarcode13</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="VisibleIndex">18</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colprdSubQuantity</property>
+      <property name="Caption">الكمية 2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">prdSubQuantity</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">79</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="VisibleIndex">19</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmMsurName2</property>
+      <property name="Caption">وحدة القياس 2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmMsurName2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">115</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item24" isnull="true" iskey="true">
+      <property name="VisibleIndex">20</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmConversion2</property>
+      <property name="Caption">عامل التحويل2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmConversion2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">107</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item25" isnull="true" iskey="true">
+      <property name="VisibleIndex">21</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmPrice2</property>
+      <property name="Caption">سعر الشراء 2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmPrice2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">103</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item26" isnull="true" iskey="true">
+      <property name="VisibleIndex">22</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmSalePrice2</property>
+      <property name="Caption">سعر البيع 2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmSalePrice2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">97</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item27" isnull="true" iskey="true">
+      <property name="VisibleIndex">23</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmMinSalePrice2</property>
+      <property name="Caption">سعر البيع الأدنى 2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmMinSalePrice2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">133</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item28" isnull="true" iskey="true">
+      <property name="VisibleIndex">24</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmRetailPrice2</property>
+      <property name="Caption">سعر التجزيئة 2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmRetailPrice2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">114</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item29" isnull="true" iskey="true">
+      <property name="VisibleIndex">25</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBatchPrice2</property>
+      <property name="Caption">سعر الجملة 2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBatchPrice2</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">108</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item30" isnull="true" iskey="true">
+      <property name="VisibleIndex">26</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBarcode21</property>
+      <property name="Caption">الباركود 1</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBarcode21</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item31" isnull="true" iskey="true">
+      <property name="VisibleIndex">27</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBarcode22</property>
+      <property name="Caption">الباركود 2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBarcode22</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item32" isnull="true" iskey="true">
+      <property name="VisibleIndex">28</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBarcode23</property>
+      <property name="Caption">الباركود 3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBarcode23</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item33" isnull="true" iskey="true">
+      <property name="VisibleIndex">29</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colprdSubQuantity3</property>
+      <property name="Caption">الكمية 3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">prdSubQuantity3</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">79</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item34" isnull="true" iskey="true">
+      <property name="VisibleIndex">30</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmMsurName3</property>
+      <property name="Caption">وحدة القياس 3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmMsurName3</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">115</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item35" isnull="true" iskey="true">
+      <property name="VisibleIndex">100000</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmConversion3</property>
+      <property name="Caption">عامل التحويل3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmConversion3</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">107</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item36" isnull="true" iskey="true">
+      <property name="VisibleIndex">32</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmPrice3</property>
+      <property name="Caption">سعر الشراء 3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmPrice3</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">103</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item37" isnull="true" iskey="true">
+      <property name="VisibleIndex">33</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmSalePrice3</property>
+      <property name="Caption">سعر البيع 3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmSalePrice3</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">97</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item38" isnull="true" iskey="true">
+      <property name="VisibleIndex">34</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmMinSalePrice3</property>
+      <property name="Caption">سعر البيع الأدنى 3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmMinSalePrice3</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">133</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item39" isnull="true" iskey="true">
+      <property name="VisibleIndex">36</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmRetailPrice3</property>
+      <property name="Caption">سعر التجزيئة 3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmRetailPrice3</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">114</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item40" isnull="true" iskey="true">
+      <property name="VisibleIndex">35</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBatchPrice3</property>
+      <property name="Caption">سعر الجملة 3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBatchPrice3</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">108</property>
+      <property name="AppearanceCell" isnull="true" iskey="true">
+        <property name="Options" isnull="true" iskey="true">
+          <property name="UseTextOptions">true</property>
+        </property>
+        <property name="TextOptions" isnull="true" iskey="true">
+          <property name="HAlignment">Near</property>
+        </property>
+      </property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">n2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item41" isnull="true" iskey="true">
+      <property name="VisibleIndex">37</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBarcode31</property>
+      <property name="Caption">الباركود 1</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBarcode31</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item42" isnull="true" iskey="true">
+      <property name="VisibleIndex">38</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBarcode32</property>
+      <property name="Caption">الباركود 2</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBarcode32</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="MinWidth">20</property>
+    </property>
+    <property name="Item43" isnull="true" iskey="true">
+      <property name="VisibleIndex">39</property>
+      <property name="Fixed">None</property>
+      <property name="Name">colppmBarcode33</property>
+      <property name="Caption">الباركود 3</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="FieldName">ppmBarcode33</property>
+      <property name="ColumnEditName" />
+      <property name="Visible">true</property>
+      <property name="Width">85</property>
+      <property name="MinWidth">20</property>
+    </property>
+  </property>
+  <property name="MinBandPanelRowCount">1</property>
+  <property name="BandPanelRowHeight">-1</property>
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="Editable">false</property>
+    <property name="ReadOnly">true</property>
+  </property>
+  <property name="OptionsFind" isnull="true" iskey="true">
+    <property name="AlwaysVisible">true</property>
+  </property>
+  <property name="FixedLineWidth">2</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="RowHeight">-1</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="ChildGridLevelName" />
+  <property name="VertScrollTipFieldName" />
+  <property name="PreviewFieldName" />
+  <property name="GroupPanelText" />
+  <property name="NewItemRowText" />
+  <property name="LevelIndent">-1</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="FocusRectStyle">RowFocus</property>
+  <property name="HorzScrollStep">0</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="ViewCaption" />
+  <property name="BorderStyle">NoBorder</property>
+  <property name="SynchronizeClones">true</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="Name">advBandedGridView1</property>
+  <property name="DetailHeight">350</property>
+  <property name="Tag" isnull="true" />
+  <property name="Bands" iskey="true" value="5">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="Width">490</property>
+      <property name="MinWidth">10</property>
+      <property name="Columns" iskey="true" value="6">
+        <property name="Item1">colprdNo</property>
+        <property name="Item2">colprdName</property>
+        <property name="Item3">colprdNameEng</property>
+        <property name="Item4">colprdStrNo</property>
+        <property name="Item5">colprdGrpNo</property>
+        <property name="Item6">colprdDesc</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">بيانات الصنف الرئيسية</property>
+      <property name="Name">gridBandMain</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="Width">398</property>
+      <property name="MinWidth">10</property>
+      <property name="Columns" iskey="true" value="3">
+        <property name="Item1">coltotalQuanSalePrice</property>
+        <property name="Item2">coltotalQuanPrice</property>
+        <property name="Item3">coltotalBatchPrice</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">إجمالي سعر الكمية</property>
+      <property name="Name">gridBandTotalQuantPrice</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="Width">1004</property>
+      <property name="MinWidth">10</property>
+      <property name="Columns" iskey="true" value="10">
+        <property name="Item1">colprdQuantity</property>
+        <property name="Item2">colppmMsurName1</property>
+        <property name="Item3">colppmPrice1</property>
+        <property name="Item4">colppmSalePrice1</property>
+        <property name="Item5">colppmMinSalePrice1</property>
+        <property name="Item6">colppmRetailPrice1</property>
+        <property name="Item7">colppmBatchPrice1</property>
+        <property name="Item8">colppmBarcode11</property>
+        <property name="Item9">colppmBarcode12</property>
+        <property name="Item10">colppmBarcode13</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">وحدة القياس 1</property>
+      <property name="Name">gridBandPrdMsur1</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="Width">1111</property>
+      <property name="MinWidth">10</property>
+      <property name="Columns" iskey="true" value="11">
+        <property name="Item1">colprdSubQuantity</property>
+        <property name="Item2">colppmMsurName2</property>
+        <property name="Item3">colppmConversion2</property>
+        <property name="Item4">colppmPrice2</property>
+        <property name="Item5">colppmSalePrice2</property>
+        <property name="Item6">colppmMinSalePrice2</property>
+        <property name="Item7">colppmRetailPrice2</property>
+        <property name="Item8">colppmBatchPrice2</property>
+        <property name="Item9">colppmBarcode21</property>
+        <property name="Item10">colppmBarcode22</property>
+        <property name="Item11">colppmBarcode23</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">وحدة القياس 2</property>
+      <property name="Name">gridBandPrdMsur2</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="ImageAlignment">Near</property>
+      <property name="ImageIndex">-1</property>
+      <property name="Width">1079</property>
+      <property name="MinWidth">10</property>
+      <property name="Columns" iskey="true" value="11">
+        <property name="Item1">colprdSubQuantity3</property>
+        <property name="Item2">colppmMsurName3</property>
+        <property name="Item3">colppmConversion1</property>
+        <property name="Item4">colppmPrice3</property>
+        <property name="Item5">colppmSalePrice3</property>
+        <property name="Item6">colppmMinSalePrice3</property>
+        <property name="Item7">colppmBatchPrice3</property>
+        <property name="Item8">colppmRetailPrice3</property>
+        <property name="Item9">colppmBarcode31</property>
+        <property name="Item10">colppmBarcode32</property>
+        <property name="Item11">colppmBarcode33</property>
+      </property>
+      <property name="Children" iskey="true" value="0" />
+      <property name="Caption">وحدة القياس 3</property>
+      <property name="Name">gridBandPrdMsur3</property>
+    </property>
+  </property>
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="FormatRules" iskey="true" value="0" />
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

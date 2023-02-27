@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lkp_PayType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1095, 119</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lkp_PayType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ribbonControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="ribbonPageGroup1.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="ribbonPage1.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1410, 156</value>
+  </data>
+  <data name="lkp_PayType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 24</value>
+  </data>
+  <data name="gridControl1.EmbeddedNavigator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="gridControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 322</value>
+  </data>
+  <data name="colentAccNo.Caption" xml:space="preserve">
+    <value>Account No.</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="colentAccNo.Width" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="colentAccName.Caption" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="colentAccName.Width" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="colentCusNo.Caption" xml:space="preserve">
+    <value>Customer No.</value>
+  </data>
+  <data name="colentCusNo.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="colentCusName.Caption" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="colentCusName.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>Account balance</value>
+  </data>
+  <data name="gridColumn2.Width" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="gridColumn1.Width" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="colentCurrency.Caption" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="colentCurrency.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="colentDesc.Caption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="colentDesc.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="colentDesc.Width" type="System.Int32, mscorlib">
+    <value>402</value>
+  </data>
+  <data name="colentDebit.Caption" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="colentDebit.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="colentCurChange.Caption" xml:space="preserve">
+    <value>Exchange Price</value>
+  </data>
+  <data name="colentCurChange.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="colentDebitFrgn.Caption" xml:space="preserve">
+    <value>Debit Forign Currency</value>
+  </data>
+  <data name="colentDebitFrgn.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="colentTaxPercent.Caption" xml:space="preserve">
+    <value>Tax Percent</value>
+  </data>
+  <data name="colentTaxPercent.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colentTaxPercent.VisibleIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="colentTaxPercent.Width" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="colentTaxPrice.Caption" xml:space="preserve">
+    <value>Tax Amount</value>
+  </data>
+  <data name="colentTaxPrice.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colentTaxPrice.VisibleIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="colentTaxPrice.Width" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="colentId.Width" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="colentNo.Width" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="colentDate.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="gridControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1326, 293</value>
+  </data>
+  <data name="entCurrencyChngTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 149</value>
+  </data>
+  <data name="entCurrencyChngTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entCurrencyChngTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="entAmountTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 182</value>
+  </data>
+  <data name="entAmountTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entAmountTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 24</value>
+  </data>
+  <data name="checkEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 212</value>
+  </data>
+  <data name="checkEdit1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="checkEdit1.Properties.Caption" xml:space="preserve">
+    <value>Display the total restriction in the daily transaction.</value>
+  </data>
+  <data name="checkEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>557, 23</value>
+  </data>
+  <data name="entBoxNoLookUpEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1095, 149</value>
+  </data>
+  <data name="entBoxNoLookUpEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entBoxNoLookUpEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 24</value>
+  </data>
+  <data name="entCurrTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 119</value>
+  </data>
+  <data name="entCurrTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entCurrTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 24</value>
+  </data>
+  <data name="entRefNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 149</value>
+  </data>
+  <data name="entRefNoTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entRefNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 24</value>
+  </data>
+  <data name="entDateTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 179</value>
+  </data>
+  <data name="entDateTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entDateTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 24</value>
+  </data>
+  <data name="entDescTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 209</value>
+  </data>
+  <data name="entDescTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entDescTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 24</value>
+  </data>
+  <data name="entNoTextEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 119</value>
+  </data>
+  <data name="entNoTextEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="entNoTextEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 24</value>
+  </data>
+  <data name="checkEditTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1161, 218</value>
+  </data>
+  <data name="checkEditTax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="checkEditTax.Properties.Caption" xml:space="preserve">
+    <value>Add the tax value</value>
+  </data>
+  <data name="checkEditTax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 23</value>
+  </data>
+  <data name="dataLayoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 156</value>
+  </data>
+  <data name="dataLayoutControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Payment method</value>
+  </data>
+  <data name="ItemForentBoxNo.Text" xml:space="preserve">
+    <value>Box No.</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="ItemForentCurrencyChng.Text" xml:space="preserve">
+    <value>Exchange Price</value>
+  </data>
+  <data name="ItemForentAmount.Text" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>Totals</value>
+  </data>
+  <data name="ItemForentNo.Text" xml:space="preserve">
+    <value>Vocher No.</value>
+  </data>
+  <data name="ItemForentDesc.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ItemForentRefNo.Text" xml:space="preserve">
+    <value>Refrence No.</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Vocher Details</value>
+  </data>
+  <data name="layoutControlGroup4.Text" xml:space="preserve">
+    <value>Payment Main Info</value>
+  </data>
+  <data name="dataLayoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1410, 650</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 18</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1410, 806</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Payment Vocher</value>
+  </data>
+</root>

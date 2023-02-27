@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9d70cdf70fbe4a0aa546d5ae256cf7bf" Name="Diagram1" ZoomLevel="67">
+        <EntityTypeShape EntityType="accountingModel.tblCurrency" Width="1.5" PointX="3.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblUser" Width="1.5" PointX="0.5" PointY="11.75" />
+        <EntityTypeShape EntityType="accountingModel.tblTaxAccount" Width="1.5" PointX="11.875" PointY="11.75" />
+        <EntityTypeShape EntityType="accountingModel.tblRole" Width="1.5" PointX="2.125" PointY="11.75" />
+        <EntityTypeShape EntityType="accountingModel.tblUserRole" Width="1.5" PointX="8.625" PointY="11.75" />
+        <EntityTypeShape EntityType="accountingModel.tblEntryMain" Width="1.5" PointX="3.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblBranchImg" Width="1.5" PointX="13.5" PointY="11.75" />
+        <EntityTypeShape EntityType="accountingModel.tblCustomerInvoice" Width="1.5" PointX="0.5" PointY="15.25" />
+        <EntityTypeShape EntityType="accountingModel.tblSupplierInvoice" Width="1.5" PointX="2.125" PointY="15.25" />
+        <EntityTypeShape EntityType="accountingModel.tblProductColor" Width="1.5" PointX="3.75" PointY="15.25" />
+        <EntityTypeShape EntityType="accountingModel.tblCountry" Width="1.5" PointX="5.375" PointY="15.25" />
+        <EntityTypeShape EntityType="accountingModel.tblDefaultAccount" Width="1.5" PointX="10.25" PointY="11.75" />
+        <EntityTypeShape EntityType="accountingModel.tblEmployee" Width="1.5" PointX="5.375" PointY="6.875" />
+        <EntityTypeShape EntityType="accountingModel.tblUserControl" Width="1.5" PointX="5.375" PointY="11.75" />
+        <EntityTypeShape EntityType="accountingModel.tblRoleControl" Width="1.5" PointX="3.75" PointY="11.75" />
+        <EntityTypeShape EntityType="accountingModel.tblControl" Width="1.5" PointX="7" PointY="11.75" />
+        <EntityTypeShape EntityType="accountingModel.tblAccount" Width="1.5" PointX="7" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblAccountBank" Width="1.5" PointX="10.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblAccountBox" Width="1.5" PointX="8.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblAssetFrgn" Width="1.5" PointX="13.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblBranch" Width="1.5" PointX="0.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblEntrySub" Width="1.5" PointX="5.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblGroupStr" Width="1.5" PointX="8.625" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblStockTransMain" Width="1.5" PointX="8.625" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblStore" Width="1.5" PointX="7" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblSupplier" Width="1.5" PointX="7" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="accountingModel.tblCustomer" Width="1.5" PointX="2.125" PointY="6.875" />
+        <EntityTypeShape EntityType="accountingModel.tblProductQtyOpn" Width="1.5" PointX="15.125" PointY="6.875" />
+        <EntityTypeShape EntityType="accountingModel.tblProductQunatity" Width="1.5" PointX="13.5" PointY="6.875" />
+        <EntityTypeShape EntityType="accountingModel.tblStockTransSub" Width="1.5" PointX="10.25" PointY="15.25" />
+        <EntityTypeShape EntityType="accountingModel.tblSupplyMain" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="accountingModel.tblOrderMain" Width="1.5" PointX="11.875" PointY="15.25" />
+        <EntityTypeShape EntityType="accountingModel.tblOrderSub" Width="1.5" PointX="13.5" PointY="15.25" />
+        <EntityTypeShape EntityType="accountingModel.tblPrdPriceQuan" Width="1.5" PointX="15.125" PointY="15.25" />
+        <EntityTypeShape EntityType="accountingModel.tblPrdExpirateQuan" Width="1.5" PointX="2.125" PointY="19.375" />
+        <EntityTypeShape EntityType="accountingModel.tblPrdExpirate" Width="1.5" PointX="0.5" PointY="19.375" />
+        <EntityTypeShape EntityType="accountingModel.tblFinancialYear" Width="1.5" PointX="15.125" PointY="0.5" />
+        <EntityTypeShape EntityType="accountingModel.tblRepresentative" Width="1.5" PointX="15.125" PointY="11.75" />
+        <EntityTypeShape EntityType="accountingModel.tblPrdPriceMeasurment" Width="1.5" PointX="11.875" PointY="6.875" />
+        <EntityTypeShape EntityType="accountingModel.tblSupplySub" Width="1.5" PointX="2.125" PointY="0.5" />
+        <EntityTypeShape EntityType="accountingModel.tblPrdManufacture" Width="1.5" PointX="3.75" PointY="19.375" />
+        <EntityTypeShape EntityType="accountingModel.tblProduct" Width="1.5" PointX="10.25" PointY="6.875" />
+        <EntityTypeShape EntityType="accountingModel.tblAsset" Width="1.5" PointX="11.875" PointY="0.5" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

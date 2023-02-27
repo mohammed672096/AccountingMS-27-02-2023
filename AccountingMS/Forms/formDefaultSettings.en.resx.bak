@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="teSupplyCashierCustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 400</value>
+  </data>
+  <assembly alias="DevExpress.Data.v21.2" name="DevExpress.Data.v21.2, Version=21.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="teSupplyCashierCustomRprt.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 31</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 665</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 31</value>
+  </data>
+  <data name="tsDefaultSendToECR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 522</value>
+  </data>
+  <data name="tsDefaultSendToECR.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="tsDefaultSendToECR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 31</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>941, 394</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 25</value>
+  </data>
+  <data name="dflAccNoTextEdit13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 24</value>
+  </data>
+  <data name="dataLayoutDfltAccNo7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 341</value>
+  </data>
+  <data name="dataLayoutDfltAccNo7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 130</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1070, 352</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 31</value>
+  </data>
+  <data name="teOrdersPrintPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 371</value>
+  </data>
+  <data name="teOrdersPrintPreview.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teOrdersPrintPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 31</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 406</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 31</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 264</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 31</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>607, 482</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1173, 270</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 31</value>
+  </data>
+  <data name="dflAccNoTextEdit6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1322, 24</value>
+  </data>
+  <data name="dflAccNoTextEdit7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1322, 24</value>
+  </data>
+  <data name="dflAccNoTextEdit8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1322, 24</value>
+  </data>
+  <data name="dflAccNoTextEdit9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1322, 24</value>
+  </data>
+  <data name="dflAccNoTextEdit10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1322, 24</value>
+  </data>
+  <data name="dflAccNoTextEdit11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1322, 24</value>
+  </data>
+  <data name="dflAccNoTextEdit14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1322, 24</value>
+  </data>
+  <data name="dflAccNoTextEdit15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1322, 24</value>
+  </data>
+  <data name="dataLayoutDfltAccNo6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 475</value>
+  </data>
+  <data name="dataLayoutDfltAccNo6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1354, 268</value>
+  </data>
+  <data name="dflAccNoTextEdit5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>825, 24</value>
+  </data>
+  <data name="dataLayoutDfltAccNo5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, 341</value>
+  </data>
+  <data name="dataLayoutDfltAccNo5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>833, 130</value>
+  </data>
+  <data name="dflAccNoTextEdit4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 24</value>
+  </data>
+  <data name="dataLayoutDfltAccNo4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 209</value>
+  </data>
+  <data name="dataLayoutDfltAccNo4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 128</value>
+  </data>
+  <data name="dflAccNoTextEdit3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>825, 24</value>
+  </data>
+  <data name="dataLayoutDfltAccNo3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, 209</value>
+  </data>
+  <data name="dataLayoutDfltAccNo3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>833, 128</value>
+  </data>
+  <data name="dflAccNoTextEdit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 24</value>
+  </data>
+  <data name="dataLayoutDfltAccNo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 128</value>
+  </data>
+  <data name="dflAccNoTextEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>825, 24</value>
+  </data>
+  <data name="dataLayoutDfltAccNo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, 77</value>
+  </data>
+  <data name="dataLayoutDfltAccNo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>833, 128</value>
+  </data>
+  <data name="colorPickEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 49</value>
+  </data>
+  <data name="colorPickEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 24</value>
+  </data>
+  <data name="colQuanSpinEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>728, 49</value>
+  </data>
+  <data name="colQuanSpinEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 24</value>
+  </data>
+  <data name="dataLayoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1354, 173</value>
+  </data>
+  <data name="colorPickEdit3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 49</value>
+  </data>
+  <data name="colorPickEdit3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 24</value>
+  </data>
+  <data name="colQuanSpinEdit3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>728, 49</value>
+  </data>
+  <data name="colQuanSpinEdit3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 24</value>
+  </data>
+  <data name="dataLayoutControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 431</value>
+  </data>
+  <data name="dataLayoutControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1354, 312</value>
+  </data>
+  <data name="colorPickEdit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 46</value>
+  </data>
+  <data name="colorPickEdit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>615, 24</value>
+  </data>
+  <data name="colQuanSpinEdit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 46</value>
+  </data>
+  <data name="colQuanSpinEdit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 24</value>
+  </data>
+  <data name="dataLayoutControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 254</value>
+  </data>
+  <data name="dataLayoutControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1354, 173</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1168, 552</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Properties.OffText" xml:space="preserve">
+    <value>Deactivated</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Properties.OnText" xml:space="preserve">
+    <value>Activated</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 31</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1168, 517</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Properties.OffText" xml:space="preserve">
+    <value>Deactivated</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Properties.OnText" xml:space="preserve">
+    <value>Activated</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 31</value>
+  </data>
+  <data name="teDefaultPrintPaper.Location" type="System.Drawing.Point, System.Drawing">
+    <value>783, 219</value>
+  </data>
+  <data name="teDefaultPrintPaper.Properties.Items3" xml:space="preserve">
+    <value>Cashier</value>
+  </data>
+  <data name="teDefaultPrintPaper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 47</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1168, 482</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Properties.OffText" xml:space="preserve">
+    <value>Deactivated</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Properties.OnText" xml:space="preserve">
+    <value>Activated</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 31</value>
+  </data>
+  <data name="teDefaultBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 112</value>
+  </data>
+  <data name="teDefaultBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>950, 24</value>
+  </data>
+  <data name="btnDefaultPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>900, 219</value>
+  </data>
+  <data name="btnDefaultPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 47</value>
+  </data>
+  <data name="btnDefaultPrinter.Text" xml:space="preserve">
+    <value>Choose</value>
+  </data>
+  <data name="teDefaultStrId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 118</value>
+  </data>
+  <data name="teDefaultStrId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>829, 24</value>
+  </data>
+  <data name="teDefaultBank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 140</value>
+  </data>
+  <data name="teDefaultBank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>950, 24</value>
+  </data>
+  <data name="btnBarcodePrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1350, 27</value>
+  </data>
+  <data name="btnSupplyA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 219</value>
+  </data>
+  <data name="btnSupplyA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 41</value>
+  </data>
+  <data name="btnOrdersPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1330, 27</value>
+  </data>
+  <data name="textEditOrderVoucher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>833, 146</value>
+  </data>
+  <data name="textEditOrderVoucher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 24</value>
+  </data>
+  <data name="textEditOrderExecute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 146</value>
+  </data>
+  <data name="textEditOrderExecute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 24</value>
+  </data>
+  <data name="textEditOrderReceipt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 24</value>
+  </data>
+  <data name="textEditOrderVoucherPlu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>833, 200</value>
+  </data>
+  <data name="textEditOrderVoucherPlu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 24</value>
+  </data>
+  <data name="textEditOrderExecutePlu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 200</value>
+  </data>
+  <data name="textEditOrderExecutePlu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 24</value>
+  </data>
+  <data name="textEditOrderReceiptPlu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 24</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 387</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 31</value>
+  </data>
+  <data name="textEditPrdExpirateAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1348, 24</value>
+  </data>
+  <data name="txt_ScaleBarcodePrefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 451</value>
+  </data>
+  <data name="txt_ScaleBarcodePrefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 24</value>
+  </data>
+  <data name="spn_ProductCodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 479</value>
+  </data>
+  <data name="spn_ProductCodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 24</value>
+  </data>
+  <data name="spn_BarcodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 423</value>
+  </data>
+  <data name="spn_BarcodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 24</value>
+  </data>
+  <data name="spn_ValueCodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>936, 507</value>
+  </data>
+  <data name="spn_ValueCodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 24</value>
+  </data>
+  <data name="cbx_ReadMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 539</value>
+  </data>
+  <data name="cbx_ReadMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 24</value>
+  </data>
+  <data name="cbx_DivideValueBy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 567</value>
+  </data>
+  <data name="cbx_DivideValueBy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 24</value>
+  </data>
+  <data name="chk_IgnoreCheckDigit.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IgnoreCheckDigit.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IgnoreCheckDigit.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IgnoreCheckDigit.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="chk_IgnoreCheckDigit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 24</value>
+  </data>
+  <data name="teDefaultShowCarData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1094, 665</value>
+  </data>
+  <data name="teDefaultShowCarData.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teDefaultShowCarData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 31</value>
+  </data>
+  <data name="teECRport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 491</value>
+  </data>
+  <data name="teECRport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 24</value>
+  </data>
+  <data name="btnShowPorts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 27</value>
+  </data>
+  <data name="textEditDfltAccLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1330, 24</value>
+  </data>
+  <data name="textEditBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 121</value>
+  </data>
+  <data name="textEditBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 24</value>
+  </data>
+  <data name="radioGroupInvType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 42</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 41</value>
+  </data>
+  <data name="tgl_TaxReadMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 394</value>
+  </data>
+  <data name="tgl_TaxReadMode.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="tgl_TaxReadMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 25</value>
+  </data>
+  <data name="btnSupplyCashierCustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>717, 27</value>
+  </data>
+  <data name="PayPartInvoValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1094, 700</value>
+  </data>
+  <data name="PayPartInvoValue.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="PayPartInvoValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 31</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 334</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 31</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 299</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 31</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 700</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v21.2">
+    <value>Default</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 31</value>
+  </data>
+  <data name="tsDefaultSalePriceAndBuy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>996, 587</value>
+  </data>
+  <data name="tsDefaultSalePriceAndBuy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 23</value>
+  </data>
+  <data name="itemForDefaultPrintPaper.Text" xml:space="preserve">
+    <value>Print Invoice</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg.Text" xml:space="preserve">
+    <value>Show Print Message</value>
+  </data>
+  <data name="itemForDefaultShowPrdQtyMssg.Text" xml:space="preserve">
+    <value>Show Product Quantity Message</value>
+  </data>
+  <data name="itemForDefaultSalePriceFloar.Text" xml:space="preserve">
+    <value>Sale price floar</value>
+  </data>
+  <data name="itemForDefaultBox.Text" xml:space="preserve">
+    <value>Default Box</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>Purchases and Sales Default Settings</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Default Printer Settings</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Default Settings</value>
+  </data>
+</root>

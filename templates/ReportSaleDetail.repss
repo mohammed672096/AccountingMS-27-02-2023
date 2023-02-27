@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheetSerializer SerializerVersion="19.2.3.0" FileName="">
+  <Styles>
+    <Item1 Name="evenDetailStyle" BorderStyle="Inset" Padding="2,2,0,0,100" BackColor="255,235,233,234" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item2 Name="oddDetailStyle" BorderStyle="Inset" Padding="2,2,0,0,100" BackColor="WhiteSmoke" StringFormat="Near;Near;0;None;Character;Default" />
+  </Styles>
+</StyleSheetSerializer>

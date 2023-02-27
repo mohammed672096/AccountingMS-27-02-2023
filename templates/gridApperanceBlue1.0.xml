@@ -1,0 +1,10 @@
+﻿<XtraSerializer version="1.0" application="Appearances">
+  <property name="HeaderPanel" iskey="true" value="HeaderPanel">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseForeColor">true</property>
+      <property name="UseFont">true</property>
+    </property>
+    <property name="ForeColor">13, 55, 227</property>
+    <property name="Font">Segoe UI, 9pt</property>
+  </property>
+</XtraSerializer>

@@ -1,0 +1,52 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg viewBox="0 -2 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g transform="translate(4, 2.0003)">
+    <g transform="matrix(0.8571, 0, 0, 0.8571, 0, 0)">
+      <g id="Layer_1" transform="translate(-4.6668, -4.6691)">
+        <g transform="matrix(1.1667, 0, 0, 1.1667, 0, 0)">
+          <g id="Sales">
+            <circle cx="23" cy="25" r="3" fill="#FFFFFF" class="White" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 2.0003)">
+    <g transform="matrix(0.8571, 0, 0, 0.8571, 0, 0)">
+      <g id="Layer_1" transform="translate(-4.6668, -4.6691)">
+        <g transform="matrix(1.1667, 0, 0, 1.1667, 0, 0)">
+          <g id="Sales">
+            <polygon points="10,18 10,10 10,8 4,8 4,10 8,10 8,20 28,20 28,18  " fill="#FFFFFF" class="White" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 2.0003)">
+    <g transform="matrix(0.8571, 0, 0, 0.8571, 0, 0)">
+      <g id="Layer_1" transform="translate(-4.6668, -4.6691)">
+        <g transform="matrix(1.1667, 0, 0, 1.1667, 0, 0)">
+          <g id="Sales">
+            <path d="M13, 16L25, 16C25.6, 16 26, 15.5 26, 15L26, 5C26, 4.5 25.6, 4 25, 4L13, 4C12.4, 4 12, 4.5 12, 5L12, 15C12, 15.5 12.4, 16 13, 16zM20, 6L24, 6L24, 10L20, 10L20, 6z" fill="#FFFFFF" class="White" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(4, 2.0003)">
+    <g transform="matrix(0.8571, 0, 0, 0.8571, 0, 0)">
+      <g id="Layer_1" transform="translate(-4.6668, -4.6691)">
+        <g transform="matrix(1.1667, 0, 0, 1.1667, 0, 0)">
+          <g id="Sales">
+            <circle cx="13" cy="25" r="3" fill="#FFFFFF" class="White" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Layer_1" transform="translate(0, -2)">
+    <g id="Check_2_">
+      <path d="M0, 8L2, 6L6, 10L14, 2L16, 4L6, 14C6, 14 0, 7.9 0, 8z" fill="#FFB115" class="Yellow" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bbiSave.Caption" xml:space="preserve">
+    <value>Save
+F2</value>
+  </data>
+  <data name="bbiSaveAndNew.Caption" xml:space="preserve">
+    <value>Save and New
+F3</value>
+  </data>
+  <data name="bbiClose.Caption" xml:space="preserve">
+    <value>Close
+F4</value>
+  </data>
+  <data name="barCheckItem1.Caption" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="mainRibbonPage.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="supSplNoTextEdit.Properties.Columns0" xml:space="preserve">
+    <value>Supplier No.</value>
+  </data>
+  <data name="supSplNoTextEdit.Properties.Columns1" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="purchaseNoTextEdit.Properties.Columns0" xml:space="preserve">
+    <value>Invoice No.</value>
+  </data>
+  <data name="purchaseNoTextEdit.Properties.Columns1" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="purchaseNoTextEdit.Properties.Columns2" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="checkEditTax.Text" xml:space="preserve">
+    <value>Add Tax Price</value>
+  </data>
+  <data name="ItemForsupNo.Text" xml:space="preserve">
+    <value>Invoice No.</value>
+  </data>
+  <data name="ItemForsupRefNo.Text" xml:space="preserve">
+    <value>Refrence No.</value>
+  </data>
+  <data name="ItemForsupDate.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="ItemForsupDesc.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>Supplier Name.</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>Supplier No.</value>
+  </data>
+  <data name="ItemForpurchaseNo.Text" xml:space="preserve">
+    <value>Purchase Invoice</value>
+  </data>
+  <data name="ItemForsupCurrencyChng.Text" xml:space="preserve">
+    <value>Exchange Price</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Invoice Main Info</value>
+  </data>
+  <data name="radioGroupIsCash.Properties.Items1" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="radioGroupIsCash.Properties.Items2" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="itemForTotalTax.Text" xml:space="preserve">
+    <value>Total Tax:</value>
+  </data>
+  <data name="labelTaxPercent.Text" xml:space="preserve">
+    <value>Tax Percent 5%</value>
+  </data>
+  <data name="itemForPaidCash.Text" xml:space="preserve">
+    <value>Paid Cash:</value>
+  </data>
+  <data name="itemForPaidCreditCard.Text" xml:space="preserve">
+    <value>Paid Credit Card:</value>
+  </data>
+  <data name="itemForRemaingCash.Text" xml:space="preserve">
+    <value>Remaining:</value>
+  </data>
+  <data name="itemForTotalPrice.Text" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="itemForTotalFinal.Text" xml:space="preserve">
+    <value>Total Final:</value>
+  </data>
+  <data name="colsupPrdNo.Caption" xml:space="preserve">
+    <value>Product No.</value>
+  </data>
+  <data name="colsupPrdName.Caption" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="colsupMsur.Caption" xml:space="preserve">
+    <value>Measurment Unit</value>
+  </data>
+  <data name="colsupCurrency.Caption" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="colsupQuanMain.Caption" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="colsupPrice.Caption" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="colsupTaxPercent.Caption" xml:space="preserve">
+    <value>Tax Percent</value>
+  </data>
+  <data name="colsupTaxPrice.Caption" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="colsupDesc.Caption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="colsupTotalPrice.Caption" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="colsupPrdBarcode.Caption" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="repositoryItemLookUpEditMeasurment.Columns1" xml:space="preserve">
+    <value>Measurment Unit</value>
+  </data>
+  <data name="colprdNo.Caption" xml:space="preserve">
+    <value>Product No.</value>
+  </data>
+  <data name="colprdName.Caption" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="labelItemsCount.Text" xml:space="preserve">
+    <value>Count : 0</value>
+  </data>
+  <data name="this.Purchase" xml:space="preserve">
+    <value>Purchase Invoice</value>
+  </data>
+  <data name="colAccName" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="colAccNo" xml:space="preserve">
+    <value>Account No.</value>
+  </data>
+  <data name="ItemForsupAccName.Text" xml:space="preserve">
+    <value>Box Name</value>
+  </data>
+  <data name="ItemForsupAccNo.Text" xml:space="preserve">
+    <value>Box No.</value>
+  </data>
+  <data name="mainRibbonPageGroup.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="ribbonPageGroup1.Text" xml:space="preserve">
+    <value>Invoice Type</value>
+  </data>
+  <data name="this.PurchaseRtrn" xml:space="preserve">
+    <value>Purchase Return Invoice</value>
+  </data>
+  <data name="grpErrorMssg" xml:space="preserve">
+    <value>Please enter all group info from group form in Store Mangment.</value>
+  </data>
+  <data name="prdCount" xml:space="preserve">
+    <value>Count : </value>
+  </data>
+  <data name="purchaseErrMssg" xml:space="preserve">
+    <value>Sorry, purchase invoice no. {0} have been used.</value>
+  </data>
+  <data name="purchaseForm" xml:space="preserve">
+    <value>Purchase Invoice Form</value>
+  </data>
+  <data name="purchaseRtrnErrMssg" xml:space="preserve">
+    <value>Sorry, purchase return invoice no. {0} have been used.</value>
+  </data>
+  <data name="purchaseRtrnForm" xml:space="preserve">
+    <value>Purchase Return Invoice Form</value>
+  </data>
+  <data name="purchaseRtrnMarkErrMssg" xml:space="preserve">
+    <value>Please select checked rows first.</value>
+  </data>
+  <data name="purchaseRtrnSuccessMssg" xml:space="preserve">
+    <value>Purchase return invoice no. {0}</value>
+  </data>
+  <data name="purchaseSuccessMssg" xml:space="preserve">
+    <value>Purchase invoice no. {0}</value>
+  </data>
+  <data name="requiredField" xml:space="preserve">
+    <value>Required filed!.</value>
+  </data>
+  <data name="bbiEditPrice.Caption" xml:space="preserve">
+    <value>Edit Price
+F7</value>
+  </data>
+  <data name="bbiEditQuantity.Caption" xml:space="preserve">
+    <value>Edit Quantity
+F6</value>
+  </data>
+  <data name="ribbonPageGroupShortcuts.Text" xml:space="preserve">
+    <value>Shortcuts</value>
+  </data>
+  <data name="printInvoiceMssg" xml:space="preserve">
+    <value>Do you want to print invoice?</value>
+  </data>
+  <data name="labelDiscountString.Text" xml:space="preserve">
+    <value>Discount :</value>
+  </data>
+  <data name="labelPaidAmountString.Text" xml:space="preserve">
+    <value>Paid :</value>
+  </data>
+  <data name="labelRemaingAmountString.Text" xml:space="preserve">
+    <value>Remaining :</value>
+  </data>
+  <data name="labelTaxTotalString.Text" xml:space="preserve">
+    <value>Total Tax :</value>
+  </data>
+  <data name="labelTotalFinalString.Text" xml:space="preserve">
+    <value>Total Final :</value>
+  </data>
+  <data name="labelTotalString.Text" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="bbiReset.Caption" xml:space="preserve">
+    <value>Reset
+F5</value>
+  </data>
+  <data name="CloseFormMssg" xml:space="preserve">
+    <value>Do you really want to close invoice form?</value>
+  </data>
+  <data name="GridErrorMssg" xml:space="preserve">
+    <value>There is no data in the grid!</value>
+  </data>
+  <data name="PrdNoFoundMssg" xml:space="preserve">
+    <value>Sorry, product not found.</value>
+  </data>
+  <data name="colsplPhone.Caption" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="barButtonItem3" xml:space="preserve">
+    <value>Print the previous bill</value>
+    <comment>طباعة الفاتورة السابقة</comment>
+  </data>
+  <data name="bbiCustomers" xml:space="preserve">
+    <value>Customers</value>
+    <comment>العملاء</comment>
+  </data>
+  <data name="bbiNewInvoice" xml:space="preserve">
+    <value>New invoice (F1)</value>
+    <comment> فاتورة جديدة(F1)</comment>
+  </data>
+  <data name="bbiPrdPrice" xml:space="preserve">
+    <value>Purchase quotation (F8)</value>
+    <comment>عرض سعر الشراء(F8)</comment>
+  </data>
+  <data name="bbiRefreshCustomers" xml:space="preserve">
+    <value>Customer update</value>
+    <comment>تحديث العملاء</comment>
+  </data>
+  <data name="bbiReset" xml:space="preserve">
+    <value>Reset (F5)</value>
+    <comment>إعادة التهيئه(F5)</comment>
+  </data>
+  <data name="bbiSaveAndNewNoPrint" xml:space="preserve">
+    <value>Save and Create New without printing (F12)</value>
+    <comment>حفظ و إنشاء جديد بدون طباعه(F12)</comment>
+  </data>
+  <data name="bbiUpdateInvvoice" xml:space="preserve">
+    <value>Sales Invoice Adjustment (F9)</value>
+    <comment>تعديل فاتورة المبيعات(F9)</comment>
+  </data>
+  <data name="bsiCustomer" xml:space="preserve">
+    <value>Customer name</value>
+    <comment>إسم العميل</comment>
+  </data>
+  <data name="bsiPaidCreditShortcut" xml:space="preserve">
+    <value>Paid credit card (F11)</value>
+    <comment>المدفوع بطاقة  إئتمان(F11)</comment>
+  </data>
+  <data name="bsiStrName" xml:space="preserve">
+    <value>Store name</value>
+    <comment>إسم المخزن</comment>
+  </data>
+  <data name="btnDeleteRow" xml:space="preserve">
+    <value>Delete</value>
+    <comment>حذف</comment>
+  </data>
+  <data name="btnECRcancel" xml:space="preserve">
+    <value>Cancellation</value>
+    <comment>إلغاء</comment>
+  </data>
+  <data name="btnECRsend" xml:space="preserve">
+    <value>Send</value>
+    <comment>إرسال</comment>
+  </data>
+  <data name="checkEdit1" xml:space="preserve">
+    <value>Round off the final total</value>
+    <comment>تقريب الاجمالي النهائي</comment>
+  </data>
+  <data name="colCount" xml:space="preserve">
+    <value>The number</value>
+    <comment>العدد</comment>
+  </data>
+  <data name="colFinalAmount" xml:space="preserve">
+    <value>The final total</value>
+    <comment>الاجمالي النهائي</comment>
+  </data>
+  <data name="colsupDscntAmount" xml:space="preserve">
+    <value>Discount</value>
+    <comment>الخصم</comment>
+  </data>
+  <data name="colsupDscntPercent" xml:space="preserve">
+    <value>Discount percentage</value>
+    <comment>نسبة الخصم</comment>
+  </data>
+  <data name="ItemForBarcodeText" xml:space="preserve">
+    <value>Barcode number:</value>
+    <comment>رقم الباركود :</comment>
+  </data>
+  <data name="itemForsupDscntAmount" xml:space="preserve">
+    <value>Discount Amount:</value>
+    <comment>مبلغ الخصم :</comment>
+  </data>
+  <data name="itemForsupDscntPercent" xml:space="preserve">
+    <value>Discount percentage :</value>
+    <comment>نسبة الخصم :</comment>
+  </data>
+  <data name="labelTotalPriceString" xml:space="preserve">
+    <value>Total price :</value>
+    <comment>إجمالي السعر :</comment>
+  </data>
+  <data name="labelTotalTaxString" xml:space="preserve">
+    <value>Total tax:</value>
+    <comment>إجمالي الضريبة : </comment>
+  </data>
+  <data name="layoutControlGrooupMain" xml:space="preserve">
+    <value>Main data</value>
+    <comment>البيانات الرئيسة</comment>
+  </data>
+  <data name="layoutControlItem4" xml:space="preserve">
+    <value>Rounding discount</value>
+    <comment>خصم التقريب</comment>
+  </data>
+  <data name="layoutControlItem5" xml:space="preserve">
+    <value>The final amount</value>
+    <comment>ألمبلغ النهائي</comment>
+  </data>
+  <data name="ribbonPageGroupCustomerInv" xml:space="preserve">
+    <value>Connecting a customer to the invoice</value>
+    <comment>ربط عميل الى الفاتورة</comment>
+  </data>
+  <data name="ribbonPageGroupRibbonView" xml:space="preserve">
+    <value>Display list</value>
+    <comment>قائمة العرض</comment>
+  </data>
+  <data name="ribbonPageGroupStrId" xml:space="preserve">
+    <value>The store</value>
+    <comment>المخزن</comment>
+  </data>
+  <data name="ribbonPageGroupUpdateInvoice" xml:space="preserve">
+    <value>Sales invoices</value>
+    <comment>فواتير المبيعات</comment>
+  </data>
+  <data name="simpleButton1" xml:space="preserve">
+    <value>Fraction Deduction</value>
+    <comment>خصم الكسور</comment>
+  </data>
+  <data name="simpleButton2" xml:space="preserve">
+    <value>Add fractions</value>
+    <comment>اضافة الكسور</comment>
+  </data>
+  <data name="simpleLabelItem1" xml:space="preserve">
+    <value>Items search: Ctrl + F</value>
+    <comment>بحث الأصناف: Ctrl + F</comment>
+  </data>
+  <data name="barButtonItem1" xml:space="preserve">
+    <value>Suppliers</value>
+    <comment>الموردين</comment>
+  </data>
+  <data name="barButtonItem2" xml:space="preserve">
+    <value>Update</value>
+    <comment>تحديث</comment>
+  </data>
+  <data name="bbiAddProduct" xml:space="preserve">
+    <value>Add item (F9)</value>
+    <comment>إضافة صنف(F9)</comment>
+  </data>
+  <data name="bbiRefreshPrds" xml:space="preserve">
+    <value>Purchase quotation (F8)</value>
+    <comment>عرض سعر الشراء(F8)</comment>
+  </data>
+  <data name="bbiRefreshProducts" xml:space="preserve">
+    <value>Items Update (F10)</value>
+    <comment>تحديث الأصناف(F10)</comment>
+  </data>
+  <data name="bsiSupplier" xml:space="preserve">
+    <value>Supplier name</value>
+    <comment>إسم المورد</comment>
+  </data>
+  <data name="btnPriceTrans" xml:space="preserve">
+    <value>Price converter (F11)</value>
+    <comment>تحويل السعر (F11)</comment>
+  </data>
+  <data name="checkEditPrdLastPrice" xml:space="preserve">
+    <value>Approving the last purchase price of the item</value>
+    <comment>إعتماد اخر سعر شراء للصنف</comment>
+  </data>
+  <data name="ItemForDiscTotalAmount" xml:space="preserve">
+    <value>Gross amount</value>
+    <comment>المبل الإجمالي</comment>
+  </data>
+  <data name="ItemForsupBankId" xml:space="preserve">
+    <value>the bank:</value>
+    <comment>البنك: </comment>
+  </data>
+  <data name="ItemForsupDscntAmount1" xml:space="preserve">
+    <value>discount value :</value>
+    <comment>قيمة الخصم :</comment>
+  </data>
+  <data name="ItemForsupDscntPercent1" xml:space="preserve">
+    <value>discount percentage :</value>
+    <comment>نسبة الخصم :</comment>
+  </data>
+  <data name="layoutControlGroup8" xml:space="preserve">
+    <value>Discount data</value>
+    <comment>بيانات الخصم</comment>
+  </data>
+  <data name="ribbonPageGroupProducts" xml:space="preserve">
+    <value>Varieties</value>
+    <comment>الأصناف</comment>
+  </data>
+  <data name="ribbonPageGroupSupplier" xml:space="preserve">
+    <value>Associate a supplier to the invoice</value>
+    <comment>ربط مورد للفاتورة</comment>
+  </data>
+  <data name="colTotal" xml:space="preserve">
+    <value>Net Amount</value>
+    <comment>الصافي</comment>
+  </data>
+  <data name="gridColumn1" xml:space="preserve">
+    <value>Final Amount</value>
+    <comment>الاجمالي النهائي</comment>
+  </data>
+  <data name="colsupDscntAmount.Caption" xml:space="preserve">
+    <value>Discount Value</value>
+  </data>
+  <data name="colsupDscntPercent.Caption" xml:space="preserve">
+    <value>Discount %</value>
+  </data>
+  <data name="colExpireDate.Caption" xml:space="preserve">
+    <value>Expire Date</value>
+  </data>
+</root>

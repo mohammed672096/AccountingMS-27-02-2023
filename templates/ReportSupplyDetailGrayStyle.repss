@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheetSerializer SerializerVersion="19.1.3.0" FileName="">
+  <Styles>
+    <Item1 Name="xrControlStyleEven" BorderStyle="Inset" Padding="0,0,0,0,100" BackColor="White" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item2 Name="xrControlStyleOdd" BorderStyle="Inset" Padding="0,0,0,0,100" BackColor="255,242,242,242" StringFormat="Near;Near;0;None;Character;Default" />
+  </Styles>
+</StyleSheetSerializer>

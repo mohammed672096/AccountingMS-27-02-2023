@@ -1,0 +1,1080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="switch_GroupProductsInInvoices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1091, 513</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="switch_GroupProductsInInvoices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 31</value>
+  </data>
+  <data name="colcolId.Caption" xml:space="preserve">
+    <value>Lot Number</value>
+  </data>
+  <data name="colcolQuan.Caption" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="colcolHtml.Caption" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="btnClose.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAddEVYdFRpdGxlAENsb3NlO0V4aXQ7QmFycztSaWJi
+        b247RgO56AAAAXZJREFUWEftlkFOwzAQRbvqfUAgUMWSm3A9KtEuOAuHAMEFwMxH8yPb+XbGIBQkunit
+        6vnjeUmTtJuU0qp8vTzd3aY1OAn8C4F3sTYREXgzbozHbC3K0dgZr9lawZIAhl96fWuMSGD41nsvDCnR
+        E8Cp26FG7HNUYhqe9eJMfHh9ArWWALg3io0825NQwyH+4PUC1BmaFZ29oTZUEsc8l2XlcIAMgzLg7Lkh
+        sbVaYujICXIMy0BG70zMhnu9Oxwgx7AMVLQkho+cID8iAGYSOagZoeEAPWyUgQZSAmtGeDhA33cEWt85
+        rwnVI0HfqIAcTlAzwhLoYaMMVLRuNbUWkkA+KtC7z1vXxKIEcgzLgBN5wvWeE/leBcgxLANG78jrbOSJ
+        WYAMgyrQutoPWaZm6EygzlBdxE/nNTfxDDbqDSdK4soY/jl+Mc69Hh1OJgl7PzOefb1gSQBAAvYjwwkk
+        0CuHg4gA6P6xXODHf0p/lZPA3xFYj7T5BN17IBCO78cXAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnSave.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACF0RVh0VGl0
+        bGUAQXBwbHk7T0s7Q2hlY2s7QmFycztSaWJib247ZGPIaAAACrBJREFUWEeVVwtQlccZXdu82jyaNmNr
+        0zTpREBBBURRFEEMrysQlEReakAUH4ii4BtBERFRQOSN4AUFQZP4BARBAQmgiIkoaAQEL29RQUTBTpzM
+        nH7fwkVN03a6M2d2//2//c75zu7+XMT2ZEuxQ2kldh6yFqEZCrEnUyHCj80Wkd/aiKiTNiL6tI2IzbYV
+        8Tm2IiHPTlAb8d8Qm6sQ+7OtRNQpSxFx3EKEfW0uQrNmieAMM7E9zVQEpJiILYnGYmPcdAqnti3ZQrQ/
+        PSw6nqaLzv4McW/giETXQCYhS9x/lsVhaoLfEH5LeI3w+i/Acwx+z3Ej2p9miranR0TrkwzR3JcuVI8P
+        ibu9aaLxkVKsj5tGIdQCDphT0CEpoKN/UESnFJHJr9XEkjQ0w9wg+rQiOD5/dkViwexrSYU2PydfsPk5
+        Id+6Oj7P+tK+ExYh2w+aTKbYNzieIIW09pGAx+nirlpAT6pYH2tEr6gFJH1GClNF25M0coKE9JMbBGrq
+        il8PyzR3is62bkgtmocLNzegtnMf6h/EoWvgqET9g3iai0Rh7TocPP8FIk+ZN+w4ZLKA1r5JkEKah8ib
+        HqWKOz0HxbqYIQH+CWaipS+ZRKSQiIMkQsnTsupNMdNHh39jUZlRMh817eHo6FeisTcStx4G4+bDbaju
+        2oBrXetR8yAQtQ+2o6EnAq1PlLhOsYeLXbDrqGmVZ6DuWMrFjkg3GntSxJ3uZOEXM5UeqW2ON6G9SaQ9
+        SiIhB3iKyV/zT5phufdri0fFtzZB1ReLG/e3oqpjDa52MtZKfH+Pxz6o6lyNyvZVuNTmjYpWL1zt2ICG
+        RzEorNmAXVkzH/mET7KhnOyGFFHfnSR89xvSkNrGWGPR9DiWRMTxoyTfGD3NKuIbq5+uqoKpsm24REkv
+        txHaVxLRSlzpGOzVuNzuReQrUN66DN81e6JUtRjFTR74ocMflxuDEZo56/nKUP1hEXUPE8SaKD4q1Hyj
+        porG3igeStuX75g4dme6WfdV1TZcaV+DsuYlEuUtnkSwFBVtni+Bnlt5nmIIpc0eKFG5o+iuGxLzFVi8
+        Uwdnazxw6U4QApXGPc5rxk4gDrkdPpGTmFOIpbt0RcOjcB6yPW9sSTK6lHeN7VyJoqaFKLn7FS5Swosq
+        N3zX4k5Y9KJvdkdpixsRuxHxVyhWLcSpakd4hugiMNYPMRlRWBIyAQV1S3Dm6mr4RU+qJI53CHwwuWAh
+        vgocx5203mevwYKIrxW0134ouOOEQsKFRheJoiZXqsyVSOYTGWOBHDN4/gK9Tz5vDdcNU3CioBB1qm40
+        qJow13c0EgotUaZai91HrLAocJwHcb1F4IKFWBigzR0/vLkuxrDh/M1VyK93xNk6B+TVO+Bcw5ck5EsU
+        NM6j3hHnGxkkjvsm6hk03n/aDIv8FSj/vh5t95+ip68Hq3fb4vjl5cj50RknauyRV+2DVeH6jcT1HmHY
+        BVm9k6+WIijVjOwmu27aIvu2HXJuf47c2/bIrZtDoggNcyXONThQz6BnEhmSZQS3Lda4fL0J97qfoffJ
+        Y6zYaY3MUg/k3HLCsWprZP1ghXN1ixF40AxzvTTsiVN9K6SAN1w3jY2KO+NCgbNxvMYaJ2sVOHVrNk4T
+        sm/bEGxJiB0JIlF1jMHx5hQDeGy1xZUaFToePkP3414sC7LCgTwXnPnREUerLZF5zRIZVeZIv6JAfLYL
+        XDaM5Sv3NoG/sFLFW/O3aFcoi1wRd9EECd/NICHmJMQSx65ZwF85kcZWJEYhBTHOEHYcmYxFW+1QVdOM
+        ju4B9D79CcFJXtiutJS2Z1Vb4AjlOVQ5CwmllLd0JtJKFoC4+DDyNgwL+L3rFu3utDJHRBdNw/5iI8QU
+        T0fCxRlYsE0THgE2cNs+DhlXZ+F4rSVO1FohMnsanNfPQEV1A9ofDqCr558ovHwCHkG6yK9zk8RpV8xw
+        oMwEcSUzEFMynWCMQxVOWLhVp4c4/0jgcyBVvO2yWft5SrkdIi8YYt+FqRILgzTgt3cRvr/VjqNns+G8
+        aTwSimYg9rwxHHzHIa+sEq33+6WA1q4WOK6bgG+r3JFcYYbEUlPEl84gR40l+f4iI8ppBGWFPRb46zwn
+        zj8R+K+oFPCO80bt5wkXzRFeaIjI81MQljsV9ms/QeX1K7hH1d3t6MPpC8WYt04X9ms0cCz/LFSdfWh7
+        0I/uvmfwC5+HyBP2SC7/7CViY3KTHCVXuaDI84YkzAKuVCxxfvCKgHnrxnbvO2eKiMLJiCgwJNtmQlnk
+        THZNRld3Bzp7nqGJCPPKqpD4Df1RautFK5HzwTtVpKSPz0SkV86hdWz1dERLYiNEFZGbVFAEkTOiCmbC
+        acNY3oJhAXwG3nZYPeZS6HETRJwzxN78SQgvmISkMkv6pM7D8hAzPOh9gDay+m7nE/yo6kELWd9MaOlq
+        w9y1mkgtdRokVRMPbSNXzcScL5IK233CFA6rtaqIc/gMsIDf2S7XiNmcMp0CDRGWb4A9BQZyUXKZFfad
+        ssOavTbo6++XVTNxc9dTuTW7lV4IUJqR5TOHSbli3sZI2s5wcjS8YDIVZUDuTsGWg8aw8RydRJyv3II3
+        Z7l8Yu8RpE/BU7H7rD7C8hgTpRsp5QqEHrVCYMJ8PO5/BhWRM67XV8LFXwOpFXNkpbJaJhzCXiqACwnL
+        nyhzRVDuxTv0YTLvY2fi5O8Acw9+CQl/+NxLsykwy0AKCD2rNySEFlMCZbktAtJMEZ7ujb6Bn2hLBrBq
+        jyWic+nmSIuZ8AXpHqo4LI8xcThP4NFJsPfWUhHXnwn8JRwhbJZrUj/4LSAXli4MnIA9eZMRkqOLXbm6
+        UkjoUII0ukLrE42QfDIAeeXpWBmhh/iSWZJskHAirR2sNoyLIBdDc/Vknr2U023bBJg6fuxNXGr7R4jZ
+        yzSoly7wiXzfZpnG1bWJRJ6jL0WE0OIXQvRw+NJc+EQb4IuNHyO+wEZWt5sImUyOmZhjh9bJtbn68E3S
+        BeW+Thwvquem8NQQ+bdY1OBh1DcfZWS/aswj/yO62EkCdmZPkL10ZEhQ+mUHnKxeRKd66iAJEe4aqpTB
+        seo1ITl68M/Uwxxvzd7xJiNNiYN/DwxWz816iYbIrfUSObXL+ZHPwjtG9h99OddH6/n6NB3sODMewWdI
+        RPb4QTESlJjxChGLHRJNCKY4Xsc5HNZoPTe0/dCVcr9PYKdHKJZK5/9NgHor3pti9zdHuxWaj73jtKUI
+        NYJJyKsgIklG7+n55dhV8dqwW6HVZ6j4cD7l5E8v/xwbkUN81kvk2VMLWP6yALWId7WNRk6xXvxptdNm
+        Law/pIMgShp0Zhx2nCYCAj8zkZx/aY5jnbeMgZXH6Btahh/w/2BcuSRnMBfzysYDnmCwEGpqEbwdfFdH
+        Gs35yNt68egWB19NLNkzBn5KbWw8rIPtp8ch6NQ4bEzXgV+qDjzpnYOvFqwXa7Qa2f99Na0dRXiXIG1n
+        qHl+IcBryAXeCi+eVovgw8Inlq/NX/Q/G/W5qfM/4i3cR9+wdP+0ng4wGJbuo+st3D+9Yer8SYLerFFz
+        KPavBK6af/txIcPkvyrgP4Hay0LYQnaEE48kcHUfDoHHfL34+86nnEUPE/9absb/09RC+KpyYraUBTER
+        g8c8x+84Rh3/P5oQ/wKtHXLtkLLsUQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>save</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="btnSupplyA4CustomRprt.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAAwDAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9Cgku
+        Qmx1ZXtmaWxsOiMxMTc3RDc7fQoJLkdyZWVue2ZpbGw6IzAzOUMyMzt9CgkuWWVsbG93e2ZpbGw6I0ZG
+        QjExNTt9CgkuUmVke2ZpbGw6I0QxMUMxQzt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQo8L3N0eWxlPg0KICA8ZyBpZD0iQ2hhcnREZXNp
+        Z25lciI+DQogICAgPHJlY3QgeD0iMiIgeT0iMTIiIHdpZHRoPSI2IiBoZWlnaHQ9IjEwIiBjbGFzcz0i
+        Qmx1ZSIgLz4NCiAgICA8cG9seWdvbiBwb2ludHM9IjE2LDE3LjIgMTYsNiAxMCw2IDEwLDIyIDExLjIs
+        MjIgICIgY2xhc3M9IkdyZWVuIiAvPg0KICAgIDxwb2x5Z29uIHBvaW50cz0iMjQsOS4yIDI0LDAgMTgs
+        MCAxOCwxNS4yICAiIGNsYXNzPSJSZWQiIC8+DQogICAgPHBhdGggZD0iTTYsMzBoMjZWNEw2LDMweiBN
+        MjYsMjRoLTUuNWw1LjUtNS41VjI0eiIgY2xhc3M9IlllbGxvdyIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="btnSupplyA4CustomRprt.Text" xml:space="preserve">
+    <value>Create a custom A4 report</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 219</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teSupplyCashierCustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 31</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Properties.Items1" xml:space="preserve">
+    <value>Design 1</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Properties.Items3" xml:space="preserve">
+    <value>Design 2</value>
+  </data>
+  <data name="txRprtSupplyCustomType.Properties.Items5" xml:space="preserve">
+    <value>Design 3</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 149</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teSupplyA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 31</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 149</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teSupplyRetuA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 31</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 184</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teOrderA4CustomRprt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1026, 31</value>
+  </data>
+  <data name="btnSupplyCashierCustomRprt.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACp0RVh0VGl0
+        bGUAVGFibG9pZDtQYXBlcjtQYWdlO0tpbmQ7Qmxhbms7RW1wdHk79AupIwAABGRJREFUWEetV2lzVEUU
+        BdnXsASXP6gfBEEFFBNCAkQIMYmjCAVCKMtvRlELt6hhEfgpbE4ymUxmeZmtOefe2+91p1L6JkVXnbrL
+        6z7nTDJze2aDcy7FGmvjK0S6Is2oyBYPvAZsWgOb1wGeS01EmlGhS8QL04/uFm49coVbjw3MPbL682mA
+        ucTHUktufWLyxj/3wJmaiDSjQhc3bebBV7Wmbj4k+RbjjjWjQhc3bZmafoiWc0mz7ZJWB2i7BnMDc1/7
+        vLFiaLYEdfS63S7/AiTfCvDfGmtGhS4xMHlDDYQiCYm9gETN6yKsooxaK6DvPvtaDGwDchvYOoFDXPrK
+        MpG65VkMkKCXtF2Nkc8RO3Awfv0BybcDuQxw0zYe4lIiE/TR4IVqlkdoKGjg0rX76zBw7R5aTshTsdUi
+        QLXRFKEqBdmTvOmqSdMtI3Y6XTd29S7Jdxh3rBkVurhp+9hVM0ARgwr6GiIU8qjbM8lVfBmxDQMXroiB
+        ncYda0aFLm7acfHKHFouEGmBVAWWIcZcRXzUvCKxKZGggdHLc94AZ0GsGRW6xMCnX805vIGNOIaI1DKR
+        Sm0FCKPmS4itdted/+Ivku8CchvYOfrl32JARUAsyESWJKoIUakiJ1hXm67MZ6hb7Y47WxADu4FcBrhp
+        17nCnzJEUkGQiogRhyivhWUicU0MsZGpWZLvMe5YMyp0iYGRwqwMERXAK0KUnMTSSyxaD1g0aJ4IVmDg
+        zOQfPRvYPTw5K59hL6DEJEWOnhdYrCAHSkFdsrpUgQEMsqGJ30i+F+DNGGtGhS4a2DM08bsYKEGQRCSX
+        3IgFYR5gYQkRWEDOMT44Lgb6gNwG9p4ehwF8hITQk5PUiH1f6qWGxHkfyw3JCd4Hn4z9QvJ9QC4D3NQ3
+        cOlX+QxTxBNrngkyeiERLetzzRWcnqcursPAqbE7YkAFYtIi6iKjIe2X6664aH2JdZmeH124Q/L9xh1r
+        RoUubtr3MQ61MUQy8gBeJMj/RVTUDZrzbjg5+jPJDwD8UhJrRoUuGtjPQxwixYAsIwZKvgaQvyDQf4Fa
+        cgPvhePnxcBBILeBAydwiEOEAkLqhUyc5D4+D2KKBfQWajK6Pzz7I8n7gVwGuOng8XM/iQF5JSQzYskB
+        L/K8VNMoQC599mruGXqcoh+M3A4NbIw0o0KXGOAhDpGUPBB8JgJeqC5CEueZqzDjU4Aj/P3hH0h+yLhz
+        Geg/NnxbhogXUmJgPsiBp6ytl+YG1pyiR898T/LXjfs/DcgXUuDQUbjmEFEye3VGulpEUAxy4InVnJ7v
+        DYmBNwB+M85ngIc4RITYkyN6Yt+TulhNo8+fWOT0PDI407OB/iOnZ8SAXD6YgB56N+j9EIGT0fJ4RDfc
+        YTWQ6z1AA7wL+t45+e39w4Pf4bDHTJq/a7XEAXs2QOCZ1LbP6rdPfPMAnH4U/++bkN+I+COC1yddv7kK
+        b/UI/ul5E/b0w4Qb6Zb/s15AkdVgn1zkJHeg6Ta8BM4pT6d8B/08AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSupplyCashierCustomRprt.Text" xml:space="preserve">
+    <value>Create a custom cashier's report</value>
+  </data>
+  <data name="btnReportReciptCustom.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnReportReciptCustom.Text" xml:space="preserve">
+    <value>Generate an A4 report dedicated to the receipt voucher</value>
+  </data>
+  <data name="btnReportEntryCustom.Text" xml:space="preserve">
+    <value>Create a custom A4 report of your journal entries</value>
+  </data>
+  <data name="btnReportVocherCustom.Text" xml:space="preserve">
+    <value>Generate an A4 report dedicated to the voucher of exchange</value>
+  </data>
+  <data name="teReportReciptCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 314</value>
+  </data>
+  <data name="teReportReciptCustom.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teReportReciptCustom.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teReportReciptCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 31</value>
+  </data>
+  <data name="teReportVocherCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 349</value>
+  </data>
+  <data name="teReportVocherCustom.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teReportVocherCustom.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teReportVocherCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 31</value>
+  </data>
+  <data name="teReportEntryCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 384</value>
+  </data>
+  <data name="teReportEntryCustom.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teReportEntryCustom.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teReportEntryCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 31</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>853, 466</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teShowRprtPurchaseHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 31</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 466</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teShowRprtSaleHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>501, 31</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 246</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teDefaultPrintOnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 31</value>
+  </data>
+  <data name="teDefaultPrintPaper.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 200</value>
+  </data>
+  <data name="teDefaultPrintPaper.Properties.Items3" xml:space="preserve">
+    <value>Cashier</value>
+  </data>
+  <data name="teDefaultPrintPaper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 42</value>
+  </data>
+  <data name="teDefaultShowCarData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1091, 443</value>
+  </data>
+  <data name="teDefaultShowCarData.Properties.OffText" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="teDefaultShowCarData.Properties.OnText" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="teDefaultShowCarData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 31</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 513</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="switch_GroupWeightProdInInvoices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 31</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 478</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 31</value>
+  </data>
+  <data name="PayPartInvoValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1091, 478</value>
+  </data>
+  <data name="PayPartInvoValue.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PayPartInvoValue.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="PayPartInvoValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 31</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 172</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Properties.OffText" xml:space="preserve">
+    <value>Deactivated</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Properties.OnText" xml:space="preserve">
+    <value>Activated</value>
+  </data>
+  <data name="teDefaultShowPrintMssg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 31</value>
+  </data>
+  <data name="tsDefaultSalePriceAndBuy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 312</value>
+  </data>
+  <data name="tsDefaultSalePriceAndBuy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 51</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 207</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Properties.OffText" xml:space="preserve">
+    <value>Deactivated</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Properties.OnText" xml:space="preserve">
+    <value>Activated</value>
+  </data>
+  <data name="teDefaultShowPrdQtyMssg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 31</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 277</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Properties.OffText" xml:space="preserve">
+    <value>Deactivated</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Properties.OnText" xml:space="preserve">
+    <value>Activated</value>
+  </data>
+  <data name="tsDefaultSalePriceFloar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 31</value>
+  </data>
+  <data name="teDefaultBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 97</value>
+  </data>
+  <data name="teDefaultBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 24</value>
+  </data>
+  <data name="teDefaultBank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 97</value>
+  </data>
+  <data name="teDefaultBank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 24</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 153</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Properties.OffText" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Properties.OnText" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="tsDefaultAutoSupplyTarhel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 31</value>
+  </data>
+  <data name="teECRport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 328</value>
+  </data>
+  <data name="teECRport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 24</value>
+  </data>
+  <data name="btnShowPorts.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABp0RVh0VGl0
+        bGUAUHJvZHVjdDtTaG93UHJvZHVjdDsJF1GvAAAA/UlEQVRYR8XSQYoDMQxE0dwzN8mZBvqIjrX4IKyf
+        No1Bs3ibouSiQ15jjH+lYScNO2n4/vyNX9buKQ1tGHSu6xpPcZuVINgw6MwHH+M209CGQWc+qF95h9us
+        BMGGsXZPaWjDoGNfuMNtVoJgw1i7pzTspGEnDe2nx9o9paENg479yXa4zUoQbBh05oOPcZtpaMOgMx/U
+        r7zDbVaCYMNYu6c0tGHQsS/c4TYrQbBhrN1TGnbSsJOG9tNj7Z7S0IZBx/5kO9xmJQg2DDrzwce4zTS0
+        YdCZD+pX3uE2K0GwYazdUxraMOjYF+5wm5Ug2DDW7ikNO2nYScNOGvYZry/Fdo8qBnKj+gAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="btnShowPorts.Text" xml:space="preserve">
+    <value>Display port names</value>
+  </data>
+  <data name="tsDefaultSendToECR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 356</value>
+  </data>
+  <data name="tsDefaultSendToECR.Properties.OffText" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="tsDefaultSendToECR.Properties.OnText" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="tsDefaultSendToECR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 31</value>
+  </data>
+  <data name="textEditOrderVoucher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1139, 239</value>
+  </data>
+  <data name="textEditOrderVoucher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 24</value>
+  </data>
+  <data name="textEditOrderVoucherPlu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1139, 267</value>
+  </data>
+  <data name="textEditOrderVoucherPlu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 24</value>
+  </data>
+  <data name="textEditOrderExecute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 239</value>
+  </data>
+  <data name="textEditOrderExecute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 24</value>
+  </data>
+  <data name="textEditOrderReceipt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 239</value>
+  </data>
+  <data name="textEditOrderReceipt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="textEditOrderExecutePlu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 267</value>
+  </data>
+  <data name="textEditOrderExecutePlu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 24</value>
+  </data>
+  <data name="textEditOrderReceiptPlu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 267</value>
+  </data>
+  <data name="textEditOrderReceiptPlu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 295</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teOrdersPrinttMssg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 31</value>
+  </data>
+  <data name="teOrdersPrintPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1139, 295</value>
+  </data>
+  <data name="teOrdersPrintPreview.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="teOrdersPrintPreview.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="teOrdersPrintPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 31</value>
+  </data>
+  <data name="teDefaultStrId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 97</value>
+  </data>
+  <data name="teDefaultStrId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 24</value>
+  </data>
+  <data name="txt_ScaleBarcodePrefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 247</value>
+  </data>
+  <data name="txt_ScaleBarcodePrefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>601, 24</value>
+  </data>
+  <data name="spn_ProductCodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1161, 275</value>
+  </data>
+  <data name="spn_ProductCodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 24</value>
+  </data>
+  <data name="spn_ValueCodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 275</value>
+  </data>
+  <data name="spn_ValueCodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 24</value>
+  </data>
+  <data name="spn_BarcodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1161, 247</value>
+  </data>
+  <data name="spn_BarcodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 24</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1161, 218</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 25</value>
+  </data>
+  <data name="chk_IgnoreCheckDigit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 275</value>
+  </data>
+  <data name="chk_IgnoreCheckDigit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 24</value>
+  </data>
+  <data name="tgl_TaxReadMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 218</value>
+  </data>
+  <data name="tgl_TaxReadMode.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="tgl_TaxReadMode.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="tgl_TaxReadMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>601, 25</value>
+  </data>
+  <data name="radioGroupInvType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 125</value>
+  </data>
+  <data name="radioGroupInvType.Properties.Items1" xml:space="preserve">
+    <value>periodic Inventory</value>
+  </data>
+  <data name="radioGroupInvType.Properties.Items3" xml:space="preserve">
+    <value>Continuous Inventory</value>
+  </data>
+  <data name="radioGroupInvType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 42</value>
+  </data>
+  <data name="textEditDfltAccLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 125</value>
+  </data>
+  <data name="textEditDfltAccLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 24</value>
+  </data>
+  <data name="textEditBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 97</value>
+  </data>
+  <data name="textEditBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 24</value>
+  </data>
+  <data name="textEditPrinterBarcod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 97</value>
+  </data>
+  <data name="textEditPrinterBarcod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 24</value>
+  </data>
+  <data name="textEditDefaultPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 172</value>
+  </data>
+  <data name="textEditDefaultPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 24</value>
+  </data>
+  <data name="textEditDfltAccLevel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 97</value>
+  </data>
+  <data name="textEditDfltAccLevel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 87</value>
+  </data>
+  <data name="cbx_ReadMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1161, 307</value>
+  </data>
+  <data name="cbx_ReadMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 24</value>
+  </data>
+  <data name="cbx_DivideValueBy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 307</value>
+  </data>
+  <data name="cbx_DivideValueBy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>601, 24</value>
+  </data>
+  <data name="textEditOrderPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 330</value>
+  </data>
+  <data name="textEditOrderPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1026, 24</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 242</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.Properties.OffText" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.Properties.OnText" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="teDefaultShowPrintMssg1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 31</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 443</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="AllowSaveInvoInBeforeDate1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 31</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 125</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode1.Properties.OffText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode1.Properties.OnText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="tgl_ReadFromScaleBarcode1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 25</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 367</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.Properties.OffText" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.Properties.OnText" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="UserDrawerPeriodsCheckEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 25</value>
+  </data>
+  <data name="teDefaultShowCarData1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>690, 443</value>
+  </data>
+  <data name="teDefaultShowCarData1.Properties.OffText" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="teDefaultShowCarData1.Properties.OnText" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="teDefaultShowCarData1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 31</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>اعدادات الطباعة</value>
+  </data>
+  <data name="itemForPrdExpirateAcc2.Text" xml:space="preserve">
+    <value>Choose your printer</value>
+  </data>
+  <data name="itemForDefaultPrintPaper.Text" xml:space="preserve">
+    <value>Print Invoice</value>
+  </data>
+  <data name="ItemForPrintInvoiceOnSave.Text" xml:space="preserve">
+    <value>Print invoices when saving</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Print Settings</value>
+  </data>
+  <data name="layoutControlGroup42.CustomizationFormText" xml:space="preserve">
+    <value>الصرافة الآلية</value>
+  </data>
+  <data name="layoutControlItem21.Text" xml:space="preserve">
+    <value>port</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>Send to the ATM</value>
+  </data>
+  <data name="layoutControlGroup42.Text" xml:space="preserve">
+    <value>Automated teller machine</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg.Text" xml:space="preserve">
+    <value>Show Print Message</value>
+  </data>
+  <data name="itemForDefaultSalePriceFloar.Text" xml:space="preserve">
+    <value>Sale price floar</value>
+  </data>
+  <data name="itemForDefaultShowPrdQtyMssg.Text" xml:space="preserve">
+    <value>Show Product Quantity Message</value>
+  </data>
+  <data name="itemForSalePriceNoLessBuy.Text" xml:space="preserve">
+    <value>Selling below cost</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg2.Text" xml:space="preserve">
+    <value>Display the reset message</value>
+  </data>
+  <data name="ItemForUserDrawerPeriods.Text" xml:space="preserve">
+    <value>Calculating the user's daily period</value>
+  </data>
+  <data name="layoutControlGroup15.Text" xml:space="preserve">
+    <value>Notices</value>
+  </data>
+  <data name="itemForDefaultBox.Text" xml:space="preserve">
+    <value>Default Box</value>
+  </data>
+  <data name="itemForDefaultBank.Text" xml:space="preserve">
+    <value>Bank account :</value>
+  </data>
+  <data name="layoutControlGroup13.Text" xml:space="preserve">
+    <value>default accounts</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg1.Text" xml:space="preserve">
+    <value>View vehicle details</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>Calculating the tax after deduction</value>
+  </data>
+  <data name="layoutControlItem35.Text" xml:space="preserve">
+    <value>Pay part of the bill</value>
+  </data>
+  <data name="layoutControlItem32.Text" xml:space="preserve">
+    <value>Collecting items in the sales invoice</value>
+  </data>
+  <data name="layoutControlItem40.Text" xml:space="preserve">
+    <value>Change history in sales</value>
+  </data>
+  <data name="layoutControlItem42.Text" xml:space="preserve">
+    <value>Assembling balance items for sales</value>
+  </data>
+  <data name="itemForDefaultShowPrintMssg3.Text" xml:space="preserve">
+    <value>View other details</value>
+  </data>
+  <data name="layoutControlGroup40.Text" xml:space="preserve">
+    <value>Sales invoice settings</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>Purchases and Sales Default Settings</value>
+  </data>
+  <data name="layoutControlItem37.Text" xml:space="preserve">
+    <value>Design for quotes</value>
+  </data>
+  <data name="layoutControlItem17.Text" xml:space="preserve">
+    <value>A4 report dedicated to sales</value>
+  </data>
+  <data name="layoutControlItem38.Text" xml:space="preserve">
+    <value>Custom cashier report</value>
+  </data>
+  <data name="layoutControlItem39.Text" xml:space="preserve">
+    <value>Same design for returns</value>
+  </data>
+  <data name="layoutControlGroup45.Text" xml:space="preserve">
+    <value>Sales report</value>
+  </data>
+  <data name="layoutControlItem46.Text" xml:space="preserve">
+    <value>A report dedicated to receipt vouchers</value>
+  </data>
+  <data name="layoutControlItem48.Text" xml:space="preserve">
+    <value>Dedicated bills of exchange report</value>
+  </data>
+  <data name="layoutControlItem47.Text" xml:space="preserve">
+    <value>Custom report for restrictions</value>
+  </data>
+  <data name="layoutControlGroup43.Text" xml:space="preserve">
+    <value>The report for receipt and exchange vouchers and daily entries</value>
+  </data>
+  <data name="itemForShowRprtPurchaseHeader.Text" xml:space="preserve">
+    <value>Branch data in purchases</value>
+  </data>
+  <data name="itemForShowRprtSaleHeader1.Text" xml:space="preserve">
+    <value>Branch data in sales</value>
+  </data>
+  <data name="layoutControlGroupSupplyRepoert.Text" xml:space="preserve">
+    <value>Branch data in invoices</value>
+  </data>
+  <data name="layoutControlGroup36.Text" xml:space="preserve">
+    <value>Report settings</value>
+  </data>
+  <data name="layoutControlItem13.Text" xml:space="preserve">
+    <value>default store</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Automatic barcode</value>
+  </data>
+  <data name="layoutControlItemInvType.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="itemForPrdExpirateAcc1.Text" xml:space="preserve">
+    <value>barcode printer</value>
+  </data>
+  <data name="layoutControlGroupDfltStr.Text" xml:space="preserve">
+    <value>The main store</value>
+  </data>
+  <data name="layoutControlItem28.Text" xml:space="preserve">
+    <value>value type</value>
+  </data>
+  <data name="layoutControlItem26.Text" xml:space="preserve">
+    <value>Scale barcode length</value>
+  </data>
+  <data name="layoutControlItem34.Text" xml:space="preserve">
+    <value>The price includes tax</value>
+  </data>
+  <data name="layoutControlItem29.Text" xml:space="preserve">
+    <value>Divide the value</value>
+  </data>
+  <data name="layoutControlItem24.Text" xml:space="preserve">
+    <value>Scale identification number</value>
+  </data>
+  <data name="layoutControlItem31.Text" xml:space="preserve">
+    <value>Reading from the scale barcode</value>
+  </data>
+  <data name="layoutControlItem25.Text" xml:space="preserve">
+    <value>The number of fields of the category</value>
+  </data>
+  <data name="layoutControlItem27.Text" xml:space="preserve">
+    <value>The number of value digits</value>
+  </data>
+  <data name="layoutControlItem30.Text" xml:space="preserve">
+    <value>Ignore the last number</value>
+  </data>
+  <data name="layoutControlGroup41.Text" xml:space="preserve">
+    <value>Electronic scale</value>
+  </data>
+  <data name="layoutControlGroup12.Text" xml:space="preserve">
+    <value>Quantities settings</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Default Printer Settings</value>
+  </data>
+  <data name="layoutControlItemBranch.Text" xml:space="preserve">
+    <value>Move to branch:</value>
+  </data>
+  <data name="layoutControlItemDfltAccLevel.Text" xml:space="preserve">
+    <value>Accounting level</value>
+  </data>
+  <data name="layoutControlItem16.Text" xml:space="preserve">
+    <value>deportation</value>
+  </data>
+  <data name="layoutControlItemDfltAccLevel1.Text" xml:space="preserve">
+    <value>Welcome message</value>
+  </data>
+  <data name="layoutControlGroupBranch.Text" xml:space="preserve">
+    <value>: current branch</value>
+  </data>
+  <data name="itemForOrderVoucher.Text" xml:space="preserve">
+    <value>Exchange request</value>
+  </data>
+  <data name="itemForOrderVoucherPlu.Text" xml:space="preserve">
+    <value>Exchange requests</value>
+  </data>
+  <data name="itemForOrderExecute.Text" xml:space="preserve">
+    <value>Execution request</value>
+  </data>
+  <data name="itemForOrderReceipt.Text" xml:space="preserve">
+    <value>delivery request</value>
+  </data>
+  <data name="itemForOrderExecutePlu.Text" xml:space="preserve">
+    <value>Execution requests</value>
+  </data>
+  <data name="itemForOrderReceiptPlu.Text" xml:space="preserve">
+    <value>Delivery requests</value>
+  </data>
+  <data name="layoutControlItemOrdersPrintPreview.Text" xml:space="preserve">
+    <value>Print preview</value>
+  </data>
+  <data name="layoutControlItemOrdersPrintMssg.Text" xml:space="preserve">
+    <value>Display a print message</value>
+  </data>
+  <data name="itemForPrdExpirateAcc3.Text" xml:space="preserve">
+    <value>Requisition printer</value>
+  </data>
+  <data name="layoutControlGroupOrdersCaption.Text" xml:space="preserve">
+    <value>Orders settings</value>
+  </data>
+  <data name="layoutControlGroupSystemSettings.Text" xml:space="preserve">
+    <value>General settings</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Default Settings</value>
+  </data>
+</root>

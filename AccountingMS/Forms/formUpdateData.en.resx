@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="simpleButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 22</value>
+  </data>
+  <data name="simpleButton2.Text" xml:space="preserve">
+    <value>Re-numbering the general billing numbers for all branches</value>
+  </data>
+  <data name="dateEditResetPrdQuanToDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 127</value>
+  </data>
+  <data name="dateEditResetPrdQuanToDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 20</value>
+  </data>
+  <data name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 228</value>
+  </data>
+  <data name="simpleButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="simpleButton1.Text" xml:space="preserve">
+    <value>Creation of the accounting manual</value>
+  </data>
+  <data name="btnBindSupplyUserId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 150</value>
+  </data>
+  <data name="btnBindSupplyUserId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnBindSupplyUserId.Text" xml:space="preserve">
+    <value>connect users</value>
+  </data>
+  <data name="btnUpdateSupplyNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 49</value>
+  </data>
+  <data name="btnUpdateSupplyNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnUpdateSupplyNo.Text" xml:space="preserve">
+    <value>Re-numbering of invoices</value>
+  </data>
+  <data name="btnBindSupplyDiscount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 153</value>
+  </data>
+  <data name="btnBindSupplyDiscount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnBindSupplyDiscount.Text" xml:space="preserve">
+    <value>Link discount invoices</value>
+  </data>
+  <data name="btnReserPrdQuantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 306</value>
+  </data>
+  <data name="btnReserPrdQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnReserPrdQuantity.Text" xml:space="preserve">
+    <value>Configure the quantity of items</value>
+  </data>
+  <data name="btnResetPrdPriceMsur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 351</value>
+  </data>
+  <data name="btnResetPrdPriceMsur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnResetPrdPriceMsur.Text" xml:space="preserve">
+    <value>Reset units of measure</value>
+  </data>
+  <data name="btnDeleteSupplyInvoicesTotal0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 127</value>
+  </data>
+  <data name="btnDeleteSupplyInvoicesTotal0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnDeleteSupplyInvoicesTotal0.Text" xml:space="preserve">
+    <value>Delete invoices Value = 0</value>
+  </data>
+  <data name="btnUpdateAssetEntNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 179</value>
+  </data>
+  <data name="btnUpdateAssetEntNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnUpdateAssetEntNo.Text" xml:space="preserve">
+    <value>Linking invoice numbers to the transferred accounts</value>
+  </data>
+  <data name="btnAddPrdPriceQuan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 358</value>
+  </data>
+  <data name="btnAddPrdPriceQuan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnAddPrdPriceQuan.Text" xml:space="preserve">
+    <value>Add the cost amount of the items</value>
+  </data>
+  <data name="btnUpdatePrdGrpNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 403</value>
+  </data>
+  <data name="btnUpdatePrdGrpNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnUpdatePrdGrpNo.Text" xml:space="preserve">
+    <value>Resetting the items of the stock groups</value>
+  </data>
+  <data name="btnResetPrdNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 377</value>
+  </data>
+  <data name="btnResetPrdNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnResetPrdNo.Text" xml:space="preserve">
+    <value>Re-numbering the inventory items</value>
+  </data>
+  <data name="btnFixSupplySubPrdPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>923, 384</value>
+  </data>
+  <data name="btnFixSupplySubPrdPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 22</value>
+  </data>
+  <data name="btnFixSupplySubPrdPrice.Text" xml:space="preserve">
+    <value>Fix cost of sales invoice items from date:</value>
+  </data>
+  <data name="dateEditFixSupplySubPrdPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 384</value>
+  </data>
+  <data name="dateEditFixSupplySubPrdPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="btnUpdateSupplyNo0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 75</value>
+  </data>
+  <data name="btnUpdateSupplyNo0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnUpdateSupplyNo0.Text" xml:space="preserve">
+    <value>Invoice renumber = 0</value>
+  </data>
+  <data name="btnChangeEmpEntryCustNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 75</value>
+  </data>
+  <data name="btnChangeEmpEntryCustNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnChangeEmpEntryCustNo.Text" xml:space="preserve">
+    <value>Changing employee restrictions</value>
+  </data>
+  <data name="btnAddPrdQuanFromTblOpn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 332</value>
+  </data>
+  <data name="btnAddPrdQuanFromTblOpn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnAddPrdQuanFromTblOpn.Text" xml:space="preserve">
+    <value>We create the quantity of items from the opening balance</value>
+  </data>
+  <data name="btnDeleteAssetPrdQuanOpn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 604</value>
+  </data>
+  <data name="btnDeleteAssetPrdQuanOpn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnAddAssetPrdQuanOpn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 630</value>
+  </data>
+  <data name="btnAddAssetPrdQuanOpn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnAddPrdPriceQuanFromPrdQuanOpn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 656</value>
+  </data>
+  <data name="btnAddPrdPriceQuanFromPrdQuanOpn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnUpdatePrdQuanNdPrdPrQuanFromSupplySub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 682</value>
+  </data>
+  <data name="btnUpdatePrdQuanNdPrdPrQuanFromSupplySub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnFixPrdQuanOpnPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 578</value>
+  </data>
+  <data name="btnFixPrdQuanOpnPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnUpdateSupplyNoFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>952, 101</value>
+  </data>
+  <data name="btnUpdateSupplyNoFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <data name="btnUpdateSupplyNoFrom.Text" xml:space="preserve">
+    <value>Re-numbering of bills from the number:</value>
+  </data>
+  <data name="textEditSupplyNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 101</value>
+  </data>
+  <data name="textEditSupplyNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="btnFixEntryStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 708</value>
+  </data>
+  <data name="btnFixEntryStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnResetPrdPriceQuan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 22</value>
+  </data>
+  <data name="btnResetPrdPriceQuan.Text" xml:space="preserve">
+    <value>Delete and add items price quantity</value>
+  </data>
+  <data name="btnRestorePrdQuantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 280</value>
+  </data>
+  <data name="btnRestorePrdQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnRestorePrdQuantity.Text" xml:space="preserve">
+    <value>Reset item quantities</value>
+  </data>
+  <data name="btnFixSupplyMainTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>973, 612</value>
+  </data>
+  <data name="btnFixSupplyMainTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="btnFixSupplyMainTotal.Text" xml:space="preserve">
+    <value>Fix sales invoices amount from date</value>
+  </data>
+  <data name="dateEditFixSupplyMainTotalFrmDt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 612</value>
+  </data>
+  <data name="dateEditFixSupplyMainTotalFrmDt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="dateEditFixSupplyMainTotalToDt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>850, 612</value>
+  </data>
+  <data name="dateEditFixSupplyMainTotalToDt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="btnAddTblProductQuantityData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 429</value>
+  </data>
+  <data name="btnAddTblProductQuantityData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnAddTblProductQuantityData.Text" xml:space="preserve">
+    <value>Add data for the inventory items quantity table</value>
+  </data>
+  <data name="btnCopyProductsDataBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 503</value>
+  </data>
+  <data name="btnCopyProductsDataBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnCopyProductsDataBranch.Text" xml:space="preserve">
+    <value>Copy items from a branch</value>
+  </data>
+  <data name="textEditFromBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 455</value>
+  </data>
+  <data name="textEditFromBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="textEditToBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 455</value>
+  </data>
+  <data name="textEditToBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="textEditStrId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 479</value>
+  </data>
+  <data name="textEditStrId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="textEditGrpId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 479</value>
+  </data>
+  <data name="textEditGrpId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="btnLinkAccountsWithBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 202</value>
+  </data>
+  <data name="btnLinkAccountsWithBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnLinkAccountsWithBranch.Text" xml:space="preserve">
+    <value>Link accounts with the branch</value>
+  </data>
+  <data name="btnResetTblPrdPriceQuan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 410</value>
+  </data>
+  <data name="btnResetTblPrdPriceQuan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnResetTblPrdPriceQuan.Text" xml:space="preserve">
+    <value>Zeroing item price quantity table</value>
+  </data>
+  <data name="btnLinkDfltAccountsWithBrnId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 176</value>
+  </data>
+  <data name="btnLinkDfltAccountsWithBrnId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnLinkDfltAccountsWithBrnId.Text" xml:space="preserve">
+    <value>Linking virtual accounts with the branch</value>
+  </data>
+  <data name="btnOpenCashDrawer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 511</value>
+  </data>
+  <data name="btnOpenCashDrawer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnOpenCashDrawer.Text" xml:space="preserve">
+    <value>Open the cashier drawer</value>
+  </data>
+  <data name="btnOpenCashDrawer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 537</value>
+  </data>
+  <data name="btnOpenCashDrawer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnOpenCashDrawer2.Text" xml:space="preserve">
+    <value>Opening the cashier drawer 2</value>
+  </data>
+  <data name="btnInvoicesFromBrnToBrn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 710</value>
+  </data>
+  <data name="btnInvoicesFromBrnToBrn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnInvoicesFromBrnToBrn.Text" xml:space="preserve">
+    <value>Copy invoices</value>
+  </data>
+  <data name="textEditInvNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>931, 686</value>
+  </data>
+  <data name="textEditInvNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 20</value>
+  </data>
+  <data name="textEditFromBranchInv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>843, 638</value>
+  </data>
+  <data name="textEditFromBranchInv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 20</value>
+  </data>
+  <data name="textEditToBranchInv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>830, 662</value>
+  </data>
+  <data name="textEditToBranchInv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 20</value>
+  </data>
+  <data name="btnCopyAccounts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 254</value>
+  </data>
+  <data name="btnCopyAccounts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 44</value>
+  </data>
+  <data name="btnCopyAccounts.Text" xml:space="preserve">
+    <value>Copy of the accounting manual</value>
+  </data>
+  <data name="btnResetSupplyDates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 734</value>
+  </data>
+  <data name="btnResetSupplyDates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="BtnCopySupplyRandom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 205</value>
+  </data>
+  <data name="BtnCopySupplyRandom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="BtnCopySupplyRandom.Text" xml:space="preserve">
+    <value>Random invoice copy</value>
+  </data>
+  <data name="btnResetTblProductNdTblSupplyWithPrdMsu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 436</value>
+  </data>
+  <data name="btnResetTblProductNdTblSupplyWithPrdMsu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 22</value>
+  </data>
+  <data name="btnResetTblProductNdTblSupplyWithPrdMsu.Text" xml:space="preserve">
+    <value>Reset items with units of measurement and invoices</value>
+  </data>
+  <data name="btnAddBaarcodeFromTblPrdMsurToTblBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 49</value>
+  </data>
+  <data name="btnAddBaarcodeFromTblPrdMsurToTblBarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="btnAddBaarcodeFromTblPrdMsurToTblBarcode.Text" xml:space="preserve">
+    <value>Copy the barcode from the UoM table to the Barcode table</value>
+  </data>
+  <data name="lkpFromBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 254</value>
+  </data>
+  <data name="lkpFromBranch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="lkpToBranch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 278</value>
+  </data>
+  <data name="btnTransferCustBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 22</value>
+  </data>
+  <data name="btnTransferCustBalance.Text" xml:space="preserve">
+    <value>Transfer of customer balances</value>
+  </data>
+  <data name="btnTransferSupplierBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 22</value>
+  </data>
+  <data name="btnTransferSupplierBalance.Text" xml:space="preserve">
+    <value>Posting supplier balances</value>
+  </data>
+  <data name="btnResetPrdQuanFromDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 101</value>
+  </data>
+  <data name="btnResetPrdQuanFromDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="btnResetPrdQuanFromDate.Text" xml:space="preserve">
+    <value>Adjust the items quantity from date</value>
+  </data>
+  <data name="dateEditResetPrdQuanFromDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="btnFixPrdQuanWithInv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 22</value>
+  </data>
+  <data name="btnFixPrdQuanWithInv.Text" xml:space="preserve">
+    <value>Fix item quantities with inventory</value>
+  </data>
+  <data name="btnCopyTblInvenotryBalancingToTblInvStore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 22</value>
+  </data>
+  <data name="btnCopyTblInvenotryBalancingToTblInvStore.Text" xml:space="preserve">
+    <value>Copy the inventory table to the new inventory table</value>
+  </data>
+  <data name="btnResetSupplyNo2022.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 22</value>
+  </data>
+  <data name="btnResetSupplyNo2022.Text" xml:space="preserve">
+    <value>Re-numbering of invoices 2022</value>
+  </data>
+  <data name="btnResetSupplyAsset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 22</value>
+  </data>
+  <data name="btnResetSupplyAsset.Text" xml:space="preserve">
+    <value>Fix customer invoices from 2021 to 2022</value>
+  </data>
+  <data name="simpleButton21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 22</value>
+  </data>
+  <data name="simpleButton21.Text" xml:space="preserve">
+    <value>Reset purchase price in sales invoices</value>
+  </data>
+  <data name="layoutControlItem50.Text" xml:space="preserve">
+    <value>from a branch</value>
+  </data>
+  <data name="layoutControlItem51.Text" xml:space="preserve">
+    <value>to a branch</value>
+  </data>
+  <data name="layoutControlItem28.Text" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="layoutControlItem41.Text" xml:space="preserve">
+    <value>from a branch</value>
+  </data>
+  <data name="layoutControlItem42.Text" xml:space="preserve">
+    <value>to a branch</value>
+  </data>
+  <data name="layoutControlItem43.Text" xml:space="preserve">
+    <value>Invoice numbering by number</value>
+  </data>
+  <data name="layoutControlItem31.Text" xml:space="preserve">
+    <value>from a branch</value>
+  </data>
+  <data name="layoutControlItem33.Text" xml:space="preserve">
+    <value>to store</value>
+  </data>
+  <data name="layoutControlItem32.Text" xml:space="preserve">
+    <value>to a branch</value>
+  </data>
+  <data name="layoutControlItem34.Text" xml:space="preserve">
+    <value>to group</value>
+  </data>
+  <data name="layoutControlItem58.Text" xml:space="preserve">
+    <value>To date:</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>

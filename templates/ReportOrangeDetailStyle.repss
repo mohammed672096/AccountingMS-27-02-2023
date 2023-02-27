@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StyleSheetSerializer SerializerVersion="19.1.5.0" FileName="">
+  <Styles>
+    <Item1 Name="baseControlStyle" BorderStyle="Inset" Padding="2,2,0,0,100" Font="Segoe UI, 9.75pt" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item2 Name="evenDetailStyle" BorderStyle="Inset" Padding="2,2,0,0,100" BackColor="255,255,237,196" BorderColor="255,232,205,162" StringFormat="Near;Near;0;None;Character;Default" />
+    <Item3 Name="oddDetailStyle" BorderStyle="Inset" Padding="2,2,0,0,100" BackColor="Transparent" BorderColor="255,232,205,162" StringFormat="Near;Near;0;None;Character;Default" />
+  </Styles>
+</StyleSheetSerializer>

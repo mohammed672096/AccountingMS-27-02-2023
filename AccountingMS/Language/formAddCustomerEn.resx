@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="colsupPrdNo.Caption" xml:space="preserve">
+    <value>Product No.</value>
+  </data>
+  <data name="colsupPrdName.Caption" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="colsupMsur.Caption" xml:space="preserve">
+    <value>Measurment</value>
+  </data>
+  <data name="colsupQuanMain.Caption" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="colsupQuanSub.Caption" xml:space="preserve">
+    <value>Sub Quantity</value>
+  </data>
+  <data name="colsupPrice.Caption" xml:space="preserve">
+    <value>Product Price</value>
+  </data>
+  <data name="supSalePrice.Caption" xml:space="preserve">
+    <value>Sale Price</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="colsupDebit.Caption" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="colsupStatus.Caption" xml:space="preserve">
+    <value>Voucher Type</value>
+  </data>
+  <data name="colsupNo.Caption" xml:space="preserve">
+    <value>Invoice No.</value>
+  </data>
+  <data name="colsupRefNo.Caption" xml:space="preserve">
+    <value>Refrence No.</value>
+  </data>
+  <data name="colsupDesc.Caption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="colsupTotal.Caption" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="colsupTotalFrgn.Caption" xml:space="preserve">
+    <value>Total Forign Currency</value>
+  </data>
+  <data name="colsupCurrency.Caption" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="colsupDate.Caption" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="barStaticItem1.Caption" xml:space="preserve">
+    <value>Total Debit: </value>
+  </data>
+  <data name="barStaticItem2.Caption" xml:space="preserve">
+    <value>Total Credit: </value>
+  </data>
+  <data name="barStaticItem3.Caption" xml:space="preserve">
+    <value>Current Credit: </value>
+  </data>
+  <data name="ribbonPage1.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ribbonPageGroup3.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ribbonPageGroup4.Text" xml:space="preserve">
+    <value>Customer Credit</value>
+  </data>
+  <data name="ribbonPage2.Text" xml:space="preserve">
+    <value>Customer Account</value>
+  </data>
+  <data name="ItemForcustAccNo.Text" xml:space="preserve">
+    <value>Account No.</value>
+  </data>
+  <data name="ItemForcustNo.Text" xml:space="preserve">
+    <value>Customer No.</value>
+  </data>
+  <data name="ItemForcustAccName.Text" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="ItemForcustCellingCredit.Text" xml:space="preserve">
+    <value>Celling</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Account Info</value>
+  </data>
+  <data name="ItemForcustName.Text" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="ItemForcustCountry.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="ItemForcustAddress.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="ItemForcustPhnNo.Text" xml:space="preserve">
+    <value>Phone No.</value>
+  </data>
+  <data name="ItemForcustCity.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ItemForcustEmail.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="layoutControlGroup4.Text" xml:space="preserve">
+    <value>Cutomer Info</value>
+  </data>
+  <data name="this.Text" xml:space="preserve">
+    <value>New Customer</value>
+  </data>
+  <data name="colAccName" xml:space="preserve">
+    <value>Account Name;</value>
+  </data>
+  <data name="colAccNo" xml:space="preserve">
+    <value>Account No.</value>
+  </data>
+  <data name="bbiClose.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="bbiSave.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ItemForcustCurrency.Text" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="bbiAutoAccNo.Caption" xml:space="preserve">
+    <value>Auto Acc No</value>
+  </data>
+  <data name="ItemForcustSalePrice.Text" xml:space="preserve">
+    <value>Sale Price</value>
+  </data>
+  <data name="ItemForcustTaxNo.Taxe" xml:space="preserve">
+    <value>Customer Tax No</value>
+  </data>
+  <data name="ribbonPageGroup1.Text" xml:space="preserve">
+    <value>Operations</value>
+  </data>
+  <data name="ribbonPageGroupAutoAddAccNo.Text" xml:space="preserve">
+    <value>Customer Account</value>
+  </data>
+  <data name="ItemForcustAddressEn.Text" xml:space="preserve">
+    <value>Address English</value>
+  </data>
+  <data name="ItemForcustCityEn.Text" xml:space="preserve">
+    <value>City English</value>
+  </data>
+  <data name="ItemForcustCommercialRegister.Text" xml:space="preserve">
+    <value>Commercial Register</value>
+  </data>
+  <data name="ItemForcustCommercialRegisterEn.Text" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="ItemForcustCountryEn.Text" xml:space="preserve">
+    <value>Country English</value>
+  </data>
+  <data name="ItemForcustNameEn.Text" xml:space="preserve">
+    <value>Customer Name En</value>
+  </data>
+  <data name="ItemForcustTaxNo.Text" xml:space="preserve">
+    <value>VAT No</value>
+  </data>
+  <data name="ItemForcusAddNo.Text" xml:space="preserve">
+    <value>Addi No</value>
+  </data>
+  <data name="ItemForcusAnotherID.Text" xml:space="preserve">
+    <value>Another ID</value>
+  </data>
+  <data name="ItemForcusBuildingNo.Text" xml:space="preserve">
+    <value>Building No</value>
+  </data>
+  <data name="ItemForcusDistrict" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="ItemForcusDistrictEn" xml:space="preserve">
+    <value>District En</value>
+  </data>
+</root>

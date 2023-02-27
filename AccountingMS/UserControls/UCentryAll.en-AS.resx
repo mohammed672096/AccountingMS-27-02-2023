@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridControl.EmbeddedNavigator.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gridControl.EmbeddedNavigator.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gridControl.EmbeddedNavigator.AllowHtmlTextInToolTip" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="gridControl.EmbeddedNavigator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="gridControl.EmbeddedNavigator.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gridControl.EmbeddedNavigator.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="gridControl.EmbeddedNavigator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridControl.EmbeddedNavigator.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v22.2" name="DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gridControl.EmbeddedNavigator.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v22.2">
+    <value>Center</value>
+  </data>
+  <data name="gridControl.EmbeddedNavigator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="gridControl.EmbeddedNavigator.ToolTipIconType" type="DevExpress.Utils.ToolTipIconType, DevExpress.Utils.v22.2">
+    <value>None</value>
+  </data>
+  <data name="gridControl.EmbeddedNavigator.ToolTipTitle" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonControl.ExpandCollapseItem.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonControl.ExpandCollapseItem.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ribbonControl.ExpandCollapseItem.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ribbonControl.ExpandCollapseItem.SearchTags" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bsiRecordsCount.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="bsiRecordsCount.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="bsiRecordsCount.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="bbiRefresh.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="bbiRefresh.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="bbiRefresh.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelBalanceOld.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="labelBalanceOld.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="labelBalanceOld.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barHeaderItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barHeaderItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barHeaderItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barHeaderItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barHeaderItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barHeaderItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barButtonItem1.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABB0RVh0VGl0
+        bGUASGlnaGxpZ2h0O3hHslgAAAMSSURBVDhPbdJ5SNNhGAfwt2aZdqpZjCiyIi0TU6y0jCyPPKZpaRDl
+        ERkkiTBTcloGzU6zy7wqTXNqd2oQNUg7SIxK1BQsKbwy1+bc3ObcWnx7fr8MIvrjwwvv+34f3ud9X1Ze
+        19FQUd8BGnGj9gPKHraj9EEbrt9rw9W7rSi53YKiWy0orH6Pgqq3uHSzuZExJgDAOCyvtAlmi4X8/O2H
+        BaYJmaeqYDRbYDRZMEYM4xacLn5FKTalbUcQa1qzgrHTJS/5TQbTD9owwWiGnkQmnIRuzIRRA9Gb+LmG
+        191cAVtiRSYzaX4j9ONmfmN4fA5EcVK8af2MEZ0JolgpwmKP8zq7B6iIEc9yL6I9ZZ++Iczvfc4SoSvL
+        Pi+HRmeEetSIYY7WiJBdx6DSjCGYRuWIAWqaK6+RozX/ArpOZsHc2Qzloxpcc174jknOPOY3PW/uQtDO
+        IwiKyURAdCYGVXr4x0igVBuIDrKDKeik8PhrOUYunoGyIA95TkINO5RTh0GlHpujDqNfoUXfkBZ+Eeno
+        +aaBOKsIQ0otGnOOo+VYGsbktVCdOAqV9Chk3p4QC+3PsZTs++j9psWTF+3wjUiFrygVG8LFGKBixeX1
+        yN+TgKaMFOjraqCQpEKRkYqy1a5IcpxTQpc4iyVJbuNL/wi6+9T41DuMjz0cFb4qNMi7IkN1djZGa8ow
+        mHyAJKHY1QW77WaUUng2/wp7xeXPEtOrkJgmQ2K6DPvSKnG2UI5btU3YHL4fhQWVKIlNRv/eOFx2XgbJ
+        tmgdBedz4WhbaxoYm0q4d50+YQbnnb9brm9QLMJ3ZSAwSoxkn0CE2lpX0JqQWI2/esqCp05h/Hf813eR
+        J+vwd4M+PgAe6yOxyisETi4+XM/2RBBoZcW2CARs0+RJ/y/Q7L6Y3XGajxMOsxBnY5NLIUfCnUzgRyFf
+        yvmQdTTBB7gFwn1NOhPfEtfcNGJD/rQ1k3AXZ0cciCOfnSgwl8wjXH8LyEKyiDiRpWQ5cSEriRtxJ55/
+        F/AgXmQt8SYbyEbiR/xJANlKQomIRJLtANgvGt8SUkwvmmEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelBalanceNew.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="labelBalanceNew.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="labelBalanceNew.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="barButtonItem2.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAOdEVYdFRpdGxlAFByaW50ZXI7579hxQAAAr9JREFU
+        OE99k9lPU1EQxssW2URwSXz1xT9AIT4ZUCTyAEoiEAJxARIUTBCKCilFgqzFlD0YJAEjJL4ZiQQkYpEa
+        AlIK+IYSEVq7UAp0B0rbz5lr0JQHT/LL3HPuzDdn5s4VAfgLrYD2V+qJzsEFdA7OC3QQ7QNqgZa+L5Pk
+        E+wX47cRiYJIAF6fD16vDx7G48M+4d73Qt6vYqcjfjF+G5EoRN43KwSZLTvY2HYROzBtO7Hr9kD2Yoad
+        wg7FCCuACCLCZb0zQjbjppNwwEDWYHbCtbOP+u4pjoghgolAQliBjT3KpI7Br3N54i4UVb7E7p4H+g07
+        dCYHYYPWZIfduYd88XNkFTRSKer5qtbRZIrlpKKQtoHFdSNlySxoQB45OVxuaI02rBmt0BisWCO2bLvI
+        KWpBSo4EepMTTb0qE8WGskCovH+BygFSsiXILmyB1bGHVb0FP3UWrOi2BbgfN/IakHi9RPCt7Z7lciJY
+        ILyhZw5utxfpd6qQmPaQnIhrTBkuM6liXEoRI4FIzSoTfKWtQj+iWCCyunOasrrxXqFGcvoDXEjMRVxC
+        LmLjb+N8/C2cu3gTscSVlCKMjM/CSv141DTJAtEsEFXxTAnDlhM/DDasCNjp2mR1duHs4FywdK6nL1P8
+        dJwFjrNAdGm9At91ViwumxGXLPkvC8sbWNJYUSgdY4ETLBBz/8kHzH0zQzGvRW3XFCy2PdSN/ULNqBbS
+        YS0eD61ikwaL342rVqFa2kB++QgLnGSByMx7/VM5xa+Rcbcf1e1KYQqrhjWQvNOg/O0axG9WYdpyobpN
+        iaSMOlzNkiEhTTpNsUITeRj44RRxRir/hHVyXqc6GZ4Po5kmkmylfIKzniVOE8eI4MP/QlhpzbCyovkj
+        KpoVBFnZAQqU1Ax9Jp8Ivxi/zZ/bRBLcXa6P4Zsx/HyUCPoXA9Fvk15uVlve/joAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="barButtonItem2.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+</root>

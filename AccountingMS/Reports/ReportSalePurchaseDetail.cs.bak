@@ -1,0 +1,105 @@
+﻿using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace AccountingMS
+{
+    public partial class ReportSalePurchaseDetail : DevExpress.XtraReports.UI.XtraReport
+    {
+        private short userId;
+        private double total, totalTax, totalDiscount;
+        IEnumerable<tblSupplyMain> tbSupplyMainList;
+
+        public ReportSalePurchaseDetail()
+        {
+            InitializeComponent();
+            this.ApplyLocalization(System.Threading.Thread.CurrentThread.CurrentCulture);
+            if (MySetting.GetPrivateSetting.LangEng)
+            {
+                this.RightToLeft = RightToLeft.No;
+                this.RightToLeftLayout = RightToLeftLayout.No;
+            }
+            this.BeforePrint += ReportSalePurchaseMaster_BeforePrint;
+        }
+
+        private void ReportSalePurchaseMaster_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            this.userId = Convert.ToInt16(parameterUserId.Value);
+
+            ResetTotalValues();
+            InitData();
+            SetBandVisibility();
+        }
+
+        private void InitData()
+        {
+            this.tbSupplyMainList = this.DataSource as IEnumerable<tblSupplyMain>;
+            if (tbSupplyMainList == null) return;
+
+            if (this.userId > 0) this.tbSupplyMainList = this.tbSupplyMainList.Where(x => x.supUserId == this.userId).ToList();
+
+            foreach (var tbSupplyMain in this.tbSupplyMainList) CalculateTotal(tbSupplyMain);
+
+            this.DataSource = this.tbSupplyMainList;
+        }
+
+        private void SetBandVisibility()
+        {
+            Detail.Visible = this.tbSupplyMainList.Count() >= 1 ? true : false;
+            GroupHeader1.Visible = this.tbSupplyMainList.Count() >= 1 ? true : false;
+            xrLabel1.Visible = this.tbSupplyMainList.Count() >= 1 ? true : false;
+        }
+
+        private void CalculateTotal(tblSupplyMain tbSupplyMain)
+        {
+            if (tbSupplyMain.supStatus == 3 || tbSupplyMain.supStatus == 7 || tbSupplyMain.supStatus == 4 || tbSupplyMain.supStatus == 8)
+            {
+                this.total += tbSupplyMain.supTotal;
+                this.totalTax += Convert.ToDouble(tbSupplyMain.supTaxPrice);
+                this.totalDiscount += Convert.ToDouble(tbSupplyMain.supDscntAmount);
+            }
+            else
+            {
+                this.total -= tbSupplyMain.supTotal;
+                this.totalTax -= Convert.ToDouble(tbSupplyMain.supTaxPrice);
+                this.totalDiscount -= Convert.ToDouble(tbSupplyMain.supDscntAmount);
+            }
+        }
+
+        private void ResetTotalValues()
+        {
+            this.total = 0;
+            this.totalTax = 0;
+            this.totalDiscount = 0;
+        }
+
+        private void Detail_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            SetStatus();
+            SetTotalColumn();
+        }
+
+        private void GroupFooter1_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            xrTableCellTotal.Text = string.Format($"{this.total:n2}");
+            xrTableCellTotalTax.Text = string.Format($"{this.totalTax:n2}");
+            xrTableCellTotalDiscount.Text = string.Format($"{this.totalDiscount:n2}");
+            xrTableCellTotalAfterDiscount.Text = string.Format($"{this.total - this.totalDiscount:n2}");
+            xrTableCellTotalFinal.Text = string.Format($"{(this.total + this.totalTax) - this.totalDiscount:n2}");
+        }
+
+        private void SetStatus()
+        {
+            byte status = Convert.ToByte(GetCurrentColumnValue("supStatus")), isCash = Convert.ToByte(GetCurrentColumnValue("supIsCash"));
+            xrTableCellSupStatus.Text = ClsSupplyStatus.GetString(status, isCash);
+        }
+
+        private void SetTotalColumn()
+        {
+            double total = Convert.ToDouble(GetCurrentColumnValue("supTotal")), supTax = Convert.ToDouble(GetCurrentColumnValue("supTaxPrice")),
+                supDiscount = Convert.ToDouble(GetCurrentColumnValue("supDscntAmount"));
+            xrTableCellTotalFinalMain.Text = $"{(total + supTax) - supDiscount:n2}";
+        }
+    }
+}

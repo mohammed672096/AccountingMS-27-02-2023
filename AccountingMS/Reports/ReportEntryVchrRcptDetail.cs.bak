@@ -1,0 +1,65 @@
+﻿using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace AccountingMS
+{
+    public partial class ReportEntryVchrRcptDetail : DevExpress.XtraReports.UI.XtraReport
+    {
+        ClsTblEntryMain clsTbEntryMain;
+
+        private long boxAccNo,bankAccNo;
+        private DateTime dtStart, dtEnd;
+
+        public ReportEntryVchrRcptDetail(ClsTblEntryMain clsTbEntryMain)
+        {
+            InitializeComponent();
+            this.ApplyLocalization(System.Threading.Thread.CurrentThread.CurrentCulture);
+            if (MySetting.GetPrivateSetting.LangEng)
+            {
+                this.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.No;
+                this.RightToLeftLayout = DevExpress.XtraReports.UI.RightToLeftLayout.No;
+            }
+            this.clsTbEntryMain = clsTbEntryMain;
+
+            this.BeforePrint += ReportEntryVchrRcptDetail_BeforePrint;
+            GroupFooter1.BeforePrint += GroupFooter1_BeforePrint;
+        }
+
+        private void ReportEntryVchrRcptDetail_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            this.dtStart = Convert.ToDateTime(parameterDtStart.Value).Date;
+            this.dtEnd = ClsDateConverter.ConvertTime(parameterDtEnd.Value);
+            this.boxAccNo = Convert.ToInt64(parameterBoxNo.Value);
+            this.bankAccNo = Convert.ToInt64(parameterBankNo.Value);
+            InitData();
+        }
+
+        private void xrLabel1_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+               XRLabel cell = sender as XRLabel;
+            long accNo = Convert.ToInt64(cell.Value);
+            if (Session.Banks.Any(x => x.bankAccNo == accNo))
+                cell.Text ="سندات "+ Session.Banks.FirstOrDefault(x => x.bankAccNo == accNo)?.bankName;
+            else if (Session.Boxes.Any(x => x.boxAccNo == accNo))
+                cell.Text = "سندات " + Session.Boxes.FirstOrDefault(x => x.boxAccNo == accNo)?.boxName;
+        }
+
+        private void InitData()
+        {
+            List<tblEntryMain> listEntry = new List<tblEntryMain>();
+            listEntry = this.clsTbEntryMain.GetEntryMainListByBoxAccNoDtStartNdDtEnd(this.boxAccNo, this.dtStart, this.dtEnd).ToList();
+            listEntry.AddRange(this.clsTbEntryMain.GetEntryMainListByBoxAccNoDtStartNdDtEnd(this.bankAccNo, this.dtStart, this.dtEnd));
+            tblEntryMainBindingSource.DataSource = listEntry;
+        }
+
+        private void GroupFooter1_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            decimal totalAmount = Convert.ToDecimal(xrtcTotalAmount.Summary.GetResult()),
+                totalTax = Convert.ToDecimal(xrtcTotalTax.Summary.GetResult());
+
+            xrtcTotalFinal.Text = $"{totalAmount + totalTax:n2}";
+        }
+    }
+}

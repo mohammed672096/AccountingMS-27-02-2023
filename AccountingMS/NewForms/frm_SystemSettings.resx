@@ -1,0 +1,3224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CheckEdit_FpDependOnInOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SpinEdit_BarcodeItemCodeLength.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TextEdit_PrimaryReportingFolderName.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_CustomersAccount.Text" xml:space="preserve">
+    <value>CustomersAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_NotesReceivableAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Root.Name" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDeductTaxAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SpinEdit_BarcodeQtyLength.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_SalesOrderReserveGood.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_AutoSerialForAssembly.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_AutoSerialForAssembly</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_DoPeriodicBackup.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="fluentDesignFormControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1113, 31</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_CapitalAccount.Text" xml:space="preserve">
+    <value>CapitalAccount</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PriceIncludeSalesTax.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="CheckEdit_CalcPurchaseTaxPerItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 548</value>
+  </data>
+  <data name="CheckEdit_ReleaseProductWithoutQMSAprove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_PriceIncludePurchaseTax.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_CalcPurchaseTaxPerItem.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesReturnAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_SalesReturnAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_SpinEdit_BarcodeQtyLength.Name" xml:space="preserve">
+    <value>layoutControl_SpinEdit_BarcodeQtyLength</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDiscountAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="LookUpEdit_NotesPayableAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="&gt;&gt;ToggleSwitch_PrintItemWithdrawBillOnSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="accordionControl1.Appearance.Item.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_DebitNoteAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_CalcPurchaseTaxPerItem.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_CalcPurchaseTaxPerItem</value>
+  </data>
+  <data name="fluentDesignFormContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 31</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_EmployeesDueAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DebitNoteAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_DebitNoteAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="LookUpEdit_SalesDiscountAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="CheckEdit_SalesOrderReserveGood.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ToggleSwitch_PrintItemWithdrawBillOnSave.Name" xml:space="preserve">
+    <value>ToggleSwitch_PrintItemWithdrawBillOnSave</value>
+  </data>
+  <data name="&gt;&gt;toggleSwitch1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_CloseInventoryAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_BuyAssembly.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_BuyAssembly</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="CheckEdit_PriceIncludeSalesTax.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.Name" xml:space="preserve">
+    <value>fluentDesignFormControl1</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_CashPrinterPrinter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement6.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="toggleSwitch2.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CapitalAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_CapitalAccount</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_MerchandisingAccount.Text" xml:space="preserve">
+    <value>MerchandisingAccount</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_BanksAccount.Text" xml:space="preserve">
+    <value>BanksAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchasesAccount.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;toggleSwitch1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_VendorsAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_OpenInventoryAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 174</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup15.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="accordionControl1.Text" xml:space="preserve">
+    <value>System settings</value>
+  </data>
+  <data name="CheckEdit_PurchaseAutoSerialBatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement8.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_NotesPayableAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_SalesDeductTaxAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_SalesDeductTaxAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_SalesDiscountAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_SellRawMaterial.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_PrintBarcodePerInventory.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_EmployeesDueAccount.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem14.Name" xml:space="preserve">
+    <value>emptySpaceItem14</value>
+  </data>
+  <data name="LookUpEdit_PurchasesAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CheckEdit_ReleaseProductWithoutQMSAprove.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ToggleSwitch_PrintPayBillOnSave.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="CheckEdit_PriceIncludePurchaseTax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="ToggleSwitch_PrintPayBillOnSave.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="uc_SalesWorkFlow.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="CheckEdit_ApproveQMFormWithoutVal.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_RecieveNotesUnderCollectAccount.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="CheckEdit_AutoSerialForAssembly.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Tab_PurchaseWorkFlow.Name" xml:space="preserve">
+    <value>Tab_PurchaseWorkFlow</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseDiscountAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup9.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="accordionControlElement1.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LookUpEdit_DebitNoteAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PriceIncludePurchaseTax.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="LookUpEdit_PurchaseAddTaxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 102</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_TextEdit_PrimaryReportingFolderName.Name" xml:space="preserve">
+    <value>layoutControl_TextEdit_PrimaryReportingFolderName</value>
+  </data>
+  <data name="layoutControl_TextEdit_BackupPath.Text" xml:space="preserve">
+    <value>BackupPath</value>
+  </data>
+  <data name="&gt;&gt;Tab_SalesPurchase.Name" xml:space="preserve">
+    <value>Tab_SalesPurchase</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_FixedAssetsAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesDeductTaxAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_BuyAssembly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 89</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_PrimaryReportingFolderName.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup14.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_ReleaseProductWithoutQMSAprove.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="CheckEdit_ApproveQMFormWithoutVal.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LookUpEdit_Reports.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_MerchandisingAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_MerchandisingAccount</value>
+  </data>
+  <data name="CheckEdit_SellRawMaterial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 84</value>
+  </data>
+  <data name="TextEdit_SecondaryReportingPath.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="toggleSwitch2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="accordionControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="LookUpEdit_OpenInventoryAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_DrawerAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_DrawerAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_Reports.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="CheckEdit_ReleaseProductWithoutQMSAprove.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;TextEdit_BackupPath.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;tabbedControlGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.TabbedControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_ReleaseProductWithoutQMSAprove.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="CheckEdit_FpDependOnInOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 45</value>
+  </data>
+  <data name="CheckEdit_FpDependOnInOut.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="CheckEdit_DoPeriodicBackup.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="&gt;&gt;SpinEdit_BarcodeItemCodeLength.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_InventoryAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_ApproveQMFormWithoutVal.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_InvoicesCodeRedundancy.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="CheckEdit_PriceIncludeSalesTax.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;emptySpaceItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_CalcPurchaseTaxPerItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="toggleSwitch2.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_SalesOrderReserveGood.Name" xml:space="preserve">
+    <value>CheckEdit_SalesOrderReserveGood</value>
+  </data>
+  <data name="RadioGroup_StockIsPeriodic.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="CheckEdit_InvoicesCodeRedundancy.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_InventoryAccount.Text" xml:space="preserve">
+    <value>InventoryAccount</value>
+  </data>
+  <data name="SpinEdit_BarcodeQtyLength.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_TextEdit_PrimaryReportingFolderName.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_TaxAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControlItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SpinEdit_BarcodeItemCodeLength.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_PurchaseAutoSerialBatch.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_PurchaseAddTaxAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DepreciationAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_DepreciationAccount</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_SellRawMaterial.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 31</value>
+  </data>
+  <data name="&gt;&gt;Tab_SalesWorkFlow.Name" xml:space="preserve">
+    <value>Tab_SalesWorkFlow</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement8.Name" xml:space="preserve">
+    <value>accordionControlElement8</value>
+  </data>
+  <data name="&gt;&gt;toggleSwitch2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_WagesAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_WagesAccount</value>
+  </data>
+  <data name="RadioGroup_InvoiceWorkflow.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup12.Name" xml:space="preserve">
+    <value>layoutControlGroup12</value>
+  </data>
+  <data name="&gt;&gt;textEdit1.Name" xml:space="preserve">
+    <value>textEdit1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_FpDependOnInOut.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_FpDependOnInOut</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_WagesAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_WagesAccount</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement6.Name" xml:space="preserve">
+    <value>accordionControlElement6</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_ExpensesAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_ManufacturingExpAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_ManufacturingExpAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_InvoicesCodeRedundancy.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_BuyAssembly.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_WagesAccount.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="toggleSwitch2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 270</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement9.Name" xml:space="preserve">
+    <value>accordionControlElement9</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CostOfSoldGoodsAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_EmployeesDueAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="LookUpEdit_DebitNoteAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;uc_SalesWorkFlow.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="layoutControl_RadioGroup_StockIsPeriodic.Text" xml:space="preserve">
+    <value>StockIsPeriodic</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_NotesReceivableAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_NotesReceivableAccount</value>
+  </data>
+  <data name="&gt;&gt;ToggleSwitch_PrintPayBillOnSave.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;accordionControlElement7.Name" xml:space="preserve">
+    <value>accordionControlElement7</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_CasherPrinter.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="CheckEdit_ReleaseProductWithoutQMSAprove.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LookUpEdit_TaxAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="RaidoEdit_MoneyToTextMode.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_VendorsAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_VendorsAccount</value>
+  </data>
+  <data name="&gt;&gt;Tab_Stock.Name" xml:space="preserve">
+    <value>Tab_Stock</value>
+  </data>
+  <data name="&gt;&gt;Root.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ToggleSwitch_PrintPayBillOnSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_SalesOrderReserveGood.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </data>
+  <data name="&gt;&gt;uc_SalesWorkFlow.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControl_CheckEdit_BuyAssembly.Text" xml:space="preserve">
+    <value>BuyAssembly</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_ReleaseProductWithoutQMSAprove.Name" xml:space="preserve">
+    <value>CheckEdit_ReleaseProductWithoutQMSAprove</value>
+  </data>
+  <data name="LookUpEdit_EmployeesDueAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;SpinEdit_BarcodeItemCodeLength.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;toggleSwitch1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CheckEdit_PriceIncludePurchaseTax.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="ComboBoxEdit_DefaultPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 199</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup6.Name" xml:space="preserve">
+    <value>layoutControlGroup6</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_FixedAssetsAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;ToggleSwitch_PrintItemWithdrawBillOnSave.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_SpinEdit_BarcodeItemCodeLength.Name" xml:space="preserve">
+    <value>layoutControl_SpinEdit_BarcodeItemCodeLength</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_RevenueAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_RevenueAccount</value>
+  </data>
+  <data name="&gt;&gt;SpinEdit_BarcodeQtyLength.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="CheckEdit_PurchaseAutoSerialBatch.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="RadioGroup_StockIsPeriodic.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="comboBoxEdit1.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_DoPeriodicBackup.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit1.Name" xml:space="preserve">
+    <value>comboBoxEdit1</value>
+  </data>
+  <data name="LookUpEdit_ManufacturingExpAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CapitalAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_RecieveNotesUnderCollectAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_CustomersAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_AutoSerialForAssembly.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_SpinEdit_BarcodeQtyLength.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ToggleSwitch_PrintItemWithdrawBillOnSave.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_BackupPath.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_DefaultPrinter.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormContainer1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_PriceIncludeSalesTax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.Parent" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="lookUpEdit1.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_BanksAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchasesReturnAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="CheckEdit_ApproveQMFormWithoutVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 62</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_SellRawMaterial.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Tab_General.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_EmployeesDueAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LookUpEdit_BanksAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_AutoSerialForAssembly.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_Reports.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_WagesAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="LookUpEdit_CustomersAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 411</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_EmployeesDueAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RadioGroup_PrInvoiceWorkflow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 45</value>
+  </data>
+  <data name="CheckEdit_SellRawMaterial.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_FpDependOnInOut.Name" xml:space="preserve">
+    <value>CheckEdit_FpDependOnInOut</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CapitalAccount.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_EmployeesDueAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_EmployeesDueAccount</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_ApproveQMFormWithoutVal.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_PriceIncludeSalesTax.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_PriceIncludeSalesTax</value>
+  </data>
+  <data name="CheckEdit_PurchaseAutoSerialBatch.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_PurchasesAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_PurchasesAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_BanksAccount.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="LookUpEdit_VendorsAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_InvoiceWorkflow.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseAddTaxAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_PurchaseAddTaxAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_InventoryAccount.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
+    <value>layoutControlItem9</value>
+  </data>
+  <data name="&gt;&gt;RaidoEdit_MoneyToTextMode.Name" xml:space="preserve">
+    <value>RaidoEdit_MoneyToTextMode</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_SalesDeductTaxAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="comboBoxEdit_CashPrinterPrinter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="CheckEdit_BuyAssembly.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="RaidoEdit_MoneyToTextMode.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_NotesPayableAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_RecieveNotesUnderCollectAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_DueSalerysAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseDiscountAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_PurchaseDiscountAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_BuyAssembly.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesDiscountAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_SalesDiscountAccount</value>
+  </data>
+  <data name="LookUpEdit_SalesDeductTaxAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_CreditNoteAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_CreditNoteAccount</value>
+  </data>
+  <data name="LookUpEdit_PurchasesAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_SalesDiscountAccount.Text" xml:space="preserve">
+    <value>SalesDiscountAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_VendorsAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_VendorsAccount</value>
+  </data>
+  <data name="RadioGroup_StockIsPeriodic.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="simpleButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 687</value>
+  </data>
+  <data name="SpinEdit_BarcodeQtyLength.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CheckEdit_ApproveQMFormWithoutVal.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="layoutControlGroup1.AppearanceGroup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="CheckEdit_AutoSerialForAssembly.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CheckEdit_AutoSerialForAssembly.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="comboBoxEdit2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_CostOfSoldGoodsAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="accordionControlElement5.Text" xml:space="preserve">
+    <value>Printing &amp; reports </value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseAddTaxAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup15.Name" xml:space="preserve">
+    <value>layoutControlGroup15</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PrintBarcodePerInventory.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DepreciationAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_VendorsAccount.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SpinEdit_BarcodeQtyLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 91</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CostOfSoldGoodsAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit_CashPrinterPrinter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_VendorsAccount.Text" xml:space="preserve">
+    <value>VendorsAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_SalesAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_CashPrinterPrinter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_DrawerAccount.Text" xml:space="preserve">
+    <value>DrawerAccount</value>
+  </data>
+  <data name="LookUpEdit_EmployeesDueAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 432</value>
+  </data>
+  <data name="LookUpEdit_DebitNoteAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="&gt;&gt;Button_Close.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="accordionControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_StockIsPeriodic.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_BanksAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 435</value>
+  </data>
+  <data name="LookUpEdit_PurchaseAddTaxAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;emptySpaceItem9.Name" xml:space="preserve">
+    <value>emptySpaceItem9</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Tab_Manufacturing.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_CalcPurchaseTaxPerItem.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="LookUpEdit_PurchaseAddTaxAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_AutoSerialForAssembly.Name" xml:space="preserve">
+    <value>CheckEdit_AutoSerialForAssembly</value>
+  </data>
+  <data name="LookUpEdit_NotesPayableAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 267</value>
+  </data>
+  <data name="accordionControlElement2.Text" xml:space="preserve">
+    <value>Sales &amp; Purchasing</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DepreciationAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="simpleButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="LookUpEdit_OpenInventoryAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="comboBoxEdit2.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_CalcPurchaseTaxPerItem.Name" xml:space="preserve">
+    <value>CheckEdit_CalcPurchaseTaxPerItem</value>
+  </data>
+  <data name="LookUpEdit_PurchasesReturnAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 246</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_SellRawMaterial.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_RaidoEdit_MoneyToTextMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_WagesAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_DepreciationAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_DepreciationAccount</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_CashPrinterPrinter.Name" xml:space="preserve">
+    <value>ComboBoxEdit_CashPrinterPrinter</value>
+  </data>
+  <data name="LookUpEdit_BanksAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="&gt;&gt;simpleLabelItem1.Name" xml:space="preserve">
+    <value>simpleLabelItem1</value>
+  </data>
+  <data name="LookUpEdit_MerchandisingAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 318</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_VendorsAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_NotesPayableAccount.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_RevenueAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_RevenueAccount</value>
+  </data>
+  <data name="LookUpEdit_NotesReceivableAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_ReleaseProductWithoutQMSAprove.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_RevenueAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_MerchandisingAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_PurchaseDeductTaxAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_PurchaseDeductTaxAccount</value>
+  </data>
+  <data name="accordionControlElement6.Text" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="CheckEdit_InvoicesCodeRedundancy.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="layoutControl_LookUpEdit_DueSalerysAccount.Text" xml:space="preserve">
+    <value>DueSalerysAccount</value>
+  </data>
+  <data name="ComboBoxEdit_CasherPrinter.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesReturnAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControl1.Name" xml:space="preserve">
+    <value>accordionControl1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesAddTaxAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="LookUpEdit_PurchasesAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_StockIsPeriodic.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_StockIsPeriodic.Name" xml:space="preserve">
+    <value>RadioGroup_StockIsPeriodic</value>
+  </data>
+  <data name="LookUpEdit_CostOfSoldGoodsAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_RaidoEdit_MoneyToTextMode.Name" xml:space="preserve">
+    <value>layoutControl_RaidoEdit_MoneyToTextMode</value>
+  </data>
+  <data name="toggleSwitch2.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_PurchasesAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textEdit1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="ToggleSwitch_PrintPayBillOnSave.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="Button_OpenReportDesinger.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabbedControlGroup1.Name" xml:space="preserve">
+    <value>tabbedControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_SalesReturnAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RadioGroup_InvoiceWorkflow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 106</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesDiscountAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="accordionControlElement3.Text" xml:space="preserve">
+    <value>Manufacturing</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_SalesAccount.Text" xml:space="preserve">
+    <value>SalesAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_PurchaseAddTaxAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_PurchaseAddTaxAccount</value>
+  </data>
+  <data name="lookUpEdit1.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Root2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_ManufacturingExpAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="LookUpEdit_SalesDiscountAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 102</value>
+  </data>
+  <data name="CheckEdit_SellRawMaterial.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="&gt;&gt;RaidoEdit_MoneyToTextMode.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_ComboBoxEdit_CasherPrinter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_ExpensesAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_NotesReceivableAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DueSalerysAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;Tab_Accounts.Name" xml:space="preserve">
+    <value>Tab_Accounts</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_DoPeriodicBackup.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit_CashPrinterPrinter.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_PrInvoiceWorkflow.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_InvoicesCodeRedundancy.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_BackupPath.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit2.Name" xml:space="preserve">
+    <value>comboBoxEdit2</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_RevenueAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_ReleaseProductWithoutQMSAprove.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Name" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </data>
+  <data name="CheckEdit_CalcPurchaseTaxPerItem.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_PurchaseAutoSerialBatch.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_PurchaseAutoSerialBatch</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchasesAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_SalesOrderReserveGood.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_SalesOrderReserveGood</value>
+  </data>
+  <data name="CheckEdit_BuyAssembly.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CheckEdit_InvoicesCodeRedundancy.Name" xml:space="preserve">
+    <value>CheckEdit_InvoicesCodeRedundancy</value>
+  </data>
+  <data name="CheckEdit_InvoicesCodeRedundancy.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_Reports.Name" xml:space="preserve">
+    <value>LookUpEdit_Reports</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_PrimaryReportingFolderName.Name" xml:space="preserve">
+    <value>TextEdit_PrimaryReportingFolderName</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Tab_General.Name" xml:space="preserve">
+    <value>Tab_General</value>
+  </data>
+  <data name="LookUpEdit_DepreciationAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 243</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup13.Name" xml:space="preserve">
+    <value>layoutControlGroup13</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement5.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseDiscountAccount.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_PrintBarcodePerInventory.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_PrintBarcodePerInventory</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_ExpensesAccount.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;Tab_SalesWorkFlow.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="TextEdit_TempletPath.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CreditNoteAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_OpenInventoryAccount.Text" xml:space="preserve">
+    <value>OpenInventoryAccount</value>
+  </data>
+  <data name="LookUpEdit_CreditNoteAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 576</value>
+  </data>
+  <data name="LookUpEdit_SalesAddTaxAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_NotesReceivableAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;formAssistant1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.FormAssistant, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 648</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_DrawerAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CapitalAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_OpenInventoryAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDeductTaxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 126</value>
+  </data>
+  <data name="accordionControl1.Appearance.Group.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_EmployeesDueAccount.Text" xml:space="preserve">
+    <value>EmployeesDueAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CreditNoteAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_CreditNoteAccount</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_RevenueAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="LookUpEdit_ExpensesAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckEdit_SalesOrderReserveGood.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="comboBoxEdit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 223</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_CostOfSoldGoodsAccount.Text" xml:space="preserve">
+    <value>CostOfSoldGoodsAccount</value>
+  </data>
+  <data name="LookUpEdit_VendorsAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 315</value>
+  </data>
+  <data name="accordionControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 675</value>
+  </data>
+  <data name="RaidoEdit_MoneyToTextMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 13</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="CheckEdit_PriceIncludePurchaseTax.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_VendorsAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_TextEdit_BackupPath.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_ExpensesAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_ExpensesAccount</value>
+  </data>
+  <data name="ComboBoxEdit_DefaultPrinter.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="layoutControl_CheckEdit_AutoSerialForAssembly.Text" xml:space="preserve">
+    <value>AutoSerialForAssembly</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_DueSalerysAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_TaxAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_TaxAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_TaxAccount</value>
+  </data>
+  <data name="toggleSwitch1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 223</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_NotesReceivableAccount.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_DefaultPrinter.Name" xml:space="preserve">
+    <value>ComboBoxEdit_DefaultPrinter</value>
+  </data>
+  <data name="layoutControl_CheckEdit_ReleaseProductWithoutQMSAprove.Text" xml:space="preserve">
+    <value>ReleaseProductWithoutQMSAprove</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DueSalerysAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_DueSalerysAccount</value>
+  </data>
+  <data name="fluentDesignFormControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;textEdit1.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="SpinEdit_BarcodeQtyLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 20</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem10.Name" xml:space="preserve">
+    <value>emptySpaceItem10</value>
+  </data>
+  <data name="simpleButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem7.Name" xml:space="preserve">
+    <value>emptySpaceItem7</value>
+  </data>
+  <data name="&gt;&gt;Tab_ReportPrint.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_ReleaseProductWithoutQMSAprove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 67</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_PurchaseAddTaxAccount.Text" xml:space="preserve">
+    <value>PurchaseAddTaxAccount</value>
+  </data>
+  <data name="fluentDesignFormContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>908, 675</value>
+  </data>
+  <data name="LookUpEdit_RevenueAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="layoutControl_CheckEdit_DoPeriodicBackup.Text" xml:space="preserve">
+    <value>DoPeriodicBackup</value>
+  </data>
+  <data name="LookUpEdit_RevenueAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="CheckEdit_BuyAssembly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="LookUpEdit_Reports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 112</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_RevenueAccount.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_CloseInventoryAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_OpenInventoryAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_OpenInventoryAccount</value>
+  </data>
+  <data name="&gt;&gt;Button_Close.Name" xml:space="preserve">
+    <value>Button_Close</value>
+  </data>
+  <data name="toggleSwitch1.Properties.OffText" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="CheckEdit_BuyAssembly.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_RadioGroup_StockIsPeriodic.Name" xml:space="preserve">
+    <value>layoutControl_RadioGroup_StockIsPeriodic</value>
+  </data>
+  <data name="LookUpEdit_DrawerAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem4.Name" xml:space="preserve">
+    <value>emptySpaceItem4</value>
+  </data>
+  <data name="CheckEdit_PurchaseAutoSerialBatch.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesDeductTaxAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_SalesDeductTaxAccount</value>
+  </data>
+  <data name="SpinEdit_BarcodeItemCodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 45</value>
+  </data>
+  <data name="RaidoEdit_MoneyToTextMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 117</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DrawerAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_DrawerAccount</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_ManufacturingExpAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_WagesAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CloseInventoryAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_CloseInventoryAccount</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_InvoiceWorkflow.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="CheckEdit_InvoicesCodeRedundancy.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;toggleSwitch2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup9.Name" xml:space="preserve">
+    <value>layoutControlGroup9</value>
+  </data>
+  <data name="ComboBoxEdit_ComboBoxEdit_CasherPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 201</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_CalcPurchaseTaxPerItem.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem5.Name" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchasesAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_PurchasesAccount</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_ExpensesAccount.Text" xml:space="preserve">
+    <value>ExpensesAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesAccount.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="TextEdit_BackupPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 71</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CostOfSoldGoodsAccount.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem12.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_PurchaseDeductTaxAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_PurchaseAutoSerialBatch.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_WagesAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 408</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_ExpensesAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_InvoicesCodeRedundancy.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControl_SpinEdit_BarcodeQtyLength.Text" xml:space="preserve">
+    <value>BarcodeQtyLength</value>
+  </data>
+  <data name="layoutControl_TextEdit_PrimaryReportingFolderName.Text" xml:space="preserve">
+    <value>PrimaryReportingFolderName</value>
+  </data>
+  <data name="layoutControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 215</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_WagesAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Name" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit_CashPrinterPrinter.Name" xml:space="preserve">
+    <value>comboBoxEdit_CashPrinterPrinter</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_SellRawMaterial.Name" xml:space="preserve">
+    <value>CheckEdit_SellRawMaterial</value>
+  </data>
+  <data name="TextEdit_SecondaryReportingPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 20</value>
+  </data>
+  <data name="LookUpEdit_PurchasesAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 270</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControl_CheckEdit_SalesOrderReserveGood.Text" xml:space="preserve">
+    <value>SalesOrderReserveGood</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_ApproveQMFormWithoutVal.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_SalesAddTaxAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_SalesAddTaxAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_RadioGroup_PrInvoiceWorkflow.Name" xml:space="preserve">
+    <value>layoutControl_RadioGroup_PrInvoiceWorkflow</value>
+  </data>
+  <data name="ComboBoxEdit_CashPrinterPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 223</value>
+  </data>
+  <data name="LookUpEdit_SalesReturnAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDeductTaxAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="LookUpEdit_SalesReturnAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 198</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SpinEdit_BarcodeQtyLength.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_PurchasesReturnAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_PriceIncludeSalesTax.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_CashPrinterPrinter.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="LookUpEdit_SalesDiscountAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LookUpEdit_DueSalerysAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>908, 675</value>
+  </data>
+  <data name="CheckEdit_SellRawMaterial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="CheckEdit_AutoSerialForAssembly.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="&gt;&gt;toggleSwitch1.Name" xml:space="preserve">
+    <value>toggleSwitch1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_RadioGroup_InvoiceWorkflow.Name" xml:space="preserve">
+    <value>layoutControl_RadioGroup_InvoiceWorkflow</value>
+  </data>
+  <data name="LookUpEdit_DueSalerysAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 384</value>
+  </data>
+  <data name="LookUpEdit_CapitalAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_RecieveNotesUnderCollectAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_RecieveNotesUnderCollectAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem59.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_AutoSerialForAssembly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 45</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup7.Name" xml:space="preserve">
+    <value>layoutControlGroup7</value>
+  </data>
+  <data name="LookUpEdit_CreditNoteAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="layoutControl_RaidoEdit_MoneyToTextMode.Text" xml:space="preserve">
+    <value>MoneyToTextMode</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchasesReturnAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PurchaseAutoSerialBatch.Name" xml:space="preserve">
+    <value>CheckEdit_PurchaseAutoSerialBatch</value>
+  </data>
+  <data name="LookUpEdit_RevenueAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 501</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="uc_SalesWorkFlow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 43</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_CreditNoteAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_FixedAssetsAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 387</value>
+  </data>
+  <data name="TextEdit_TempletPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 175</value>
+  </data>
+  <data name="LookUpEdit_ExpensesAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 525</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_DoPeriodicBackup.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_BuyAssembly.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckEdit_PriceIncludePurchaseTax.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="LookUpEdit_MerchandisingAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_NotesPayableAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControl_CheckEdit_PriceIncludePurchaseTax.Text" xml:space="preserve">
+    <value>PriceIncludePurchaseTax</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_BanksAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_BanksAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CustomersAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="fluentDesignFormContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;RaidoEdit_MoneyToTextMode.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_DebitNoteAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_DebitNoteAccount</value>
+  </data>
+  <data name="LookUpEdit_DepreciationAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_TextEdit_SecondaryReportingPath.Name" xml:space="preserve">
+    <value>layoutControl_TextEdit_SecondaryReportingPath</value>
+  </data>
+  <data name="LookUpEdit_NotesPayableAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="toggleSwitch1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LookUpEdit_ManufacturingExpAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 594</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PurchaseAutoSerialBatch.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_FixedAssetsAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_FixedAssetsAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_AutoSerialForAssembly.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesReturnAccount.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_FpDependOnInOut.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDiscountAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_NotesPayableAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_NotesPayableAccount</value>
+  </data>
+  <data name="&gt;&gt;SpinEdit_BarcodeQtyLength.Name" xml:space="preserve">
+    <value>SpinEdit_BarcodeQtyLength</value>
+  </data>
+  <data name="&gt;&gt;Tab_HumanResources.Name" xml:space="preserve">
+    <value>Tab_HumanResources</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_SalesDeductTaxAccount.Text" xml:space="preserve">
+    <value>SalesDeductTaxAccount</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LookUpEdit_SalesDeductTaxAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="LookUpEdit_TaxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 174</value>
+  </data>
+  <data name="CheckEdit_CalcPurchaseTaxPerItem.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement4.Name" xml:space="preserve">
+    <value>accordionControlElement4</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesDeductTaxAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_ManufacturingExpAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_PurchaseDiscountAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_MerchandisingAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PriceIncludeSalesTax.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_TempletPath.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_InvoiceWorkflow.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_DefaultPrinter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_SalesOrderReserveGood.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="CheckEdit_ReleaseProductWithoutQMSAprove.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;emptySpaceItem14.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PrintBarcodePerInventory.Name" xml:space="preserve">
+    <value>CheckEdit_PrintBarcodePerInventory</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_SecondaryReportingPath.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_InvoiceWorkflow.Name" xml:space="preserve">
+    <value>RadioGroup_InvoiceWorkflow</value>
+  </data>
+  <data name="CheckEdit_SalesOrderReserveGood.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;Tab_Accounts.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RadioGroup_StockIsPeriodic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 22</value>
+  </data>
+  <data name="&gt;&gt;Button_Close.Parent" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="LookUpEdit_CapitalAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="LookUpEdit_RecieveNotesUnderCollectAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesAddTaxAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_SalesAddTaxAccount</value>
+  </data>
+  <data name="LookUpEdit_NotesPayableAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Tab_HumanResources.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_CustomersAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="CheckEdit_AutoSerialForAssembly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement3.Name" xml:space="preserve">
+    <value>accordionControlElement3</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.Name" xml:space="preserve">
+    <value>Button_Save</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PriceIncludeSalesTax.Name" xml:space="preserve">
+    <value>CheckEdit_PriceIncludeSalesTax</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DueSalerysAccount.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="layoutControl_CheckEdit_CalcPurchaseTaxPerItem.Text" xml:space="preserve">
+    <value>CalcPurchaseTaxPerItem</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_SecondaryReportingPath.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;ToggleSwitch_PrintPayBillOnSave.Name" xml:space="preserve">
+    <value>ToggleSwitch_PrintPayBillOnSave</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_FpDependOnInOut.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_ManufacturingExpAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_ManufacturingExpAccount</value>
+  </data>
+  <data name="LookUpEdit_SalesAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckEdit_PriceIncludeSalesTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 592</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_DoPeriodicBackup.Name" xml:space="preserve">
+    <value>CheckEdit_DoPeriodicBackup</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 69</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_FixedAssetsAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_FixedAssetsAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CloseInventoryAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="toggleSwitch1.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="LookUpEdit_PurchasesReturnAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="layoutControl_SpinEdit_BarcodeItemCodeLength.Text" xml:space="preserve">
+    <value>BarcodeItemCodeLength</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_PriceIncludeSalesTax.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement2.Name" xml:space="preserve">
+    <value>accordionControlElement2</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_OpenInventoryAccount.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CustomersAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_InvoicesCodeRedundancy.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_InvoicesCodeRedundancy</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_TaxAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_TaxAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_RevenueAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="LookUpEdit_ExpensesAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesDiscountAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Root2.Name" xml:space="preserve">
+    <value>Root2</value>
+  </data>
+  <data name="LookUpEdit_TaxAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem13.Name" xml:space="preserve">
+    <value>emptySpaceItem13</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_RecieveNotesUnderCollectAccount.Text" xml:space="preserve">
+    <value>RecieveNotesUnderCollectAccount</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 95</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PriceIncludePurchaseTax.Name" xml:space="preserve">
+    <value>CheckEdit_PriceIncludePurchaseTax</value>
+  </data>
+  <data name="simpleButton1.Text" xml:space="preserve">
+    <value>simpleButton1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_PriceIncludePurchaseTax.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_PriceIncludePurchaseTax</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_SpinEdit_BarcodeItemCodeLength.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_TaxAccount.Text" xml:space="preserve">
+    <value>TaxAccount</value>
+  </data>
+  <data name="&gt;&gt;Tab_Genral.Name" xml:space="preserve">
+    <value>Tab_Genral</value>
+  </data>
+  <data name="fluentDesignFormControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LookUpEdit_SalesAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 222</value>
+  </data>
+  <data name="CheckEdit_AutoSerialForAssembly.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="CheckEdit_ReleaseProductWithoutQMSAprove.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;Tab_Genral.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Tab_SystemWorkFlow.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDeductTaxAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="CheckEdit_SalesOrderReserveGood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 504</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_SalesReturnAccount.Text" xml:space="preserve">
+    <value>SalesReturnAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseAddTaxAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControl_RadioGroup_PrInvoiceWorkflow.Text" xml:space="preserve">
+    <value>PrInvoiceWorkflow</value>
+  </data>
+  <data name="accordionControlElement1.Text" xml:space="preserve">
+    <value>General </value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CreditNoteAccount.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_PurchasesAccount.Text" xml:space="preserve">
+    <value>PurchasesAccount</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_FixedAssetsAccount.Text" xml:space="preserve">
+    <value>FixedAssetsAccount</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_SellRawMaterial.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="CheckEdit_PriceIncludePurchaseTax.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_CapitalAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_EmployeesDueAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="LookUpEdit_SalesAddTaxAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchasesReturnAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_PurchasesReturnAccount</value>
+  </data>
+  <data name="LookUpEdit_DepreciationAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_SellRawMaterial.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_SellRawMaterial</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_CloseInventoryAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_PurchaseAutoSerialBatch.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CloseInventoryAccount.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="LookUpEdit_CreditNoteAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;uc_SalesWorkFlow.Name" xml:space="preserve">
+    <value>uc_SalesWorkFlow</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_SalesOrderReserveGood.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_PriceIncludePurchaseTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 570</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DrawerAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;toggleSwitch2.Name" xml:space="preserve">
+    <value>toggleSwitch2</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PriceIncludePurchaseTax.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_FpDependOnInOut.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CustomersAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_CustomersAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseDiscountAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControl_CheckEdit_PriceIncludeSalesTax.Text" xml:space="preserve">
+    <value>PriceIncludeSalesTax</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_NotesReceivableAccount.Text" xml:space="preserve">
+    <value>NotesReceivableAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseDeductTaxAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_CalcPurchaseTaxPerItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormContainer1.Name" xml:space="preserve">
+    <value>fluentDesignFormContainer1</value>
+  </data>
+  <data name="LookUpEdit_PurchasesReturnAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_BanksAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_BanksAccount</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_ComboBoxEdit_CasherPrinter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_RecieveNotesUnderCollectAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_InventoryAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_InventoryAccount</value>
+  </data>
+  <data name="TextEdit_PrimaryReportingFolderName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 45</value>
+  </data>
+  <data name="TextEdit_BackupPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 20</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_ApproveQMFormWithoutVal.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_PurchaseDiscountAccount.Text" xml:space="preserve">
+    <value>PurchaseDiscountAccount</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="LookUpEdit_Reports.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_SellRawMaterial.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_PriceIncludeSalesTax.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="LookUpEdit_RecieveNotesUnderCollectAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="&gt;&gt;accordionControlSeparator1.Name" xml:space="preserve">
+    <value>accordionControlSeparator1</value>
+  </data>
+  <data name="&gt;&gt;uc_SalesWorkFlow.Type" xml:space="preserve">
+    <value>ERP.Forms.UserControls.uc_SalesWorkFlow, ERP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TextEdit_.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Button_OpenReportDesinger.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_WagesAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Name" xml:space="preserve">
+    <value>simpleButton2</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_ExpensesAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_ExpensesAccount</value>
+  </data>
+  <data name="LookUpEdit_SalesDiscountAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="LookUpEdit_ExpensesAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_StockIsPeriodic.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesDeductTaxAccount.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="CheckEdit_PriceIncludeSalesTax.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;TextEdit_BackupPath.Name" xml:space="preserve">
+    <value>TextEdit_BackupPath</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup11.Name" xml:space="preserve">
+    <value>layoutControlGroup11</value>
+  </data>
+  <data name="layoutControl_CheckEdit_PrintBarcodePerInventory.Text" xml:space="preserve">
+    <value>PrintBarcodePerInventory</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_TaxAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Tab_Stock.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.Name" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="Button_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_.Name" xml:space="preserve">
+    <value>TextEdit_</value>
+  </data>
+  <data name="&gt;&gt;Tab_Manufacturing.Name" xml:space="preserve">
+    <value>Tab_Manufacturing</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;accordionControlElement1.Name" xml:space="preserve">
+    <value>accordionControlElement1</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_ApproveQMFormWithoutVal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup10.Name" xml:space="preserve">
+    <value>layoutControlGroup10</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseDeductTaxAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_OpenInventoryAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_CasherPrinter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControl_CheckEdit_SellRawMaterial.Text" xml:space="preserve">
+    <value>SellRawMaterial</value>
+  </data>
+  <data name="LookUpEdit_Reports.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="textEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="CheckEdit_ApproveQMFormWithoutVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="TextEdit_PrimaryReportingFolderName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 20</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DrawerAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="CheckEdit_SalesOrderReserveGood.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="LookUpEdit_MerchandisingAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="CheckEdit_FpDependOnInOut.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_OpenInventoryAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="TextEdit_.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 175</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup25.Name" xml:space="preserve">
+    <value>layoutControlGroup25</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CreditNoteAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="CheckEdit_InvoicesCodeRedundancy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 526</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PriceIncludeSalesTax.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1113, 706</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_DepreciationAccount.Text" xml:space="preserve">
+    <value>DepreciationAccount</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Name" xml:space="preserve">
+    <value>simpleButton1</value>
+  </data>
+  <data name="comboBoxEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 199</value>
+  </data>
+  <data name="CheckEdit_CalcPurchaseTaxPerItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="LookUpEdit_CapitalAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TextEdit_BackupPath.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem11.Name" xml:space="preserve">
+    <value>layoutControlItem11</value>
+  </data>
+  <data name="&gt;&gt;Button_Save.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_TaxAccount.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="ComboBoxEdit_ComboBoxEdit_CasherPrinter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="CheckEdit_InvoicesCodeRedundancy.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;accordionControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControl, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="fluentDesignFormContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_OpenInventoryAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_OpenInventoryAccount</value>
+  </data>
+  <data name="LookUpEdit_NotesReceivableAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 483</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_SalesReturnAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_SalesReturnAccount</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_ComboBoxEdit_CasherPrinter.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_SalesAddTaxAccount.Text" xml:space="preserve">
+    <value>SalesAddTaxAccount</value>
+  </data>
+  <data name="Button_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 717</value>
+  </data>
+  <data name="LookUpEdit_OpenInventoryAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="LookUpEdit_FixedAssetsAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="accordionControl1.Appearance.Group.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt</value>
+  </data>
+  <data name="ToggleSwitch_PrintItemWithdrawBillOnSave.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem10.Name" xml:space="preserve">
+    <value>layoutControlItem10</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_CasherPrinter.Name" xml:space="preserve">
+    <value>ComboBoxEdit_CasherPrinter</value>
+  </data>
+  <data name="CheckEdit_SalesOrderReserveGood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="ToggleSwitch_PrintItemWithdrawBillOnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 270</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_SalesAddTaxAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_DueSalerysAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_DueSalerysAccount</value>
+  </data>
+  <data name="&gt;&gt;RaidoEdit_MoneyToTextMode.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="RaidoEdit_MoneyToTextMode.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DebitNoteAccount.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup12.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_SalesReturnAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckEdit_SellRawMaterial.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="RadioGroup_PrInvoiceWorkflow.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_CostOfSoldGoodsAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_CostOfSoldGoodsAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_ReleaseProductWithoutQMSAprove.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_ReleaseProductWithoutQMSAprove</value>
+  </data>
+  <data name="LookUpEdit_CloseInventoryAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControlGroup11.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControl1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LookUpEdit_NotesReceivableAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseDeductTaxAccount.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="LookUpEdit_FixedAssetsAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_FixedAssetsAccount.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem13.Name" xml:space="preserve">
+    <value>layoutControlItem13</value>
+  </data>
+  <data name="simpleButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 22</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_ComboBoxEdit_CasherPrinter.Name" xml:space="preserve">
+    <value>ComboBoxEdit_ComboBoxEdit_CasherPrinter</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_PurchaseDeductTaxAccount.Text" xml:space="preserve">
+    <value>PurchaseDeductTaxAccount</value>
+  </data>
+  <data name="LookUpEdit_DrawerAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckEdit_FpDependOnInOut.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;ToggleSwitch_PrintItemWithdrawBillOnSave.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CostOfSoldGoodsAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_CostOfSoldGoodsAccount</value>
+  </data>
+  <data name="LookUpEdit_SalesReturnAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_AutoSerialForAssembly.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DebitNoteAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_TempletPath.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_InventoryAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 78</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseAddTaxAccount.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem12.Name" xml:space="preserve">
+    <value>layoutControlItem12</value>
+  </data>
+  <data name="accordionControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CheckEdit_SellRawMaterial.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;TextEdit_PrimaryReportingFolderName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tabbedControlGroup2.Name" xml:space="preserve">
+    <value>tabbedControlGroup2</value>
+  </data>
+  <data name="TextEdit_SecondaryReportingPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 69</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_InventoryAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchasesReturnAccount.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_MerchandisingAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_ManufacturingExpAccount.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="LookUpEdit_DrawerAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 459</value>
+  </data>
+  <data name="LookUpEdit_SalesDeductTaxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 150</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_SalesOrderReserveGood.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="ToggleSwitch_PrintPayBillOnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 247</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_TextEdit_SecondaryReportingPath.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_PriceIncludePurchaseTax.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="comboBoxEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="CheckEdit_PurchaseAutoSerialBatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 614</value>
+  </data>
+  <data name="&gt;&gt;SpinEdit_BarcodeItemCodeLength.Name" xml:space="preserve">
+    <value>SpinEdit_BarcodeItemCodeLength</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControl_TextEdit_SecondaryReportingPath.Text" xml:space="preserve">
+    <value>SecondaryReportingPath</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_DepreciationAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_VendorsAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="CheckEdit_PriceIncludeSalesTax.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_RadioGroup_InvoiceWorkflow.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_Reports.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="CheckEdit_PriceIncludePurchaseTax.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControlGroup5.Name" xml:space="preserve">
+    <value>layoutControlGroup5</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_CasherPrinter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LookUpEdit_CustomersAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CheckEdit_BuyAssembly.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_NotesReceivableAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="layoutControl_RadioGroup_InvoiceWorkflow.Text" xml:space="preserve">
+    <value>InvoiceWorkflow</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem6.Name" xml:space="preserve">
+    <value>emptySpaceItem6</value>
+  </data>
+  <data name="&gt;&gt;Tab_SalesPurchase.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DepreciationAccount.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="LookUpEdit_InventoryAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="LookUpEdit_WagesAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="LookUpEdit_PurchaseAddTaxAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PurchaseAutoSerialBatch.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="LookUpEdit_CreditNoteAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="LookUpEdit_SalesAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="Button_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="LookUpEdit_DrawerAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;Button_Close.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;formAssistant1.Name" xml:space="preserve">
+    <value>formAssistant1</value>
+  </data>
+  <data name="CheckEdit_FpDependOnInOut.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckEdit_CalcPurchaseTaxPerItem.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SpinEdit_BarcodeItemCodeLength.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup4.Name" xml:space="preserve">
+    <value>layoutControlGroup4</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_PurchasesReturnAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_PurchasesReturnAccount</value>
+  </data>
+  <data name="&gt;&gt;accordionControlSeparator1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlSeparator, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_PurchaseAutoSerialBatch.Properties.DisplayValueChecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="layoutControl_CheckEdit_InvoicesCodeRedundancy.Text" xml:space="preserve">
+    <value>InvoicesCodeRedundancy</value>
+  </data>
+  <data name="&gt;&gt;Tab_PurchaseWorkFlow.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="accordionControlElement4.Text" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;toggleSwitch2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_CostOfSoldGoodsAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 294</value>
+  </data>
+  <data name="layoutControl_CheckEdit_PurchaseAutoSerialBatch.Text" xml:space="preserve">
+    <value>PurchaseAutoSerialBatch</value>
+  </data>
+  <data name="&gt;&gt;textEdit1.Type" xml:space="preserve">
+    <value>ERP.Forms.UserControls.uc_PurchaseWorkFlow, ERP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="accordionControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
+    <value>layoutControlItem7</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
+    <value>layoutControlGroup3</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_SecondaryReportingPath.Name" xml:space="preserve">
+    <value>TextEdit_SecondaryReportingPath</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LookUpEdit_InventoryAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ComboBoxEdit_CashPrinterPrinter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="LookUpEdit_CapitalAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 291</value>
+  </data>
+  <data name="&gt;&gt;Tab_ReportPrint.Name" xml:space="preserve">
+    <value>Tab_ReportPrint</value>
+  </data>
+  <data name="layoutControl_CheckEdit_FpDependOnInOut.Text" xml:space="preserve">
+    <value>FpDependOnInOut</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormContainer1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_SecondaryReportingPath.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem11.Name" xml:space="preserve">
+    <value>emptySpaceItem11</value>
+  </data>
+  <data name="CheckEdit_CalcPurchaseTaxPerItem.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_SalesDiscountAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_SalesDiscountAccount</value>
+  </data>
+  <data name="LookUpEdit_DueSalerysAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup13.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_DoPeriodicBackup.Name" xml:space="preserve">
+    <value>layoutControl_CheckEdit_DoPeriodicBackup</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement7.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_FpDependOnInOut.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_RecieveNotesUnderCollectAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_RecieveNotesUnderCollectAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CustomersAccount.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="textEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 175</value>
+  </data>
+  <data name="LookUpEdit_DebitNoteAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 600</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_MerchandisingAccount.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PriceIncludePurchaseTax.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_PrInvoiceWorkflow.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEdit_DefaultPrinter.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesAddTaxAccount.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="LookUpEdit_InventoryAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_MerchandisingAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_EmployeesDueAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_EmployeesDueAccount</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_WagesAccount.Text" xml:space="preserve">
+    <value>WagesAccount</value>
+  </data>
+  <data name="&gt;&gt;Button_OpenReportDesinger.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesReturnAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_CheckEdit_ReleaseProductWithoutQMSAprove.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ToggleSwitch_PrintPayBillOnSave.Properties.OnText" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="ToggleSwitch_PrintItemWithdrawBillOnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit_CashPrinterPrinter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_CloseInventoryAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_PurchaseDiscountAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_PurchaseDiscountAccount</value>
+  </data>
+  <data name="&gt;&gt;Button_OpenReportDesinger.Name" xml:space="preserve">
+    <value>Button_OpenReportDesinger</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup14.Name" xml:space="preserve">
+    <value>layoutControlGroup14</value>
+  </data>
+  <data name="LookUpEdit_SalesAddTaxAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_NotesPayableAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_NotesPayableAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup8.Name" xml:space="preserve">
+    <value>layoutControlGroup8</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem59.Name" xml:space="preserve">
+    <value>layoutControlItem59</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_BanksAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RadioGroup_PrInvoiceWorkflow.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_InventoryAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_InventoryAccount</value>
+  </data>
+  <data name="CheckEdit_InvoicesCodeRedundancy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="LookUpEdit_DepreciationAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadioGroup_PrInvoiceWorkflow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 13</value>
+  </data>
+  <data name="accordionControl1.Appearance.Item.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEdit1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_CapitalAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_CapitalAccount</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frm_SystemSettings</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_BanksAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_CalcPurchaseTaxPerItem.Properties.DisplayValueUnchecked" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;emptySpaceItem8.Name" xml:space="preserve">
+    <value>emptySpaceItem8</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchaseDeductTaxAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_PurchaseDeductTaxAccount</value>
+  </data>
+  <data name="RadioGroup_StockIsPeriodic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 45</value>
+  </data>
+  <data name="LookUpEdit_CostOfSoldGoodsAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 20</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_MerchandisingAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_MerchandisingAccount</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDiscountAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LookUpEdit_BanksAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LookUpEdit_VendorsAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LookUpEdit_FixedAssetsAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;TextEdit_TempletPath.Name" xml:space="preserve">
+    <value>TextEdit_TempletPath</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_CloseInventoryAccount.Text" xml:space="preserve">
+    <value>CloseInventoryAccount</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>843, 18</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_ApproveQMFormWithoutVal.Name" xml:space="preserve">
+    <value>CheckEdit_ApproveQMFormWithoutVal</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_ManufacturingExpAccount.Text" xml:space="preserve">
+    <value>ManufacturingExpAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_NotesReceivableAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_NotesReceivableAccount</value>
+  </data>
+  <data name="accordionControl1.Appearance.Item.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt, style=Bold</value>
+  </data>
+  <data name="LookUpEdit_RecieveNotesUnderCollectAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 507</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_SalesOrderReserveGood.Properties.DisplayValueGrayed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RadioGroup_PrInvoiceWorkflow.Name" xml:space="preserve">
+    <value>RadioGroup_PrInvoiceWorkflow</value>
+  </data>
+  <data name="LookUpEdit_ManufacturingExpAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;accordionControlElement4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_FpDependOnInOut.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="LookUpEdit_SalesAddTaxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 78</value>
+  </data>
+  <data name="CheckEdit_BuyAssembly.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Button_OpenReportDesinger.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CheckEdit_FpDependOnInOut.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement9.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement5.Name" xml:space="preserve">
+    <value>accordionControlElement5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup25.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_PrimaryReportingFolderName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_RadioGroup_PrInvoiceWorkflow.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_InventoryAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_RadioGroup_StockIsPeriodic.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_TextEdit_BackupPath.Name" xml:space="preserve">
+    <value>layoutControl_TextEdit_BackupPath</value>
+  </data>
+  <data name="toggleSwitch1.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_CloseInventoryAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_CloseInventoryAccount</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_TaxAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_CustomersAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_CustomersAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_SalesAccount.Name" xml:space="preserve">
+    <value>layoutControl_LookUpEdit_SalesAccount</value>
+  </data>
+  <data name="CheckEdit_InvoicesCodeRedundancy.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="RadioGroup_InvoiceWorkflow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 394</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesAccount.Name" xml:space="preserve">
+    <value>LookUpEdit_SalesAccount</value>
+  </data>
+  <data name="&gt;&gt;TextEdit_TempletPath.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LookUpEdit_SalesAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="ToggleSwitch_PrintPayBillOnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DrawerAccount.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="SpinEdit_BarcodeItemCodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 20</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PurchaseAutoSerialBatch.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="comboBoxEdit_CashPrinterPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 223</value>
+  </data>
+  <data name="LookUpEdit_CustomersAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="LookUpEdit_RecieveNotesUnderCollectAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Tab_SystemWorkFlow.Name" xml:space="preserve">
+    <value>Tab_SystemWorkFlow</value>
+  </data>
+  <data name="ComboBoxEdit_CasherPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 201</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_BuyAssembly.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_PurchasesReturnAccount.Text" xml:space="preserve">
+    <value>PurchasesReturnAccount</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PrintBarcodePerInventory.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_ManufacturingExpAccount.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_CreditNoteAccount.Text" xml:space="preserve">
+    <value>CreditNoteAccount</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_RevenueAccount.Text" xml:space="preserve">
+    <value>RevenueAccount</value>
+  </data>
+  <data name="LookUpEdit_CloseInventoryAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 150</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup10.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDiscountAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 126</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_PurchasesAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DueSalerysAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleLabelItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="accordionControlElement7.Text" xml:space="preserve">
+    <value>Human resources</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_AutoSerialForAssembly.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ComboBoxEdit_DefaultPrinter.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_DebitNoteAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_CostOfSoldGoodsAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckEdit_ApproveQMFormWithoutVal.Properties.Caption" xml:space="preserve">
+    <value>CheckEdit</value>
+  </data>
+  <data name="Button_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 717</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_BuyAssembly.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ComboBoxEdit_CasherPrinter.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_NotesPayableAccount.Text" xml:space="preserve">
+    <value>NotesPayableAccount</value>
+  </data>
+  <data name="&gt;&gt;tabbedControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.TabbedControlGroup, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_PrintBarcodePerInventory.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;CheckEdit_BuyAssembly.Name" xml:space="preserve">
+    <value>CheckEdit_BuyAssembly</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesDiscountAccount.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="Button_OpenReportDesinger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 271</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_DebitNoteAccount.Text" xml:space="preserve">
+    <value>DebitNoteAccount</value>
+  </data>
+  <data name="&gt;&gt;layoutControl_LookUpEdit_FixedAssetsAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LookUpEdit_SalesAddTaxAccount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LookUpEdit_SalesDeductTaxAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToggleSwitch_PrintItemWithdrawBillOnSave.Properties.GlyphVerticalAlignment" type="DevExpress.Utils.VertAlignment, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="LookUpEdit_PurchasesReturnAccount.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <metadata name="formAssistant1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar</value>
+  </metadata>
+</root>

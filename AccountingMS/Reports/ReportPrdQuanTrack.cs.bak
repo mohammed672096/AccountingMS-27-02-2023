@@ -1,0 +1,339 @@
+﻿using DevExpress.Utils.Extensions;
+using DevExpress.XtraReports.Parameters;
+using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace AccountingMS
+{
+    public partial class ReportPrdQuanTrack : XtraReport
+    {
+        ClsTblProduct clsTbProduct;
+        ClsTblProductQunatity clsTbPrdQuantity;
+        ClsTblPrdPriceMeasurment clsTbPrdMsur;
+        ClsTblProductQtyOpn clsTbPrdQuanOpn;
+        ClsTblPrdExpirateQuan clsTbPrdExp;
+        ClsTblInvStoreSub clsTbInvStoreSub;
+        IList<tblPrdTracking> tbPrdTrackingList;
+
+        private DateTime dtStart, dtEnd;
+        private int prdId;
+        private double totalQuanIn1, totalQuanIn2, totalQuanIn3;
+        private double totalQuanOut1, totalQuanOut2, totalQuanOut3;
+
+        public static async Task<ReportPrdQuanTrack> CreateAsync()
+        {
+            var rprt = new ReportPrdQuanTrack();
+
+            await rprt.InitObjectsAsync();
+            rprt.InitBindingSourceData();
+
+            return rprt;
+        }
+
+        public ReportPrdQuanTrack()
+        {
+            InitializeComponent();
+            InitDefaultData();
+            InitEvents();
+
+            new ClsReportHeaderData(this);
+        }
+
+        private void InitEvents()
+        {
+            this.ParametersRequestSubmit += ReportPrdQuanTrack_ParametersRequestSubmit;
+            xrtcTrcStatus.BeforePrint += XrtcTrcStatus_BeforePrint;
+            xrtcTrcPrdMsurId.BeforePrint += XrtcTrcPrdMsurId_BeforePrint;
+        }
+
+        private async Task InitObjectsAsync()
+        {
+            IList<Task> taskList = new List<Task>() {
+                Task.Run(() => this.clsTbProduct = new ClsTblProduct()),
+                Task.Run(() => this.clsTbPrdMsur = new ClsTblPrdPriceMeasurment()),
+                Task.Run(() => this.clsTbPrdQuantity = new ClsTblProductQunatity()),
+                Task.Run(() => this.clsTbPrdQuanOpn = new ClsTblProductQtyOpn()),
+                Task.Run(() => this.clsTbPrdExp = new ClsTblPrdExpirateQuan()),
+                Task.Run(() => this.clsTbInvStoreSub = new ClsTblInvStoreSub()),
+            };
+
+            await Task.WhenAll(taskList);
+        }
+
+        private void InitBindingSourceData()
+        {
+            tblProductBindingSource.DataSource = this.clsTbProduct.GetProductList;
+        }
+
+        private void InitDefaultData()
+        {
+            parameterDateStart.Value = DateTime.Now.Date;
+            parameterDateEnd.Value = Session.CurrentYear.fyDateEnd;
+            xrTableCellDate.Text = (!MySetting.GetPrivateSetting.LangEng) ? string.Format($"التاريخ: {DateTime.Now:yyyy-MM-dd}") : string.Format($"Date: {DateTime.Now:dd-MM-yyyy}");
+        }
+
+        private void ReportPrdQuanTrack_ParametersRequestSubmit(object sender, ParametersRequestEventArgs e)
+        {
+            InitParmData();
+            InitData();
+        }
+
+        private void InitParmData()
+        {
+            this.dtStart = Convert.ToDateTime(parameterDateStart.Value).Date;
+            this.dtEnd = ClsDateConverter.ConvertTime(parameterDateEnd.Value);
+            this.prdId = Convert.ToInt32(parameterProduct.Value);
+        }
+
+        private void InitData()
+        {
+            InitPrdData();
+            InitPrdTrackData();
+            InitHeaderQuan();
+            SetTrackBandVisibility();
+        }
+
+        private void InitHeaderQuan()
+        {
+            InitQuan();
+            InitQuanOpn();
+            InitQuanInOut();
+            InitQuanExp();
+            InitQuanInv();
+        }
+
+        private void InitPrdData()
+        {
+            tblProductObjBindingSource.DataSource = this.clsTbProduct.GetPrdObjByPrdId(this.prdId);
+        }
+
+        private void InitQuan()
+        {
+            var tbPrdQuanList = this.clsTbPrdQuantity.GetPrdQuantityListByPrdId(this.prdId);
+            var tbPrdQuan = tbPrdQuanList.GroupBy(x => x.prdId).Select(x => new tblProductQunatity()
+            {
+                prdQuantity = x.Sum(y => y.prdQuantity),
+                prdSubQuantity = x.Sum(y => y.prdSubQuantity),
+                prdSubQuantity3 = x.Sum(y => y.prdSubQuantity3),
+            }).FirstOrDefault();
+
+            xrtcQuan.Text = GetQuanText(Convert.ToDouble(tbPrdQuan.prdQuantity), Convert.ToDouble(tbPrdQuan.prdSubQuantity), Convert.ToDouble(tbPrdQuan.prdSubQuantity3));
+        }
+
+        private void InitQuanOpn()
+        {
+            var tbPrdQuanOpnList = this.clsTbPrdQuanOpn.GetPrdQuantityOpnListByPrdId(this.prdId).GroupBy(x => x.qtyPrdMsurId)
+                .Select(x => new tblProductQtyOpn()
+                {
+                    qtyPrdMsurId = x.Key,
+                    qtyQuantity = x.Sum(y => y.qtyQuantity)
+                }).ToList();
+
+            if (tbPrdQuanOpnList.Count == 0) return;
+
+            string quan = null;
+
+            tbPrdQuanOpnList.ForEach(x => quan += $"{x.qtyQuantity} {this.clsTbPrdMsur.GetPrdPriceMsurNameById(x.qtyPrdMsurId)}\n");
+
+            xrtcQuanOpn.Text = quan;
+        }
+
+        private void InitQuanExp()
+        {
+            var tbPrdQuanExpList = this.clsTbPrdExp.GetPrdExpirateQuanListByPrdId(this.prdId);
+
+            string quan = null;
+
+            tbPrdQuanExpList.ForEach(x => quan += $"{x.expQuan} {this.clsTbPrdMsur.GetPrdPriceMsurNameById(x.expPrdMsurId)}\n");
+
+            xrtcQuanExp.Text = quan;
+        }
+
+        private void InitQuanInv()
+        {
+            var tbInvStoreSubList = this.clsTbInvStoreSub.GetInvStoreListByPrdId(this.prdId);
+
+            string quan = null;
+
+            tbInvStoreSubList.ForEach(x => quan += $"{x.invQuanAvl} {this.clsTbPrdMsur.GetPrdPriceMsurNameById(x.invPrdMsurId)}\n");
+
+            xrtcQuanInv.Text = quan;
+        }
+
+        private void InitQuanInOut()
+        {
+            InitQuanIn();
+            InitQuanOut();
+        }
+
+        private void InitQuanIn()
+        {
+            InitQuanInOut((byte)PrdTracking.Purchase, (byte)PrdTracking.PurchaseRtrn, out this.totalQuanIn1, out this.totalQuanIn2, out this.totalQuanIn3);
+
+            xrtcQuanIn.Text = GetQuanText(this.totalQuanIn1, this.totalQuanIn2, this.totalQuanIn3);
+        }
+
+        private void InitQuanOut()
+        {
+            InitQuanInOut((byte)PrdTracking.Sale, (byte)PrdTracking.SaleRtrn, out this.totalQuanOut1, out this.totalQuanOut2, out this.totalQuanOut3);
+
+            xrtcQuanOut.Text = GetQuanText(this.totalQuanOut1, this.totalQuanOut2, this.totalQuanOut3);
+        }
+
+        private void InitQuanInOut(byte statusInc, byte statusDec, out double totalQuan1, out double totalQuan2, out double totalQuan3)
+        {
+            totalQuan1 = 0; totalQuan2 = 0; totalQuan3 = 0;
+
+            var tbPrdTrackGroupList = this.tbPrdTrackingList.Where(x => x.trcStatus == statusInc || x.trcStatus == statusDec)
+               .GroupBy(x => x.trcPrdMsurId).ToList();
+
+            byte status = 0;
+            foreach (var tbPrdTrackGroup in tbPrdTrackGroupList)
+            {
+                status = this.clsTbPrdMsur.GetPrdPriceMsurStatus(Convert.ToInt32(tbPrdTrackGroup.Key));
+
+                foreach (var x in tbPrdTrackGroup)
+                    if (status == 1) totalQuan1 += Convert.ToDouble(x.trcStatus == statusInc ? x.trcQuan : -x.trcQuan);
+                    else if (status == 2) totalQuan2 += Convert.ToDouble(x.trcStatus == statusInc ? x.trcQuan : -x.trcQuan);
+                    else if (status == 3) totalQuan3 += Convert.ToDouble(x.trcStatus == statusInc ? x.trcQuan : -x.trcQuan);
+            }
+        }
+
+        private string GetQuanText(double quan1, double quan2, double quan3)
+        {
+            string quanStr = $"{quan1} {this.clsTbPrdMsur.GetPrdPriceMsurNameByPrdIdNdStatus(this.prdId, 1)}";
+            if (quan2 != 0) quanStr += $"\n{quan2} {this.clsTbPrdMsur.GetPrdPriceMsurNameByPrdIdNdStatus(this.prdId, 2)}";
+            if (quan3 != 0) quanStr += $"\n{quan3} {this.clsTbPrdMsur.GetPrdPriceMsurNameByPrdIdNdStatus(this.prdId, 3)}";
+
+            return quanStr;
+        }
+
+        private void SetTrackBandVisibility()
+        {
+            TrackBand.Visible = this.tbPrdTrackingList.Count > 0;
+        }
+
+        private void XrtcTrcStatus_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = ClsPrdTrackingStatus.GetString(Convert.ToByte(cell.Value));
+        }
+
+        private void XrtcTrcPrdMsurId_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = this.clsTbPrdMsur.GetPrdPriceMsurNameById(Convert.ToInt32(cell.Value));
+        }
+
+        private void InitPrdTrackData()
+        {
+            using var db = new accountingEntities();
+
+            this.tbPrdTrackingList = (db.tblSupplyMains
+                .Where(x => x.supBrnId == Session.CurBranch.brnId && x.supStatus <= 12 && x.supDate >= this.dtStart && x.supDate <= this.dtEnd)
+                .Join(db.tblSupplySubs.Where(x => x.supPrdId == this.prdId),
+                    supMain => supMain.id,
+                    supSub => supSub.supNo,
+                    (x, y) => new tblPrdTracking()
+                    {
+                        id = y.id,
+                        trcPrdId = y.supPrdId,
+                        trcPrdMsurId = y.supMsur,
+                        trcQuan = y.supQuanMain,
+                        trcPrice = y.supPrice,
+                        trcSalePrice = y.supSalePrice,
+                        trcDate = x.supDate,
+                        trcBarcode = y.supPrdBarcode,
+                        trcDesc = x.supDesc + " " + y.supDesc,
+                        trcStatus = y.supStatus == 3 || y.supStatus == 7 ? (byte)1 : y.supStatus == 9 || y.supStatus == 10 ? (byte)2 :
+                            y.supStatus == 4 || y.supStatus == 8 ? (byte)3 : y.supStatus == 11 || y.supStatus == 12 ? (byte)4 : (byte)0
+                    })
+                .Concat(db.tblProductQtyOpns.Where(x => x.qtyBranchId == Session.CurBranch.brnId && x.qtyPrdId == this.prdId && x.qtyDate >= this.dtStart && x.qtyDate <= this.dtEnd)
+                    .Select(x => new tblPrdTracking()
+                    {
+                        id = x.qtyId,
+                        trcPrdId = x.qtyPrdId,
+                        trcPrdMsurId = x.qtyPrdMsurId,
+                        trcQuan = x.qtyQuantity,
+                        trcPrice = x.qtyPrice,
+                        trcSalePrice = null,
+                        trcDate = x.qtyDate,
+                        trcBarcode = "101",
+                        trcDesc = "رصيد إفتتاحي",
+                        trcStatus = (byte)PrdTracking.Opn,
+                    }))
+                .Concat(db.tblPrdExpirateQuans.Where(x => x.expBrnId == Session.CurBranch.brnId && x.expPrdId == this.prdId && x.expDate >= this.dtStart && x.expDate <= this.dtEnd)
+                    .Select(x => new tblPrdTracking()
+                    {
+                        id = x.expId,
+                        trcPrdId = x.expPrdId,
+                        trcPrdMsurId = x.expPrdMsurId,
+                        trcQuan = x.expQuan,
+                        trcPrice = x.expPrdPrice,
+                        trcSalePrice = null,
+                        trcDate = x.expDate,
+                        trcBarcode = "101",
+                        trcDesc = "إتلاف",
+                        trcStatus = (byte)PrdTracking.Exp,
+                    }))
+                .Concat(db.tblStockTransMains.Where(x => x.stcBrnId == Session.CurBranch.brnId && x.stcDate >= this.dtStart && x.stcDate <= this.dtEnd)
+                    .Join(db.tblStockTransSubs.Where(x => x.stcPrdId == this.prdId),
+                        stcMain => stcMain.stcId,
+                        stcSub => stcSub.stcMainId,
+                        (x, y) => new tblPrdTracking()
+                        {
+                            id = y.stcId,
+                            trcPrdId = y.stcPrdId,
+                            trcPrdMsurId = y.stcMsurId,
+                            trcQuan = y.stcQuantity,
+                            trcPrice = null,
+                            trcSalePrice = null,
+                            trcDate = x.stcDate,
+                            trcBarcode = "101",
+                            trcDesc = "تحويل مخزني إخراج",
+                            trcStatus = (byte)PrdTracking.TransOut,
+                        }))
+                .Concat(db.tblStockTransMains.Where(x => x.stcBrnId == Session.CurBranch.brnId && x.stcDate >= this.dtStart && x.stcDate <= this.dtEnd)
+                    .Join(db.tblStockTransSubs.Where(x => x.stcPrdId == this.prdId),
+                        stcMain => stcMain.stcId,
+                        stcSub => stcSub.stcMainId,
+                        (x, y) => new tblPrdTracking()
+                        {
+                            id = y.stcId,
+                            trcPrdId = y.stcPrdId,
+                            trcPrdMsurId = y.stcMsurId,
+                            trcQuan = y.stcQuantity,
+                            trcPrice = null,
+                            trcSalePrice = null,
+                            trcDate = x.stcDate,
+                            trcBarcode = "101",
+                            trcDesc = "تحويل مخزني إستلام",
+                            trcStatus = (byte)PrdTracking.TransIn,
+                        }))
+                .Concat(db.tblInvStoreMains.Where(x => x.invBrnId == Session.CurBranch.brnId && x.invDate >= this.dtStart && x.invDate <= this.dtEnd)
+                    .Join(db.tblInvStoreSubs.Where(x => x.invPrdId == this.prdId),
+                        invMain => invMain.id,
+                        invSub => invSub.invMainId,
+                        (x, y) => new tblPrdTracking()
+                        {
+                            id = y.id,
+                            trcPrdId = y.invPrdId,
+                            trcPrdMsurId = y.invPrdMsurId,
+                            trcQuan = y.invQuanAvl,
+                            trcPrice = y.invPriceAvrg,
+                            trcSalePrice = null,
+                            trcDate = x.invDate,
+                            trcBarcode = "101",
+                            trcDesc = "جرد مخزني",
+                            trcStatus = (byte)PrdTracking.Inv,
+                        }))
+                ).OrderBy(x => x.trcDate).AsNoTracking().ToList();
+
+            tblPrdTrackingObjectDataSource.DataSource = this.tbPrdTrackingList;
+        }
+    }
+}

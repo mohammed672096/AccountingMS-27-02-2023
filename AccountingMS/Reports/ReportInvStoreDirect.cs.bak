@@ -1,0 +1,92 @@
+﻿using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace AccountingMS
+{
+    public partial class ReportInvStoreDirect : XtraReport
+    {
+        ClsTblStore clsTbStore;
+        ClsTblProduct clsTbProduct;
+        ClsTblPrdPriceMeasurment clsTbPrdMsur;
+        ClsTblInvStoreSub clsTbInvSub;
+        IList<tblInvStoreSub> tbInvSubList;
+
+        public ReportInvStoreDirect()
+        {
+            InitializeComponent();
+            InitDefaultData();
+            this.ApplyLocalization(System.Threading.Thread.CurrentThread.CurrentCulture);
+            if (MySetting.GetPrivateSetting.LangEng)
+            {
+                this.RightToLeft = RightToLeft.No;
+                this.RightToLeftLayout = RightToLeftLayout.No;
+            }
+        }
+
+        public static async Task<ReportInvStoreDirect> CreateAsync(tblInvStoreMain tbInvMain)
+        {
+            var rprt = new ReportInvStoreDirect();
+
+            await rprt.InitObjectsAsync();
+            rprt.IniitDataObjects(tbInvMain);
+            rprt.CalculateTotal();
+
+            return rprt;
+        }
+
+        private async Task InitObjectsAsync()
+        {
+            IList<Task> taskList = new List<Task>();
+
+            taskList.Add(Task.Run(() => this.clsTbStore = new ClsTblStore()));
+            taskList.Add(Task.Run(() => this.clsTbProduct = new ClsTblProduct()));
+            taskList.Add(Task.Run(() => this.clsTbPrdMsur = new ClsTblPrdPriceMeasurment()));
+            taskList.Add(Task.Run(() => this.clsTbInvSub = new ClsTblInvStoreSub()));
+
+            await Task.WhenAll(taskList);
+        }
+
+        private void InitDefaultData()
+        {
+            new ClsReportHeaderData(this);
+            xrlDate.Text += (!MySetting.GetPrivateSetting.LangEng) ? $"{DateTime.Now:f}" : $"{DateTime.Now:f}";
+        }
+
+        private void IniitDataObjects(tblInvStoreMain tbInvMain)
+        {
+            tblInvStoreMainBindingSource.DataSource = tbInvMain;
+
+            this.tbInvSubList = this.clsTbInvSub.GetInvStoreListByInvMainId(tbInvMain.id);
+            tblInvStoreSubBindingSource.DataSource = tbInvSubList;
+
+            xrlStore.Text += this.clsTbStore.GetStoreNameById(tbInvMain.invStrId);
+        }
+
+        private void CalculateTotal()
+        {
+            double totalInc = 0, totalDec = 0;
+
+            foreach (var tbInvSub in this.tbInvSubList)
+                if (tbInvSub.invPriceDefr > 0) totalInc += tbInvSub.invPriceDefr;
+                else totalDec += tbInvSub.invPriceDefr;
+
+            xrtcTotalIncrease.Text = $"{totalInc:n3}";
+            xrtcTotalDecrease.Text = $"{totalDec:n3}";
+            xrtcTotalFianl.Text = $"{totalDec + totalInc:n3}";
+        }
+
+        private void xrtcPrdId_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = this.clsTbProduct.GetPrdNameById(Convert.ToInt32(cell.Value));
+        }
+
+        private void xrtcPrdMsurId_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = this.clsTbPrdMsur.GetPrdPriceMsurNameById(Convert.ToInt32(cell.Value));
+        }
+    }
+}

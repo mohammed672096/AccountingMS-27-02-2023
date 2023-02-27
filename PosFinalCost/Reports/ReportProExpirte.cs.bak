@@ -1,0 +1,46 @@
+﻿using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+namespace PosFinalCost
+{
+    public partial class ReportProExpirte : XtraReport
+    {
+        public ReportProExpirte(PrdExpirateMain prdExpirateMain, IEnumerable<PrdExpirateDetail> prdExpirateDetails)
+        {
+            InitializeComponent();
+            this.xrSubreport1.ReportSource = new ReportHeader("قائمة الاصناف التالفة");
+            InitData(prdExpirateMain, prdExpirateDetails);
+        }
+
+        private void InitData(PrdExpirateMain prdExpirateMain, IEnumerable<PrdExpirateDetail> prdExpirateDetails)
+        {
+            PrdExpirateMainMainBindingSource.DataSource = prdExpirateMain;
+            PrdExpirateDetailBindingSource.DataSource = prdExpirateDetails;
+        }
+
+        private void StoreName_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = Session.Stores.FirstOrDefault(x => x.ID == Convert.ToInt16(cell.Value))?.Name;
+        }
+
+        private void xrtcPrdNo_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = Session.Products.FirstOrDefault(x => x.ID == Convert.ToInt32(cell.Value))?.No;
+        }
+
+        private void xrtcPrdName_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = Session.Products.FirstOrDefault(x => x.ID == Convert.ToInt32(cell.Value))?.Name;
+        }
+
+        private void xrtcMsurName_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            XRTableCell cell = sender as XRTableCell;
+            cell.Text = Session.PrdMeasurments.FirstOrDefault(x => x.ID == Convert.ToInt16(cell.Value))?.Name;
+        }
+    }
+}

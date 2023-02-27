@@ -1,0 +1,17 @@
+﻿<XtraSerializer version="1.0" application="Appearances">
+  <property name="HeaderPanel" iskey="true" value="HeaderPanel">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseForeColor">true</property>
+      <property name="UseFont">true</property>
+    </property>
+    <property name="ForeColor">Navy</property>
+    <property name="Font">Segoe UI Semibold, 9pt, style=Bold</property>
+  </property>
+  <property name="Row" iskey="true" value="Row">
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseBackColor">true</property>
+    </property>
+    <property name="BackColor">NavajoWhite</property>
+    <property name="BackColor2">207, 225, 239</property>
+  </property>
+</XtraSerializer>

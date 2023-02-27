@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ToggleSwitch_PrintItemWithdrawBillOnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 296</value>
+  </data>
+  <data name="ToggleSwitch_PrintItemWithdrawBillOnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 19</value>
+  </data>
+  <data name="ToggleSwitch_PrintPayBillOnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 273</value>
+  </data>
+  <data name="ToggleSwitch_PrintPayBillOnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 19</value>
+  </data>
+  <data name="ComboBoxEdit_CasherPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 223</value>
+  </data>
+  <data name="ComboBoxEdit_CasherPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 20</value>
+  </data>
+  <data name="CheckEdit_ApproveQMFormWithoutVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 88</value>
+  </data>
+  <data name="CheckEdit_ApproveQMFormWithoutVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="ComboBoxEdit_DefaultPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 199</value>
+  </data>
+  <data name="ComboBoxEdit_DefaultPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 20</value>
+  </data>
+  <data name="CheckEdit_ReleaseProductWithoutQMSAprove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 112</value>
+  </data>
+  <data name="CheckEdit_ReleaseProductWithoutQMSAprove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="CheckEdit_SellRawMaterial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 112</value>
+  </data>
+  <data name="CheckEdit_SellRawMaterial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="TextEdit_TempletPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 173</value>
+  </data>
+  <data name="TextEdit_TempletPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 20</value>
+  </data>
+  <data name="simpleButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 173</value>
+  </data>
+  <data name="simpleButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="simpleButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="simpleButton2.Text" xml:space="preserve">
+    <value>اختيار</value>
+  </data>
+  <data name="CheckEdit_BuyAssembly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 136</value>
+  </data>
+  <data name="CheckEdit_BuyAssembly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="CheckEdit_AutoSerialForAssembly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 88</value>
+  </data>
+  <data name="CheckEdit_AutoSerialForAssembly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="TextEdit_PrimaryReportingFolderName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 88</value>
+  </data>
+  <data name="TextEdit_PrimaryReportingFolderName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="TextEdit_SecondaryReportingPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 112</value>
+  </data>
+  <data name="TextEdit_SecondaryReportingPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="LookUpEdit_EmployeesDueAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 551</value>
+  </data>
+  <data name="LookUpEdit_EmployeesDueAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="LookUpEdit_WagesAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 527</value>
+  </data>
+  <data name="LookUpEdit_WagesAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="Button_OpenReportDesinger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 247</value>
+  </data>
+  <data name="Button_OpenReportDesinger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 22</value>
+  </data>
+  <data name="Button_OpenReportDesinger.Text" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="LookUpEdit_DueSalerysAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 503</value>
+  </data>
+  <data name="LookUpEdit_DueSalerysAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="LookUpEdit_DrawerAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 507</value>
+  </data>
+  <data name="LookUpEdit_DrawerAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_Reports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 247</value>
+  </data>
+  <data name="LookUpEdit_Reports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 20</value>
+  </data>
+  <data name="LookUpEdit_BanksAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 483</value>
+  </data>
+  <data name="LookUpEdit_BanksAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_CustomersAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 459</value>
+  </data>
+  <data name="LookUpEdit_CustomersAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_NotesReceivableAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 531</value>
+  </data>
+  <data name="LookUpEdit_NotesReceivableAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_InventoryAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 149</value>
+  </data>
+  <data name="LookUpEdit_InventoryAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_VendorsAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 541</value>
+  </data>
+  <data name="LookUpEdit_VendorsAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="LookUpEdit_CapitalAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 469</value>
+  </data>
+  <data name="LookUpEdit_CapitalAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="LookUpEdit_NotesPayableAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 517</value>
+  </data>
+  <data name="LookUpEdit_NotesPayableAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="LookUpEdit_TaxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 497</value>
+  </data>
+  <data name="LookUpEdit_TaxAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_ManufacturingExpAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 571</value>
+  </data>
+  <data name="LookUpEdit_ManufacturingExpAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="LookUpEdit_MerchandisingAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 125</value>
+  </data>
+  <data name="LookUpEdit_MerchandisingAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_PurchasesAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 221</value>
+  </data>
+  <data name="LookUpEdit_PurchasesAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_PurchasesReturnAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 245</value>
+  </data>
+  <data name="LookUpEdit_PurchasesReturnAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_SalesAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 269</value>
+  </data>
+  <data name="LookUpEdit_SalesAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_SalesReturnAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 293</value>
+  </data>
+  <data name="LookUpEdit_SalesReturnAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_OpenInventoryAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 197</value>
+  </data>
+  <data name="LookUpEdit_OpenInventoryAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_CloseInventoryAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 173</value>
+  </data>
+  <data name="LookUpEdit_CloseInventoryAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDiscountAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 365</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDiscountAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_SalesDiscountAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 341</value>
+  </data>
+  <data name="LookUpEdit_SalesDiscountAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_FixedAssetsAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 435</value>
+  </data>
+  <data name="LookUpEdit_FixedAssetsAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_SalesDeductTaxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 449</value>
+  </data>
+  <data name="LookUpEdit_SalesDeductTaxAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDeductTaxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 473</value>
+  </data>
+  <data name="LookUpEdit_PurchaseDeductTaxAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_DebitNoteAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 629</value>
+  </data>
+  <data name="LookUpEdit_DebitNoteAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="LookUpEdit_CostOfSoldGoodsAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 317</value>
+  </data>
+  <data name="LookUpEdit_CostOfSoldGoodsAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_DepreciationAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 493</value>
+  </data>
+  <data name="LookUpEdit_DepreciationAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="LookUpEdit_ExpensesAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 561</value>
+  </data>
+  <data name="LookUpEdit_ExpensesAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="LookUpEdit_RevenueAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 537</value>
+  </data>
+  <data name="LookUpEdit_RevenueAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="LookUpEdit_PurchaseAddTaxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 425</value>
+  </data>
+  <data name="LookUpEdit_PurchaseAddTaxAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_SalesAddTaxAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 401</value>
+  </data>
+  <data name="LookUpEdit_SalesAddTaxAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_RecieveNotesUnderCollectAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 555</value>
+  </data>
+  <data name="LookUpEdit_RecieveNotesUnderCollectAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="LookUpEdit_CreditNoteAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 605</value>
+  </data>
+  <data name="LookUpEdit_CreditNoteAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="CheckEdit_PurchaseAutoSerialBatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 256</value>
+  </data>
+  <data name="CheckEdit_PurchaseAutoSerialBatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="CheckEdit_PriceIncludeSalesTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 232</value>
+  </data>
+  <data name="CheckEdit_PriceIncludeSalesTax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="CheckEdit_PriceIncludePurchaseTax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 208</value>
+  </data>
+  <data name="CheckEdit_PriceIncludePurchaseTax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="CheckEdit_CalcPurchaseTaxPerItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 184</value>
+  </data>
+  <data name="CheckEdit_CalcPurchaseTaxPerItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="CheckEdit_InvoicesCodeRedundancy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 160</value>
+  </data>
+  <data name="CheckEdit_InvoicesCodeRedundancy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="CheckEdit_SalesOrderReserveGood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 136</value>
+  </data>
+  <data name="CheckEdit_SalesOrderReserveGood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 173</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.Properties.Caption" xml:space="preserve">
+    <value>ربط باركود الاصناف بالمصدر</value>
+  </data>
+  <data name="CheckEdit_PrintBarcodePerInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>708, 20</value>
+  </data>
+  <data name="SpinEdit_BarcodeItemCodeLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 125</value>
+  </data>
+  <data name="SpinEdit_BarcodeItemCodeLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>558, 20</value>
+  </data>
+  <data name="SpinEdit_BarcodeQtyLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 149</value>
+  </data>
+  <data name="SpinEdit_BarcodeQtyLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>558, 20</value>
+  </data>
+  <data name="TextEdit_BackupPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 160</value>
+  </data>
+  <data name="TextEdit_BackupPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 20</value>
+  </data>
+  <data name="CheckEdit_FpDependOnInOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 88</value>
+  </data>
+  <data name="CheckEdit_FpDependOnInOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 20</value>
+  </data>
+  <data name="RadioGroup_StockIsPeriodic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 88</value>
+  </data>
+  <data name="RadioGroup_StockIsPeriodic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 20</value>
+  </data>
+  <data name="RaidoEdit_MoneyToTextMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 112</value>
+  </data>
+  <data name="RaidoEdit_MoneyToTextMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 20</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.EditValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 136</value>
+  </data>
+  <data name="CheckEdit_DoPeriodicBackup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 20</value>
+  </data>
+  <data name="uc_SalesWorkFlow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 154</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uc_SalesWorkFlow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="uc_SalesWorkFlow.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>550, 435</value>
+  </data>
+  <data name="uc_SalesWorkFlow.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>550, 435</value>
+  </data>
+  <data name="uc_SalesWorkFlow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 435</value>
+  </data>
+  <data name="textEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 154</value>
+  </data>
+  <data name="textEdit1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textEdit1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>550, 435</value>
+  </data>
+  <data name="textEdit1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>550, 435</value>
+  </data>
+  <data name="textEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 435</value>
+  </data>
+  <data name="textEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Tab_PurchaseWorkFlow.Text" xml:space="preserve">
+    <value>PurchaseWRF</value>
+  </data>
+  <data name="layoutControl_RadioGroup_StockIsPeriodic.Text" xml:space="preserve">
+    <value>نظام الجرد</value>
+  </data>
+  <data name="layoutControl_RaidoEdit_MoneyToTextMode.Text" xml:space="preserve">
+    <value>نظام تفقيط المبلغ</value>
+  </data>
+  <data name="layoutControl_CheckEdit_DoPeriodicBackup.Text" xml:space="preserve">
+    <value>نسخ احتياطي بشكل دوري</value>
+  </data>
+  <data name="layoutControl_TextEdit_BackupPath.Text" xml:space="preserve">
+    <value>مسار النسخ الاحتياطي</value>
+  </data>
+  <data name="Tab_General.Text" xml:space="preserve">
+    <value>grn</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_CreditNoteAccount.Text" xml:space="preserve">
+    <value>اشعار دائن</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_DebitNoteAccount.Text" xml:space="preserve">
+    <value>اشعار مدين</value>
+  </data>
+  <data name="layoutControlGroup12.Text" xml:space="preserve">
+    <value>الاشعارات المدينه والدائنه</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_InventoryAccount.Text" xml:space="preserve">
+    <value>حساب المخزون</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_CloseInventoryAccount.Text" xml:space="preserve">
+    <value>بضاعه نهايه المده</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_OpenInventoryAccount.Text" xml:space="preserve">
+    <value>بضاعه اول المده</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_PurchasesAccount.Text" xml:space="preserve">
+    <value>المشتريات</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_CostOfSoldGoodsAccount.Text" xml:space="preserve">
+    <value>تكلفه البضاعه المباعه</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_MerchandisingAccount.Text" xml:space="preserve">
+    <value>المتاجره</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_PurchaseDiscountAccount.Text" xml:space="preserve">
+    <value>الخصم المكتسب</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_SalesDiscountAccount.Text" xml:space="preserve">
+    <value>الخصم المسموح به</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_SalesAccount.Text" xml:space="preserve">
+    <value>المبيعات</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_SalesReturnAccount.Text" xml:space="preserve">
+    <value>مردود المبيعات</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_PurchasesReturnAccount.Text" xml:space="preserve">
+    <value>مردود المشتريات</value>
+  </data>
+  <data name="layoutControlGroup10.Text" xml:space="preserve">
+    <value>قائمه الدخل</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_TaxAccount.Text" xml:space="preserve">
+    <value>ضريبه المبيعات</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_PurchaseDeductTaxAccount.Text" xml:space="preserve">
+    <value>ضريبه الخصم - شراء</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_PurchaseAddTaxAccount.Text" xml:space="preserve">
+    <value>ضريبه الاضافه - شراء</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_SalesAddTaxAccount.Text" xml:space="preserve">
+    <value>ضريبه الاضافه -بيع</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_SalesDeductTaxAccount.Text" xml:space="preserve">
+    <value>ضريبه الخصم بيع</value>
+  </data>
+  <data name="layoutControlGroup8.Text" xml:space="preserve">
+    <value>الضرائب</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_DrawerAccount.Text" xml:space="preserve">
+    <value>الخزنه</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_BanksAccount.Text" xml:space="preserve">
+    <value>البنوك</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_CustomersAccount.Text" xml:space="preserve">
+    <value>العملاء</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_FixedAssetsAccount.Text" xml:space="preserve">
+    <value>الاصول الثابته</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_RecieveNotesUnderCollectAccount.Text" xml:space="preserve">
+    <value>اوراق تحت التحصيل</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_NotesReceivableAccount.Text" xml:space="preserve">
+    <value>اوراق القبض</value>
+  </data>
+  <data name="layoutControlGroup9.Text" xml:space="preserve">
+    <value>الاصول</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_VendorsAccount.Text" xml:space="preserve">
+    <value>الموردون</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_NotesPayableAccount.Text" xml:space="preserve">
+    <value>اوراق الدفع</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_DepreciationAccount.Text" xml:space="preserve">
+    <value>مجمع الاهلاك</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_CapitalAccount.Text" xml:space="preserve">
+    <value>رأس المال</value>
+  </data>
+  <data name="layoutControlGroup14.Text" xml:space="preserve">
+    <value>الخصوم وحقوق الملكيه</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_EmployeesDueAccount.Text" xml:space="preserve">
+    <value>ذمم الموظفين</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_WagesAccount.Text" xml:space="preserve">
+    <value>مصروفات الرواتب</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_DueSalerysAccount.Text" xml:space="preserve">
+    <value>استحقاق الرواتب</value>
+  </data>
+  <data name="layoutControlGroup15.Text" xml:space="preserve">
+    <value>الموارد البشريه</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_ExpensesAccount.Text" xml:space="preserve">
+    <value>المصروفات</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_RevenueAccount.Text" xml:space="preserve">
+    <value>الايرادات</value>
+  </data>
+  <data name="layoutControlGroup11.Text" xml:space="preserve">
+    <value>الايرادات والمصروفات</value>
+  </data>
+  <data name="layoutControl_LookUpEdit_ManufacturingExpAccount.Text" xml:space="preserve">
+    <value>مراقبه انتاج</value>
+  </data>
+  <data name="layoutControlGroup13.Text" xml:space="preserve">
+    <value>الانتاج</value>
+  </data>
+  <data name="Tab_Accounts.Text" xml:space="preserve">
+    <value>acc</value>
+  </data>
+  <data name="layoutControl_SpinEdit_BarcodeQtyLength.Text" xml:space="preserve">
+    <value>طول كميه الصنف</value>
+  </data>
+  <data name="layoutControl_SpinEdit_BarcodeItemCodeLength.Text" xml:space="preserve">
+    <value>طول كود الصنف</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>باركود الاصناف</value>
+  </data>
+  <data name="Tab_Stock.Text" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="layoutControl_TextEdit_PrimaryReportingFolderName.Text" xml:space="preserve">
+    <value>اسم ملف المطبوعات الافتراضي</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>الطابعه الافتراضيه</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>الطابعه الافتراضيه للايصالات</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>اعاده تصميم نموذج</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>طباعه ايصال الدفع عند حفظ الفواتير </value>
+  </data>
+  <data name="layoutControlItem11.Text" xml:space="preserve">
+    <value>طباعه ايصال صرف الاصناف عند حفظ الفواتير </value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>اعدادات محليه</value>
+  </data>
+  <data name="layoutControl_TextEdit_SecondaryReportingPath.Text" xml:space="preserve">
+    <value>مسار نماذج الطباعه</value>
+  </data>
+  <data name="Tab_ReportPrint.Text" xml:space="preserve">
+    <value>rpt</value>
+  </data>
+  <data name="Tab_SalesPurchase.Text" xml:space="preserve">
+    <value>S&amp;P</value>
+  </data>
+  <data name="Tab_Manufacturing.Text" xml:space="preserve">
+    <value>MAN</value>
+  </data>
+  <data name="Tab_HumanResources.Text" xml:space="preserve">
+    <value>HR</value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Tab_SalesWorkFlow.Text" xml:space="preserve">
+    <value>SalesWRF</value>
+  </data>
+  <data name="tabbedControlGroup1.Text" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>804, 692</value>
+  </data>
+  <data name="Button_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 12</value>
+  </data>
+  <data name="Button_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 22</value>
+  </data>
+  <data name="Button_Close.Text" xml:space="preserve">
+    <value>اغلاق</value>
+  </data>
+  <data name="Button_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="Button_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="Button_Save.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="layoutControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="layoutControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 692</value>
+  </data>
+  <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>804, 46</value>
+  </data>
+  <data name="layoutControl2.Text" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="fluentDesignFormContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fluentDesignFormContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>804, 738</value>
+  </data>
+  <data name="accordionControl1.Appearance.Item.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 14.25pt</value>
+  </data>
+  <data name="accordionControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="accordionControlElement1.Text" xml:space="preserve">
+    <value>النظام</value>
+  </data>
+  <data name="accordionControlElement4.Text" xml:space="preserve">
+    <value>الحسابات</value>
+  </data>
+  <data name="accordionControlElement6.Text" xml:space="preserve">
+    <value>المخزون</value>
+  </data>
+  <data name="accordionControlElement5.Text" xml:space="preserve">
+    <value>الطباعه والتقارير</value>
+  </data>
+  <data name="accordionControlElement3.Text" xml:space="preserve">
+    <value>التصنيع ومراقبه الجوده</value>
+  </data>
+  <data name="accordionControlElement2.Text" xml:space="preserve">
+    <value>المبيعات والمشتريات</value>
+  </data>
+  <data name="accordionControlElement7.Text" xml:space="preserve">
+    <value>الموارد البشريه</value>
+  </data>
+  <data name="accordionControlElement8.Text" xml:space="preserve">
+    <value>دوره العمل بالمبيعات</value>
+  </data>
+  <data name="accordionControlElement9.Text" xml:space="preserve">
+    <value>دوره العمل بالمشتريات</value>
+  </data>
+  <data name="accordionControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>804, 0</value>
+  </data>
+  <data name="accordionControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 738</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1009, 738</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>اعدادات النظام</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="fluentDesignFormControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1009, 0</value>
+  </data>
+</root>

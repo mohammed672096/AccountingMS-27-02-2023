@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mainRibbonPage.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="checkEdit1.Text" xml:space="preserve">
+    <value>Service Product</value>
+  </data>
+  <data name="ItemForprdName.Text" xml:space="preserve">
+    <value>Arabic Name</value>
+  </data>
+  <data name="ItemForprdGrpNo.Text" xml:space="preserve">
+    <value>Group No.</value>
+  </data>
+  <data name="ItemForprdNo.Text" xml:space="preserve">
+    <value>Product No.</value>
+  </data>
+  <data name="ItemForprdDesc.Text" xml:space="preserve">
+    <value>Specifications</value>
+  </data>
+  <data name="ItemForprdNameEng.Text" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>Product Main Info</value>
+  </data>
+  <data name="layoutControlGroup5.Text" xml:space="preserve">
+    <value>Opening Quantity</value>
+  </data>
+  <data name="layoutControlGroupPPM1.CustomHeaderButtons" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ItemForppmMsurName.Text" xml:space="preserve">
+    <value>Measurment Unit</value>
+  </data>
+  <data name="ItemForppmSalePrice.Text" xml:space="preserve">
+    <value>Sale Price</value>
+  </data>
+  <data name="ItemForppmMinSalePrice.Text" xml:space="preserve">
+    <value>Min Sale Price</value>
+  </data>
+  <data name="ItemForppmRetailPrice.Text" xml:space="preserve">
+    <value>Retail Price</value>
+  </data>
+  <data name="ItemForppmBatchPrice.Text" xml:space="preserve">
+    <value>Batch Price</value>
+  </data>
+  <data name="ItemForppmBarcode.Text" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="simpleLabelItem1.Text" xml:space="preserve">
+    <value>Generate Barcode</value>
+  </data>
+  <data name="layoutControlGroupPPM1.Text" xml:space="preserve">
+    <value>Unit 1</value>
+  </data>
+  <data name="layoutControlGroupPPM2.CustomHeaderButtons" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="layoutControlGroupPPM2.CustomHeaderButtons12" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="layoutControlGroupPPM2.CustomHeaderButtons24" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ItemForppmPrice1.Text" xml:space="preserve">
+    <value>Purchase Price</value>
+  </data>
+  <data name="ItemForppmSalePrice1.Text" xml:space="preserve">
+    <value>Sale Price</value>
+  </data>
+  <data name="ItemForppmMinSalePrice1.Text" xml:space="preserve">
+    <value>Min Sale Price</value>
+  </data>
+  <data name="ItemForppmRetailPrice1.Text" xml:space="preserve">
+    <value>Retail Price</value>
+  </data>
+  <data name="ItemForppmBatchPrice1.Text" xml:space="preserve">
+    <value>Batch Price</value>
+  </data>
+  <data name="ItemForppmBarcode1.Text" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="ItemForppmConversion1.Text" xml:space="preserve">
+    <value>Conversion Rate</value>
+  </data>
+  <data name="ItemForppmMsurName1.Text" xml:space="preserve">
+    <value>Measurment Unit</value>
+  </data>
+  <data name="layoutControlGroupPPM2.Text" xml:space="preserve">
+    <value>Units 2</value>
+  </data>
+  <data name="layoutControlGroupPPM3.CustomHeaderButtons" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="layoutControlGroupPPM3.CustomHeaderButtons12" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="layoutControlGroupPPM3.CustomHeaderButtons24" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ItemForppmPrice2.Text" xml:space="preserve">
+    <value>Purchase Price</value>
+  </data>
+  <data name="ItemForppmSalePrice2.Text" xml:space="preserve">
+    <value>Sale Price</value>
+  </data>
+  <data name="ItemForppmMinSalePrice2.Text" xml:space="preserve">
+    <value>Min Sale Price</value>
+  </data>
+  <data name="ItemForppmRetailPrice2.Text" xml:space="preserve">
+    <value>Retail Price</value>
+  </data>
+  <data name="ItemForppmBatchPrice2.Text" xml:space="preserve">
+    <value>Batch Price</value>
+  </data>
+  <data name="ItemForppmBarcode2.Text" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="ItemForppmConversion2.Text" xml:space="preserve">
+    <value>Conversion Rate</value>
+  </data>
+  <data name="ItemForppmMsurName2.Text" xml:space="preserve">
+    <value>Measurment Unit</value>
+  </data>
+  <data name="layoutControlGroupPPM3.Text" xml:space="preserve">
+    <value>Unit 3</value>
+  </data>
+  <data name="layoutControlGroup9.Text" xml:space="preserve">
+    <value>Price and Measurment Info</value>
+  </data>
+  <data name="colGrpName" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="colGrpNo" xml:space="preserve">
+    <value>Group No.</value>
+  </data>
+  <data name="this.Text" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="fieldErrMssg" xml:space="preserve">
+    <value>Please enter this field!</value>
+  </data>
+  <data name="PPM2ErrMssg" xml:space="preserve">
+    <value>Please enter product measurment 2 first!</value>
+  </data>
+  <data name="prdSuccessMssg" xml:space="preserve">
+    <value>Product </value>
+  </data>
+  <data name="bsiSalTaxPriceString.Caption" xml:space="preserve">
+    <value>Sale price + tax : </value>
+  </data>
+  <data name="BarcodeNoFoundMssg" xml:space="preserve">
+    <value>Sorry, barcode no. {0} already been used!</value>
+  </data>
+  <data name="ItemForBarcode1.Text" xml:space="preserve">
+    <value>Barcode</value>
+    <comment>باركود</comment>
+  </data>
+  <data name="ItemForBarcode2.Text" xml:space="preserve">
+    <value>Barcode</value>
+    <comment>باركود</comment>
+  </data>
+  <data name="ItemForBarcode3.Text" xml:space="preserve">
+    <value>Barcode</value>
+    <comment>باركود</comment>
+  </data>
+  <data name="ItemForppmBatchPrice1" xml:space="preserve">
+    <value>Batch Price</value>
+    <comment>سعر الدفعة</comment>
+  </data>
+  <data name="ItemForppmBatchPrice2" xml:space="preserve">
+    <value>Batch Price</value>
+    <comment>سعر الدفعة</comment>
+  </data>
+  <data name="ItemForppmConversion0.Text" xml:space="preserve">
+    <value>Factor</value>
+    <comment>عامل</comment>
+  </data>
+  <data name="ItemForprdStatus" xml:space="preserve">
+    <value>Type of product</value>
+    <comment>نوع الصنف</comment>
+  </data>
+  <data name="layoutControlGroupPPM2Main" xml:space="preserve">
+    <value>Units 2</value>
+    <comment>الوحدات 2</comment>
+  </data>
+  <data name="layoutControlGroupPPM3Main" xml:space="preserve">
+    <value>Unit 3</value>
+    <comment>الوحدة 3</comment>
+  </data>
+  <data name="layoutControlItem2" xml:space="preserve">
+    <value>Demand limit</value>
+    <comment>حد الطلب</comment>
+  </data>
+  <data name="layoutControlItem3" xml:space="preserve">
+    <value>The highest rate</value>
+    <comment>الحد الاعلي</comment>
+  </data>
+  <data name="mainRibbonPageGroup" xml:space="preserve">
+    <value>Processes</value>
+    <comment>العمليات</comment>
+  </data>
+  <data name="prdPriceTaxCheckEdit" xml:space="preserve">
+    <value>The sales price includes tax</value>
+    <comment>سعر البيع شامل الضريبة</comment>
+  </data>
+  <data name="prdSaleTaxCheckEdit" xml:space="preserve">
+    <value>Sale without tax</value>
+    <comment>البيع بدون الضريبة</comment>
+  </data>
+  <data name="layoutControlGroupStore" xml:space="preserve">
+    <value>The store</value>
+    <comment>المخزن</comment>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save(F4)</value>
+  </data>
+  <data name="btnSaveAndClose.Text" xml:space="preserve">
+    <value>Save And Close</value>
+  </data>
+  <data name="btnSaveAndNew.Text" xml:space="preserve">
+    <value>Save and New(F3)</value>
+  </data>
+  <data name="btnSaveAndPrint.Text" xml:space="preserve">
+    <value>Save And Print</value>
+  </data>
+  <data name="ItemForppmPrice.Text" xml:space="preserve">
+    <value>Purchase Price</value>
+  </data>
+  <data name="ItemForprdQuantity.Text" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="ItemForprdStrId.Text" xml:space="preserve">
+    <value>To store</value>
+  </data>
+  <data name="layoutControlGroupPPM1" xml:space="preserve">
+    <value>Unit 1</value>
+  </data>
+  <data name="ppmDefaultCheckEdit" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ppmDefaultCheckEdit2" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ppmDefaultCheckEdit3" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="prdPurchaseTaxCheckEdit" xml:space="preserve">
+    <value>Purchase without tax</value>
+  </data>
+  <data name="SuspendedCheckEdit" xml:space="preserve">
+    <value>product Stoped</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Barcode No.</value>
+  </data>
+</root>

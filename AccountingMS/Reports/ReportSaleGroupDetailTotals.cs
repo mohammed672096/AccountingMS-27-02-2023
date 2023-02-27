@@ -1,0 +1,67 @@
+﻿using DevExpress.XtraReports.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace AccountingMS
+{
+    public partial class ReportSaleGroupDetailTotals : XtraReport
+    {
+        ClsTblPrdPriceMeasurment clsTbPrdMsur = new ClsTblPrdPriceMeasurment();
+        ClsTblProductQunatity clsTbPrdQuantity = new ClsTblProductQunatity();
+        ClsTblBarcode clsTbBarcode = new ClsTblBarcode();
+        IEnumerable<tblPrdSaleDetail> tbPrdSaleDetailList;
+
+        private long grpAccNo;
+
+        public ReportSaleGroupDetailTotals()
+        {
+            InitializeComponent();
+            this.ApplyLocalization(System.Threading.Thread.CurrentThread.CurrentCulture);
+            if (MySetting.GetPrivateSetting.LangEng)
+            {
+                parameterGrpAccNo.Description = "Group:";
+                this.RightToLeft = RightToLeft.No;
+                this.RightToLeftLayout = RightToLeftLayout.No;
+            }
+            this.BeforePrint += ReportSaleGroupDetail_BeforePrint;
+        }
+
+        private void ReportSaleGroupDetail_BeforePrint(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            this.grpAccNo = Convert.ToInt64(parameterGrpAccNo.Value);
+            this.tbPrdSaleDetailList = this.DataSource as IEnumerable<tblPrdSaleDetail>;
+
+            InitData();
+            SetReportVisibility();
+        }
+
+        private void InitData()
+        {
+            foreach(var item in this.tbPrdSaleDetailList.Where(x => x.grpAccNo == this.grpAccNo))
+            {
+                item.prdBarcode = this.clsTbBarcode.GetBarcodeNoByPrdMsurId(item?.prdMsur ?? 0);
+
+                var ppm = this.clsTbPrdMsur.GetPrdPriceMsurObjById(item.prdMsur);
+                item.prdQuantString = $"{item.prdQuant} {ppm?.ppmMsurName}";
+
+                var pq = this.clsTbPrdQuantity.GetTotalPrdQuantityByPrdId(item.prdId);
+                if (pq == null) continue;
+                item.prdQuanRemaining = Convert.ToString(pq.prdQuantity / (ppm?.ppmConversion ?? 1)) + $" {ppm?.ppmMsurName}";
+                //item.prdQuanRemaining = ppm?.ppmStatus switch
+                //{
+                //    2 => Convert.ToString(pq.prdSubQuantity),
+                //    3 => Convert.ToString(pq.prdSubQuantity3),
+                //    _ => Convert.ToString(pq.prdQuantity),
+                //} + $" {ppm?.ppmMsurName}";
+            };
+
+            this.DataSource = this.tbPrdSaleDetailList;
+        }
+
+        private void SetReportVisibility()
+        {
+            this.Visible = (this.tbPrdSaleDetailList.Count() >= 1) ? true : false;
+        }
+    }
+}

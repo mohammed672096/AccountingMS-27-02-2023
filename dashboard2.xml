@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Dashboard" />
+  <DataSources>
+    <SqlDataSource ComponentName="dashboardSqlDataSource1">
+      <Name>SQL Data Source 1</Name>
+      <Connection Name="localhost_accounting_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="DESKTOP-P3E0BTQ\SQLEXPRESS" />
+          <Parameter Name="database" Value="accounting" />
+          <Parameter Name="useIntegratedSecurity" Value="True" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="" />
+          <Parameter Name="password" Value="" />
+        </Parameters>
+      </Connection>
+      <Query Type="SelectQuery" Name="tblAssets">
+        <Tables>
+          <Table Name="tblAssets" />
+        </Tables>
+        <Columns>
+          <AllColumns Table="tblAssets" />
+          <Column Table="tblAssets" Name="id" />
+          <Column Table="tblAssets" Name="asAccNo" />
+          <Column Table="tblAssets" Name="asAccName" />
+          <Column Table="tblAssets" Name="asDate" />
+          <Column Table="tblAssets" Name="asDebit" />
+          <Column Table="tblAssets" Name="asCredit" />
+          <Column Table="tblAssets" Name="asTotal" />
+          <Column Table="tblAssets" Name="asEntNo" />
+          <Column Table="tblAssets" Name="asStatus" />
+          <Column Table="tblAssets" Name="empId" />
+        </Columns>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 1">
+          <View Name="tblAssets">
+            <Field Name="tblAssets_id" Type="Int32" />
+            <Field Name="tblAssets_asAccNo" Type="Int64" />
+            <Field Name="tblAssets_asAccName" Type="String" />
+            <Field Name="tblAssets_asDate" Type="DateTime" />
+            <Field Name="tblAssets_asDebit" Type="Int32" />
+            <Field Name="tblAssets_asCredit" Type="Int32" />
+            <Field Name="tblAssets_asTotal" Type="Int32" />
+            <Field Name="tblAssets_asEntNo" Type="Int32" />
+            <Field Name="tblAssets_asStatus" Type="Byte" />
+            <Field Name="tblAssets_empId" Type="Int16" />
+            <Field Name="id" Type="Int32" />
+            <Field Name="asAccNo" Type="Int64" />
+            <Field Name="asAccName" Type="String" />
+            <Field Name="asDate" Type="DateTime" />
+            <Field Name="asDebit" Type="Int32" />
+            <Field Name="asCredit" Type="Int32" />
+            <Field Name="asTotal" Type="Int32" />
+            <Field Name="asEntNo" Type="Int32" />
+            <Field Name="asStatus" Type="Byte" />
+            <Field Name="empId" Type="Int16" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" CommandTimeout="0" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Chart ComponentName="chartDashboardItem1" Name="Chart 1" DataSource="dashboardSqlDataSource1" DataMember="tblAssets">
+      <DataItems>
+        <Dimension DataMember="asAccName" ColoringMode="Hue" DefaultId="DataItem1" />
+        <Measure DataMember="asCredit" DefaultId="DataItem0">
+          <NumericFormat FormatType="Currency" Precision="0" Unit="Ones" IncludeGroupSeparator="true" CurrencyCultureName="ar-YE" />
+        </Measure>
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem0" />
+              <PointLabelOptions Visible="true" OverlappingMode="Reposition" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Pie ComponentName="pieDashboardItem1" Name="Pies 1" DataSource="dashboardSqlDataSource1" DataMember="tblAssets" ContentArrangementMode="FixedRowCount">
+      <ColoringOptions UseGlobalColors="false" />
+      <InteractivityOptions IsDrillDownEnabled="true" TargetDimensions="Series" />
+      <DataItems>
+        <Measure DataMember="asDebit" SummaryType="Count" DefaultId="DataItem0">
+          <NumericFormat FormatType="Currency" Precision="0" Unit="Ones" IncludeGroupSeparator="true" CurrencyCultureName="ar-YE" />
+        </Measure>
+        <Dimension DataMember="asAccName" DefaultId="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <ColorScheme>
+        <Entry DataSource="dashboardSqlDataSource1" DataMember="tblAssets" PaletteIndex="1">
+          <DimensionKeys>
+            <DimensionKey>
+              <Definition DataMember="asAccName" />
+              <Value Type="System.String" Value="انا اعربك" />
+            </DimensionKey>
+          </DimensionKeys>
+        </Entry>
+      </ColorScheme>
+      <Values>
+        <Value DefaultId="DataItem0" />
+      </Values>
+    </Pie>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="chartDashboardItem1" Weight="36.445444319460066" />
+      <LayoutItem DashboardItem="pieDashboardItem1" Weight="63.554555680539934" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

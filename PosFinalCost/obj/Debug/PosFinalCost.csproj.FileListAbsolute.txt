@@ -1,0 +1,1428 @@
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.ComponentFlyoutDialog.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSearchProduct.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormConncetionPosDB.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormLogin.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.FormMain.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSetCashInvoice.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.FormEntryMain.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.formSupplyMain.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormTrailActivation.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormAddCustomer.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormConncetionAccDB.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSynData.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Language.UCuserRightEn.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.ReportEndUserForm.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.ReportForm.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.ReportInvoiceA4.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.ReportInvoiceCasher.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.SelectReportInvoiceLayout.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.SplashScreenBTech.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.UCuserRight.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddEntry.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddSaleInvoicePos.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddSaleInvoice.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_DefaultSetting.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_MasterEntry.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_Setting.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_MasterInvoice.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_Master.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Language.formAddSupplyVocherAr.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Language.formAddSupplyVocherEn.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Language.UC_MasterInvoiceAr.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Language.UC_MasterInvEn.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Properties.Resources.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.UC_User.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSearchProduct.en.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormAddCustomer.en.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.FormMain.en.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.ar.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.en.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.ar.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.en.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.ar.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.en.resources
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.csproj.GenerateResource.cache
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.exe.licenses
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.csproj.CoreCompileInputs.cache
+D:\PosFinalCost\PosFinalCost\bin\Debug\PosFinalCost.exe.config
+D:\PosFinalCost\PosFinalCost\bin\Debug\PosFinalCost.exe
+D:\PosFinalCost\PosFinalCost\bin\Debug\PosFinalCost.pdb
+D:\PosFinalCost\PosFinalCost\bin\Debug\en\PosFinalCost.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ar\PosFinalCost.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\CSHARPDLL.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.BonusSkins.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Charts.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Win.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Data.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.UI.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Map.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Office.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.PivotGrid.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.RichEdit.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Sparkline.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.TreeMap.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.UI.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Xpo.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraBars.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.UI.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Wizard.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraDialogs.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraEditors.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Presets.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Win.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraGrid.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraLayout.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraMap.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraNavBar.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraPivotGrid.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraPrinting.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.Extensions.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraRichEdit.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraTreeList.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.UI.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\EntityFramework.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\EntityFramework.SqlServer.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\Microsoft.PointOfService.ControlBase.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\Microsoft.PointOfService.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\zxing.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\zxing.presentation.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.CodeParser.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraDiagram.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Diagram.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraVerticalGrid.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.DataVisualization.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Dialogs.v21.2.Core.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Extensions.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Images.v21.2.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Win.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Data.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.UI.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Map.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Office.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.PivotGrid.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.RichEdit.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.TreeMap.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.UI.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Xpo.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraBars.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Charts.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.UI.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Wizard.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraDialogs.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Presets.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Win.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraGrid.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraLayout.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraMap.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraNavBar.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraPivotGrid.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraPrinting.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.Extensions.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraRichEdit.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraTreeList.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.UI.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\EntityFramework.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\EntityFramework.SqlServer.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\Microsoft.PointOfService.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\Microsoft.PointOfService.ControlBase.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\zxing.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\zxing.presentation.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraDiagram.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Diagram.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.XtraVerticalGrid.v21.2.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.DataAccess.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.DataAccess.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.DataAccess.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.DataAccess.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Map.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Map.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Map.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Map.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Office.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Office.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Office.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Office.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Utils.v21.2.UI.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Utils.v21.2.UI.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Utils.v21.2.UI.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Utils.v21.2.UI.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Xpo.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Xpo.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Xpo.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Xpo.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraBars.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraBars.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraBars.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraBars.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraCharts.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraCharts.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraCharts.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraCharts.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraLayout.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraLayout.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraLayout.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraLayout.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraReports.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraReports.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraReports.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraReports.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\de\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\es\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ja\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\bin\Debug\ru\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\PosFinalCost\PosFinalCost\obj\Debug\en\PosFinalCost.resources.dll
+D:\PosFinalCost\PosFinalCost\obj\Debug\ar\PosFinalCost.resources.dll
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.csproj.CopyComplete
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.exe
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.pdb
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.csproj.AssemblyReference.cache
+D:\PosFinalCost\PosFinalCost\obj\Debug\PosFinalCost.csproj.SuggestedBindingRedirects.cache
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\PosFinalCost.exe.config
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\PosFinalCost.exe
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\PosFinalCost.pdb
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\en\PosFinalCost.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ar\PosFinalCost.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\BarcodeLib.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\CSHARPDLL.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.BonusSkins.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Charts.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Win.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Data.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.UI.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Docs.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Map.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Office.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.PivotGrid.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.RichEdit.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Sparkline.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.TreeMap.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.UI.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Xpo.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraBars.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.UI.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Wizard.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraDialogs.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraEditors.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Presets.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Win.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGrid.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraLayout.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraMap.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraNavBar.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraPivotGrid.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraPrinting.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.Extensions.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraRichEdit.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeList.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.UI.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\EntityFramework.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\EntityFramework.SqlServer.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\zxing.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\zxing.presentation.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.CodeParser.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraDiagram.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Diagram.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Spreadsheet.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.DataVisualization.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Snap.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraVerticalGrid.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Dialogs.v21.2.Core.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Extensions.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Images.v21.2.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Win.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Data.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.UI.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Docs.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Map.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Office.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.PivotGrid.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.RichEdit.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.TreeMap.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.UI.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Xpo.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraBars.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Charts.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.UI.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Wizard.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraDialogs.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Presets.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Win.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGrid.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraLayout.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraMap.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraNavBar.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraPivotGrid.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraPrinting.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.Extensions.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraRichEdit.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeList.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.UI.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\EntityFramework.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\EntityFramework.SqlServer.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\zxing.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\zxing.presentation.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraDiagram.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Diagram.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Spreadsheet.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Snap.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraVerticalGrid.v21.2.xml
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.DataAccess.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.DataAccess.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.DataAccess.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.DataAccess.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Map.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Map.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Map.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Map.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Office.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Office.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Office.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Office.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Utils.v21.2.UI.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Utils.v21.2.UI.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Utils.v21.2.UI.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Utils.v21.2.UI.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Xpo.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Xpo.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Xpo.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Xpo.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraBars.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraBars.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraBars.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraBars.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraCharts.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraCharts.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraCharts.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraCharts.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraLayout.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraLayout.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraLayout.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraLayout.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraReports.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraReports.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraReports.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraReports.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Snap.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Snap.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Snap.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Snap.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.csproj.AssemblyReference.cache
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ComponentFlyoutDialog.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.formBarcode.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSearchProduct.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormConncetionPosDB.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormLogin.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.FormMain.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSetCashInvoice.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.FormEntryMain.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.formSupplyMain.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormTrailActivation.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormAddCustomer.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormConncetionAccDB.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSynData.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.frmBoxPeriod.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FrmReViewBox.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Language.UCuserRightEn.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ReportEndUserForm.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ReportForm.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ReportBarcode.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ReportInvoiceA4.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ReportInvoiceCasher.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.SelectReportInvoiceLayout.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.SplashScreenBTech.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.UCuserRight.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddEntry.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddSaleInvoicePos.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddSaleInvoice.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_DefaultSetting.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_MasterEntry.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_Setting.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_MasterInvoice.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_Master.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Language.formAddSupplyVocherAr.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Language.formAddSupplyVocherEn.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Language.UC_MasterInvoiceAr.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Language.UC_MasterInvEn.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Properties.Resources.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.UC_User.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.formBarcode.en.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSearchProduct.en.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormAddCustomer.en.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.FormMain.en.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.ar.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.en.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.frmBoxPeriod.en.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FrmReViewBox.en.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.ar.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.en.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.ar.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.en.resources
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.csproj.GenerateResource.cache
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.exe.licenses
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.csproj.CoreCompileInputs.cache
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\en\PosFinalCost.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\ar\PosFinalCost.resources.dll
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.csproj.CopyComplete
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.exe
+D:\ملفات الشغل اليومي\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.pdb
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\PosFinalCost.exe.config
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\PosFinalCost.exe
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\PosFinalCost.pdb
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\en\PosFinalCost.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ar\PosFinalCost.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\BarcodeLib.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\CSHARPDLL.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.BonusSkins.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Charts.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Win.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Data.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.UI.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Docs.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Map.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Office.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.PivotGrid.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.RichEdit.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Sparkline.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.TreeMap.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.UI.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Xpo.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraBars.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.UI.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Wizard.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraDialogs.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraEditors.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Presets.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Win.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGrid.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraLayout.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraMap.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraNavBar.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraPivotGrid.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraPrinting.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.Extensions.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraRichEdit.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeList.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.UI.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\EntityFramework.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\EntityFramework.SqlServer.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\zxing.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\zxing.presentation.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.CodeParser.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraDiagram.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Diagram.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Spreadsheet.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.DataVisualization.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Snap.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraVerticalGrid.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Dialogs.v21.2.Core.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Extensions.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Images.v21.2.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Win.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Data.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.UI.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Docs.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Map.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Office.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.PivotGrid.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.RichEdit.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.TreeMap.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.UI.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Xpo.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraBars.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Charts.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.UI.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Wizard.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraDialogs.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Presets.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Win.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraGrid.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraLayout.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraMap.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraNavBar.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraPivotGrid.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraPrinting.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.Extensions.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraRichEdit.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeList.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.UI.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\EntityFramework.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\EntityFramework.SqlServer.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\zxing.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\zxing.presentation.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraDiagram.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Diagram.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Spreadsheet.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Snap.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\DevExpress.XtraVerticalGrid.v21.2.xml
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.DataAccess.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.DataAccess.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.DataAccess.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.DataAccess.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Map.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Map.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Map.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Map.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Office.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Office.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Office.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Office.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Utils.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Utils.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Utils.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Utils.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Xpo.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Xpo.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Xpo.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Xpo.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraBars.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraBars.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraBars.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraBars.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraCharts.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraCharts.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraCharts.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraCharts.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraLayout.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraLayout.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraLayout.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraLayout.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraReports.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraReports.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraReports.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraReports.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Snap.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Snap.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Snap.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Snap.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\de\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\es\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ja\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\bin\Debug\ru\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.csproj.AssemblyReference.cache
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ComponentFlyoutDialog.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.formBarcode.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSearchProduct.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormConncetionPosDB.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormLogin.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.FormMain.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSetCashInvoice.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.FormEntryMain.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.formSupplyMain.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormTrailActivation.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormAddCustomer.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormConncetionAccDB.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSynData.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.frmBoxPeriod.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FrmReViewBox.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Language.UCuserRightEn.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ReportEndUserForm.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ReportForm.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ReportBarcode.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ReportInvoiceA4.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.ReportInvoiceCasher.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.SelectReportInvoiceLayout.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.SplashScreenBTech.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.UCuserRight.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddEntry.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddSaleInvoicePos.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddSaleInvoice.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_DefaultSetting.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_MasterEntry.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_Setting.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_MasterInvoice.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_Master.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Language.formAddSupplyVocherAr.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Language.formAddSupplyVocherEn.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Language.UC_MasterInvoiceAr.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Language.UC_MasterInvEn.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Properties.Resources.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.UC_User.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.formBarcode.en.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSearchProduct.en.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormAddCustomer.en.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.FormMain.en.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.ar.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.en.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.frmBoxPeriod.en.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Forms.FrmReViewBox.en.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.ar.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.en.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.ar.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.en.resources
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.csproj.GenerateResource.cache
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.exe.licenses
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.csproj.CoreCompileInputs.cache
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\en\PosFinalCost.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\ar\PosFinalCost.resources.dll
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.csproj.CopyComplete
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.exe
+D:\final2023\AccountingMS-26-11-2022\PosFinalCost\obj\Debug\PosFinalCost.pdb
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ComponentFlyoutDialog.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.formBarcode.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSearchProduct.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormConncetionPosDB.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormLogin.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.FormMain.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSetCashInvoice.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.FormEntryMain.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.formSupplyMain.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormTrailActivation.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormAddCustomer.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormConncetionAccDB.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSynData.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Language.UCuserRightEn.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportEndUserForm.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportForm.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportBarcode.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportHeader.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportInvoiceA4.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportInvoiceCasher.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportProExpirte.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.SelectReportInvoiceLayout.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.SplashScreenBTech.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.UCuserRight.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddEntry.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_ShowPrdExpirate.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_PrdExpirate.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddSaleInvoicePos.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddSaleInvoice.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_DefaultSetting.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_MasterEntry.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_Setting.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_MasterInvoice.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_Master.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Language.formAddSupplyVocherAr.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Language.formAddSupplyVocherEn.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Language.UC_MasterInvoiceAr.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Language.UC_MasterInvEn.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Properties.Resources.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.UC_User.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.formBarcode.en.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSearchProduct.en.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormAddCustomer.en.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.FormMain.en.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.ar.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.en.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.ar.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.en.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.ar.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.en.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.csproj.GenerateResource.cache
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.exe.licenses
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.csproj.CoreCompileInputs.cache
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\PosFinalCost.exe.config
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\PosFinalCost.exe
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\PosFinalCost.pdb
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\en\PosFinalCost.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ar\PosFinalCost.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\BarcodeLib.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\CSHARPDLL.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.BonusSkins.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Charts.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Win.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Data.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.UI.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Docs.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Map.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Office.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.PivotGrid.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.RichEdit.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Sparkline.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.TreeMap.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.UI.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Xpo.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraBars.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.UI.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Wizard.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraDialogs.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraEditors.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Presets.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Win.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGrid.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraLayout.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraMap.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraNavBar.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraPivotGrid.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraPrinting.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.Extensions.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraRichEdit.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeList.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.UI.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\EntityFramework.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\EntityFramework.SqlServer.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\zxing.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\zxing.presentation.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.CodeParser.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraDiagram.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Diagram.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Spreadsheet.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.DataVisualization.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Snap.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraVerticalGrid.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Dialogs.v21.2.Core.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Extensions.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Images.v21.2.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Dashboard.v21.2.Win.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Data.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.DataAccess.v21.2.UI.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Docs.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Map.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Office.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.PivotGrid.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.RichEdit.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.TreeMap.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Utils.v21.2.UI.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Xpo.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraBars.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Charts.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.UI.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v21.2.Wizard.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraDialogs.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Presets.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v21.2.Win.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGrid.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraLayout.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraMap.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraNavBar.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraPivotGrid.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraPrinting.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraReports.v21.2.Extensions.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraRichEdit.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeList.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v21.2.UI.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\EntityFramework.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\EntityFramework.SqlServer.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\zxing.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\zxing.presentation.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraDiagram.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Diagram.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Spreadsheet.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Snap.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraVerticalGrid.v21.2.xml
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Dashboard.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Dashboard.v21.2.Win.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.DataAccess.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.DataAccess.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.DataAccess.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.DataAccess.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.DataAccess.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Map.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Map.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Map.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Map.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Office.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Office.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Office.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Office.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.PivotGrid.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Utils.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Utils.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Utils.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Utils.v21.2.UI.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Xpo.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Xpo.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Xpo.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Xpo.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraBars.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraBars.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraBars.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraBars.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraCharts.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraCharts.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraCharts.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraCharts.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraCharts.v21.2.Wizard.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraGauges.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraGauges.v21.2.Presets.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraLayout.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraLayout.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraLayout.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraLayout.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraNavBar.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraPivotGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraReports.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraReports.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraReports.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraReports.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraReports.v21.2.Extensions.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraRichEdit.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Diagram.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Spreadsheet.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Snap.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Snap.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Snap.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Snap.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.XtraVerticalGrid.v21.2.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\de\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\es\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ja\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ru\DevExpress.Dialogs.v21.2.Core.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\en\PosFinalCost.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\ar\PosFinalCost.resources.dll
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.csproj.CopyComplete
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.exe
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.pdb
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.UC_DrawerPeriod.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormViewDrawer.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Reports.GridReportP.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportHeaderWidth.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormViewDrawer.ar.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormViewDrawer.en.resources
+D:\final2023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.csproj.AssemblyReference.cache
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\PosFinalCost.exe.config
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\PosFinalCost.exe
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\PosFinalCost.pdb
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\en\PosFinalCost.resources.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\ar\PosFinalCost.resources.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Charts.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Dashboard.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Dashboard.v22.2.Win.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Data.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.DataAccess.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.DataAccess.v22.2.UI.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Docs.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Drawing.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Map.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Office.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.PivotGrid.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.TreeMap.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Utils.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Utils.v22.2.UI.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Xpo.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraBars.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v22.2.UI.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraDialogs.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v22.2.Presets.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v22.2.Win.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraMap.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraNavBar.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraPivotGrid.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraReports.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraRichEdit.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\EntityFramework.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\EntityFramework.SqlServer.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.CodeParser.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraDiagram.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Diagram.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Spreadsheet.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.DataVisualization.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Snap.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Dialogs.v22.2.Core.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v22.2.Extensions.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Images.v22.2.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Dashboard.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Dashboard.v22.2.Win.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Data.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.DataAccess.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.DataAccess.v22.2.UI.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Docs.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Map.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Office.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.PivotGrid.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.TreeMap.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Utils.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Utils.v22.2.UI.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Xpo.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraBars.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Charts.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v22.2.UI.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraDialogs.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v22.2.Presets.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGauges.v22.2.Win.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraMap.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraNavBar.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraPivotGrid.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraReports.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraRichEdit.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\EntityFramework.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\EntityFramework.SqlServer.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraDiagram.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Diagram.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Spreadsheet.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Snap.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.xml
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.csproj.AssemblyReference.cache
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ComponentFlyoutDialog.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.formBarcode.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSearchProduct.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormConncetionPosDB.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormLogin.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.FormMain.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSetCashInvoice.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.FormEntryMain.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.formSupplyMain.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormTrailActivation.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormAddCustomer.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormConncetionAccDB.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSynData.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormViewDrawer.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Language.UCuserRightEn.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Reports.GridReportP.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportEndUserForm.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportForm.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportBarcode.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportDrawerCashier.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportHeader.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportHeaderWidth.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportInvoiceA4.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportInvoiceCasher.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportProExpirte.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.SelectReportInvoiceLayout.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.SplashScreenBTech.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.UCuserRight.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddEntry.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.UC_DrawerPeriod.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_ShowPrdExpirate.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_PrdExpirate.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddSaleInvoicePos.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_AddSaleInvoice.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_DefaultSetting.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_MasterEntry.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_Setting.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_MasterInvoice.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.UC_Master.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Language.formAddSupplyVocherAr.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Language.formAddSupplyVocherEn.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Language.UC_MasterInvoiceAr.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Language.UC_MasterInvEn.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Properties.Resources.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.UC_User.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.formBarcode.en.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormSearchProduct.en.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormAddCustomer.en.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.FormMain.en.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.ar.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.formPurchaseSaleShortcuts.en.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormViewDrawer.ar.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Forms.FormViewDrawer.en.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportDrawerCashier.ar.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.ReportDrawerCashier.en.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.ar.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.ReportEntryCustom.en.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.ar.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.Report.XtraFormReportsInvBuy.en.resources
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.csproj.GenerateResource.cache
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.exe.licenses
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.csproj.CoreCompileInputs.cache
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\en\PosFinalCost.resources.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\ar\PosFinalCost.resources.dll
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.csproj.CopyComplete
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.exe
+D:\final cost 1122023\AccountingMS-08-02-2023\PosFinalCost\obj\Debug\PosFinalCost.pdb
